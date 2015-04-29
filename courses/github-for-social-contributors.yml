@@ -1,0 +1,11 @@
+title: GitHub for Social Contributors
+description: Learn how to use GitHub to collaborate effectively with your development team - whether you're a coder, collaborator, or project/product manager.
+
+sections:
+  -
+    title: Introducing GitHub
+    description: This section introduces GitHub
+    modules:
+      - 001-introducing-github
+      - 002-exploring-a-repository
+
