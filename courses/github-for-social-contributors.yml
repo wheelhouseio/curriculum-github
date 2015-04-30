@@ -7,5 +7,3 @@ sections:
     description: This section introduces GitHub
     modules:
       - 001-introducing-github
-      - 002-exploring-a-repository
-
