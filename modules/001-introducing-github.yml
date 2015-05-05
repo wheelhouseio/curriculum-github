@@ -4,8 +4,8 @@ title: Introducing GitHub? # The title for the module - displayed to end users
 learning-objective: Understand the purpose of GitHub. # The learning objective is just for curriculum developers so they know the purpose of each course and how to test that it was successful
 screens: # Each module is comprised of 1..n screens - you could think of them like slides in keynote containing an image, a video, a poll, or a quiz.
   - poll: # One type of screen displays a poll. A poll is comprised of one or more questions.
-    - question: # A poll might have one or more questions
-        title: Have you used a version control system before? # Displayed as the question title
+    questions: # A poll might have one or more questions
+      - title: Have you used a version control system before? # Displayed as the question title
         type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
         options:
           - title: Yes, Git
@@ -18,7 +18,7 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       title: What is Git?
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-notes:
-        - GitHub is a collaboration platform built on top of a distributed version control system called Git. 
+        - GitHub is a collaboration platform built on top of a distributed version control system called Git.
         - In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate including issues for discussing features and bugs and pull requests for discussing and reviewing new features your team is working on.
         - You can also use all of your favorite tools with GitHub. Indispensable tools like continuous integration and continuous deployment help you and your team build software better, together.
 
