@@ -4,16 +4,18 @@ title: Introducing GitHub? # The title for the module - displayed to end users
 learning-objective: Understand the purpose of GitHub. # The learning objective is just for curriculum developers so they know the purpose of each course and how to test that it was successful
 screens: # Each module is comprised of 1..n screens - you could think of them like slides in keynote containing an image, a video, a poll, or a quiz.
   - poll: # One type of screen displays a poll. A poll is comprised of one or more questions.
-    questions: # A poll might have one or more questions
-      - title: Have you used a version control system before? # Displayed as the question title
-        type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
-        options:
-          - title: Yes, Git
-            response: Great! Let's just make sure you're 100% clear about the differences between Git and GitHub.
-          - title: Yes, but not Git
-            response: Great! Welcome to Git and GitHub. You might find them a little different from your previous vcs's but we think you're going to like the differences!
-          - title: No
-            response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for collaborating with your team.
+      title: Version Control Poll
+      presenter-notes: Here's a quick poll to gauge your experience with Git and GitHub.
+      questions: # A poll might have one or more questions
+        - title: Have you used a version control system before? # Displayed as the question title
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - title: Yes, Git
+              response: Great! Let's just make sure you're 100% clear about the differences between Git and GitHub.
+            - title: Yes, but not Git
+              response: Great! Welcome to Git and GitHub. You might find them a little different from your previous vcs's but we think you're going to like the differences!
+            - title: No
+              response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for collaborating with your team.
   - image-slide:
       title: What is Git?
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
