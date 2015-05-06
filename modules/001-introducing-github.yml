@@ -26,24 +26,24 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       title: Fork a repository
       steps:
         - description: Go to http://github.com/certify/please-fork-me and fork a repository
-          validation:
-            validation-type: fork-exists
+          verification:
+            verification-type: fork-exists
             repo-name: please-fork-me
             success-message: Successfully forked the repository
             failure-message: Could not detect fork of the repository
         - description: Create an issue on http://github.com/certify/please-fork-me
-          validation:
-            validation-type: issue-created
+          verification:
+            verification-type: issue-created
             repo-name: please-fork-me
             success-message: Successfully created an issue
             failure-message: Could not detect issue creation
   - lab: # Labs test real world skills. In this Git/GitHub curriculum the activities will be validated by our GitHubBot. Note that this is a provisional structure - tweak it for ease of parsing, coding or simply to make it better :)
       title: Create your first commit # This is the title of the page setting the student expectations for what they need to do
-      steps: #Each lab is comprised of 1..n steps that need to be performed. Each step has a description and 1..n validations with success and error messages. All of the steps are displayed immediately to the user but as they're completed we diplay the appropriate success/failure messages under each
+      steps: #Each lab is comprised of 1..n steps that need to be performed. Each step has a description and 1..n verifications with success and error messages. All of the steps are displayed immediately to the user but as they're completed we diplay the appropriate success/failure messages under each
         - description: Start by going to https://github.com/PeterBell/fork-foundations1 and making a fork of the repository # Describes to the student what they need to do
-          validations: # The 0..n validations to run to confirm whether the step has been successfully completed.
-            - validation-type: repo-exists
-              repo-name: fork-foundations1 # Think of validations as having n-types - one of the types is the "repo-exists" validation which confirms that a repo with that name exists in the users namespace - so it'll use either a curl like operation or ideally the GitHub API to look for the existance of https://github.com/<username>/<repo-name>
+          verifications: # The 0..n verifications to run to confirm whether the step has been successfully completed.
+            - verification-type: repo-exists
+              repo-name: fork-foundations1 # Think of verifications as having n-types - one of the types is the "repo-exists" verification which confirms that a repo with that name exists in the users namespace - so it'll use either a curl like operation or ideally the GitHub API to look for the existance of https://github.com/<username>/<repo-name>
               success-message: You forked the repository successfully
               failure-messages:
                 - It doesn't look like you forked the repository. Are you sure that you
@@ -51,23 +51,23 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
                 - (b) clicked the "fork" button at the top right hand corner of the page
                 - (c) forked the repo to your personal user account rather than to an organization
         - description: Add a new file called "contact.html" to the master branch of the repository with a commit message of "Added contact us page". Be careful with the naming of the file and the commit message as we'll be validating based on exactly what you type.
-          validations:
-            - validation-type: commit # The commit validation is fired off by a webhook from the users repo
-              commit-to-validate: latest-on-master
+          verifications:
+            - verification-type: commit # The commit verification is fired off by a webhook from the users repo
+              commit-to-verify: latest-on-master
               commit-exists: true
               success-message: You created a new commit successfully
               failure-message: You didn't create a new commit on the master branch.
-            - validation-type: commit
-              commit-to-validate: latest-on-master
+            - verification-type: commit
+              commit-to-verify: latest-on-master
               message-includes-string: "contact us"
               success-message: Your new commit had the requested message
               failure-message: You didn't include the correct message in your new commit (the string "contact us" didn't appear within it)
-            - validation-type: commit
-              commit-to-validate: latest-on-master
+            - verification-type: commit
+              commit-to-verify: latest-on-master
               commit-adds-file: "contact.html"
               success-message: Your new commit successfully added a contact.html page
               failure-message: You didn't create a contact.html page in your new commit
-        - description: Click on the "done" button below when you're done # By asking people to click on the 'done' button it saves us from having to poll GitHub to see whether the repo exists - this is only necessary on the initial 'fork' stages - once a student has forked something, we can use webhooks to update the repo and maybe pusher to update state in the student and teacher views (or if that's a pain we could keep the "done" button on every lab for now - whatever gets us the MVP more simply) Note that not every single step has a validation component - this one doesn't.
+        - description: Click on the "done" button below when you're done # By asking people to click on the 'done' button it saves us from having to poll GitHub to see whether the repo exists - this is only necessary on the initial 'fork' stages - once a student has forked something, we can use webhooks to update the repo and maybe pusher to update state in the student and teacher views (or if that's a pain we could keep the "done" button on every lab for now - whatever gets us the MVP more simply) Note that not every single step has a verification component - this one doesn't.
 additional-labs: # Don't parse this for now - it'll be used for additional labs for end of class tests and/or certifications
 additional-questions: # Don't parse this for now - it'll be used for additional quizzes for end of class tests and/or certifications
 resources: # Don't NEED to parse this for now - it'll be used for displaying resources at the end of classes, but we can add this once the basics are working
