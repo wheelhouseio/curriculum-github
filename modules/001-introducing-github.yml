@@ -7,13 +7,17 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
   - poll: # One type of screen displays a poll. A poll is comprised of one or more questions.
     questions: # A poll might have one or more questions
       - title: Have you used a version control system before? # Displayed as the question title
+        id: m001-pq1
         type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
         options:
           - title: Yes, Git
+            id: m001-pq1-o1
             response: Great! Let's just make sure you're 100% clear about the differences between Git and GitHub.
           - title: Yes, but not Git
+            id: m001-pq1-o2
             response: Great! Welcome to Git and GitHub. You might find them a little different from your previous vcs's but we think you're going to like the differences!
           - title: No
+            id: m001-pq1-o3
             response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for keeping track of your changed and collaborating with your team.
   - image-slide:
       title: What is GitHub?
