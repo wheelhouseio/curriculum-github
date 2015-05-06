@@ -1,12 +1,12 @@
 title: Exploring a Repository
-pre-requisites: 001 
+pre-requisites: 001
 learning-objective: Learn how to navigate through a repository, understand the basic concepts of  the code view, the README.md, issues and pull requests.
 screens:
   - image-slide:
       title: Exploring a Repository
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-notes:
-        - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. 
+        - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others.
         - A repository contains all of the project files (including documentation), and stores each files revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
   - video-slide: # Video slides are used to display videos
       title: Exploring a Repository
@@ -36,7 +36,7 @@ screens:
               success-message: You forked the repository successfully
               failure-messages:
                 - It doesn't look like you forked the repository. Are you sure that you
-                - (a) went to the right repo 
+                - (a) went to the right repo
                 - (b) clicked the "fork" button at the top right hand corner of the page
                 - (c) forked the repo to your personal user account rather than to an organization
         - description: Create a new issue on your fork of the project
@@ -44,8 +44,8 @@ screens:
             - verification-type: new-issue # The commit verification is fired off by a webhook from the users repo
               success-message: You created a new issue successfully
               failure-message: You didn't create a new issue on your fork
-additional-labs: 
-additional-questions: 
+additional-labs:
+additional-questions:
 resources:
-  - title: GitHub Glossary: Repository
+  - title: "GitHub Glossary: Repository"
     url: https://help.github.com/articles/github-glossary/#repository
