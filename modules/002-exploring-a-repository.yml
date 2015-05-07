@@ -10,7 +10,7 @@ screens:
         - A repository contains all of the project files (including documentation), and stores each files revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
   - video-slide: # Video slides are used to display videos
       title: Exploring a Repository
-      video: video-url-required-here #TODO - add a video URL
+      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script: # The script is used for two purposes - firstly for anyone who is responsible for creating the video and secondly to generate presenter notes which should be the sum of the "say" elements
       production-notes: #Any notes for the person producing the video
       steps:
