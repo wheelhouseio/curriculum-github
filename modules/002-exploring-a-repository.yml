@@ -42,6 +42,7 @@ screens:
         - description: Create a new issue on your fork of the project
           verifications:
             - verification-type: issue-created # The commit verification is fired off by a webhook from the users repo
+              repo-name: please-fork-me
               success-message: You created a new issue successfully
               failure-message: You didn't create a new issue on your fork
 additional-labs:
