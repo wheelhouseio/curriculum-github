@@ -31,7 +31,7 @@ screens:
       steps: #Each lab is comprised of 1..n steps that need to be performed. Each step has a description and 1..n verifications with success and error messages. All of the steps are displayed immediately to the user but as they're completed we diplay the appropriate success/failure messages under each
         - description: Start by going to https://github.com/certify/please-fork-me and making a fork of the repository # Describes to the student what they need to do
           verifications: # The 0..n verifications to run to confirm whether the step has been successfully completed.
-            - verification-type: repo-exists
+            - verification-type: fork-exists
               repo-name: please-fork-me # Think of verifications as having n-types - one of the types is the "repo-exists" verification which confirms that a repo with that name exists in the users namespace - so it'll use either a curl like operation or ideally the GitHub API to look for the existance of https://github.com/<username>/<repo-name>
               success-message: You forked the repository successfully
               failure-messages:
@@ -41,7 +41,7 @@ screens:
                 - (c) forked the repo to your personal user account rather than to an organization
         - description: Create a new issue on your fork of the project
           verifications:
-            - verification-type: new-issue # The commit verification is fired off by a webhook from the users repo
+            - verification-type: issue-created # The commit verification is fired off by a webhook from the users repo
               success-message: You created a new issue successfully
               failure-message: You didn't create a new issue on your fork
 additional-labs:
