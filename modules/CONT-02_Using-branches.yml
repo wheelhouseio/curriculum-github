@@ -6,7 +6,7 @@ screens:
       title: Using Branches
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-script:
-        - You have been assigned an issue to add an introduction file to the class repository. You don't want to take risks with the code on your master branch so you need to create a bug fix branch. Let's learn how you can create a new branch.
+        - You have been assigned an issue to add an introduction file to the class repository. You don't want to take risks with the code on your master branch so you need to create a branch. Let's learn how you can create a new branch.
   - video-slide: 
       title: Creating a Branch
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
