@@ -67,13 +67,13 @@ screens:
           id: COLL-01-qq4
           type: free-text-single-entry 
           options:
-            - value: /githubteacher/
+            - value: /janedoe/
               id: COLL-01-qq4-o1
-              response: "Good job! @githubteacher was the first person to comment on issue #2."
+              response: "Good job! @janedoe was the first person to comment on issue #2."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq4-o2
-              response: "Not quite. @githubteacher was the first person to comment on issue #2."
+              response: "Not quite. @janedoe was the first person to comment on issue #2."
               correct: false
         - title: "Bonus Question! What is the number of the Pull Request that is fixing issue #4"
           id: COLL-01-qq5
