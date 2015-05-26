@@ -1,6 +1,6 @@
 title: Using Branches
 pre-requisites: CONT-01_Understanding-github-flow
-learning-objective: Use branches to keep new units of work off to the side. # TO FIX
+learning-objective: Create a branch to separate feature work from the master branch.
 screens: 
   - image-slide:
       title: Using Branches
