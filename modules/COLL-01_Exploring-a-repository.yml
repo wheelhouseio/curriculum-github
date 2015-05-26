@@ -44,7 +44,7 @@ screens:
           id: COLL-01-qq2
           type: free-text-single-entry 
           options:
-            - value: /4/
+            - value: "/^#?4$/"
               id: COLL-01-qq2-o1
               response: "Good job! Issue #4 is discussing the updates to the .gitignore."
               correct: true
@@ -79,7 +79,7 @@ screens:
           id: COLL-01-qq5
           type: free-text-single-entry 
           options:
-            - value: /1/
+            - value: "/^#?1$/"
               id: COLL-01-qq5-o1
               response: "Good job! PR #1 is fixing the .gitignore file."
               correct: true
