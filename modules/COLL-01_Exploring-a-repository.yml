@@ -55,37 +55,37 @@ screens:
           id: COLL-01-qq3
           type: free-text-single-entry 
           options:
-            - value: /certify/
+            - value: /crichID /
               id: COLL-01-qq3-o1
-              response: "Good job! @certify opened issue #1."
+              response: "Good job! @crichID  opened issue #1."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq3-o2
-              response: "Not quite. @certify opened issue #1."
+              response: "Not quite. @crichID  opened issue #1."
               correct: false
         - title: "Who was the first person to comment on Issue #2"
           id: COLL-01-qq4
           type: free-text-single-entry 
           options:
-            - value: /janedoe/
+            - value: /peterbell/
               id: COLL-01-qq4-o1
-              response: "Good job! @janedoe was the first person to comment on issue #2."
+              response: "Good job! @peterbell was the first person to comment on issue #2."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq4-o2
-              response: "Not quite. @janedoe was the first person to comment on issue #2."
+              response: "Not quite. @peterbell was the first person to comment on issue #2."
               correct: false
         - title: "Bonus Question! What is the number of the Pull Request that is fixing issue #4"
           id: COLL-01-qq5
           type: free-text-single-entry 
           options:
-            - value: "/^#?1$/"
+            - value: "/^#?5$/"
               id: COLL-01-qq5-o1
-              response: "Good job! PR #1 is fixing the .gitignore file."
+              response: "Good job! PR #5 is fixing the .gitignore file."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq5-o2
-              response: "Not quite. PR #1 is fixing the .gitignore file."
+              response: "Not quite. PR #5 is fixing the .gitignore file."
               correct: false
 additional-labs: 
 additional-questions:
