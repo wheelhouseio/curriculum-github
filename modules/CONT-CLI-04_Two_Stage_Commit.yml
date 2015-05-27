@@ -1,6 +1,6 @@
 title: The Two Stage Commit
 pre-requisites: CONT-CLI-03_Editing-local-files
-learning-objective: Able to successfully add and commit files on the commnd line. 
+learning-objective: Add and commit files on the command line. 
 screens: 
   - image-slide:
       title: The Two Stage Commit
