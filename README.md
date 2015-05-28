@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/certify/curriculum-github.svg)](https://travis-ci.org/certify/curriculum-github)
+
 # Git and GitHub Curriculum
 
 Welcome to the Certify curriculum for Git and GitHub content. This repository contains the machine readable content used by Certify for delivering training courses.

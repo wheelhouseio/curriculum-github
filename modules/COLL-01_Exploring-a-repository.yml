@@ -1,36 +1,36 @@
 title: Exploring a Repository
-pre-requisites: 
+pre-requisites:
 learning-objective: Locate the key features of a GitHub repository.
-screens: 
+screens:
   - image-slide:
-      title: 
+      title: GitHub Repositories
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-script:
         - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. A repository contains all of the project files (including documentation), and stores each file's revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
-  - video-slide: 
+  - video-slide:
       title: Exploring a repository
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
-      video-script: 
+      video-script:
         - do: Navigate to the first sample repository
           say: The repository is the container that holds everything related to your project.
         - do: Click Code view
           say: The code view is where you will find the files included the repository. These files may contain the project code, documentations, and other important files. We also call this view the root of the project. Any changes to these files is tracked via Git version control.
         - do: View the README.md
-          say: The README.md is a special file that we recommend all repositories contain. GitHub looks for this file and helpfully displays it below the repository. It usually explains the project and where to find helpful information within the project. 
+          say: The README.md is a special file that we recommend all repositories contain. GitHub looks for this file and helpfully displays it below the repository. It usually explains the project and where to find helpful information within the project.
         - do: Click Issues view
-          say: Issues are used to track bugs and feature requests for the project. Issues can be assigned to specific team members and are designed to encourage discussion and collaboration. 
+          say: Issues are used to track bugs and feature requests for the project. Issues can be assigned to specific team members and are designed to encourage discussion and collaboration.
         - do: Click Pull Request view
           say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues.
-        - do: Click Issues > Filters
+        - do: "Click Issues > Filters"
           say: Filters allow you to easily search for Issues or Pull Requests.
-      production-notes: 
+      production-notes:
   - quiz:
       title: Exploring a Repository
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
-      questions: 
+      questions:
         - title: "What is being discussed in Issue #3"
           id: COLL-01-qq1
-          type: free-text-single-entry 
+          type: open-response
           options:
             - value: /bio/
               id: COLL-01-qq1-o1
@@ -42,7 +42,7 @@ screens:
               correct: false
         - title: What is the Issue number for the discussion on updating the .gitignore
           id: COLL-01-qq2
-          type: free-text-single-entry 
+          type: open-response
           options:
             - value: "/^#?4$/"
               id: COLL-01-qq2-o1
@@ -53,19 +53,19 @@ screens:
               response: "Not quite. Issue #4 is discussing the updates to the .gitignore."
         - title: "Who opened Issue #1"
           id: COLL-01-qq3
-          type: free-text-single-entry 
+          type: open-response
           options:
-            - value: /crichID /
+            - value: /crichID/
               id: COLL-01-qq3-o1
-              response: "Good job! @crichID  opened issue #1."
+              response: "Good job! @crichID opened issue #1."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq3-o2
-              response: "Not quite. @crichID  opened issue #1."
+              response: "Not quite. @crichID opened issue #1."
               correct: false
         - title: "Who was the first person to comment on Issue #2"
           id: COLL-01-qq4
-          type: free-text-single-entry 
+          type: open-response
           options:
             - value: /peterbell/
               id: COLL-01-qq4-o1
@@ -77,7 +77,7 @@ screens:
               correct: false
         - title: "Bonus Question! What is the number of the Pull Request that is fixing issue #4"
           id: COLL-01-qq5
-          type: free-text-single-entry 
+          type: open-response
           options:
             - value: "/^#?5$/"
               id: COLL-01-qq5-o1
@@ -87,8 +87,8 @@ screens:
               id: COLL-01-qq5-o2
               response: "Not quite. PR #5 is fixing the .gitignore file."
               correct: false
-additional-labs: 
+additional-labs:
 additional-questions:
-resources: 
-  - title: GitHub Glossary: Repository
+resources:
+  - title: "GitHub Glossary: Repository"
     url: https://help.github.com/articles/github-glossary/#repository
