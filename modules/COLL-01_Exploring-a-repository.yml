@@ -30,7 +30,7 @@ screens:
       questions:
         - title: "What is being discussed in Issue #3"
           id: COLL-01-qq1
-          type: free-text-single-entry
+          type: open-response
           options:
             - value: /bio/
               id: COLL-01-qq1-o1
@@ -42,7 +42,7 @@ screens:
               correct: false
         - title: What is the Issue number for the discussion on updating the .gitignore
           id: COLL-01-qq2
-          type: free-text-single-entry
+          type: open-response
           options:
             - value: "/^#?4$/"
               id: COLL-01-qq2-o1
@@ -53,7 +53,7 @@ screens:
               response: "Not quite. Issue #4 is discussing the updates to the .gitignore."
         - title: "Who opened Issue #1"
           id: COLL-01-qq3
-          type: free-text-single-entry
+          type: open-response
           options:
             - value: /crichID/
               id: COLL-01-qq3-o1
@@ -65,7 +65,7 @@ screens:
               correct: false
         - title: "Who was the first person to comment on Issue #2"
           id: COLL-01-qq4
-          type: free-text-single-entry
+          type: open-response
           options:
             - value: /peterbell/
               id: COLL-01-qq4-o1
@@ -77,7 +77,7 @@ screens:
               correct: false
         - title: "Bonus Question! What is the number of the Pull Request that is fixing issue #4"
           id: COLL-01-qq5
-          type: free-text-single-entry
+          type: open-response
           options:
             - value: "/^#?5$/"
               id: COLL-01-qq5-o1
