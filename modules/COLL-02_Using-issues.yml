@@ -12,7 +12,7 @@ screens:
         - Creating a single, comprehensive record of how and why you made certain decisions.
         - Allowing you to easily pull the right people into a conversation.
   - video-slide:
-      title:
+      title: A quick demonstration
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: Navigate to the class repository
