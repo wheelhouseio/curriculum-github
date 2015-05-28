@@ -17,7 +17,7 @@ screens:
           say: "When we type git status, we will see that we have a new untracked file."
         - do: "Type git add ."
           say: "We want to add this file to our next commit so we will add it to the staging area. Git add . is a shortcut that tells git to add all of the new or modified files to the staging area."
-        - do: "Type git commit -m"commit message""
+        - do: "Type git commit -m\"commit message\""
           say: "Let's go ahead and commit our file. This time, instead of opening the text editor to type our commit message, we will use the -m option to tell git that we are including our message in quotes after this command."
         - do: "Type git push -u origin <branch-name>"
           say: "Now let's push the changes to the remote, setting the remote tracking branch by adding the -u option."
