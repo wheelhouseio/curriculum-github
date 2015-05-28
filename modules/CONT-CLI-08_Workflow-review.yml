@@ -11,7 +11,7 @@ screens:
       title: Workflow Review
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: "Type echo "Welcome to My Home Town" > home-town.md"
+        - do: "Type echo \"Welcome to My Home Town\" > home-town.md"
           say: "Let's use the echo command to create our new file. Name the file after your home town and add .md to the end so it will be rendered as markdown."
         - do: "Type git status"
           say: "When we type git status, we will see that we have a new untracked file."
