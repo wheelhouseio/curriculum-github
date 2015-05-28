@@ -55,13 +55,13 @@ screens:
           id: COLL-01-qq3
           type: free-text-single-entry
           options:
-            - value: /crichID /
+            - value: /crichID/
               id: COLL-01-qq3-o1
-              response: "Good job! @crichID  opened issue #1."
+              response: "Good job! @crichID opened issue #1."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq3-o2
-              response: "Not quite. @crichID  opened issue #1."
+              response: "Not quite. @crichID opened issue #1."
               correct: false
         - title: "Who was the first person to comment on Issue #2"
           id: COLL-01-qq4
