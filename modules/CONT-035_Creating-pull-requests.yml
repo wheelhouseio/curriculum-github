@@ -45,7 +45,7 @@ screens:
           verifications:
             - verification-type: pr-created
               success-message: "Great job - you created a Pull Request"
-              failure-messages: "It looks like you haven't created a Pull Request. Want to try again?"
+              failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
 additional-labs:
 additional-questions:
 resources:

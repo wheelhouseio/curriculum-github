@@ -1,36 +1,36 @@
 title: Using Branches
 pre-requisites: CONT-01_Understanding-github-flow
 learning-objective: Create a branch to separate feature work from the master branch.
-screens: 
+screens:
   - image-slide:
       title: Using Branches
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-script:
         - You have been assigned an issue to add an introduction file to the class repository. You don't want to take risks with the code on your master branch so you need to create a branch. Let's learn how you can create a new branch.
-  - video-slide: 
+  - video-slide:
       title: Creating a Branch
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
-      video-script: 
+      video-script:
         - do: Navigate to the class repo
-          say: Earlier you created an issue to create an introduction file. Let's create a branch that you will use to add your file. 
+          say: Earlier you created an issue to create an introduction file. Let's create a branch that you will use to add your file.
         - do: Click the branch dropdown
           say: There are several ways to create a branch. You can create a branch by clicking on the branch dropdown.
         - do: Enter the branch name 'firstname-lastname-intro'
           say: And entering a branch name in the text field.
-        - do: Press Enter 
+        - do: Press Enter
           say: "When you press Enter, you are automatically switched to the `firstname-lastname-intro` branch. Now, any changes you make to the files in the repository will be applied to this new branch."
         - do: Go to another repo and then return to the class repo
           say: "However, a word of caution. When you leave the repository and come back, notice that GitHub automatically assumes you want to see the items on the master branch. Let's stay on the `master` for a moment."
   - lab:
-      title: Creating a Branch 
-      steps: 
+      title: Creating a Branch
+      steps:
         - description: "Create a branch in the repo named firstname-lastname (using your first and last names)."
           verifications:
-            - verification-type: branch-created 
+            - verification-type: branch-created
               success-message: "Great job - you created a branch."
-              failure-messages: "It looks like you didn't create a branch. Want to try again?"
-additional-labs: 
+              failure-message: "It looks like you didn't create a branch. Want to try again?"
+additional-labs:
 additional-questions:
-resources: 
+resources:
   - title: YouTube Video - Branch
     url: https://youtu.be/H5GJfcp3p4Q?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-

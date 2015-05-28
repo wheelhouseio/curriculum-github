@@ -38,7 +38,7 @@ screens:
           verifications:
             - verification-type: file-created
               success-message: "Great job - you created a new file"
-              failure-messages: "It looks like you haven't created a file. Want to try again?"
+              failure-message: "It looks like you haven't created a file. Want to try again?"
 additional-labs:
 additional-questions:
 resources:

@@ -47,7 +47,7 @@ screens:
           verifications:
             - verification-type: pr-merged
               success-message: "Great job - you have merged your branch."
-              failure-messages: "It looks like you haven't merged your branch. Want to try again?"
+              failure-message: "It looks like you haven't merged your branch. Want to try again?"
 additional-labs:
 additional-questions:
 resources:
