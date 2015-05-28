@@ -25,6 +25,7 @@ task :validate do
     errors.each do |error|
       puts error
     end
+    exit 1
   end
 end
 
