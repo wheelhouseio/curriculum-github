@@ -31,14 +31,14 @@ screens:
         - do: Click commit new file
           say: We are ready to commit our file
       production-notes:
-    - lab:
-      title: Creating a New File
-      steps:
-        - description: "Respond to the introduction issue you created earlier by adding a new bio file to the docs folder. Name the file firstname-lastname.md."
-          verifications:
-            - verification-type: file-created
-              success-message: "Great job - you created a new file"
-              failure-messages: "It looks like you haven't created a file. Want to try again?"
+  - lab:
+    title: Creating a New File
+    steps:
+      - description: "Respond to the introduction issue you created earlier by adding a new bio file to the docs folder. Name the file firstname-lastname.md."
+        verifications:
+          - verification-type: file-created
+            success-message: "Great job - you created a new file"
+            failure-messages: "It looks like you haven't created a file. Want to try again?"
 additional-labs:
 additional-questions:
 resources:

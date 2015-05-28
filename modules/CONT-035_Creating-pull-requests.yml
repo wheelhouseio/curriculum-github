@@ -38,14 +38,14 @@ screens:
         - do: "Add a `:+1:` emoji"
           say: "Most project teams require someone to sign off on the change before it is merged. We like to use emoji to show our approval."
       production-notes:
-    - lab:
-      title: Creating a Pull Request
-      steps:
-        - description: "Create a Pull Request, @mentioning the instructor. Assign the Pull Request to yourself."
-          verifications:
-            - verification-type: pr-created
-              success-message: "Great job - you created a Pull Request"
-              failure-messages: "It looks like you haven't created a Pull Request. Want to try again?"
+  - lab:
+    title: Creating a Pull Request
+    steps:
+      - description: "Create a Pull Request, @mentioning the instructor. Assign the Pull Request to yourself."
+        verifications:
+          - verification-type: pr-created
+            success-message: "Great job - you created a Pull Request"
+            failure-messages: "It looks like you haven't created a Pull Request. Want to try again?"
 additional-labs:
 additional-questions:
 resources:
