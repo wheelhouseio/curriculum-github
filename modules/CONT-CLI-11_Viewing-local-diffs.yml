@@ -1,0 +1,25 @@
+title: Viewing Local Diffs
+pre-requisites: CONT-CLI-10_Modifying-local-files
+learning-objective: Discover techniques for viewing file changes in different stages of the workflow.
+screens:
+  - image-slide:
+      title: Comparing Local File States
+      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show image of file containers with the git diff commands for the comparisons of each.
+      presenter-script:
+        - "In the last section, we made several changes to a local file, causing the file to appear in different stages of the commit process. The git diff command allows us to see what has changed in these different versions of our files. Let's explore some of these options now."
+  - video-slide:
+      title: Viewing Local Diffs
+      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video-script:
+        - do: "Type git diff"
+          say: "Let's start with git diff without any arguments."
+        - do: "//"
+          say: "//"
+        - do: "//"
+          say: "//"
+      production-notes:
+additional-labs:
+additional-questions:
+resources:
+  - title: //
+    url: //
