@@ -35,6 +35,11 @@ screens:
       presenter-script:
         - "`autocrlf` stands for auto carriage return line feed. Different systems handle line endings and line breaks differently. If you open a file created on another system and do not have this config option set, git will think you made changes to the file based on the way your system handles this type of file. Type `git config --global core.autocrlf` If you are on a Windows machine, you will want to set this option to `true`. If you are on a Mac or Linux machine, you will set it to `input`."
   - image-slide:
+      title: Configuring Push Default
+      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show the CLI tool with git config --global push.default simple
+      presenter-script:
+        - "One final configuration option we will want to set is our default value for push. For now, let's use push.default simple. We will discuss this in greater detail a little later."
+  - image-slide:
       title: Viewing Configuration Settings
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show the CLI tool with git --list
       presenter-script:
