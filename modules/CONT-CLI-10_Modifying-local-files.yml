@@ -1,0 +1,24 @@
+title: Modifying Local Files
+pre-requisites: CONT-CLI-09_Fetching-changes
+learning-objective: Experience common commit scenarios.
+screens:
+  - video-slide:
+      title: Modifying Local Files
+      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video-script:
+        - do: "Type atom <file-name.md>"
+          say: "Now that our local branch is up-to-date with the master, let's simulate a few common scenarios you will encounter when working locally on the command line. First, let's open the file we created earlier and make a few changes."
+        - do: "Make and save changes"
+          say: "Make a few changes and then save the file."
+        - do: "Type git add <file-name.md>"
+          say: "Now add the file to the staging area."
+        - do: "Type git status"
+          say: "Git status shows us that the file is ready to be committed."
+        - do: "Make and save more changes"
+          say: "Now go back to your file and make a few more changes and save them."
+        - do: "Type git status"
+          say: "Now when we type git status, the same file appears both in the changes to be committed and the changes not staged for commit. If we were to commit this file right now, only the first set of changes would actually be committed."
+      production-notes:
+additional-labs:
+additional-questions:
+resources:
