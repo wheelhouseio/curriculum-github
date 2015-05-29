@@ -1,0 +1,41 @@
+title: Workflow Review
+pre-requisites: CONT-CLI-07_Creating-local-branches
+learning-objective: Review the GitHub flow using the command line.
+screens:
+  - image-slide:
+      title: Workflow Review
+      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
+      presenter-script:
+        - "Remember that branching is fundamental to the GitHub flow. Now that we have created our branch, let's take a moment to review the rest of the workflow without any breaks for explanations like we did the first time. This time, lets create a file to tell others a few things they can do when they visit our home town. Along the way, I will show you a few helpful shortcuts."
+  - video-slide:
+      title: Workflow Review
+      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video-script:
+        - do: "Type echo \"Welcome to My Home Town\" > home-town.md"
+          say: "Let's use the echo command to create our new file. Name the file after your home town and add .md to the end so it will be rendered as markdown."
+        - do: "Type git status"
+          say: "When we type git status, we will see that we have a new untracked file."
+        - do: "Type git add ."
+          say: "We want to add this file to our next commit so we will add it to the staging area. Git add . is a shortcut that tells git to add all of the new or modified files to the staging area."
+        - do: "Type git commit -m\"commit message\""
+          say: "Let's go ahead and commit our file. This time, instead of opening the text editor to type our commit message, we will use the -m option to tell git that we are including our message in quotes after this command."
+        - do: "Type git push -u origin <branch-name>"
+          say: "Now let's push the changes to the remote, setting the remote tracking branch by adding the -u option."
+        - do: "Open GitHub"
+          say: "Next we will go back to GitHub and open a Pull Request."
+        - do: "Click Compare & Pull Request"
+          say: "GitHub recognizes that you have pushed a new branch and will ask you to create a Pull Request. Click the green button to start your Pull Request."
+        - do: "Type a Title and Description"
+          say: "Enter a descriptive title and description for the Pull Request."
+        - do: "Click Create Pull Request"
+          say: "And create your Pull Request."
+        - do: "Click Merge"
+          say: "When you have finished making changes to the Pull Request files, you will click the Merge button."
+        - do: "Edit the Merge description"
+          say: "Enter a message to describe the merge. This is also where you can use a keyword like fixes or closes and link a related issue to close the issue."
+        - do: "Click Delete Branch"
+          say: "Once the branch has been merged into master, it is safe to delete it."
+      production-notes:
+additional-labs:
+additional-questions:
+resources:
