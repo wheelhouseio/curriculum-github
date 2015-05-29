@@ -29,12 +29,6 @@ screens:
           say: "Enter a descriptive title and description for the Pull Request."
         - do: "Click Create Pull Request"
           say: "And create your Pull Request."
-        - do: "Click Merge"
-          say: "When you have finished making changes to the Pull Request files, you will click the Merge button."
-        - do: "Edit the Merge description"
-          say: "Enter a message to describe the merge. This is also where you can use a keyword like fixes or closes and link a related issue to close the issue."
-        - do: "Click Delete Branch"
-          say: "Once the branch has been merged into master, it is safe to delete it."
       production-notes:
 additional-labs:
 additional-questions:
