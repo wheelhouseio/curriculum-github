@@ -1,7 +1,7 @@
 title: Using Issues
 pre-requisites: COLL-01_Exploring-a-repository
 learning-objective: Collaborate using GitHub Issues to discuss ideas, enhancements, tasks and bugs.
-screens: 
+screens:
   - image-slide:
       title: Using Issues
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
@@ -11,54 +11,54 @@ screens:
         - Allowing you to cross-link to other issues and pull requests.
         - Creating a single, comprehensive record of how and why you made certain decisions.
         - Allowing you to easily pull the right people into a conversation.
-  - video-slide: 
-      title: 
+  - video-slide:
+      title: A quick demonstration
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
-      video-script: 
+      video-script:
         - do: Navigate to the class repository
           say: I have created a repository for this class. Please log in to GitHub using your user name and access <the class repository> now.
         - do: Navigate to the issue "Class Goals"
           say: I have created an issue titled Class Goals. Let's look at some of the special features in issues that we use to encourage collaboration.
         - do: Add an issue comment demonstrating markdown formatting for headers, checkboxes and emoji.
-          say: GitHub uses a syntax called Markdown to help you add basic text formatting to issues. 
-        - do: @mention any co-teachers
-          say: One of our favorite features is the @mention. When you @mention someone in an issue, they will receive a notification - even if they are not currently subscribed to the issue or watching the repository. 
-        - do: Click Preview 
+          say: GitHub uses a syntax called Markdown to help you add basic text formatting to issues.
+        - do: "@mention any co-teachers"
+          say: One of our favorite features is the @mention. When you @mention someone in an issue, they will receive a notification - even if they are not currently subscribed to the issue or watching the repository.
+        - do: Click Preview
           say: You can use the preview tab to see how your comment will be rendered (meaning how GitHub will actually display your Markdown file) before you click the comment button.
         - do: Include an issue attachment
           say: You can also add pictures by simply dragging and dropping them into the comment field, or clicking the file uploader link.
         - do: Click Comment
-          say: Click the green comment button to add your comments to the discussion. 
+          say: Click the green comment button to add your comments to the discussion.
         - do: Learners comment on issue
           say: I would like to add you all as collaborators to this repository, but first I will need your GitHub user names. Please add a comment to this issue so I can add you to the collaborator's team
         - do: Return to the issues view
-          say: As you can imagine, a large project can have a hundreds of issues. Let's look at a few ways your project team can organize issues. 
+          say: As you can imagine, a large project can have a hundreds of issues. Let's look at a few ways your project team can organize issues.
         - do: Assign the issue to the co-teacher
-          say: First, you can assign issues to anyone with access to the repo. Typically, this will be the person who is currently responsible for working on the project. The issue assignee may change over time. 
+          say: First, you can assign issues to anyone with access to the repo. Typically, this will be the person who is currently responsible for working on the project. The issue assignee may change over time.
         - do: Add a label to the issue
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add more of your own. As a project grows in size, using assignees and labels makes it much easier to find a given issue or pull request.
   - lab:
-      title: Creating an issue 
-      steps: 
+      title: Creating an issue
+      steps:
         - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, three interesting facts about yourself, some markdown formatting, and an @mention of Certify."
           verifications:
-            - verification-type: issue-created 
+            - verification-type: issue-created
               success-message: "Great job - you created an issue."
-              failure-messages: "It looks like you didn't create an issue. Want to try again?"
+              failure-message: "It looks like you didn't create an issue. Want to try again?"
         - description: Assign the issue you just created to yourself # optional for Monday
           verifications:
-            - verification-type: issue-assigned 
+            - verification-type: issue-assigned
               assigned-to: self
               success-message: "Great job - you assigned the issue to yourself."
-              failure-messages: "It looks like you didn't assign the issue to yourself."
+              failure-message: "It looks like you didn't assign the issue to yourself."
         - description: Apply the label of "Bio" to the issue # optional for Monday
           verifications:
-            - verification-type: issue-assigned 
+            - verification-type: issue-assigned
               success-message: "Great job - you applied the 'Bio' label to the issue"
-              failure-messages: "It looks like you didn't apply the 'Bio' label to the issue."
-additional-labs: 
+              failure-message: "It looks like you didn't apply the 'Bio' label to the issue."
+additional-labs:
 additional-questions:
-resources: 
+resources:
   - title: About Issues
     url: https://help.github.com/articles/about-issues/
   - title: Creating an Issue
