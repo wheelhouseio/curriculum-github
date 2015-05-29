@@ -40,14 +40,14 @@ screens:
         - do: "Click the issues tab > Closed"
           say: "You can now go back to the issues tab and you will see that your issue has been closed."
       production-notes:
-    - lab:
+  - lab:
       title: Merging Pull Requests
       steps:
         - description: "Merge the pull request you created, closing the issue with the merge commit."
           verifications:
             - verification-type: pr-merged
               success-message: "Great job - you have merged your branch."
-              failure-messages: "It looks like you haven't merged your branch. Want to try again?"
+              failure-message: "It looks like you haven't merged your branch. Want to try again?"
 additional-labs:
 additional-questions:
 resources:

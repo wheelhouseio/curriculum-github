@@ -1,7 +1,7 @@
 title: Introducing GitHub
-pre-requisites: 
+pre-requisites:
 learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
-screens: 
+screens:
   - poll:
       title: Version Control Poll
       presenter-script: Here's a quick poll to gauge your experience with Git and GitHub.
@@ -34,12 +34,12 @@ screens:
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-script:
         - You can also use all of your favorite tools with GitHub. Indispensable tools like continuous integration and continuous deployment help you and your team build software better, together.
-additional-labs: 
+additional-labs:
 additional-questions:
-resources: 
-  - title: Video: Intro to GitHub - GitHub & Git Foundations
+resources:
+  - title: "Video: Intro to GitHub - GitHub & Git Foundations"
     url: https://youtu.be/vDv5K5PbvO8
-  - title: Video: GitHub & Git Foundations - Introduction
+  - title: "Video: GitHub & Git Foundations - Introduction"
     url: https://youtu.be/FyfwLX4HAxM
   - title: GitHub Integrations
     url: https://github.com/integrations

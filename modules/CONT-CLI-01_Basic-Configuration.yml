@@ -1,7 +1,7 @@
 title: Basic Command Line Interface (CLI) Configuration
 pre-requisites: CONT-05_Merging-pull-requests
 learning-objective: Configure the CLI to work effectively with Git.
-screens: 
+screens:
   - image-slide:
       title: Git Configuration Levels
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
@@ -23,22 +23,27 @@ screens:
       title: Configuring User Name and Email
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show the CLI tool with git user name and email
       presenter-script:
-        - "Git uses the config settings for your user name and email address to generate a unique fingerprint for each of the commits you create, so let's set our user name and email address first. Type `git config --global user.name "<user name>"` and Type `git config --global user.email "<user email>"`"
+        - "Git uses the config settings for your user name and email address to generate a unique fingerprint for each of the commits you create, so let's set our user name and email address first. Type `git config --global user.name \"<user name>\"` and Type `git config --global user.email \"<user email>\"`"
   - image-slide:
       title: Configuring Default Editor
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show the CLI tool with git core editor
       presenter-script:
-        - "Next, we will add a default text editor. This is the text editor git will use when you need to edit things like commit messages or handle merge conflicts. Typing `git config --global core.editor "atom --wait"` will tell Git to use the open source atom text editor. If you would like to use a different editor you can look for instructions at https://help.github.com/articles/associating-text-editors-with-git/"
+        - "Next, we will add a default text editor. This is the text editor git will use when you need to edit things like commit messages or handle merge conflicts. Typing `git config --global core.editor \"atom --wait\"` will tell Git to use the open source atom text editor. If you would like to use a different editor you can look for instructions at https://help.github.com/articles/associating-text-editors-with-git/"
   - image-slide:
       title: Configuring Autocrlf
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show the CLI tool with git core autocrlf
       presenter-script:
         - "`autocrlf` stands for auto carriage return line feed. Different systems handle line endings and line breaks differently. If you open a file created on another system and do not have this config option set, git will think you made changes to the file based on the way your system handles this type of file. Type `git config --global core.autocrlf` If you are on a Windows machine, you will want to set this option to `true`. If you are on a Mac or Linux machine, you will set it to `input`."
   - image-slide:
+      title: Configuring Push Default
+      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show the CLI tool with git config --global push.default simple
+      presenter-script:
+        - "One final configuration option we will want to set is our default value for push. For now, let's use push.default simple. We will discuss this in greater detail a little later."
+  - image-slide:
       title: Viewing Configuration Settings
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show the CLI tool with git --list
       presenter-script:
         - "If you would like to see which config settings have already been applied, you can type `git config --list`. This will automatically read from each of the storage containers for config settings and list them. You may notice duplicate settings if the same variable is set in multiple locations. The lowest value on the list takes precedence."
-additional-labs: 
+additional-labs:
 additional-questions:
-resources: 
+resources:

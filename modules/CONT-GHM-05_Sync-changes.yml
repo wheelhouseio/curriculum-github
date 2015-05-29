@@ -15,7 +15,7 @@ screens:
         - do: "Click Create Pull Request"
           say: "And then click create pull request. The GitHub App will do all of the work of pushing your changes and creating a pull request. When it is finished, you will receive a confirmation message."
       production-notes:
-    - lab:
+  - lab:
       title: Syncing Files with GitHub
       steps:
         - description: "Use the GitHub Desktop App to sync your changes with the remote and create a new pull request."

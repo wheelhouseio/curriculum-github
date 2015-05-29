@@ -33,11 +33,7 @@ screens:
             - verification-type: fork-exists
               repo-name: please-fork-me # Think of verifications as having n-types - one of the types is the "repo-exists" verification which confirms that a repo with that name exists in the users namespace - so it'll use either a curl like operation or ideally the GitHub API to look for the existance of https://github.com/<username>/<repo-name>
               success-message: You forked the repository successfully
-              failure-messages:
-                - It doesn't look like you forked the repository. Are you sure that you
-                - (a) went to the right repo
-                - (b) clicked the "fork" button at the top right hand corner of the page
-                - (c) forked the repo to your personal user account rather than to an organization
+              failure-message: It doesn't look like you forked the repository. Are you sure that you (a) went to the right repo (b) clicked the "fork" button at the top right hand corner of the page (c) forked the repo to your personal user account rather than to an organization
         - description: Create a new issue on your fork of the project
           verifications:
             - verification-type: issue-created # The commit verification is fired off by a webhook from the users repo
