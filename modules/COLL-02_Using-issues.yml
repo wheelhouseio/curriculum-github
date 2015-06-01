@@ -6,7 +6,7 @@ screens:
       title: Using Issues
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-script:
-        - Use GitHub issues to record and discuss ideas, enhancements, tasks, and bugs. They make collaboration easier in a variety of ways, by:
+        - "Use GitHub issues to record and discuss ideas, enhancements, tasks, and bugs. They make collaboration easier in a variety of ways, by:"
         - Replacing email for project discussions, ensuring everyone on the team has the complete story.
         - Allowing you to cross-link to other issues and pull requests.
         - Creating a single, comprehensive record of how and why you made certain decisions.
