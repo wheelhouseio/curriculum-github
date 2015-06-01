@@ -4,6 +4,10 @@
 
 Welcome to the Certify curriculum for Git and GitHub content. This repository contains the machine readable content used by Certify for delivering training courses.
 
+# Importing a curriculum
+
+Go to /repositories/new to import a new repo and put the slug in
+
 ## Structure
 
 * A Certify curriculum is comprised of one or more courses. A course is something a student might take to learn about a topic - something like "Git and GitHub Foundations" or "GitHub for Product Managers". Most curriculi will have anything from 3-20 courses, but with industry and customer specific courses, it might be possible to have a couple of hundred courses within a particular curriculum repository.
