@@ -20,7 +20,7 @@ screens:
       steps:
         - description: "Use the GitHub Desktop App to sync your changes with the remote and create a new pull request."
           verifications:
-            - verification-type: pr-created
+            - verification-type: pull-request
               success-message: "Great job - you created a pull request"
               failure-messages: "It looks like you haven't created a pull request. Want to try again?"
 additional-labs:

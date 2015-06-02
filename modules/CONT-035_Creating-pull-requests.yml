@@ -43,7 +43,7 @@ screens:
       steps:
         - description: "Create a Pull Request, @mentioning the instructor. Assign the Pull Request to yourself."
           verifications:
-            - verification-type: pr-created
+            - verification-type: pull-request
               success-message: "Great job - you created a Pull Request"
               failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
 additional-labs:

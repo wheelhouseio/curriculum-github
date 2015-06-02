@@ -21,7 +21,7 @@ screens:
       steps:
         - description: "Use the command line to push your changes to the remote and create a new pull request."
           verifications:
-            - verification-type: pr-created
+            - verification-type: pull-request
               success-message: "Great job - you created a pull request"
               failure-message: "It looks like you haven't created a pull request. Want to try again?"
 additional-labs:

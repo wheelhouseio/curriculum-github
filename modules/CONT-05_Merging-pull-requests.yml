@@ -45,7 +45,7 @@ screens:
       steps:
         - description: "Merge the pull request you created, closing the issue with the merge commit."
           verifications:
-            - verification-type: pr-merged
+            - verification-type: pull-request-merged
               success-message: "Great job - you have merged your branch."
               failure-message: "It looks like you haven't merged your branch. Want to try again?"
 additional-labs:
