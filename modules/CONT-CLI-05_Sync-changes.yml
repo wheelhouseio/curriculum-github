@@ -18,8 +18,10 @@ screens:
           say: "Since you made your changes on your branch, GitHub assumes you would like to compare those changes to the master branch. You can simply click Compare & pull request to start a new pull request."
   - lab:
       title: Syncing Files with GitHub
+      presenter-script: Let's push the file to the remote and create a pull request:
       steps:
-        - description: "Use the command line to push your changes to the remote and create a new pull request."
+        - description: "Use the command line to push your changes to the remote."
+        - description:  "Go to the GitHub repo and create a new pull request."
           verifications:
             - verification-type: pull-request
               success-message: "Great job - you created a pull request"
