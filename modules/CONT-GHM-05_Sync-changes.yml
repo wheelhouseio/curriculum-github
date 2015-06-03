@@ -17,8 +17,11 @@ screens:
       production-notes:
   - lab:
       title: Syncing Files with GitHub
+      presenter-script:
+        - Let's push the file to the remote and create a pull request.
       steps:
-        - description: "Use the GitHub Desktop App to sync your changes with the remote and create a new pull request."
+        - description: "Use the GitHub Desktop App to sync your changes with the remote."
+        - description:  "Go to the GitHub repo and create a new pull request."
           verifications:
             - verification-type: pull-request
               success-message: "Great job - you created a pull request"
