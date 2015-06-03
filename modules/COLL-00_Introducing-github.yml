@@ -4,7 +4,8 @@ learning-objective: Describe the features of GitHub and how it is used to collab
 screens:
   - poll:
       title: Version Control Poll
-      presenter-script: Please tell us a little about your experience with version control.
+      presenter-script: 
+        - Please tell us a little about your experience with version control.
       questions: # A poll might have one or more questions
         - title: Have you used a version control system before?
           id: COLL-00-pq1
