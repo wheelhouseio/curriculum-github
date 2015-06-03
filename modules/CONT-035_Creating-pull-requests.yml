@@ -41,7 +41,7 @@ screens:
   - lab:
       title: Creating a Pull Request
       presenter-script:
-        - Now that you have added a new file, let's create a pull request:
+        - Now that you have added a new file, let's create a pull request.
       steps:
         - description: "Create a Pull Request, @mentioning the instructor. Assign the Pull Request to yourself."
           verifications:
