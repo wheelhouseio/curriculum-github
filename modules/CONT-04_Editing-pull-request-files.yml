@@ -35,7 +35,7 @@ screens:
       steps:
         - description: "Go back to your pull request and make the requested changes. Commit the changes on the file directly to the feature branch and @mention the person who made the request."
           verifications:
-            - verification-type: pull-file-changed
+            - verification-type: file-modified
               success-message: "Great job - you edited a file on a pull request"
               failure-message: "It looks like you haven't edited a file on your pull request. Want to try again?"
 additional-labs:
