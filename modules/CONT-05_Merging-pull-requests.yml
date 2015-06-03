@@ -4,7 +4,7 @@ learning-objective: Merge the changes made on your feature branch into your mast
 screens:
   - image-slide:
       title: Merging Pull Requests
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
+      image: merge-logo.jpg
       presenter-script:
         - At this point, your pull request should be approved and you are ready to merge it in to the `master` branch.
         - When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
@@ -42,6 +42,8 @@ screens:
       production-notes:
   - lab:
       title: Merging Pull Requests
+      presenter-script:
+        - Let's finish the workflow by merging our changes into master.
       steps:
         - description: "Merge the pull request you created, closing the issue with the merge commit."
           verifications:
