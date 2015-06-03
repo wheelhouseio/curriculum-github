@@ -15,7 +15,7 @@ sections:
     modules:
       - CONT-01_Understanding-github-flow
       - CONT-02_Using-branches
-      - CONT-03_Creating-files-platform
+      - CONT-030_Creating-files-platform
       - CONT-035_Creating-pull-requests
       - CONT-04_Editing-pull-request-files
       - CONT-05_Merging-pull-requests
