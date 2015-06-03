@@ -39,7 +39,8 @@ screens:
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add more of your own. As a project grows in size, using assignees and labels makes it much easier to find a given issue or pull request.
   - lab:
       title: Creating an issue
-      presenter-script: Let's practice creating issues now!
+      presenter-script: 
+        - Let's practice creating issues now!
       steps:
         - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, some markdown formatting, and an @mention for the instructor."
           verifications:
