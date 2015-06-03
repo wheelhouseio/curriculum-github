@@ -17,6 +17,7 @@ screens:
       production-notes:
   - lab:
       title: Creating Aliases
+      presenter-script: Now is a great time to create a few aliases of your own.
       steps:
         - description: Create an alias for pushing a new branch upstream.
         - description: Create an alias for the status command.

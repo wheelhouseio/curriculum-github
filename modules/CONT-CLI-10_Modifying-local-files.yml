@@ -19,6 +19,16 @@ screens:
         - do: "Type git status"
           say: "Now when we type git status, the same file appears both in the changes to be committed and the changes not staged for commit. If we were to commit this file right now, only the first set of changes would actually be committed."
       production-notes:
+  - lab:
+      title: Modifying Local Files
+      presenter-script:
+        - Go ahead and set up your files for the next activity.
+      steps:
+        - description: "Open your file and make a few changes."
+        - description: "Save the changes and add them to the staging area. Do not commit the changes yet."
+        - description: "Open the same file and make a few more changes."
+        - description: "Save the changes."
+        - description: "Run git status."
 additional-labs:
 additional-questions:
 resources:

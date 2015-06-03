@@ -4,7 +4,7 @@ learning-objective: Describe best practices for creating a new repository and ad
 screens:
   - image-slide:
       title: Options for Creating a Repository
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
+      image: repository-options.jpg
       presenter-script:
         - "All of the work we do in Git and GitHub happens inside of a repository. There are several ways to get started working with a new repository. You can:"
         - "1. Clone the repository from a remote"
@@ -37,6 +37,12 @@ screens:
         - do: "Start typing githubstudent"
           say: "I can search for collaborators and add them by entering the first few letters of their username."
       production-notes:
+  - lab:
+      title: Cloning the Repository
+      presenter-script:
+        - Now that we have created a repository on GitHub, let's clone the new repository to our desktop.
+      steps:
+        - description: "Clone the new repository to your desktop."
 additional-labs:
 additional-questions:
 resources:

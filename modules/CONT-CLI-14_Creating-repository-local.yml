@@ -22,6 +22,8 @@ screens:
       production-notes:
   - lab:
       title: Creating a Repository on the Command Line
+      presenter-script:
+        - It's time to create your own local repository.
       steps:
         - description: Initialize a new git repository.
         - description: Create a README.md file and commit it to the repository.

@@ -31,6 +31,8 @@ screens:
       production-notes:
   - lab:
       title: Renaming Files
+      presenter-script:
+        - Go ahead and practice renaming files on your own.
       steps:
         - description: Rename the badname.md file to goodname.md.
         - description: When you are finished, commit your file changes.

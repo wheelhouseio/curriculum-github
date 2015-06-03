@@ -2,15 +2,12 @@ title: Workflow Review
 pre-requisites: CONT-CLI-07_Creating-local-branches
 learning-objective: Review the GitHub flow using the command line.
 screens:
-  - image-slide:
-      title: Workflow Review
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
-      presenter-script:
-        - "Remember that branching is fundamental to the GitHub flow. Now that we have created our branch, let's take a moment to review the rest of the workflow without any breaks for explanations like we did the first time. This time, lets create a file to tell others a few things they can do when they visit our home town. Along the way, I will show you a few helpful shortcuts."
   - video-slide:
       title: Workflow Review
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
+        - do: "Show https://guides.github.com/introduction/flow/"
+          say: "Remember that branching is fundamental to the GitHub flow. Now that we have created our branch, let's take a moment to review the rest of the workflow without any breaks for explanations like we did the first time. This time, lets create a file to tell others a few things they can do when they visit our home town. Along the way, I will show you a few helpful shortcuts."
         - do: "Type echo \"Welcome to My Home Town\" > home-town.md"
           say: "Let's use the echo command to create our new file. Name the file after your home town and add .md to the end so it will be rendered as markdown."
         - do: "Type git status"
@@ -30,6 +27,15 @@ screens:
         - do: "Click Create Pull Request"
           say: "And create your Pull Request."
       production-notes:
+  - lab:
+      title: Workflow Review
+      presenter-script:
+        - Now you will have a chance to complete the workflow on your own.
+      steps:
+        - description: "Create a new file on your branch."
+        - description: "Add the file to staging and commit it locally."
+        - description: "Push your file to the remote."
+        - description: "Create a pull request on GitHub."
 additional-labs:
 additional-questions:
 resources:
