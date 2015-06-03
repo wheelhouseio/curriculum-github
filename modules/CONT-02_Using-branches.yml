@@ -23,7 +23,8 @@ screens:
           say: "However, a word of caution. When you leave the repository and come back, notice that GitHub automatically assumes you want to see the items on the master branch. Let's stay on the `master` for a moment."
   - lab:
       title: Creating a Branch
-      presenter-script: Let's practice creating a branch.
+      presenter-script: 
+        - Let's practice creating a branch.
       steps:
         - description: "Create a branch in the repo named firstname-lastname (using your first and last names)."
           verifications:
