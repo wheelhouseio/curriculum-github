@@ -15,6 +15,14 @@ screens:
         - do: "Type git status"
           say: "This unstages the file and moves it back to our working directory. From there, we can make additional changes to the file or simply add it to the next commit."
       production-notes:
+  - lab:
+      title: Unstaging files
+      presenter-script:
+        - Now it is your turn to practice unstaging a file.
+      steps:
+        - description: Make changes to the file called threefile.md.
+        - description: Add the file to the staging area.
+        - description: Unstage the file.
 additional-labs:
 additional-questions:
 resources:

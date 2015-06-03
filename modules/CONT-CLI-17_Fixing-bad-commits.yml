@@ -4,6 +4,8 @@ learning-objective: Discover steps you can take when you realize you messed up t
 screens:
   - lab:
       title: Making Commits
+      presenter-script:
+        - Next we will learn how to change a commit. Complete these steps to prepare your files for this exercise.
       steps:
         - description: Create a file called onefile.md. Do not commit the file.
         - description: Create a file called twofile.md. Do not commit the file.
@@ -26,6 +28,13 @@ screens:
         - do: "Click Save > Quit"
           say: "Then save the commit message and close the text editor. In this case, we added a file and fixed the commit message. If you only wanted to fix the commit message, you would use the same command but leave the staging area empty."
       production-notes:
+  - lab:
+      title: Using Commit Amend
+      presenter-script:
+        - Now it is your turn to practice the steps we discussed.
+      steps:
+        - description: Create a new file called threefile.md.
+        - description: Use commit amend to add threefile.md to your previous commit.
 additional-labs:
 additional-questions:
 resources:

@@ -15,6 +15,12 @@ screens:
         - do: "Type git commit -m\"remove conflict file\""
           say: "Now we simply need to commit the change."
       production-notes:
+  - lab:
+      title: Removing Tracked Files
+      presenter-script:
+        - Use the steps you just learned to remove a tracked file.
+      steps:
+        - description: "Remove the file onefile.md"
 additional-labs:
 additional-questions:
 resources:

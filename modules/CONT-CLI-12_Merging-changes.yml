@@ -4,7 +4,7 @@ learning-objective: Merge branches on the command line.
 screens:
   - image-slide:
       title: What Happens When We Merge?
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg # Include an image that shows a branch with some commits - then a merge - then show the master branch with those same commits.
+      image: merge-visual.jpg # Include an image that shows a branch with some commits - then a merge - then show the master branch with those same commits.
       presenter-script:
         - "Merging combines the history of two or more branches."
         - "We have already learned how to merge our changes on GitHub during the pull request process, now let's learn how to merge our changes locally."
@@ -29,6 +29,14 @@ screens:
         - do: "Type git branch -d <branch-name>"
           say: "Simply add the -d option to the git branch command to delete the local copy of your branch."
       production-notes:
+  - lab:
+      title: Viewing Diffs and Committing Changes
+      presenter-script:
+        - Let's practice merging your changes locally on the command line.
+      steps:
+        - description: Merge your local branch into master.
+        - description: Push your changes to the remote.
+        - description: Delete the local copy of your branch.
 additional-labs:
 additional-questions:
 resources:

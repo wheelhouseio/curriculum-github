@@ -35,6 +35,12 @@ screens:
         - do: "Type git commit -m\"fix merge conflict\""
           say: "And commit the file to complete the merge."
       production-notes:
+  - lab:
+      title: Handling a Merge Conflict
+      presenter-script:
+        - Now that you have seen the steps for handling a merge conflict, go ahead and clear the merge conflict you created earlier.
+      steps:
+        - description: "Clear your merge conflict."
 additional-labs:
 additional-questions:
 resources:

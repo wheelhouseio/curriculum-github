@@ -23,6 +23,13 @@ screens:
         - do: "Type cat changeme.md"
           say: "And if I look at the contents of my file, you will see that the second line of text I added is now gone. It is important to remember that this is a destructive operation. Any changes you made to the file since your last commit will be gone forever. This command overwrites the modified file with the previously committed version so it is as if your changes never happened."
       production-notes:
+  - lab:
+      title: Discarding Changes in Modified Files
+      presenter-script:
+        - Now it is your turn to practice discarding changes to modified files.
+      steps:
+        - description: Edit the file threefile.md.
+        - description: "Use `git checkout` to discard your changes."
 additional-labs:
 additional-questions:
 resources:

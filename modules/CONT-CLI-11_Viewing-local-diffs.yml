@@ -4,7 +4,7 @@ learning-objective: Discover techniques for viewing file changes in different st
 screens:
   - image-slide:
       title: Comparing Local File States
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg #show image of file containers with the git diff commands for the comparisons of each.
+      image: diff-options.jpg
       presenter-script:
         - "In the last section, we made several changes to a local file, causing the file to appear in different stages of the commit process. The git diff command allows us to see what has changed in these different versions of our files. Let's explore some of these options now."
   - video-slide:
@@ -22,6 +22,8 @@ screens:
       production-notes:
   - lab:
       title: Viewing Diffs and Committing Changes
+      presenter-script:
+        - Take some time to explore the git diff options.
       steps:
         - description: Make various changes to your file and use the git diff commands to see how they appear.
         - description: When you are finished, commit your file changes.

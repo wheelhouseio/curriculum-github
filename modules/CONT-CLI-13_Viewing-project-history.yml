@@ -25,6 +25,14 @@ screens:
         - do: "Type git log --patch"
           say: "And if you would like to see the actual changes that were made, use --patch."
       production-notes:
+  - lab:
+      title: Viewing Project History
+      presenter-script:
+        - Take some time to explore the git log options.
+      steps:
+        - description: "View `git log` on your copy of the repository."
+        - description: "View `git log --oneline` on your copy of the repository."
+        - description: "View `git log --oneline --graph --decorate --all` on your copy of the repository."
 additional-labs:
 additional-questions:
 resources:

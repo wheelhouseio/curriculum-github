@@ -17,6 +17,12 @@ screens:
         - do: "Type git checkout <branch-name>"
           say: "Type git checkout with the name of your branch to check out to your new branch."
       production-notes:
+  - lab:
+      title: Create a Local Branch
+      presenter-script:
+        - Go ahead and create a local branch now!
+      steps:
+        - description: "Create a local branch using a unique branch name."
 additional-labs:
 additional-questions:
 resources:

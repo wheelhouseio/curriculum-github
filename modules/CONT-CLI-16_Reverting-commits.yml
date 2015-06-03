@@ -4,6 +4,8 @@ learning-objective: Describe the process for reversing a commit.
 screens:
   - lab:
       title: Making Commits
+      presenter-script:
+        - Next we will learn how to undo a commit. Complete these steps to prepare your files for this exercise.
       steps:
         - description: Open your goodname.md file and add some text.
         - description: When you are finished, commit your file changes.
@@ -24,6 +26,12 @@ screens:
         - do: "Click Save > Close"
           say: "Simply save it and close the text editor to complete the process."
       production-notes:
+  - lab:
+      title: Reverting Your Commit
+      presenter-script:
+        - Now it is your turn to practice the steps we discussed.
+      steps:
+        - description: Revert the last commit you made on goodname.md.
 additional-labs:
 additional-questions:
 resources:
