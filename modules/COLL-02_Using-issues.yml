@@ -49,13 +49,12 @@ screens:
               failure-message: "It looks like you didn't create an issue. Want to try again?"
         - description: Assign the issue you just created to yourself # optional for Monday
           verifications:
-            - verification-type: issue-assigned
-              assigned-to: self
+            - verification-type: issue-assigned-to-self
               success-message: "Great job - you assigned the issue to yourself."
               failure-message: "It looks like you didn't assign the issue to yourself."
         - description: Apply the label of "Bio" to the issue # optional for Monday
           verifications:
-            - verification-type: issue-assigned
+            - verification-type: issue-labeled
               success-message: "Great job - you applied the 'Bio' label to the issue"
               failure-message: "It looks like you didn't apply the 'Bio' label to the issue."
 additional-labs:
