@@ -33,8 +33,10 @@ screens:
       production-notes:
   - lab:
       title: Creating a New File
+      presenter-script:
+        - Let's respond to the issue you created earlier by creating a file.
       steps:
-        - description: "Respond to the introduction issue you created earlier by adding a new bio file to the docs folder. Name the file firstname-lastname.md."
+        - description: " Add a new bio file to the docs folder. Name the file firstname-lastname.md."
           verifications:
             - verification-type: file-created
               success-message: "Great job - you created a new file"
