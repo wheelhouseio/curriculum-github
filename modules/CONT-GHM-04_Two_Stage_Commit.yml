@@ -4,7 +4,7 @@ learning-objective: Add and commit files using the GitHub Desktop App.
 screens:
   - image-slide:
       title: The Two Stage Commit
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg # Show diagram similar to Pro-Git's Lifecycle of the status of your files. The untracked, modified and staged sections are outside a circle while committed is inside the circle. The circle is labeled version control. Build the rest of the diagram as it is discussed. http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository Build the diagram as described below in coordination with the context description shown above. Show 4 files as untracked. Show 2 of the files moving to staged. Show the 2 files moving from staged to committed.
+      image: two-stage-commit-a.jpg
       presenter-script:
         - After you have finished making your changes, it is time to commit them. When working in the desktop app, you will need to be familiar with the idea of the two stage commit.
         - When you work locally, your files exist in one of four states. They are either untracked, modified, staged, or committed.

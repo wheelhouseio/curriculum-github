@@ -25,7 +25,7 @@ screens:
         - When we are satisfied with the unit of work we have assembled, we will commit everything in the staging area.
   - image-slide:
       title: The Two Stage Commit
-      image: two-stage-commit-e.jpg 
+      image: two-stage-commit-e.jpg
       presenter-script:
         - In order to make a file part of the version controlled directory we will first do a git add and then we will do a git commit. Let's do it now.
   - video-slide:

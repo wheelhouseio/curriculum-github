@@ -4,7 +4,7 @@ learning-objective: Edit local files using the GitHub Desktop App.
 screens:
   - image-slide:
       title: Editing Local Files
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
+      image: edit-icon.jpg
       presenter-script:
         - "Now that you have cloned the repository and checked out your branch, you are ready to make some changes to the local files. You can use your favorite text editor to open and edit files. The only difference is that you will be making your changes on a branch. Let's add more information to the bio we created earlier."
   - video-slide:
@@ -34,6 +34,14 @@ screens:
         - do: "Open <first-last.md>"
           say: "And open the file. Now that you are on your branch, the changes appear again."
       production-notes:
+  - lab:
+      title: Editing Local Files
+      presenter-script:
+        - Let's make some changes to our local files.
+      steps:
+        - description: Open your bio file in a text editor.
+        - description: Add more information to your bio.
+        - description: Save the file.
 additional-labs:
 additional-questions:
 resources:
