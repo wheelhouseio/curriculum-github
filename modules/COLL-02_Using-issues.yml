@@ -4,7 +4,7 @@ learning-objective: Collaborate using GitHub Issues to discuss ideas, enhancemen
 screens:
   - image-slide:
       title: Using Issues
-      image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
+      image: issues-icon.jpg
       presenter-script:
         - "Use GitHub issues to record and discuss ideas, enhancements, tasks, and bugs. They make collaboration easier in a variety of ways, by:"
         - Replacing email for project discussions, ensuring everyone on the team has the complete story.
@@ -12,7 +12,7 @@ screens:
         - Creating a single, comprehensive record of how and why you made certain decisions.
         - Allowing you to easily pull the right people into a conversation.
   - video-slide:
-      title: A quick demonstration
+      title: Using Issues
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: Navigate to the class repository
@@ -39,8 +39,9 @@ screens:
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add more of your own. As a project grows in size, using assignees and labels makes it much easier to find a given issue or pull request.
   - lab:
       title: Creating an issue
+      presenter-script: Let's practice creating issues now!
       steps:
-        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, three interesting facts about yourself, some markdown formatting, and an @mention of Certify."
+        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, some markdown formatting, and an @mention for the instructor."
           verifications:
             - verification-type: issue-created
               success-message: "Great job - you created an issue."
