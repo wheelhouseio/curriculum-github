@@ -36,7 +36,7 @@ screens:
         - do: "Add a comment to the discussion"
           say: "If your comment is more general in nature, you can also add a comment to the Pull Request using the same method we learned for Issues."
         - do: "Add a `:+1:` emoji"
-          say: "Most project teams require someone to sign off on the change before it is merged. We like to use emoji to show our approval."
+          say: "Most project teams require someone to sign off on the change before it is merged. We like to use emoji to show our approval. In the previous lab you created a file, next you will create a pull request for your file."
       production-notes:
   - lab:
       title: Creating a Pull Request
@@ -48,6 +48,11 @@ screens:
             - verification-type: pull-request
               success-message: "Great job - you created a Pull Request"
               failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
+        - description: "Add a line comment to someone else's pull request in the class repository."
+          verifications:
+            - verification-type: pull-request-comment
+              success-message: "Great job - you commented on a pull request"
+              failure-message: "It looks like you haven't commented on a pull request. Want to try again?"
 additional-labs:
 additional-questions:
 resources:

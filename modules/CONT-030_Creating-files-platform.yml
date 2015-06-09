@@ -29,7 +29,7 @@ screens:
         - do: Select Commit directly to the `firstname-lastname-intro` branch
           say: Since we are on our branch, GitHub gives us the option to commit the new file directly to our branch.
         - do: Click commit new file
-          say: We are ready to commit our file
+          say: We are ready to commit our file. On the next page you will complete the steps to add a file of your own.
       production-notes:
   - lab:
       title: Creating a New File
