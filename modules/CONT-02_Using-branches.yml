@@ -6,9 +6,9 @@ screens:
       title: Using Branches
       image: branch-icon.jpg
       presenter-script:
-        - Every day you will be editing files on your project or adding new files. 
-        - You don't want to take risks with the code on your master branch so you need to create a branch. 
-        - When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch. 
+        - Every day you will be editing files on your project or adding new files.
+        - You don't want to take risks with the code on your master branch so you need to create a branch.
+        - When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch.
         - This keeps your the code on your master branch safe while you experiment and fix issues.
         - Let's learn how you can create a new branch.
   - video-slide:
@@ -26,10 +26,10 @@ screens:
         - do: Go to another repo and then return to the class repo
           say: "However, a word of caution. When you leave the repository and come back, notice that GitHub automatically assumes you want to see the items on the master branch."
         - do: Click the branch dropdown and reselect the branch
-          say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown."
+          say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. On the next page you will create your own branch."
   - lab:
       title: Creating a Branch
-      presenter-script: 
+      presenter-script:
         - Let's practice creating a branch.
       steps:
         - description: "Create a branch in the repo named firstname-lastname (using your first and last names)."
