@@ -13,15 +13,15 @@ screens:
       video-script:
         - do: Navigate to the first sample repository
           say: The repository is the container that holds everything related to your project.
-        - do: Click Code view
+        - do: Click `Code` view
           say: The code view is where you will find the files included the repository. These files may contain the project code, documentations, and other important files. We also call this view the root of the project. Any changes to these files is tracked via Git version control.
-        - do: View the README.md
+        - do: View the `README.md`
           say: The README.md is a special file that we recommend all repositories contain. GitHub looks for this file and helpfully displays it below the repository. It usually explains the project and where to find helpful information within the project.
-        - do: Click Issues view
+        - do: Click `Issues` view
           say: Issues are used to track bugs and feature requests for the project. Issues can be assigned to specific team members and are designed to encourage discussion and collaboration.
-        - do: Click Pull Request view
+        - do: Click `Pull Request` view
           say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues.
-        - do: "Click Issues > Filters"
+        - do: "Click `Issues > Filters`"
           say: Filters allow you to easily search for Issues or Pull Requests.
       production-notes:
   - quiz:
