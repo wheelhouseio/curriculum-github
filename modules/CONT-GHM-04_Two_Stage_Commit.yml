@@ -17,13 +17,13 @@ screens:
       video-script:
         - do: "Open the GitHub App"
           say: "Now that you have made some changes, let's use the GitHub app to commit the changes to version control."
-        - do: "Click Changes"
+        - do: "Click `Changes`"
           say: "The changes tab includes a list of the files that have been changed or added since the last commit."
         - do: "View checkboxes"
           say: "You will use the checkboxes to indicate which changes should be part of the commit. It is a good idea to group files together based on the type of changes or the file content. For example, if you fixed the same formatting issue in several documents, you should group them into one commit."
         - do: "Type the commit message in the Summary field"
           say: "When you have selected the appropriate files, type your commit message in the Summary field."
-        - do: "Click Commit to <branch>"
+        - do: "Click `Commit to <branch>`"
           say: "You will notice that GitHub has already populated the commit button with the current branch. Simply click the button to commit your changes."
       production-notes:
 additional-labs:

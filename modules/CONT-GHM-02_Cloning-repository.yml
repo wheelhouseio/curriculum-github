@@ -13,17 +13,17 @@ screens:
       title: Cloning a Repository
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: "Navigate to the class repo"
+        - do: "Navigate to the `class repository`"
           say: "Earlier you created a branch in this repository. Starting your branch on GitHub is a good best practice to adopt. It let's others know you are working on a specific branch and prevents merge conflicts later in the process."
-        - do: "Click the branch dropdown"
+        - do: "Click the `branch dropdown`"
           say: "Go ahead and check to see that you finished creating your branch."
-        - do: "Click Clone in Desktop"
+        - do: "Click `Clone in Desktop`"
           say: "Now, since we want to work locally let's clone this repository on our desktop."
         - do: "Type a file name and navigate to the desired location"
           say: "You can name the clone of the repository anything you would like. In this example, we will leave it the same as the remote. You can also choose the location where you would like the cloned repository to be saved."
-        - do: "Click Clone"
+        - do: "Click `Clone`"
           say: "When you are finished click Clone. The cloned repository is now shown in the left navigation pane."
-        - do: "Click the Branch dropdown"
+        - do: "Click the `Branch dropdown`"
           say: "You can view a list of the branches and ensure you are working on your own branch."
         - do: "Select your Branch"
           say: "If your branch is not already selected, go ahead and select it now!"

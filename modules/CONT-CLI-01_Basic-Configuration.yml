@@ -38,7 +38,7 @@ screens:
       title: Configuring Push Default
       image: config-push-default.jpg
       presenter-script:
-        - "One final configuration option we will want to set is our default value for push. For now, let's use push.default simple. We will discuss this in greater detail a little later."
+        - "One final configuration option we will want to set is our default value for push. For now, let's use `git config --global push.default simple`. We will discuss this in greater detail a little later."
   - image-slide:
       title: Viewing Configuration Settings
       image: config-list.jpg

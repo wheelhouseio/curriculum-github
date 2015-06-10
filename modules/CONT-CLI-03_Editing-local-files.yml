@@ -19,7 +19,7 @@ screens:
           say: "I am going to modify my file in atom, so I will use the command line to open atom and the file all at once. You can use your favorite text editor to make changes to your file. "
         - do: Type changes in the file
           say: Add more information about yourself to the end of the original file.
-        - do: Click Save > Quit
+        - do: Click `Save > Quit`
           say: "When you are finished, save the file and close the text editor. "
         - do: Open the CLI
           say:  Let's go back to the terminal window and take a look at what we have just done.

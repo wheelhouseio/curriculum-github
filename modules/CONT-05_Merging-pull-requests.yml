@@ -15,11 +15,11 @@ screens:
       title: Merging Pull Requests
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: "Open the pull request to be merged"
+        - do: "Open the `pull request` to be merged"
           say: "Visit your pull request now that it's ready to be merged"
-        - do: "Show the Conversation view"
+        - do: "Show the `Conversation` view"
           say: "You can merge a pull request at the bottom of the conversation view."
-        - do: "Click Merge pull request"
+        - do: "Click `Merge pull request`"
           say: "You simply click the Merge pull request button."
         - do: "Show the merge confirmation window"
           say: "Now we want to include some special text that tells GitHub that this pull request should close the original issue."
@@ -31,13 +31,13 @@ screens:
           say: "Since the issue titles contained your username, you can type the first few letters of your GitHub username to narrow down the list of possible issues."
         - do: "Select the correct issue from the drop down"
           say: "Simply select your issue from the list."
-        - do: "Click Confirm merge"
+        - do: "Click `Confirm merge`"
           say: "And click confirm merge."
         - do: "Show confirmation message"
           say: "A confirmation message will let you know that your pull request was merged and closed. It also let's you know that the branch we created can be safely deleted."
-        - do: "Click Delete branch"
+        - do: "Click `Delete branch`"
           say: "Since we won't be using this branch anymore, you should go ahead and delete it now."
-        - do: "Click the issues tab > Closed"
+        - do: "Click `Issues` and then filter to see the `Closed` issues"
           say: "You can now go back to the issues tab and you will see that your issue has been closed."
       production-notes:
   - lab:
@@ -45,7 +45,7 @@ screens:
       presenter-script:
         - Let's finish the workflow by merging our changes into master.
       steps:
-        - description: "Merge the pull request you created, closing the issue with the merge commit."
+        - description: "Merge the pull request you created, closing your original issue with the merge commit."
           verifications:
             - verification-type: pull-request-merged
               success-message: "Great job - you have merged your branch."

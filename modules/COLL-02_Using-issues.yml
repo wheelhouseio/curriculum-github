@@ -31,11 +31,11 @@ screens:
           say: Click the green comment button to add your comments to the discussion.
         - do: Learners comment on issue
           say: I would like to add you all as collaborators to this repository, but first I will need your GitHub user names. Please add a comment to this issue so I can add you to the collaborator's team
-        - do: Return to the issues view
+        - do: Return to the `Issues` view
           say: As you can imagine, a large project can have a hundreds of issues. Let's look at a few ways your project team can organize issues.
-        - do: Assign the issue to the co-teacher
+        - do: `Assign` the issue to the co-teacher
           say: First, you can assign issues to anyone with access to the repo. Typically, this will be the person who is currently responsible for working on the project. The issue assignee may change over time.
-        - do: Add a label to the issue
+        - do: Add a `label` to the issue
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add more of your own. As a project grows in size, using assignees and labels makes it much easier to find a given issue or pull request.
   - lab:
       title: Creating an issue

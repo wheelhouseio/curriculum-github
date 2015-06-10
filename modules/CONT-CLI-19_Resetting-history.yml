@@ -7,7 +7,7 @@ screens:
       image: reset-visual.jpg
       presenter-script:
         - "Sometimes we are working on a branch and we decide things aren't going quite like we had planned. We want to go back to a previous point in history. We can do that with git reset."
-        - "The reset command effects the location of HEAD on the current branch. Before we can learn how to use this command, we need to understand the concept of HEAD."
+        - "The `git reset` command effects the location of HEAD on the current branch. Before we can learn how to use this command, we need to understand the concept of HEAD."
         - "HEAD is a pointer to the branch you are currently on, while a branch is a pointer to the latest commit in a line of work. "
         - "When we use the reset command, we are moving the thing that HEAD points to. The question we need to answer before we perform a reset is \"what do we want to do with the commits between the current HEAD and the location we are resetting to?\""
   - image-slide:
@@ -15,10 +15,10 @@ screens:
       image: reset-modes.jpg
       presenter-script:
         - "There are three modes for git reset: --soft, --mixed, and --hard."
-        - "When you use the --soft option, git moves the HEAD but then it stops. The changes you made in the commits between the two points are placed in the staging area, but your working files and the index are left untouched. This is a good command to use when you have made a large number of small commits and you would like to regroup them into a single commit."
-        - "When you use the --mixed option, git performs a soft reset but then takes it one step further by making the index look like the snapshot HEAD is now pointing to. Mixed is the default mode for reset."
+        - "When you use the `--soft` option, git moves the HEAD but then it stops. The changes you made in the commits between the two points are placed in the staging area, but your working files and the index are left untouched. This is a good command to use when you have made a large number of small commits and you would like to regroup them into a single commit."
+        - "When you use the `--mixed` option, git performs a soft reset but then takes it one step further by making the index look like the snapshot HEAD is now pointing to. Mixed is the default mode for reset."
         - "--mixed and --soft are both safe operations since they will not overwrite the contents of your working directory."
-        - "--hard is the destructive version. When you use the --hard option, git will make both the working directory and the index look like the new location of HEAD. In other words, it will discard all of the changes made between the old and new HEAD location, to include anything in your working directory."
+        - "`--hard` is the destructive version. When you use the --hard option, git will make both the working directory and the index look like the new location of HEAD. In other words, it will discard all of the changes made between the old and new HEAD location, to include anything in your working directory."
         - "Let's take a look at each of these options in action."
   - video-slide:
       title: Using the Soft Reset

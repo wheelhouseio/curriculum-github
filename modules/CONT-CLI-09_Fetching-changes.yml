@@ -14,13 +14,13 @@ screens:
       video-script:
         - do: "Open the CLI"
           say: "Let's go back to our terminal window."
-        - do: "Type git checkout master"
+        - do: "Type `git checkout master`"
           say: "Since our changes have already been merged to master on the remote, let's go ahead and checkout to our master branch."
-        - do: "Type git fetch origin"
+        - do: "Type `git fetch origin`"
           say: "Now we will type git fetch. We will include origin to tell Git that it is fetching from the remote."
-        - do: "Type git status"
+        - do: "Type `git status`"
           say: "After the fetch is complete, let's check our status."
-        - do: "Type git merge origin/master"
+        - do: "Type `git merge origin/master`"
           say: "Finally, we will type git merge. When we do a merge, we must be checked out to the branch we are merging into. In the merge command, we tell Git which branch we would like to merge into our local branch. In this case, it is origin/master."
       production-notes:
   - lab:

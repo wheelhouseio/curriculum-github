@@ -6,23 +6,23 @@ screens:
       title: Viewing Project History
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: "Type git pull origin"
+        - do: "Type `git pull origin`"
           say: "Now that everyone has merged and pushed their changes to the remote, let's pull those changes back to our local copy. Last time we used two commands, git fetch and git merge. This time, we will use a shortcut command, git pull, to perform both of these operations for us."
-        - do: "Type git log"
+        - do: "Type `git log`"
           say: "Now that we have made a few commits, let's take a look at our project history. Git log is the most basic command. It provides a list of all of the commits made on our branch with the most recent commit first."
-        - do: "Press q"
+        - do: "Press `q`"
           say: "You can press up, down or enter to view additional log entries, or q to quit viewing the log and return to the command prompt."
-        - do: "Type git log --oneline"
+        - do: "Type `git log --oneline`"
           say: "Git log has a great deal of information, but it is a little verbose. If you would like to see a condensed version, add the --oneline option."
-        - do: "Type git log --oneline --graph"
+        - do: "Type `git log --oneline --graph`"
           say: "The log command has many options and you can actually string them together to create a view that is most helpful for your situation. For example, you can add an ASCII graph of the branch and merge history of our project by adding the option --graph."
-        - do: "Type git log --oneline --graph --decorate"
+        - do: "Type `git log --oneline --graph --decorate`"
           say: "If you would like more information about the branches and where HEAD is located, you can add the --decorate option."
-        - do: "Type git log --oneline --graph --decorate --all"
+        - do: "Type `git log --oneline --graph --decorate --all`"
           say: "If you also want to include un-merged branches, you should add the option --all."
-        - do: "Type git log --stat"
+        - do: "Type `git log --stat`"
           say: "If you would like to see which files were involved in each commit, use the --stat option."
-        - do: "Type git log --patch"
+        - do: "Type `git log --patch`"
           say: "And if you would like to see the actual changes that were made, use --patch."
       production-notes:
   - lab:
