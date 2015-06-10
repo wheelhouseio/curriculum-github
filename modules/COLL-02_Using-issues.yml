@@ -15,19 +15,19 @@ screens:
       title: Using Issues
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: Navigate to the class repository
+        - do: Navigate to the `class repository`
           say: I have created a repository for this class. Please log in to GitHub using your user name and access <the class repository> now.
-        - do: Navigate to the issue "Class Goals"
+        - do: "Navigate to the issue `Class Goals`"
           say: I have created an issue titled Class Goals. Let's look at some of the special features in issues that we use to encourage collaboration.
         - do: Add an issue comment demonstrating markdown formatting for headers, checkboxes and emoji.
           say: GitHub uses a syntax called Markdown to help you add basic text formatting to issues.
         - do: "@mention any co-teachers"
           say: One of our favorite features is the @mention. When you @mention someone in an issue, they will receive a notification - even if they are not currently subscribed to the issue or watching the repository.
-        - do: Click Preview
+        - do: Click `Preview`
           say: You can use the preview tab to see how your comment will be rendered (meaning how GitHub will actually display your Markdown file) before you click the comment button.
         - do: Include an issue attachment
           say: You can also add pictures by simply dragging and dropping them into the comment field, or clicking the file uploader link.
-        - do: Click Comment
+        - do: Click `Comment`
           say: Click the green comment button to add your comments to the discussion.
         - do: Learners comment on issue
           say: I would like to add you all as collaborators to this repository, but first I will need your GitHub user names. Please add a comment to this issue so I can add you to the collaborator's team
@@ -39,7 +39,7 @@ screens:
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add more of your own. As a project grows in size, using assignees and labels makes it much easier to find a given issue or pull request.
   - lab:
       title: Creating an issue
-      presenter-script: 
+      presenter-script:
         - Let's practice creating issues now!
       steps:
         - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, some markdown formatting, and an @mention for the instructor."
