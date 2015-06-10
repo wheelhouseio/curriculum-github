@@ -14,12 +14,12 @@ screens:
           say: The issue I am resolving said I need to add an introduction file. So, let's start by clicking on the + button to add a new file.
         - do: Name the file <firstname-lastname>.md
           say: Now you can create a new file directly in GitHub. I am going to name the file <firstname-lastname>.md. The .md is important because it tells GitHub to use markdown to render the file.
-        - do: Click in the Edit new file field
-          say: You can use Markdown to enter some basic text.
         - do: Add a folder to the file name by typing docs/ in front of the file.md
           say: Notice that our instructions told us to add the file to the docs directory. You can add it to a subdirectory by simply adding the subdirectory and a trailing slash to the file name.
         - do: Type text in the new file
           say: Let's add some introduction information to our file
+        - do: Click in the Edit new file field
+          say: You can use Markdown to enter some basic text.
         - do: Scroll to Commit new file
           say: When you are finished editing your file, you will scroll down to the bottom of the page. This is where you will commit your changes.
         - do: Add a Commit message
