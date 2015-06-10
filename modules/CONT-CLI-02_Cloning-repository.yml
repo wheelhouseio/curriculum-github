@@ -13,11 +13,11 @@ screens:
       title: Cloning a Repository
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: Navigate to the class repo
+        - do: Navigate to the `class repository`
           say: "Earlier you created a branch in this repository. Starting your branch on GitHub is a good best practice to adopt. It lets others know you are working on a specific branch and prevents merge conflicts later in the process."
-        - do: Click the branch dropdown
+        - do: Click the `branch dropdown`
           say: Go ahead and check to see that you finished creating your branch.
-        - do: Copy the clone URL
+        - do: Copy the `clone URL`
           say: "Now, since we want to work locally let's copy the clone URL to our clipboard."
         - do: Open the CLI
           say: And go back to our terminal window. CD into the directory where you would like to copy the repository. This can be anywhere in your local file system.

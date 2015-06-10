@@ -15,18 +15,18 @@ screens:
       title: Creating a Branch
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: Navigate to the class repo
+        - do: Navigate to the `class repository`
           say: Earlier you created an issue to create an introduction file. Let's create a branch that you will use to add your file.
         - do: Click the branch dropdown
-          say: You can create a branch by clicking on the branch dropdown.
+          say: You can create a branch by clicking on the `branch dropdown`.
         - do: Enter the branch name 'firstname-lastname-intro'
           say: And entering a branch name in the text field.
-        - do: Press Enter
+        - do: Press `Enter`
           say: "When you press Enter, you are automatically switched to the `firstname-lastname-intro` branch. Now, any changes you make to the files in the repository will be applied to this new branch."
         - do: Go to another repo and then return to the class repo
           say: "However, a word of caution. When you leave the repository and come back, notice that GitHub automatically assumes you want to see the items on the master branch."
         - do: Click the branch dropdown and reselect the branch
-          say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. On the next page you will create your own branch."
+          say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. Now you are ready to create your own branch and start adding some commits."
   - lab:
       title: Creating a Branch
       presenter-script:

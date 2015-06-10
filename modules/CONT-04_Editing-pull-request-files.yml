@@ -11,21 +11,21 @@ screens:
       title: Editing Pull Request Files
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
-        - do: "Navigate to your pull request"
+        - do: "Navigate to your `pull request`"
           say: "Let's go back to your pull request and make the edits requested by your collaborators."
-        - do: "Open the files changed view"
+        - do: "Open the `files changed` view"
           say: "Take a look at the change requested and then go to the files changed view."
-        - do: "Click the pencil icon"
+        - do: "Click the `edit` icon"
           say: "Click the pencil icon to access the file editor."
         - do: "Edit the file"
           say: "Make the requested changes."
-        - do: "Add a commit message"
+        - do: "Add a `commit message`"
           say: "The commit message should describe what was changed in the present tense. For example, Add favorite color."
-        - do: "Choose the option to Commit directly to your branch"
+        - do: "Choose the option to `Commit directly to your branch`"
           say: "In this case, we are already working on a branch so it is ok to commit our changes directly to the branch."
-        - do: "Click Commit changes"
+        - do: "Click `Commit changes`"
           say: "And then click commit changes."
-        - do: "Click the Commits tab"
+        - do: "Click the `Commits` tab"
           say: "If you want to see what was changed in a specific commit, you can go to the Commits tab and click on the Commit ID"
       production-notes:
   - lab:
