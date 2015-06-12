@@ -1,6 +1,27 @@
 title: Watching notifications and stars
-pre-requisites: COLL-02_Using-issues
-learning-objective:
+pre-requisites: COLL-01_Exploring-a-repository
+learning-objective: Introduce the social features of GitHub.
+screens:
+  - video-slide:
+      title: Getting Social on GitHub
+      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video-script:
+        - do: Navigate to the `class repository`
+          say: "In addition to Issues and Pull Requests, GitHub provides other features you would expect from a collaboration platform. Let's take a look at a few of these features now."
+        - do: Click `Watch`
+          say: "Watching a repository allows you to stay up to date on what is happening within that project. When you choose to watch a repository, you will receive a notification when a new issue, pull request or comment is added to the repository. You will also be notified when issues are closed and pull requests are merged."
+        - do: Show `Not Watching`
+          say: If you do not want to receive notifications for every action in the repository, you can choose the not watching option. You will still receive notifications if you are mentioned individually or a part of a group. You will also receive notifications if you participate in a specific conversation.
+        - do: Show `Ignoring`
+          say: The other option is to ignore a repository. This means you will never get notifications from this repository.
+        - do: Click `User Settings > Notifications`
+          say: "There are a couple ways you can control the number of notifications you receive."
+        - do: Show email vs. web options for notifications
+          say: "First, you can choose whether to receive notifications via email or online."
+        - do: Click `Star`
+          say: "Starring a repository adds it to a special list of favorite repositories. If you are just interested in a project and want to find it easily again, you should star it. You will not receive notifications about starred projects. These are more like bookmarks that make it easy to find."
+        - do: Click `Explore`
+          say: "The explore option can help you find interesting and trending projects on GitHub. Use these options to explore the full range of what GitHub has to offer - or maybe even find an open source project to work on!"
 additional-labs:
 additional-questions:
 resources:
