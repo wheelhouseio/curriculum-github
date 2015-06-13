@@ -49,13 +49,13 @@ sections:
     description: In this section you will learn how to manipulate your repository and its history to craft a better story for your project.
     modules:
       - CONT-CLI-14_Creating-repository-locally
+      - CONT-CLI-21_Handling-merge-conflicts
       - CONT-CLI-15_Renaming-moving-files
       - CONT-CLI-16_Reverting-commits
       - CONT-CLI-17_Fixing-bad-commits
       - CONT-CLI-18_Unstaging-files
       - CONT-CLI-19_Resetting-history
       - CONT-CLI-20_Discarding-changes-modified-files
-      - CONT-CLI-21_Handling-merge-conflicts
       - CONT-CLI-22_Removing-tracked-files
   -
     title: Creating Shortcuts
