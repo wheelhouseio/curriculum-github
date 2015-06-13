@@ -20,6 +20,11 @@ screens:
         - "Git is OS agnostic; the commands are essentially the same whether you are on Mac, Windows or Linux. You can use your favorite application to interact with the command line. Follow along with the commands in this video to make sure your computer is configured correctly."
         - "First, let's check the version of Git currently installed on your system. At the very least you should have a version greater than 1.9.5 installed."
   - image-slide:
+      title: Pre-viewing Configuration Settings
+      image: config-list.jpg
+      presenter-script:
+        - "If you would like to see which config settings have been added automatically, you can type `git config --list`. This will automatically read from each of the storage containers for config settings and list them."
+  - image-slide:
       title: Configuring User Name and Email
       image: config-username-email.jpg
       presenter-script:
@@ -43,7 +48,7 @@ screens:
       title: Viewing Configuration Settings
       image: config-list.jpg
       presenter-script:
-        - "If you would like to see which config settings have already been applied, you can type `git config --list`. This will automatically read from each of the storage containers for config settings and list them. You may notice duplicate settings if the same variable is set in multiple locations. The lowest value on the list takes precedence."
+        - "Now that we have set some of our own configuration options, let's take another look at `git config --list`. You may notice duplicate settings if the same variable is set in multiple locations. The lowest value on the list takes precedence."
 additional-labs:
 additional-questions:
 resources:
