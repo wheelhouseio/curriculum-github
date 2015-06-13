@@ -37,6 +37,8 @@ screens:
           say: First, you can assign issues to anyone with access to the repo. Typically, this will be the person who is currently responsible for working on the project. The issue assignee may change over time.
         - do: Add a `label` to the issue
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add more of your own. As a project grows in size, using assignees and labels makes it much easier to find a given issue or pull request.
+        - do: "Click `Issues > Filters`"
+          say: Most projects have a large number of issues and pull requests. Filters allow you to easily search for Issues or Pull Requests by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating issues!
   - lab:
       title: Creating an issue
       presenter-script:
