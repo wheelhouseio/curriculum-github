@@ -4,7 +4,7 @@ learning-objective: Describe the features of GitHub and how it is used to collab
 screens:
   - poll:
       title: Version Control Poll
-      presenter-script: 
+      presenter-script:
         - Please tell us a little about your experience with version control.
       questions: # A poll might have one or more questions
         - title: Have you used a version control system before?
@@ -22,7 +22,7 @@ screens:
               response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for keeping track of your changed and collaborating with your team.
   - image-slide:
       title: What is GitHub?
-      image: github-text-logo.jpg
+      image: github-icon.jpg
       presenter-script:
         - GitHub is a collaboration platform built on top of a distributed version control system called Git.
   - image-slide:

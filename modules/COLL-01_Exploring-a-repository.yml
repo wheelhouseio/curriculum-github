@@ -21,8 +21,6 @@ screens:
           say: Issues are used to track bugs and feature requests for the project. Issues can be assigned to specific team members and are designed to encourage discussion and collaboration.
         - do: Click `Pull Request` view
           say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues.
-        - do: "Click `Issues > Filters`"
-          say: Filters allow you to easily search for Issues or Pull Requests.
       production-notes:
   - quiz:
       title: Exploring a Repository

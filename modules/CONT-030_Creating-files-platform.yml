@@ -1,9 +1,9 @@
-title: Creating Files with the GitHub Platform
+title: Creating Files on GitHub
 pre-requisites: CONT-02_Using-branches
-learning-objective: Add a new file using GitHub.com or the GHE platform.
+learning-objective: Add a new file using GitHub.com or GitHub Enterprise.
 screens:
   - video-slide:
-      title: Creating Files with the GitHub Platform
+      title: Creating Files on GitHub
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: Navigate to the `class repository`
