@@ -6,10 +6,9 @@ screens:
       title: Options for Creating a Repository
       image: repository-options.jpg
       presenter-script:
-        - "All of the work we do in Git and GitHub happens inside of a repository. There are several ways to get started working with a new repository. You can:"
+        - "All of the work we do in Git and GitHub happens inside of a repository. There are two ways to get started working with a new repository. You can:"
         - "1. Clone the repository from a remote"
-        - "2. Start a new local directory"
-        - "3. Initialize Git in an existing local directory"
+        - "2. Initialize Git in an existing local directory"
         - "Since this class is designed to teach you how to use Git and GitHub effectively, we will focus on how to structure our work to support collaboration."
         - "If I want to collaborate with you on a project then I will start a repository on GitHub. Let's discuss some best practices for GitHub repositories now."
   - video-slide:
