@@ -26,6 +26,10 @@ screens:
           say: "Enter a descriptive title and description for the Pull Request."
         - do: "Click `Create Pull Request`"
           say: "And create your Pull Request."
+        - do: "Click `Merge Pull Request`"
+          say: "When the discussion ends and the file is ready, you will then merge your pull request with the master branch to complete the process."
+        - do: "Click `Delete branch`"
+          say: "Since your branch has been merged, it is safe to delete it now."
       production-notes:
   - lab:
       title: Workflow Review
@@ -36,6 +40,7 @@ screens:
         - description: "Add the file to staging and commit it locally."
         - description: "Push your file to the remote."
         - description: "Create a pull request on GitHub."
+        - description: "Merge your changes into Master."
 additional-labs:
 additional-questions:
 resources:
