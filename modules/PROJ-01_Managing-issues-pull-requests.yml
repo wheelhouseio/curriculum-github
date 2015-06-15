@@ -18,8 +18,10 @@ screens:
           say: "Issues and Pull Requests can easily pile up and grow stale if you do not intentionally prevent them from doing so. To keep your task lists clean, you can sort by Least recently updated to find the items that have not had recent comments or activity."
         - do: "Click `Sort` > `Oldest`"
           say: "You can also look at the oldest items to see if they are making progress. This can help you decide whether they need a helpful nudge or need to be closed."
-        - do: "Click `Labels`"
-          say: "Labels also help you keep issues and pull requests organized. For example, you can create labels for the type of task and even use them to queue up the next tasks to be worked within the group. In the next section, we will take a look at another tool for managing your team: Milestones."
+        - do: "Click the `Labels` Dropdown"
+          say: "Labels also help you keep issues and pull requests organized. For example, you can create labels for the type of task and even use them to queue up the next tasks to be worked within the group."
+        - do: "Click `Labels` tab"
+          say: "You can manage your project labels, including the name and color, using the labels tab. You will notice that this tab also provides a helpful way to see how many issues and pull requests currently have that label applied. In the next section, we will take a look at another tool for managing your team: Milestones."
       production-notes:
 additional-labs:
 additional-questions:
