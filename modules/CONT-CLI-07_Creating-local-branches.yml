@@ -3,7 +3,7 @@ pre-requisites: CONT-CLI-06_Creating-repository-github
 learning-objective: Create a branch locally using the command line.
 screens:
   - video-slide:
-      title: Creating Local Branches
+      title: Creating Branches Locally
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: "Open the CLI"
@@ -22,7 +22,7 @@ screens:
       presenter-script:
         - Go ahead and create a local branch now!
       steps:
-        - description: "Create a local branch using a unique branch name."
+        - description: "Create a local branch using your username as follows: `githubusername-branch`."
 additional-labs:
 additional-questions:
 resources:

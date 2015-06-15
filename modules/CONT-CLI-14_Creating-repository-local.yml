@@ -26,6 +26,7 @@ screens:
       steps:
         - description: Initialize a new git repository.
         - description: Create a README.md file and commit it to the repository.
+        - description: Create a branch in your new repository.
 additional-labs:
 additional-questions:
 resources:
