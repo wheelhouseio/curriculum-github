@@ -17,7 +17,7 @@ screens:
         - do: Click `Compare & pull request`
           say: "Since you made your changes on your branch, GitHub assumes you would like to compare those changes to the master branch. You can simply click Compare & pull request to start a new pull request."
         - do: Create a pull request
-          say: Now you can create a pull request using the same process you learned earlier.
+          say: "Now you can create a pull request using the same process you learned earlier."
   - lab:
       title: Syncing Files with GitHub
       presenter-script:

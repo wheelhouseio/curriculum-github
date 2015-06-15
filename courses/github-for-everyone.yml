@@ -19,6 +19,7 @@ sections:
       - CONT-02_Using-branches
       - CONT-030_Creating-files-platform
       - CONT-035_Creating-pull-requests
+      - POLL-01_Pace-poll-01
       - CONT-04_Editing-pull-request-files
       - CONT-05_Merging-pull-requests
   -
