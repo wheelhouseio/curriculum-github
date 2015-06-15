@@ -30,7 +30,7 @@ screens:
           say: "Simply add the -d option to the git branch command to delete the local copy of your branch."
       production-notes:
   - lab:
-      title: Viewing Diffs and Committing Changes
+      title: Merging Local Changes
       presenter-script:
         - Let's practice merging your changes locally on the command line.
       steps:
