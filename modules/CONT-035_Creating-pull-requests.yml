@@ -50,7 +50,7 @@ screens:
               failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
         - description: "Add a line comment to someone else's pull request in the class repository."
           verifications:
-            - verification-type: pull-request-comment
+            - verification-type: pull-request-review-comment
               success-message: "Great job - you commented on a pull request"
               failure-message: "It looks like you haven't commented on a pull request. Want to try again?"
 additional-labs:
