@@ -37,10 +37,15 @@ screens:
         - Now you will have a chance to complete the workflow on your own.
       steps:
         - description: "Create a new file on your branch."
+          id: CONT-CLI-08-create-file
         - description: "Add the file to staging and commit it locally."
+          id: CONT-CLI-08-commit
         - description: "Push your file to the remote."
+          id: CONT-CLI-08-push
         - description: "Create a pull request on GitHub."
+          id: CONT-CLI-08-pull-request
         - description: "Merge your changes into Master."
+          id: CONT-CLI-08-merge
 additional-labs:
 additional-questions:
 resources:

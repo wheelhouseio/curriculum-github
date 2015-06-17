@@ -29,10 +29,15 @@ screens:
         - Go ahead and set up your files for the next activity.
       steps:
         - description: "Open your file and make a few changes."
+          id: CONT-CLI-10-edit-01
         - description: "Save the changes and add them to the staging area. **Do not commit the changes yet.**"
+          id: CONT-CLI-10-stage
         - description: "Open the same file and make a few more changes."
+          id: CONT-CLI-10-edit-02
         - description: "Save the changes."
+          id: CONT-CLI-10-save
         - description: "Run git status."
+          id: CONT-CLI-10-status
 additional-labs:
 additional-questions:
 resources:

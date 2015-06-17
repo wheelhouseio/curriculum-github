@@ -23,6 +23,7 @@ screens:
         - Go ahead and create a local branch now!
       steps:
         - description: "Create a local branch using your username as follows: `githubusername-branch`."
+          id: CONT-CLI-07-branch
 additional-labs:
 additional-questions:
 resources:

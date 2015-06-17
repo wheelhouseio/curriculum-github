@@ -35,8 +35,11 @@ screens:
         - Let's practice merging your changes locally on the command line.
       steps:
         - description: Merge your local branch into master.
+          id: CONT-CLI-12-merge
         - description: Push your changes to the remote.
+          id: CONT-CLI-12-push
         - description: Delete the local copy of your branch.
+          id: CONT-CLI-12-delete
 additional-labs:
 additional-questions:
 resources:

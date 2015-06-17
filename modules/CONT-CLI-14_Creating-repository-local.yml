@@ -25,8 +25,11 @@ screens:
         - It's time to create your own local repository.
       steps:
         - description: Initialize a new git repository.
+          id: CONT-CLI-14-init
         - description: Create a README.md file and commit it to the repository.
+          id: CONT-CLI-14-commit
         - description: Create a branch in your new repository.
+          id: CONT-CLI-14-branch
 additional-labs:
 additional-questions:
 resources:

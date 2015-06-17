@@ -21,8 +21,11 @@ screens:
         - Now it is your turn to practice unstaging a file.
       steps:
         - description: Make changes to the file called threefile.md.
+          id: CONT-CLI-18-edit
         - description: Add the file to the staging area.
+          id: CONT-CLI-18-stage
         - description: Unstage the file.
+          id: CONT-CLI-18-unstage
 additional-labs:
 additional-questions:
 resources:
