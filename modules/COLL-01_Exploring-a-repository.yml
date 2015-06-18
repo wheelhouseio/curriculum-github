@@ -53,7 +53,7 @@ screens:
           id: COLL-01-qq3
           type: open-response
           options:
-            - value: /crichID/
+            - value: /crichID/i
               id: COLL-01-qq3-o1
               response: "Good job! @crichID opened issue #1."
               correct: true
@@ -65,7 +65,7 @@ screens:
           id: COLL-01-qq4
           type: open-response
           options:
-            - value: /peterbell/
+            - value: /peterbell/i
               id: COLL-01-qq4-o1
               response: "Good job! @peterbell was the first person to comment on issue #2."
               correct: true
