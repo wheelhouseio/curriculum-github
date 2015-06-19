@@ -28,7 +28,7 @@ screens:
       title: Configuring User Name and Email
       image: config-username-email.jpg
       presenter-script:
-        - "Git uses the config settings for your user name and email address to generate a unique fingerprint for each of the commits you create, so let's set our user name and email address first. Type `git config --global user.name \"<user name>\"` and Type `git config --global user.email \"<user email>\"`"
+        - "Go ahead and follow along as we set up our basic configurations. Git uses the config settings for your user name and email address to generate a unique fingerprint for each of the commits you create, so let's set our user name and email address first. Type `git config --global user.name \"<user name>\"` and Type `git config --global user.email \"<user email>\"`"
   - image-slide:
       title: Configuring Default Editor
       image: config-editor.jpg
