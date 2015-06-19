@@ -38,7 +38,7 @@ screens:
         - do: "Click `Delete branch`"
           say: "Since we won't be using this branch anymore, you should go ahead and delete it now."
         - do: "Click `Issues` and then filter to see the `Closed` issues"
-          say: "You can now go back to the issues tab and you will see that your issue has been closed."
+          say: "You can now go back to the issues tab and you will see that your issue has been closed. Congratulations, you have completed your first contribution on GitHub."
       production-notes:
   - lab:
       title: Merging Pull Requests
