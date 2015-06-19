@@ -28,7 +28,7 @@ screens:
         - do: "Type `#`"
           say: "We can use the # to auto-generate the link to the issue."
         - do: "Type a few letters from the issue name"
-          say: "Since the issue titles contained your username, you can type the first few letters of your GitHub username to narrow down the list of possible issues."
+          say: "Since the issue title contained your username, you can type the first few letters of your GitHub username to narrow down the list of possible issues."
         - do: "Select the correct issue from the drop down"
           say: "Simply select your issue from the list."
         - do: "Click `Confirm merge`"
