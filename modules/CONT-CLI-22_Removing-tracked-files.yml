@@ -21,6 +21,7 @@ screens:
         - Use the steps you just learned to remove a tracked file.
       steps:
         - description: "Remove the tracked file `onefile.md`"
+          id: CONT-CLI-23-remove
 additional-labs:
 additional-questions:
 resources:

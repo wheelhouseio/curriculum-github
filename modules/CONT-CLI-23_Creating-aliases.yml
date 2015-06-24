@@ -20,7 +20,9 @@ screens:
       presenter-script: Now is a great time to create a few aliases of your own.
       steps:
         - description: Create an alias for pushing a new branch upstream.
+          id: CONT-CLI-23-alias-push
         - description: Create an alias for the status command.
+          id: CONT-CLI-23-alias-status
 additional-labs:
 additional-questions:
 resources:

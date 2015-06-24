@@ -35,7 +35,9 @@ screens:
         - Go ahead and practice renaming files on your own.
       steps:
         - description: Rename the badname.md file to goodname.md.
+          id: CONT-CLI-15-rename
         - description: When you are finished, commit your file changes.
+          id: CONT-CLI-15-commit
 additional-labs:
 additional-questions:
 resources:

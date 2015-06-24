@@ -34,8 +34,10 @@ screens:
         - Let's make the changes requested by our teammates.
       steps:
         - description: "Go back to your pull request and make the requested changes. Commit the changes on the file directly to the feature branch and @mention the person who made the request."
+          id: CONT-04-edit-file
           verifications:
             - verification-type: file-modified
+              id: CONT-04-edit-file-verification
               success-message: "Great job - you edited a file on a pull request"
               failure-message: "It looks like you haven't edited a file on your pull request. Want to try again?"
 additional-labs:

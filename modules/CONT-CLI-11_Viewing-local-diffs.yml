@@ -26,7 +26,9 @@ screens:
         - Take some time to explore the git diff options.
       steps:
         - description: Make various changes to your file and use the git diff commands to see how they appear.
+          id: CONT-CLI-11-diff
         - description: When you are finished, commit your file changes.
+          id: CONT-CLI-11-commit
 additional-labs:
 additional-questions:
 resources:

@@ -46,8 +46,10 @@ screens:
         - Let's finish the workflow by merging our changes into master.
       steps:
         - description: "Merge the pull request you created, closing your original issue with the merge commit."
+          id: CONT-05-merge
           verifications:
             - verification-type: pull-request-merged
+              id: CONT-05-merge-verification
               success-message: "Great job - you have merged your branch."
               failure-message: "It looks like you haven't merged your branch. Want to try again?"
 additional-labs:

@@ -29,7 +29,9 @@ screens:
         - Let's fetch the changes made on the remote.
       steps:
         - description: "Fetch the changes."
+          id: EXT-CLI-01-fetch
         - description: "Merge the fetched changes into your local copy of the repository."
+          id: EXT-CLI-01-merge
 additional-labs:
 additional-questions:
 resources:

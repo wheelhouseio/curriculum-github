@@ -45,18 +45,24 @@ screens:
         - Let's practice creating issues now!
       steps:
         - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, some markdown formatting, and an @mention for the instructor."
+          id: COLL-02-create-issue
           verifications:
             - verification-type: issue-created
+              id: COLL-02-create-issue-verification
               success-message: "Great job - you created an issue."
               failure-message: "It looks like you didn't create an issue. Want to try again?"
         - description: Assign the issue you just created to yourself # optional for Monday
+          id: COLL-02-assign-issue
           verifications:
             - verification-type: issue-assigned-to-self
+              id: COLL-02-assign-issue-verification
               success-message: "Great job - you assigned the issue to yourself."
               failure-message: "It looks like you didn't assign the issue to yourself."
         - description: Apply the label of "Bio" to the issue # optional for Monday
+          id: COLL-02-label-issue
           verifications:
             - verification-type: issue-labeled
+              id: COLL-02-label-issue-verification
               success-message: "Great job - you applied the 'Bio' label to the issue"
               failure-message: "It looks like you didn't apply the 'Bio' label to the issue."
 additional-labs:
