@@ -21,6 +21,7 @@ screens:
       production-notes:
   - lab:
       title: Creating a Repository on the Command Line
+      id: CONT-CLI-14-lab-01
       presenter-script:
         - It's time to create your own local repository.
       steps:

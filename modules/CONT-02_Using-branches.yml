@@ -29,6 +29,7 @@ screens:
           say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. Now you are ready to create your own branch and start adding some commits."
   - lab:
       title: Creating a Branch
+      id: CONT-02-lab-01
       presenter-script:
         - Let's practice creating a branch.
       steps:

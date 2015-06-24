@@ -25,6 +25,7 @@ screens:
       production-notes:
   - lab:
       title: Fetching Changes
+      id: CONT-EXT-CLI-01-lab-01
       presenter-script:
         - Let's fetch the changes made on the remote.
       steps:

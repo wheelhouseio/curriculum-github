@@ -19,6 +19,7 @@ screens:
       production-notes:
   - lab:
       title: Create a Local Branch
+      id: CONT-CLI-07-lab-01
       presenter-script:
         - Go ahead and create a local branch now!
       steps:

@@ -33,6 +33,7 @@ screens:
       production-notes:
   - lab:
       title: Creating a New File
+      id: CONT-030-lab-01
       presenter-script:
         - Let's respond to the issue you created earlier by creating a file on your branch.
       steps:

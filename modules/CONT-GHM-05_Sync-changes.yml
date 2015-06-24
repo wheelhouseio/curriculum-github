@@ -17,6 +17,7 @@ screens:
       production-notes:
   - lab:
       title: Syncing Files with GitHub
+      id: CONT-GHM-05-lab-01
       presenter-script:
         - Let's push the file to the remote and create a pull request.
       steps:

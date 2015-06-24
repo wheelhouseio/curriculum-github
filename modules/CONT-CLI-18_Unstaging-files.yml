@@ -17,6 +17,7 @@ screens:
       production-notes:
   - lab:
       title: Unstaging files
+      id: CONT-CLI-18-lab-01
       presenter-script:
         - Now it is your turn to practice unstaging a file.
       steps:

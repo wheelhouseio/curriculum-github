@@ -42,6 +42,7 @@ screens:
       production-notes:
   - lab:
       title: Merging Pull Requests
+      id: CONT-05-lab-01
       presenter-script:
         - Let's finish the workflow by merging our changes into master.
       steps:

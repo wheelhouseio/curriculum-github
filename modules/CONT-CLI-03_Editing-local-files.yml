@@ -35,6 +35,7 @@ screens:
           say: "And open the file. Now that you are on your branch, the changes appear again."
   - lab:
       title: Editing Local Files
+      id: CONT-CLI-03-lab-01
       presenter-script:
         - Let's make some changes to our local files.
       steps:

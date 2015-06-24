@@ -17,6 +17,7 @@ screens:
       production-notes:
   - lab:
       title: Creating Aliases
+      id: CONT-CLI-23-lab-01
       presenter-script: Now is a great time to create a few aliases of your own.
       steps:
         - description: Create an alias for pushing a new branch upstream.

@@ -36,6 +36,7 @@ screens:
       production-notes:
   - lab:
       title: Editing Local Files
+      id: CONT-GHM-03-lab-01
       presenter-script:
         - Let's make some changes to our local files.
       steps:

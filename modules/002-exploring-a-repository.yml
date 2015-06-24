@@ -27,6 +27,7 @@ screens:
       production-notes: #Any notes for the person producing the video
   - lab: # Labs test real world skills. In this Git/GitHub curriculum the activities will be validated by our GitHubBot. Note that this is a provisional structure - tweak it for ease of parsing, coding or simply to make it better :)
       title: Create an issue # This is the title of the page setting the student expectations for what they need to do
+      id: 002-lab-01
       presenter-script:
         - Fork the repo
         - Create an issue

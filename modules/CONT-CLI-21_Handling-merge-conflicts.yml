@@ -4,6 +4,7 @@ learning-objective: Discover how to handle merge conflicts.
 screens:
   - lab:
       title: Creating a Merge Conflict
+      id: CONT-CLI-21-lab-01
       presenter-script:
         - "Merge conflicts occur when we are merging branches and two pieces of conflicting information try to occupy the same space at the same time. Let's set up a merge conflict scenario so we can learn how to fix it."
       steps:
@@ -42,6 +43,7 @@ screens:
       production-notes:
   - lab:
       title: Handling a Merge Conflict
+      id: CONT-CLI-21-lab-02
       presenter-script:
         - Now that you have seen the steps for handling a merge conflict, go ahead and clear the merge conflict you created earlier.
       steps:

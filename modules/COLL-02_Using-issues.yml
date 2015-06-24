@@ -41,6 +41,7 @@ screens:
           say: Most projects have a large number of issues and pull requests. Filters allow you to easily search for Issues or Pull Requests by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating issues!
   - lab:
       title: Creating an issue
+      id: COLL-02-lab-01
       presenter-script:
         - Let's practice creating issues now!
       steps:

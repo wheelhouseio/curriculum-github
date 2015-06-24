@@ -25,6 +25,7 @@ screens:
       production-notes:
   - lab:
       title: Discarding Changes in Modified Files
+      id: CONT-CLI-20-lab-01
       presenter-script:
         - Now it is your turn to practice discarding changes to modified files.
       steps:

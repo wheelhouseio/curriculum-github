@@ -27,6 +27,7 @@ screens:
       production-notes:
   - lab:
       title: Viewing Project History
+      id: CONT-CLI-13-lab-01
       presenter-script:
         - Take some time to explore the git log options.
       steps:
