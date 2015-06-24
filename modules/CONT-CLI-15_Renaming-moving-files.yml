@@ -11,7 +11,7 @@ screens:
         - do: "Type `touch badname.md`"
           say: "And we will call the other one badname.md"
         - do: "Type `git add .`"
-          say: "Then we will use a shortcut to add both of these file to the staging area. By using a . in place of the fie name, we tell git to add all of the untracked and modified files in our working tree to the staging area. This can be a helpful command, but it can also be dangerous. "
+          say: "Then we will use a shortcut to add both of these files to the staging area. By using a . in place of the file name, we tell git to add all of the untracked and modified files in our working tree to the staging area. This can be a helpful command, but it can also be dangerous. "
         - do: "Type `git status`"
           say: "The staging area allows us to confirm that the commit will look as we intended."
         - do: "Type `git commit -m\"Create throw away files\"`"
