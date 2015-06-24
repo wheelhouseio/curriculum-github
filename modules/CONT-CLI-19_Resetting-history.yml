@@ -33,7 +33,7 @@ screens:
         - do: "Type git status"
           say: "Now when we type git status we can see that the changes we made in the last two commits are sitting in the staging area waiting to be committed."
         - do: "Type git log --oneline --graph --decorate --all"
-          say: "When we create our git log, we can see that the HEAD is now sitting two commits earlier than it was before we used git reset."
+          say: "When we view our git log, we can see that the HEAD is now sitting two commits earlier than it was before we used git reset."
         - do: "Type git commit -m\"grouping commits for cleaner history\""
           say: "Let's go ahead and re-commit these changes."
       production-notes:
