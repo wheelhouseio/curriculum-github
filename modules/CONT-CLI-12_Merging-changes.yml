@@ -31,6 +31,7 @@ screens:
       production-notes:
   - lab:
       title: Merging Local Changes
+      id: CONT-CLI-12-lab-01
       presenter-script:
         - Let's practice merging your changes locally on the command line.
       steps:

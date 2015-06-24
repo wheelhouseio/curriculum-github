@@ -25,6 +25,7 @@ screens:
       production-notes:
   - lab:
       title: Modifying Local Files
+      id: CONT-CLI-10-lab-01
       presenter-script:
         - Go ahead and set up your files for the next activity.
       steps:

@@ -33,6 +33,7 @@ screens:
       production-notes:
   - lab:
       title: Workflow Review
+      id: CONT-CLI-08-lab-01
       presenter-script:
         - Now you will have a chance to complete the workflow on your own.
       steps:

@@ -22,6 +22,7 @@ screens:
       production-notes:
   - lab:
       title: Viewing Diffs and Committing Changes
+      id: CONT-CLI-11-lab-01
       presenter-script:
         - Take some time to explore the git diff options.
       steps:

@@ -31,6 +31,7 @@ screens:
       production-notes:
   - lab:
       title: Renaming Files
+      id: CONT-CLI-15-lab-01
       presenter-script:
         - Go ahead and practice renaming files on your own.
       steps:

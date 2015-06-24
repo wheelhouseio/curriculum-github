@@ -4,6 +4,7 @@ learning-objective: Describe the process for reversing a commit.
 screens:
   - lab:
       title: Making Commits
+      id: CONT-CLI-16-lab-01
       presenter-script:
         - Next we will learn how to undo a commit. Complete these steps to prepare your files for this exercise.
       steps:
@@ -32,6 +33,7 @@ screens:
       production-notes:
   - lab:
       title: Reverting Your Commit
+      id: CONT-CLI-16-lab-02
       presenter-script:
         - Now it is your turn to practice the steps we discussed.
       steps:

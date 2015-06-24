@@ -20,6 +20,7 @@ screens:
           say: "Now you can create a pull request using the same process you learned earlier."
   - lab:
       title: Syncing Files with GitHub
+      id: CONT-CLI-05-lab-01
       presenter-script:
         - Let's push the file to the remote and create a pull request.
       steps:
