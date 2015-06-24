@@ -14,9 +14,9 @@ screens:
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: Navigate to the `class repository`
-          say: "Earlier you created a branch in this repository. Starting your branch on GitHub is a good best practice to adopt. It lets others know you are working on a specific branch and prevents merge conflicts later in the process."
-        - do: Click the `branch dropdown`
-          say: Go ahead and check to see that you finished creating your branch.
+          say: "To create a clone of a GitHub repository, you will navigate to the Code view."
+        - do: Create a new branch named `<githubID>-more-bio`
+          say: Starting your branches on GitHub is a good best practice to adopt. It lets others know you are working on a specific branch and prevents merge conflicts later in the process.
         - do: Copy the `clone URL`
           say: "Now, since we want to work locally let's copy the clone URL to our clipboard."
         - do: Open the CLI
@@ -38,6 +38,7 @@ screens:
       presenter-script:
         - Let's go ahead and clone this repository to your local desktop.
       steps:
+        - description: Create a new branch. Name the branch githubID-more-bio, using your githubID.
         - description: Clone the repository to your desktop.
           id: CONT-CLI-02-clone
         - description: Checkout your branch.
