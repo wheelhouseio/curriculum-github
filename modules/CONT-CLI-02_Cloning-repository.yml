@@ -16,7 +16,7 @@ screens:
         - do: Navigate to the `class repository`
           say: "To create a clone of a GitHub repository, you will navigate to the Code view."
         - do: Create a new branch named `<githubID>-more-bio`
-          say: Starting your branches on GitHub is a good best practice to adopt. It lets others know you are working on a specific branch and prevents merge conflicts later in the process.
+          say: Let's start by creating a new branch. Starting your branches on GitHub is a good best practice to adopt. It lets others know you are working on a specific branch and prevents merge conflicts later in the process.
         - do: Copy the `clone URL`
           say: "Now, since we want to work locally let's copy the clone URL to our clipboard."
         - do: Open the CLI
