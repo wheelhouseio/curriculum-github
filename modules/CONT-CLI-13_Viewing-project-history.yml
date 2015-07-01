@@ -7,11 +7,11 @@ screens:
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: "Type `git pull origin`"
-          say: "Now that everyone has merged and pushed their changes to the remote, let's pull those changes back to our local copy. Last time we used two commands, git fetch and git merge. This time, we will use a shortcut command, git pull, to perform both of these operations for us."
+          say: "Now that everyone has merged and pushed their changes to the remote, let's pull those changes back to our local copy. We can do this with git pull."
         - do: "Type `git log`"
-          say: "Now that we have made a few commits, let's take a look at our project history. Git log is the most basic command. It provides a list of all of the commits made on our branch with the most recent commit first."
+          say: "We have made a few commits, let's take a look at our project history. Git log is the most basic command. It provides a list of all of the commits made on our branch with the most recent commit first."
         - do: "Press `q`"
-          say: "You can press up, down or enter to view additional log entries, or q to quit viewing the log and return to the command prompt."
+          say: "You can press the up or down arrows or press enter to view additional log entries. Type q to quit viewing the log and return to the command prompt."
         - do: "Type `git log --oneline`"
           say: "Git log has a great deal of information, but it is a little verbose. If you would like to see a condensed version, add the --oneline option."
         - do: "Type `git log --oneline --graph`"
