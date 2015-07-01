@@ -16,29 +16,27 @@ screens:
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: Navigate to the `class repository`
-          say: I have created a repository for this class. Please log in to GitHub using your user name and access <the class repository> now.
+          say: Let's dive a little deeper into Issues.
         - do: "Navigate to the issue `Class Goals`"
-          say: I have created an issue titled Class Goals. Let's look at some of the special features in issues that we use to encourage collaboration.
-        - do: Add an issue comment demonstrating markdown formatting for headers, checkboxes and emoji.
+          say: Here, I will create an issue titled Class Goals. Let's look at some of the special features in issues that you will use to collaborate with your team.
+        - do: Add an issue comment demonstrating markdown formatting for headers, bullets and checkboxes.
           say: GitHub uses a syntax called Markdown to help you add basic text formatting to issues.
         - do: "@mention any co-teachers"
           say: One of our favorite features is the @mention. When you @mention someone in an issue, they will receive a notification - even if they are not currently subscribed to the issue or watching the repository.
         - do: Click `Preview`
-          say: You can use the preview tab to see how your comment will be rendered (meaning how GitHub will actually display your Markdown file) before you click the comment button.
+          say: You can use the preview tab to see how your comment will be rendered (meaning how GitHub will actually display your Markdown file).
         - do: Include an issue attachment
           say: You can also add pictures by simply dragging and dropping them into the comment field, or clicking the file uploader link.
         - do: Click `Comment`
           say: Click the green comment button to add your comments to the discussion.
-        - do: Learners comment on issue
-          say: I would like to add you all as collaborators to this repository, but first I will need your GitHub user names. Please add a comment to this issue so I can add you to the collaborator's team
         - do: Return to the `Issues` view
-          say: As you can imagine, a large project can have a hundreds of issues. Let's look at a few ways your project team can organize issues.
+          say: As you can imagine, a large project can have hundreds of issues. Let's look at a few ways your project team can organize issues.
         - do: "`Assign` the issue to the co-teacher"
-          say: First, you can assign issues to anyone with access to the repo. Typically, this will be the person who is currently responsible for working on the project. The issue assignee may change over time.
+          say: First, you can assign issues to anyone with access to the repo. Typically, this will be the person who is currently responsible for the next step in the life of the issue. The issue assignee may change over time.
         - do: Add a `label` to the issue
-          say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add more of your own. As a project grows in size, using assignees and labels makes it much easier to find a given issue or pull request.
+          say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add your own. As a project grows in size, using assignees and labels makes it much easier to find a specific issue.
         - do: "Click `Issues > Filters`"
-          say: Most projects have a large number of issues and pull requests. Filters allow you to easily search for Issues or Pull Requests by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating issues!
+          say: Filters allow you to easily search for Issues by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating an issue!
   - lab:
       title: Creating an issue
       presenter-script:
