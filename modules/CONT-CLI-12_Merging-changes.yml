@@ -13,7 +13,7 @@ screens:
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: "Type `git branch`"
-          say: "First, we will need to make sure we are checked out to the correct branch. When we are performing a merge, we need to be checked out to the branch we are merging into. "
+          say: "Before we merge, we will need to make sure we are checked out to the correct branch. When we are performing a merge, we need to be checked out to the branch we are merging into. "
         - do: "Type `git checkout master`"
           say: "In this example, we want to merge our feature branch into master, so we will check out to master."
         - do: "Type `git merge <branch-name>`"

@@ -12,15 +12,15 @@ screens:
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
       video-script:
         - do: Navigate to the first sample repository
-          say: The repository is the container that holds everything related to your project.
+          say: The GitHub repository is the container that holds everything related to your project.
         - do: Click `Code` view
-          say: The code view is where you will find the files included the repository. These files may contain the project code, documentations, and other important files. We also call this view the root of the project. Any changes to these files is tracked via Git version control.
+          say: The code view is where you will find the files included in the repository. These files may contain the project code, documentation, and other important files. We also call this view the root of the project. Any changes to these files will be tracked via Git version control.
         - do: View the `README.md`
-          say: The README.md is a special file that we recommend all repositories contain. GitHub looks for this file and helpfully displays it below the repository. It usually explains the project and where to find helpful information within the project.
+          say: The README.md is a special file that we recommend all repositories contain. GitHub looks for this file and helpfully displays it below the repository. The README should explain the project and point readers to helpful information within the project.
         - do: Click `Issues` view
-          say: Issues are used to track bugs and feature requests for the project. Issues can be assigned to specific team members and are designed to encourage discussion and collaboration.
+          say: Issues are used to track bugs and feature requests. Issues can be assigned to specific team members and are designed to encourage discussion and collaboration.
         - do: Click `Pull Request` view
-          say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues.
+          say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues. Go ahead and click around in the class repository now to familiarize yourself with its contents.
       production-notes:
   - quiz:
       title: Exploring a Repository
