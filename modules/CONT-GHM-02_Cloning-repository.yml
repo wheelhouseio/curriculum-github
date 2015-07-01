@@ -30,11 +30,14 @@ screens:
       production-notes:
   - lab:
       title: Cloning a Repository
+      id: CONT-GHM-02-lab-01
       presenter-script:
         - Let's go ahead and clone this repository to your local desktop.
       steps:
         - description: Clone the repository to your desktop.
+          id: CONT-GHM-02-clone
         - description: Checkout your branch.
+          id: CONT-GHM-02-checkout
 additional-labs:
 additional-questions:
 resources:

@@ -52,11 +52,14 @@ screens:
           say: Git provides confirmation when the commit is complete.
   - lab:
       title: Committing Your Changes
+      id: CONT-CLI-04-lab-01
       presenter-script:
         - Let's use the two-stage commit to stage and commit our changes.
       steps:
         - description: Add your file to staging.
+          id: CONT-CLI-04-add
         - description: Commit your changes.
+          id: CONT-CLI-04-commit
 additional-labs:
 additional-questions:
 resources:

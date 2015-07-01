@@ -38,10 +38,12 @@ screens:
       production-notes:
   - lab:
       title: Cloning the Repository
+      id: CONT-CLI-06-lab-01
       presenter-script:
         - Now that we have created a repository on GitHub, let's clone the new repository to our desktop.
       steps:
         - description: "Clone the new repository to your desktop."
+          id: CONT-CLI-06-clone
 additional-labs:
 additional-questions:
 resources:

@@ -4,14 +4,20 @@ learning-objective: Discover how to handle merge conflicts.
 screens:
   - lab:
       title: Creating a Merge Conflict
+      id: CONT-CLI-21-lab-01
       presenter-script:
         - "Merge conflicts occur when we are merging branches and two pieces of conflicting information try to occupy the same space at the same time. Let's set up a merge conflict scenario so we can learn how to fix it."
       steps:
         - description: "Create and checkout a branch called `merge-me`."
+          id: CONT-CLI-21-01-branch
         - description: "Create a file on your branch called `conflict.md`. Add several lines of text to your file, then stage it and commit it."
+          id: CONT-CLI-21-01-commit-branch
         - description: "Checkout your `master` branch."
+          id: CONT-CLI-21-01-checkout
         - description: "Create a file on your master branch that is also called `conflict.md`. Add several lines of text to your file, then stage it and commit it."
+          id: CONT-CLI-21-01-commit-master
         - description: "Merge your merge-me branch into master. This should create a merge conflict."
+          id: CONT-CLI-21-01-merge
   - video-slide:
       title: Handling Merge Conflicts
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
@@ -37,10 +43,12 @@ screens:
       production-notes:
   - lab:
       title: Handling a Merge Conflict
+      id: CONT-CLI-21-lab-02
       presenter-script:
         - Now that you have seen the steps for handling a merge conflict, go ahead and clear the merge conflict you created earlier.
       steps:
         - description: "Clear your merge conflict."
+          id: CONT-CLI-21-02-resolve
 additional-labs:
 additional-questions:
 resources:

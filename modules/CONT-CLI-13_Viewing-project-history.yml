@@ -27,12 +27,16 @@ screens:
       production-notes:
   - lab:
       title: Viewing Project History
+      id: CONT-CLI-13-lab-01
       presenter-script:
         - Take some time to explore the git log options.
       steps:
         - description: "View `git log` on your copy of the repository."
+          id: CONT-CLI-13-log-simple
         - description: "View `git log --oneline` on your copy of the repository."
+          id: CONT-CLI-13-log-oneline
         - description: "View `git log --oneline --graph --decorate --all` on your copy of the repository."
+          id: CONT-CLI-13-log-complex
 additional-labs:
 additional-questions:
 resources:

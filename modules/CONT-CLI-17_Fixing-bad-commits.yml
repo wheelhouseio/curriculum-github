@@ -4,11 +4,14 @@ learning-objective: Discover steps you can take when you realize you messed up t
 screens:
   - lab:
       title: Making Commits
+      id: CONT-CLI-17-lab-01
       presenter-script:
         - Next we will learn how to change a commit. Complete these steps to prepare your files for this exercise.
       steps:
         - description: Create a file called `onefile.md`. Do not commit the file.
+          id: CONT-CLI-17-01-onefile
         - description: Create a file called `twofile.md`. Do not commit the file.
+          id: CONT-CLI-17-01-twofile
   - video-slide:
       title: Fixing Bad Commits
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
@@ -30,11 +33,14 @@ screens:
       production-notes:
   - lab:
       title: Using Commit Amend
+      id: CONT-CLI-17-lab-02
       presenter-script:
         - Now it is your turn to practice the steps we discussed.
       steps:
         - description: Create a new file called threefile.md.
+          id: CONT-CLI-17-02-threefile
         - description: Add `threefile.md` to your previous commit.
+          id: CONT-CLI-17-02-amend
 additional-labs:
 additional-questions:
 resources:

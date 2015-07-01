@@ -17,10 +17,12 @@ screens:
       production-notes:
   - lab:
       title: Removing Tracked Files
+      id: CONT-CLI-22-lab-01
       presenter-script:
         - Use the steps you just learned to remove a tracked file.
       steps:
         - description: "Remove the tracked file `onefile.md`"
+          id: CONT-CLI-23-remove
 additional-labs:
 additional-questions:
 resources:

@@ -17,13 +17,17 @@ screens:
       production-notes:
   - lab:
       title: Syncing Files with GitHub
+      id: CONT-GHM-05-lab-01
       presenter-script:
         - Let's push the file to the remote and create a pull request.
       steps:
         - description: "Use the GitHub Desktop App to sync your changes with the remote."
+          id: CONT-GHM-05-app-sync
         - description:  "Go to the GitHub repo and create a new pull request."
+          id: CONT-GHM-05-pull-request
           verifications:
             - verification-type: pull-request
+              id: CONT-GHM-05-pull-request-verification
               success-message: "Great job - you created a pull request"
               failure-messages: "It looks like you haven't created a pull request. Want to try again?"
 additional-labs:

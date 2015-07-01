@@ -33,12 +33,15 @@ screens:
       production-notes:
   - lab:
       title: Creating a New File
+      id: CONT-030-lab-01
       presenter-script:
         - Let's respond to the issue you created earlier by creating a file on your branch.
       steps:
         - description: "Add a new bio file to the docs folder. Name the file firstname-lastname.md."
+          id: CONT-030-create-file
           verifications:
             - verification-type: file-created
+              id: CONT-030-create-file-verification
               success-message: "Great job - you created a new file"
               failure-message: "It looks like you haven't created a file. Want to try again?"
 additional-labs:

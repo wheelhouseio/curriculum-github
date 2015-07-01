@@ -29,10 +29,12 @@ screens:
       production-notes:
   - lab:
       title: Pulling Changes
+      id: CONT-CLI-09-lab-01
       presenter-script:
         - Let's update your local copy of the repository.
       steps:
         - description: "Retrieve the changes from the remote."
+          id: CONT-CLI-09-pull
 additional-labs:
 additional-questions:
 resources:

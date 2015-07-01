@@ -35,12 +35,16 @@ screens:
           say: "And open the file. Now that you are on your branch, the changes appear again."
   - lab:
       title: Editing Local Files
+      id: CONT-CLI-03-lab-01
       presenter-script:
         - Let's make some changes to our local files.
       steps:
         - description: Open your bio file in a text editor.
+          id: CONT-CLI-03-open
         - description: Add more information to your bio.
+          id: CONT-CLI-03-edit
         - description: Save the file.
+          id: CONT-CLI-03-save
 additional-labs:
 additional-questions:
 resources:

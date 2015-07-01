@@ -36,12 +36,16 @@ screens:
       production-notes:
   - lab:
       title: Editing Local Files
+      id: CONT-GHM-03-lab-01
       presenter-script:
         - Let's make some changes to our local files.
       steps:
         - description: Open your bio file in a text editor.
+          id: CONT-GHM-03-open
         - description: Add more information to your bio.
+          id: CONT-GHM-03-edit
         - description: Save the file.
+          id: CONT-GHM-03-save
 additional-labs:
 additional-questions:
 resources:

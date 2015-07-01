@@ -25,11 +25,14 @@ screens:
       production-notes:
   - lab:
       title: Discarding Changes in Modified Files
+      id: CONT-CLI-20-lab-01
       presenter-script:
         - Now it is your turn to practice discarding changes to modified files.
       steps:
         - description: Edit the file `threefile.md`.
+          id: CONT-CLI-20-edit
         - description: "Use `git checkout` to discard your changes."
+          id: CONT-CLI-20-checkout
 additional-labs:
 additional-questions:
 resources:

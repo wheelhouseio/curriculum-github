@@ -4,13 +4,18 @@ learning-objective: Describe the process for reversing a commit.
 screens:
   - lab:
       title: Making Commits
+      id: CONT-CLI-16-lab-01
       presenter-script:
         - Next we will learn how to undo a commit. Complete these steps to prepare your files for this exercise.
       steps:
         - description: Open your `goodname.md` file and add some text.
+          id: CONT-CLI-16-01-edit-01
         - description: When you are finished, commit your file changes.
+          id: CONT-CLI-16-01-commit-01
         - description: Re-open your `goodname.md` file and make changes to the original text.
+          id: CONT-CLI-16-01-edit-02
         - description: When you are finished, commit your file changes.
+          id: CONT-CLI-16-01-commit-02
   - video-slide:
       title: Reverting Commits
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
@@ -28,10 +33,12 @@ screens:
       production-notes:
   - lab:
       title: Reverting Your Commit
+      id: CONT-CLI-16-lab-02
       presenter-script:
         - Now it is your turn to practice the steps we discussed.
       steps:
         - description: Revert the last commit you made on goodname.md.
+          id: CONT-CLI-16-02-revert
 additional-labs:
 additional-questions:
 resources:
