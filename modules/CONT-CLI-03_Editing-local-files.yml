@@ -21,18 +21,6 @@ screens:
           say: Add more information about yourself to the end of the original file.
         - do: Click `Save > Quit`
           say: "When you are finished, save the file and close the text editor. "
-        - do: Open the CLI
-          say:  Let's go back to the terminal window and take a look at what we have just done.
-        - do: Type `git checkout master`
-          say: First, let's checkout the master branch.
-        - do: Type `atom <file-name.md>`
-          say: "When you open your file with the master branch selected, you will notice that the changes you just made to the file are not included. "
-        - do: Open the CLI
-          say: Now go back to your terminal window
-        - do: Type `git checkout <your branch>`
-          say: And check out your branch again.
-        - do: Type `atom <file-name.md>`
-          say: "Now when you open the file, the changes appear again because git is showing you the version of the file that exists on your branch."
   - lab:
       title: Editing Local Files
       id: CONT-CLI-03-lab-01

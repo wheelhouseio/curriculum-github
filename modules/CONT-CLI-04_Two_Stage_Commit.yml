@@ -50,6 +50,16 @@ screens:
           say: When you are happy with your commit message, simply save it and close your text editor.
         - do: Show git output message for commit
           say: Git provides a visual confirmation when the commit is complete.
+        - do: Type `git checkout master`
+          say: Let's take a look at what we have just done. First, let's checkout the master branch.
+        - do: Type `atom <file-name.md>`
+          say: "When you open your file with the master branch selected, you will notice that the changes you just made to the file are not included. "
+        - do: Open the CLI
+          say: Now go back to your terminal window
+        - do: Type `git checkout <your branch>`
+          say: And check out your branch again.
+        - do: Type `atom <file-name.md>`
+          say: "Now when you open the file, the changes appear again because git is showing you the version of the file that exists on your branch."
   - lab:
       title: Committing Your Changes
       id: CONT-CLI-04-lab-01
