@@ -4,7 +4,7 @@ learning-objective: Create a local repository on the command line.
 screens:
   - video-slide:
       title: Creating a Repository on the Command Line
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/DU_Z_3ux29c
       video-script:
         - do: "Type `cd`"
           say: "Earlier we learned how to create a repository on GitHub and clone it to our local desktop. Sometimes, we want to start a project locally and then push it up to the remote. To do this, we will need to create a local repository. Go ahead and navigate to a location where we can create a new directory."

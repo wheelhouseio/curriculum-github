@@ -4,7 +4,7 @@ learning-objective: Create a branch locally using the command line.
 screens:
   - video-slide:
       title: Creating Branches Locally
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/gRAMYnQcA_s
       video-script:
         - do: "Open the CLI"
           say: "The first thing we want to do is to create a local branch."

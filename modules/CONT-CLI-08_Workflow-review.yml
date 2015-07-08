@@ -4,7 +4,7 @@ learning-objective: Review the GitHub flow using the command line.
 screens:
   - video-slide:
       title: Workflow Review
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/SPNodd0M4wA
       video-script:
         - do: "Show https://guides.github.com/introduction/flow/"
           say: "Remember that branching is fundamental to the GitHub flow. Now that we have created our branch, let's take a moment to review the rest of the workflow without any breaks for explanations like we did the first time. This time, lets create a file to tell others a few things they can do when they visit our home town. Along the way, I will show you a few helpful shortcuts."

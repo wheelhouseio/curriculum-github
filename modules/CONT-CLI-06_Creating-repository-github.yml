@@ -13,7 +13,7 @@ screens:
         - "If I want to collaborate with you on a project then I will start a repository on GitHub. Let's discuss some best practices for GitHub repositories now."
   - video-slide:
       title: Creating a Repository on GitHub
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/-L9etpros8Q
       video-script:
         - do: "Click the dropdown arrow next to the `+` and select `Create New Repository`"
           say: "Creating a new repository is just a few clicks on GitHub. First, select the option to Create New Repository"

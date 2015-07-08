@@ -22,7 +22,7 @@ screens:
         - "Let's take a look at each of these options in action."
   - video-slide:
       title: Using the Soft Reset
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/220qkGeEn6A
       video-script:
         - do: "Type git log --oneline --graph --decorate --all"
           say: "Let's start by exploring the soft reset. First, we will use the log command to look at the history of our project."
@@ -54,7 +54,7 @@ screens:
       production-notes:
   - video-slide:
       title: Using the Hard Reset
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/V66d5e8Ku4w
       video-script:
         - do: "Type git log --oneline --graph --decorate --all"
           say: "Finally we will explore the hard reset."

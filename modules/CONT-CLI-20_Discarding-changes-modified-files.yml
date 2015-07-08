@@ -4,7 +4,7 @@ learning-objective: Discover steps you can take when you need to discard the cha
 screens:
   - video-slide:
       title: Discarding Changes in Modified Files
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/ZFQevwF7Diw
       video-script:
         - do: "Type `echo \"This is my original content\" > changeme.md`"
           say: "Next we will discuss how to discard changes to a modified file. First, let's create a file called changeme.md with some basic text inside."

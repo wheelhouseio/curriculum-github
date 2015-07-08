@@ -10,7 +10,7 @@ screens:
         - We use push to send our changes to the remote, but we use pull to retrieve changes from the remote. When we pull the files from the remote git downloads a copy of the new commits that have been added to the branch since our last pull and then attempts to merge them into our local branch.
   - video-slide:
       title: Pulling Changes from the Remote
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/6w8_Z1nd9_s
       video-script:
         - do: "Open the CLI"
           say: "Let's go back to our terminal window."
