@@ -4,7 +4,7 @@ learning-objective: Discover Git commands for renaming and moving tracked files.
 screens:
   - video-slide:
       title: Renaming and Moving Files
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/tkTWUnvrudo
       video-script:
         - do: "Type `touch moveme.md`"
           say: "Let's create two files we can throw away later. We will call the first one moveme.md"

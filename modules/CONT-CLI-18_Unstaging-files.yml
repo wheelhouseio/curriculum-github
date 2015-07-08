@@ -4,7 +4,7 @@ learning-objective: Discover steps you can take when you need to unstage files.
 screens:
   - video-slide:
       title: Unstaging Files
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/8rfabV-Vd00
       video-script:
         - do: "Type `echo \"This is my file to unstage.\" > unstageme.md`"
           say: "Let's set up another scenario. First we will create a file called unstageme.md."

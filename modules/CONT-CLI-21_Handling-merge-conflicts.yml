@@ -20,7 +20,7 @@ screens:
           id: CONT-CLI-21-01-merge
   - video-slide:
       title: Handling Merge Conflicts
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/_7_VlW4ySI0
       video-script:
         - do: "Type `git status`"
           say: "Now that you have created a merge conflict, let's learn how to fix it using a simple text editor. First we will type git status and look for a section called unmerged paths. This tells us which files are creating the merge conflict."

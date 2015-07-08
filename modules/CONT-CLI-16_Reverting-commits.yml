@@ -18,7 +18,7 @@ screens:
           id: CONT-CLI-16-01-commit-02
   - video-slide:
       title: Reverting Commits
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/tPmbFCniIWA
       video-script:
         - do: "Type `git log --stat`"
           say: "Let's take a look at the history you just created. You should have at least two commits to the same file."

@@ -14,7 +14,7 @@ screens:
           id: CONT-CLI-17-01-twofile
   - video-slide:
       title: Fixing Bad Commits
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/lDbp6c44Pn4
       video-script:
         - do: "Type `git add onefile.md`"
           say: "Let's add onefile.md to staging."
