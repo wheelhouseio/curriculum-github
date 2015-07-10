@@ -4,7 +4,7 @@ learning-objective: Discover how to create shortcuts for commonly used git comma
 screens:
   - video-slide:
       title: Creating Command Shortcuts
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/p9Cipt1aXSQ
       video-script:
         - do: "Type `git log --oneline --graph --decorate --all`"
           say: "By now you are probably getting tired of typing some of these long commands in git. Well here is some good news. You can configure shortcuts by using aliases."

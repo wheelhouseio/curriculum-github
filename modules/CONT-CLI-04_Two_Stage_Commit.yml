@@ -30,7 +30,7 @@ screens:
         - In order to make a file part of the version controlled directory we will first do a git add and then we will do a git commit. Let's do it now.
   - video-slide:
       title: The Two Stage Commit
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/_gDABUBrmBA
       video-script:
         - do: Type `git status`
           say: Remember that Git status allows us to see the status of the files on our branch at any given time.

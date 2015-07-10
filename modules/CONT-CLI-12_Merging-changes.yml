@@ -10,7 +10,7 @@ screens:
         - "We have already learned how to merge our changes on GitHub during the pull request process, now let's learn how to merge our changes locally."
   - video-slide:
       title: Merging Local Changes
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/CD9M9pEHXj4
       video-script:
         - do: "Type `git branch`"
           say: "Before we merge, we will need to make sure we are checked out to the correct branch. When we are performing a merge, we need to be checked out to the branch we are merging into. "
