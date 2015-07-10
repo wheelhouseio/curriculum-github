@@ -75,10 +75,9 @@ screens:
   - quiz:
       title: Checking Out a Branch
       id: CONT-CLI-02-quiz-02
-      image: CONT-CLI-02-quiz-02.jpg
       presenter-script: Check out a branch in a cloned repository.
       questions:
-        - title: Type the Git command you would use to checkout the highlighted branch in the image.
+        - title: Type the Git command you would use to switch to a branch named `more-bio-changes` that you created on GitHub before cloning the repository.
           id: CONT-CLI-02-qq2
           type: open-response
           options:
