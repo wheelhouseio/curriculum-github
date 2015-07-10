@@ -13,7 +13,7 @@ screens:
         - Allowing you to easily pull the right people into a conversation.
   - video-slide:
       title: Using Issues
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/Zhj46r5D0nQ
       video-script:
         - do: Navigate to the `class repository`
           say: Let's dive a little deeper into Issues.

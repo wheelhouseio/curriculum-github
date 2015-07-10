@@ -9,7 +9,7 @@ screens:
         - "Now that you have cloned the repository and checked out your branch, you are ready to make some changes to the local files. If you are familiar with using the command line to open and edit files, then much of this will be familiar to you. The only difference here is that we will be making our changes on a branch. Let's add more information to the bio we created earlier."
   - video-slide:
       title: Editing Local Files
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/QYZnKoJ_Hdg
       video-script:
         - do: Type `git branch`
           say: "Before you make any changes, you will want to double check that you are on the correct branch."

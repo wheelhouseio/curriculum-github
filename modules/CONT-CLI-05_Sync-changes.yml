@@ -4,7 +4,7 @@ learning-objective: Create a branch to separate feature work from the master bra
 screens:
   - video-slide:
       title: Pushing Changes
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/C9mU7Vv0HSM
       video-script:
         - do: Show push diagram from training kit
           say: "Now that you have made some changes and committed them locally, it is time to push them up to the remote. In this case, our remote is GitHub.com, but this could also be your company's internal instance of GHE."

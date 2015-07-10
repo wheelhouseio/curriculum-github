@@ -9,7 +9,7 @@ screens:
         - "In the last section, we made several changes to a local file, causing the file to appear in different stages of the commit process. The git diff command allows us to see what has changed in these different versions of our files. Let's explore some of these options now."
   - video-slide:
       title: Viewing Local Diffs
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/xGodilQg3dQ
       video-script:
         - do: "Type `git diff`"
           say: "Let's start with git diff without any options. This command compares the changes you have made in the working directory with the staged version of the file."

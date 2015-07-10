@@ -4,7 +4,7 @@ learning-objective: Introduce the social features of GitHub.
 screens:
   - video-slide:
       title: Getting Social on GitHub
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://youtu.be/ocQldxF7fMY
       video-script:
         - do: Navigate to the `class repository`
           say: "In addition to Issues and Pull Requests, GitHub provides many of the social features you would expect from a collaboration platform. Let's take a look at a few of these features now."
