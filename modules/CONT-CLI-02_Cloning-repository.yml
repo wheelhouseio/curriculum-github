@@ -70,7 +70,7 @@ screens:
               correct: false
             - value: # Null means it matches anything else - please make this the last option
               id: CONT-CLI-02-qq1-o3
-              response: Not quite. You need to include both the Git command: `git clone` and the URL for the remote repo. In this case, the full command would be `git clone https://github.com/githubteacher/sample-repo.git`
+              response: Not quite. You need to include both the Git command `git clone` and the URL for the remote repo. In this case, the full command would be `git clone https://github.com/githubteacher/sample-repo.git`
               correct: false
   - quiz:
       title: Checking Out a Branch
