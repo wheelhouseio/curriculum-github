@@ -48,9 +48,9 @@ screens:
         - do: "Type git reset HEAD~"
           say: "We can type git reset without any options since --mixed is the default mode for reset, then we tell git where we want to reset to. In this case, the tilde tells git we want to reset to one commit before the current location of HEAD."
         - do: "Type git status"
-          say: "Now, when we type git status the changes we made in the last commit are in Changes not staged for commit. We need to add them to the staging area if we want to commit them."
+          say: "Now, when we type git status the changes we made in the last commit have been moved back to the working directory. We need to add them to the staging area before we can commit them."
         - do: "Type git commit -m\"another reset example\""
-          say: "Let's go ahead and re-commit these changes again."
+          say: "Let's go ahead and re-commit these changes."
       production-notes:
   - video-slide:
       title: Using the Hard Reset
