@@ -39,7 +39,7 @@ screens:
       production-notes:
   - video-slide:
       title: Using the Mixed Reset
-      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+      video: https://www.youtube.com/watch?v=aYNOCvVevic
       video-script:
         - do: "Type git log --oneline --graph --decorate --all"
           say: "Next we will explore the mixed reset. Once again, we will start by viewing the history of our project."
