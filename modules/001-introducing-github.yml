@@ -6,7 +6,7 @@ learning-objective: Understand the purpose of GitHub and the differnce between G
 screens: # Each module is comprised of 1..n screens - you could think of them like slides in keynote containing an image, a video, a poll, or a quiz.
   - poll: # One type of screen displays a poll. A poll is comprised of one or more questions.
       title: Version Control Poll
-      presenter-notes: Here's a quick poll to gauge your experience with Git and GitHub.
+      presenter-script: Here's a quick poll to gauge your experience with Git and GitHub.
       questions: # A poll might have one or more questions
         - title: Have you used a version control system before? # Displayed as the question title
           id: m001-pq1
@@ -24,17 +24,17 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
   - image-slide:
       title: What is GitHub?
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
-      presenter-notes:
+      presenter-script:
         - GitHub is a collaboration platform built on top of the distributed version control system called Git.
   - image-slide:
       title: Key GitHub Features
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
-      presenter-notes:
+      presenter-script:
         - In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate including issues for discussing features and bugs, and pull requests for discussing and reviewing new features your team is working on.
   - image-slide:
       title: The GitHub Ecosystem
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
-      presenter-notes:
+      presenter-script:
         - You can also use all of your favorite tools with GitHub. Indispensable tools like continuous integration and continuous deployment help you and your team build software better, together.
 additional-labs: # Don't parse this for now - it'll be used for additional labs for end of class tests and/or certifications
 additional-questions: # Don't parse this for now - it'll be used for additional quizzes for end of class tests and/or certifications
