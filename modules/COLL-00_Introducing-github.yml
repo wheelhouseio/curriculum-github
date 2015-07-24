@@ -29,11 +29,7 @@ screens:
               id: COLL-00-pq1-o3
               response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for keeping track of your changed and collaborating with your team.
   - image-slide:
-<<<<<<< HEAD
-      title: What is GitHub? Blah blah.
-=======
-      title: What is GitHub? Hy-di ho Jim.
->>>>>>> OK, editing the right file this time.
+      title: What is GitHub?
       image: github-icon.jpg
       presenter-script:
         - GitHub is a collaboration platform built on top of a distributed version control system called Git.
