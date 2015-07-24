@@ -5,13 +5,13 @@ screens:
   - image-slide:
       title: Exploring a Repository
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
-      presenter-script:
+      presenter-notes:
         - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others.
         - A repository contains all of the project files (including documentation), and stores each files revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
   - video-slide: # Video slides are used to display videos
       title: Guided Exploration
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
-      video-script: # The script is used for two purposes - firstly for anyone who is responsible for creating the video and secondly to generate presenter script which should be the sum of the "say" elements
+      video-script: # The script is used for two purposes - firstly for anyone who is responsible for creating the video and secondly to generate presenter notes which should be the sum of the "say" elements
         - do: Navigate to the first sample repository
           say: The repository is the container that holds everything related to your project.
         - do: Click Code view
