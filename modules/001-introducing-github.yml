@@ -26,7 +26,6 @@ screens: # Each module is comprised of 1..n screens - you could think of them li
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
       presenter-script:
         - GitHub is a collaboration platform built on top of the distributed version control system called Git.
-        - Hello Adrian.
   - image-slide:
       title: Key GitHub Features
       image: https://training.github.com/kit/assets/diagrams/git-logo-black.svg
