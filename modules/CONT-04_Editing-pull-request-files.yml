@@ -33,6 +33,7 @@ screens:
       id: CONT-04-lab-01
       presenter-script:
         - Let's make the changes requested by our teammates.
+      # this is very specific to classroom, is there a way to reword to be event type agnostic?
       steps:
         - description: "Go back to your pull request and make the requested changes. Commit the changes on the file directly to the feature branch and @mention the person who made the request."
           id: CONT-04-edit-file
