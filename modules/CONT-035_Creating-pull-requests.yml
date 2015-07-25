@@ -51,13 +51,13 @@ screens:
               id: CONT-035-create-pull-request-verification
               success-message: "Great job - you created a Pull Request"
               failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
-        # - description: "Add a line comment to someone else's pull request in the class repository."
-        #   id: CONT-035-comment
-        #   verifications:
-        #     - verification-type: pull-request-review-comment
-        #       id: CONT-035-comment-verification
-        #       success-message: "Great job - you commented on a pull request"
-        #       failure-message: "It looks like you haven't commented on a pull request. Want to try again?"
+        - description: "Add a line comment to a pull request in the repository."
+          id: CONT-035-comment
+          verifications:
+            - verification-type: pull-request-review-comment
+              id: CONT-035-comment-verification
+              success-message: "Great job - you commented on a pull request"
+              failure-message: "It looks like you haven't commented on a pull request. Want to try again?"
 additional-labs:
 additional-questions:
 resources:
