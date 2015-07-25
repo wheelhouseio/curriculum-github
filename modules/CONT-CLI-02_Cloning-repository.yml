@@ -46,10 +46,10 @@ screens:
               id: CONT-CLI-02-create-branch-verification
               success-message: "Great job - you created a branch."
               failure-message: "It looks like you didn't create a branch. Want to try again?"
-        - description: Clone the repository to your desktop.
-          id: CONT-CLI-02-clone
-        - description: Checkout your branch.
-          id: CONT-CLI-02-checkout
+        # - description: Clone the repository to your desktop.
+        #   id: CONT-CLI-02-clone
+        # - description: Checkout your branch.
+        #   id: CONT-CLI-02-checkout
   - quiz:
       title: Cloning a Repository
       id: CONT-CLI-02-quiz-01
