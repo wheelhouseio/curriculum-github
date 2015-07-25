@@ -57,13 +57,13 @@ screens:
               id: COLL-02-assign-issue-verification
               success-message: "Great job - you assigned the issue to yourself."
               failure-message: "It looks like you didn't assign the issue to yourself."
-        - description: Apply the label of "Bio" to the issue # optional for Monday
+        - description: Apply the label of "bio" to the issue # optional for Monday
           id: COLL-02-label-issue
           verifications:
             - verification-type: issue-labeled
               id: COLL-02-label-issue-verification
-              success-message: "Great job - you applied the 'Bio' label to the issue"
-              failure-message: "It looks like you didn't apply the 'Bio' label to the issue."
+              success-message: "Great job - you applied the 'bio' label to the issue"
+              failure-message: "It looks like you didn't apply the 'bio' label to the issue."
 additional-labs:
 additional-questions:
 resources:
