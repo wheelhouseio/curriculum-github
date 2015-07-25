@@ -43,7 +43,7 @@ screens:
       presenter-script:
         - Let's practice creating issues now!
       steps:
-        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, some markdown formatting, and an @mention for the instructor."
+        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting."
           id: COLL-02-create-issue
           verifications:
             - verification-type: issue-created
