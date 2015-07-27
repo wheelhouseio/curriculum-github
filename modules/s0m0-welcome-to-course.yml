@@ -8,6 +8,7 @@ screens:
       presenter-script:
         - In this course, you'll learn how to use git and GitHub to manage development projects.
         Here is another line of text.
+        
         Just testing. 
   - poll:
       title: Version Control Poll
