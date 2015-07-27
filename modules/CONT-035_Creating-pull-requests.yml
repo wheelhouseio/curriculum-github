@@ -51,7 +51,7 @@ screens:
               id: CONT-035-create-pull-request-verification
               success-message: "Great job - you created a Pull Request"
               failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
-        - description: "Add a line comment to someone else's pull request in the class repository."
+        - description: "Add a line comment to a pull request in the repository."
           id: CONT-035-comment
           verifications:
             - verification-type: pull-request-review-comment

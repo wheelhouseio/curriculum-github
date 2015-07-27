@@ -43,7 +43,7 @@ screens:
       presenter-script:
         - Let's practice creating issues now!
       steps:
-        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, some markdown formatting, and an @mention for the instructor."
+        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting."
           id: COLL-02-create-issue
           verifications:
             - verification-type: issue-created
@@ -57,13 +57,13 @@ screens:
               id: COLL-02-assign-issue-verification
               success-message: "Great job - you assigned the issue to yourself."
               failure-message: "It looks like you didn't assign the issue to yourself."
-        - description: Apply the label of "Bio" to the issue # optional for Monday
+        - description: Apply the label of "bio" to the issue # optional for Monday
           id: COLL-02-label-issue
           verifications:
             - verification-type: issue-labeled
               id: COLL-02-label-issue-verification
-              success-message: "Great job - you applied the 'Bio' label to the issue"
-              failure-message: "It looks like you didn't apply the 'Bio' label to the issue."
+              success-message: "Great job - you applied the 'bio' label to the issue"
+              failure-message: "It looks like you didn't apply the 'bio' label to the issue."
 additional-labs:
 additional-questions:
 resources:

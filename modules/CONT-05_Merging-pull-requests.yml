@@ -46,7 +46,7 @@ screens:
       presenter-script:
         - Let's finish the workflow by merging our changes into master.
       steps:
-        - description: "Merge the pull request you created, closing your original issue with the merge commit."
+        - description: "Merge the pull request you created, closing your original issue with the merge commit. Don't forget, GitHub looks for the keywords: 'Fixes', 'Closes', or 'Resolves'."
           id: CONT-05-merge
           verifications:
             - verification-type: pull-request-merged

@@ -32,9 +32,10 @@ screens:
       title: Editing Pull Request Files
       id: CONT-04-lab-01
       presenter-script:
-        - Let's make the changes requested by our teammates.
+        - Let's make some changes to the files in our pull request.
+      # this is very specific to classroom, is there a way to reword to be event type agnostic?
       steps:
-        - description: "Go back to your pull request and make the requested changes. Commit the changes on the file directly to the feature branch and @mention the person who made the request."
+        - description: "Go back to your pull request and add some additional information. Commit the changes directly to your branch."
           id: CONT-04-edit-file
           verifications:
             - verification-type: file-modified
