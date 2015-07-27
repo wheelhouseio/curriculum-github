@@ -35,9 +35,9 @@ screens:
       title: Creating a New File
       id: CONT-030-lab-01
       presenter-script:
-        - Let's respond to the issue you created earlier by creating a file on your branch.
+        - Let's respond to the issue you created earlier by creating a file on your branch. Don't forget that you can create the docs folder when you specify the path for the file.
       steps:
-        - description: "Add a new bio file to the docs folder. Name the file firstname-lastname.md."
+        - description: "Add a new bio file to the docs folder. Name the file firstname-lastname.md using your first and last name."
           id: CONT-030-create-file
           verifications:
             - verification-type: file-created
