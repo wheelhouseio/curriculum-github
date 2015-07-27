@@ -68,9 +68,13 @@ screens:
               id: COLL-01-qq3-o1
               response: "Good job! @githubteacher opened issue #1."
               correct: true
-            - value: # Null means it matches anything else - please make this the last option
+            - value: /hubyeti/i
               id: COLL-01-qq3-o2
-              response: "Not quite. @githubteacher opened issue #1."
+              response: "Good job! @hubyeti opened issue #1."
+              correct: true
+            - value: # Null means it matches anything else - please make this the last option
+              id: COLL-01-qq3-o3
+              response: "Not quite. Look right below the title to see who opened issue #1."
               correct: false
   - quiz:
       title: Exploring a Repository
@@ -85,9 +89,13 @@ screens:
               id: COLL-01-qq4-o1
               response: "Good job! @crichID was the first person to comment on issue #2."
               correct: true
-            - value: # Null means it matches anything else - please make this the last option
+            - value: /hubyeti/i
               id: COLL-01-qq4-o2
-              response: "Not quite. @crichID was the first person to comment on issue #2."
+              response: "Good job! @hubyeti was the first person to comment on issue #2."
+              correct: true
+            - value: # Null means it matches anything else - please make this the last option
+              id: COLL-01-qq4-o3
+              response: "Not quite. The first comment is the one right below the title section."
               correct: false
   - quiz:
       title: Exploring a Repository
@@ -98,13 +106,13 @@ screens:
           id: COLL-01-qq5
           type: open-response
           options:
-            - value: "/^#?6$/"
+            - value: "/^#?5$/"
               id: COLL-01-qq5-o1
-              response: "Good job! PR #6 is adding the .gitignore file."
+              response: "Good job! PR #5 is adding the .gitignore file."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq5-o2
-              response: "Not quite. PR #6 is adding the .gitignore file."
+              response: "Not quite. PR #5 is adding the .gitignore file."
               correct: false
 additional-labs:
 additional-questions:
