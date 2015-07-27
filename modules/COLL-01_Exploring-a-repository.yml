@@ -31,7 +31,7 @@ screens:
           id: COLL-01-qq1
           type: open-response
           options:
-            - value: /bio/
+            - value: /bio/i
               id: COLL-01-qq1-o1
               response: Good job! Issue 3 is discussing what we should include in a bio.
               correct: true
