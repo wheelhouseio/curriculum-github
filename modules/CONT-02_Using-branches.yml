@@ -33,7 +33,7 @@ screens:
       presenter-script:
         - Let's practice creating a branch.
       steps:
-        - description: "Create a branch in your repo and name it firstname-lastname using your first and last name."
+        - description: "Create a branch in class repo (linked above) and name it firstname-lastname using your first and last name."
           id: CONT-02-create-branch
           verifications:
             - verification-type: branch-created
