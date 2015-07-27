@@ -1,19 +1,12 @@
-title: GitHub for Developers (Adrian)
+title: GitHub for Developers
 description: If you use GitHub on the command line every day, this two-part class will help you work faster and go further with GitHub tools and interactions. On the first day, you will learn how to integrate Git and GitHub into your daily command line workflow. On the second day, we'll take a deeper dive into command line Git operations, including platform shortcuts, Git behavior customization, and how to re-write history.
 
 sections:
   -
-    title: Introducing git and GitHub
-    description: This section will serve as an introduction to the course.
-    module: 
-      - s0m0-welcome-to-course
-      - COLL-00_Introducing-github
-      - 
-      -
-  -
     title: Getting Started with Collaboration
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
     modules:
+      - COLL-00_Introducing-github
       - COLL-01_Exploring-a-repository
       - COLL-02_Using-issues
   -
