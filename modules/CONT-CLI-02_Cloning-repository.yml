@@ -55,7 +55,7 @@ screens:
       id: CONT-CLI-02-quiz-01
       presenter-script: Clone the repository to your desktop.
       questions:
-        - title: Type the Git command you would use to clone the repository located at the following remote address https://github.com/githubteacher/sample-repo.git
+        - title: Type the Git command you would use to clone the repository located at the following remote address `https://github.com/githubteacher/sample-repo.git`
           id: CONT-CLI-02-qq1
           image: CONT-CLI-02-quiz-01.jpg
           type: open-response
