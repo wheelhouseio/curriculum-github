@@ -35,8 +35,7 @@ screens:
       presenter-script: 
         - Please tell us a little about your experience with GitHub.
       questions: # A poll might have one or more questions
-        - title: 
-          - Have you used a GitHub before?
+        - title: Have you used GitHub before?
           id: COLL-00-pq2
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
