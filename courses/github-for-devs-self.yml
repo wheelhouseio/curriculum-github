@@ -12,7 +12,7 @@ sections:
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
     modules:
       - DSS-02_exploring-repository
-      - DSS-02_issues
+      - DSS-03_issues
   -
     title: Creating Your First Pull Request
     description: In this section you will learn about the GitHub flow and create your first pull request.
