@@ -5,7 +5,7 @@ sections:
   -
     title: Introducing git and GitHub
     description: This section will serve as an introduction to the course.
-    module: 
+    modules: 
       - s0m0-welcome-to-course
       - COLL-00_Introducing-github
   -
