@@ -1,0 +1,24 @@
+type: map
+mapping:
+  "title":
+    type: str
+    required: yes
+  "description":
+    type: str
+    required: yes
+  "sections":
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+          "title":
+            type: str
+            required: yes
+          "description":
+            type: str
+            required: yes
+          "modules":
+            type: seq
+            sequence:
+              - type: str
+

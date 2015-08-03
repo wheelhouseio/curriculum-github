@@ -29,4 +29,36 @@ task :validate do
   end
 end
 
-task default: :validate
+  namespace :courses do
+    desc "Run yaml-lint on courses directory"
+    task :linter do
+      output = `bundle exec yaml-lint courses`
+      puts output
+    end
+
+    desc "Run kwalify schema validation on courses directory"
+    task :schema do
+      output = `bundle exec kwalify -lf schema_course.yml courses/*`
+      puts output
+    end
+
+    task check: [:linter, :schema]
+  end
+
+  namespace :modules do
+    desc "Run yaml-lint on modules directory"
+    task :linter do
+      output = `bundle exec yaml-lint modules`
+      puts output
+    end
+
+    desc "Run kwalify schema validation on modules directory"
+    task :schema do
+      output = `bundle exec kwalify -lf schema_module.yml modules/*`
+      puts output
+    end
+
+    task check: [:linter, :schema]
+  end
+
+task default: ["courses:check", "modules:check"]

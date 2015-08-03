@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kwalify (0.7.2)
+    yaml-lint (0.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kwalify
+  yaml-lint
+
+BUNDLED WITH
+   1.10.6
