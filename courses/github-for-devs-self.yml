@@ -13,7 +13,6 @@ sections:
     modules:
       - DSS-02_exploring-repository
       - DSS-02_issues
-      - COLL-02_Using-issues
   -
     title: Creating Your First Pull Request
     description: In this section you will learn about the GitHub flow and create your first pull request.
