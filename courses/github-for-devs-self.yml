@@ -11,7 +11,8 @@ sections:
     title: Getting Started with Collaboration
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
     modules:
-      - COLL-01_Exploring-a-repository
+      - DSS-02_exploring-repository
+      - DSS-02_issues
       - COLL-02_Using-issues
   -
     title: Creating Your First Pull Request
