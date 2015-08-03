@@ -2,12 +2,22 @@ title: Introducing GitHub
 pre-requisites:
 learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
 screens:
+  - image-slide:
+      title: Welcome to the Git for Developers Course!
+      image: github-icon.jpg
+      presenter-script: |
+        This course is designed to walk you through the version control and collaboration features of GitHub and git. You'll be reading text and watching videos about git and GitHub, and we'll be asking you to perform all the actions we show you in your own GitHub repository. You'll have the chance to practice everything you learn.
+
+        For now, click on the "next" button above to move onto the second slide.
   - poll:
       title: Version Control Poll
-      presenter-script:
+      presenter-script: 
         - Please tell us a little about your experience with version control.
       questions: # A poll might have one or more questions
-        - title: Have you used a version control system before?
+        - title: |
+            We'll be asking you questions about the course material and your previous experience throughout the course. Click the "submit" button below before hitting the "next" button above.
+            
+            Have you used a version control system before?
           id: COLL-00-pq1
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
@@ -20,11 +30,34 @@ screens:
             - value: No, not yet
               id: COLL-00-pq1-o3
               response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for keeping track of your changed and collaborating with your team.
+  - poll:
+      title: GitHub Poll
+      presenter-script: 
+        - Please tell us a little about your experience with GitHub.
+      questions: # A poll might have one or more questions
+        - title: 
+          - Have you used a GitHub before?
+          id: COLL-00-pq2
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Yes, through the command line with Git
+              id: COLL-00-pq2-o1
+              response: Great! Some of this will be review, but you'll learn a lot along the way.
+            - value: Yes, but only the web interface
+              id: COLL-00-pq2-o2
+              response: Great! You'll love learning about the command line tools that GitHub offers.
+            - value: No, not yet
+              id: COLL-00-pq2-o3
+              response: Welcome to the world of GitHub! It is a great way to manage technology projects and work with your team.
   - image-slide:
       title: What is GitHub?
       image: github-icon.jpg
-      presenter-script:
-        - GitHub is a collaboration platform built on top of a distributed version control system called Git.
+      presenter-script: |
+        GitHub is a project collaboration platform built on top of a distributed version control system called Git.
+
+        GitHub and git help teams work together on a project easily.
+
+        With Git, each person has a local copy of the project, and as they make changes there they upload them to the central cloud copy, then download the changes that others have made.
   - image-slide:
       title: Key GitHub Features
       image: collaboration-features.jpg

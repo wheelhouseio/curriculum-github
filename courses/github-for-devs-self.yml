@@ -6,13 +6,12 @@ sections:
     title: Introducing git and GitHub
     description: This section will serve as an introduction to the course.
     modules: 
-      - s0m0-welcome-to-course
+      - DSS-01_intro-to-course
       - COLL-00_Introducing-github
   -
     title: Getting Started with Collaboration
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
     modules:
-      - s0m0-welcome-to-course
       - COLL-01_Exploring-a-repository
       - COLL-02_Using-issues
   -
