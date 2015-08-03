@@ -1,0 +1,38 @@
+title: Exploring a Repository
+pre-requisites:
+learning-objective: Locate the key features of a GitHub repository.
+screens:
+  - image-slide:
+      title: GitHub Repositories
+      image: repository-intro.jpg
+      presenter-script:
+        - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. A repository contains all of the project files (including documentation), and stores each file's revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
+  - video-slide:
+      title: Exploring a repository
+      video: https://youtu.be/R8OAwrcMlRw
+      video-script:
+        - do: Navigate to the first sample repository
+          say: The GitHub repository is the container that holds everything related to your project.
+        - do: Click `Code` view
+          say: The code view is where you will find the files included in the repository. These files may contain the project code, documentation, and other important files. We also call this view the root of the project. Any changes to these files will be tracked via Git version control.
+        - do: View the `README.md`
+          say: The README.md is a special file that we recommend all repositories contain. GitHub looks for this file and helpfully displays it below the repository. The README should explain the project and point readers to helpful information within the project.
+        - do: Click `Issues` view
+          say: Issues are used to track bugs and feature requests. Issues can be assigned to specific team members and are designed to encourage discussion and collaboration.
+        - do: Click `Pull Request` view
+          say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues. Go ahead and click around in the class repository now to familiarize yourself with its contents.
+      production-notes:
+  - image-slide:  
+      title: Exploring a Repository
+      image: blank.png
+      presenter-script: |
+        * Repo holds everything in your project—code, documentation, other important files.
+        * Everything in the repo is tracked by git version control.
+        * The `README.md` file is shown at the bottom of the main page of the code view.
+        * Issues are used to track bugs and feature requests, and can be assigned to team members.
+        * A pull request represents a change that the author would like to make to the repo. PRs are used to resolve issues.
+additional-labs:
+additional-questions:
+resources:
+  - title: "GitHub Glossary: Repository"
+    url: https://help.github.com/articles/github-glossary/#repository
