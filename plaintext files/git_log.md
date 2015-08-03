@@ -1,6 +1,6 @@
 Show a simple verbose list of all the commits on the current branch.
 * `git log`
-* `Up` and `down` arrows navigate, `enter` cycles through log entries, and `q enter` quits log viewing screen.
+* `Up` and `down` arrows navigate, `enter` cycles through log entries, `b` and `f` offer backwards and fowards page-by-page navigation, and `q enter` quits log viewing screen.
 
 Show a smaller version of the log.
 * `git log --oneline`
