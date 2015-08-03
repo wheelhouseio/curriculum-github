@@ -150,9 +150,9 @@
 
 5.7: Merging Local Changes
 
-* When performing a merge, you need to be checked out into the branch you are merging _into_.
+* When performing a merge, you need to have checked out the branch you are merging _into_.
 * `git merge BRANCH_TO_MERGE` will merge the branch locally.
-* To send the merge to the remote, simply `git push`. This will open and execute a pull request on GitHub. 
+* To send the merge to the remote, simply `git push`. If you already have a PR for that branch open on GitHub, this will automatically close that PR.
 * You must still delete the branch separately on GitHub (in the PR window) and locally (using `git branch -d BRANCH_NAME`).
 
 5.9: Viewing Project History
@@ -201,11 +201,11 @@
 
 6.12: Fixing Bad Commits
 
-* The command `git commit --ammend` will add whatever is in your staging area to your last commit, and allow you to edit that commit message.
+* The command `git commit --amend` will add whatever is in your staging area to your last commit, and allow you to edit that commit message.
 
 6.15: Unstaging Files
 
-* `git restet HEAD <file_name>` will remove a file from the staging area, putting it back in your working directory.
+* `git reset HEAD <file_name>` will remove a file from the staging area, putting it back in your working directory.
 
 6.19: Using the Soft Reset
 6.20: Using the Mixed Reset
@@ -222,13 +222,13 @@
 
 * You can remove changes in the working directory using `git checkout`.
 * This is destructive! You will throw away the changes and not be able to get them back.
-* `git checkout -- <file_name>` is the syntax. The `--` lets git know you're talkind about a file. This will revert the file to the version found in the last commit.
-* This only works for files in the working directory. Files in the staged area or already commited won't be reverted. 
+* `git checkout --<file_name>` is the syntax. The `--` lets git know you're talking about a file. This will revert the file to the version found in the last commit.
+* This only works for files in the working directory. Files in the staging area or already commited won't be reverted. 
 
 6.24: Removing Tracked Files
 
-* Just as `git mv` exists to move or rename a file and instantly stage the change, `git rm` exists to remove a file.
-* `git rm <file_name>` will remove the file and `add` the change to staging.
+* Just as `git mv` exists to move or rename a file and instantly add the change to the staging area, `git rm` exists to remove a file.
+* `git rm <file_name>` will remove the file and `add` the change to the staging area.
 
 ---
 
