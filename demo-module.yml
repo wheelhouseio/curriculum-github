@@ -1,0 +1,21 @@
+title: Introducing GitHub
+pre-requisites:
+learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
+screens:
+  - poll:
+      title: Key GitHub Features
+  - image-slide:
+      title: Key GitHub Features
+  - image-slide:
+      title: Key GitHub Features
+  - image-slide:
+      title: Key GitHub Features
+additional-labs:
+additional-questions:
+resources:
+  - title: "Video: Intro to GitHub - GitHub & Git Foundations"
+    url: https://youtu.be/vDv5K5PbvO8
+  - title: "Video: GitHub & Git Foundations - Introduction"
+    url: https://youtu.be/FyfwLX4HAxM
+  - title: GitHub Integrations
+    url: https://github.com/integrations

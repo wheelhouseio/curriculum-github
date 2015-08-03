@@ -1,8 +1,77 @@
-[![Build Status](https://travis-ci.org/certify/curriculum-github.svg)](https://travis-ci.org/certify/curriculum-github)
-
 # Git and GitHub Curriculum
 
 Welcome to the Certify curriculum for Git and GitHub content. This repository contains the machine readable content used by Certify for delivering training courses.
+
+# Validating a curriculum
+
+The application assumes that the incoming curriculum is in the correct YAML format and uses the "right" schema for each element. The upside is that any failure rollsback the entire import so its an all-or-nothing process. The downside is there is very little feedback other than "it failed".
+
+This repo includes a Gemfile with the required tools to validate the curriculum locally to help ensure imports are as smooth as possible. So before you get started, make sure to:
+
+* Install Ruby (the Gemfile enforces the correct version)
+* Install bundler `$ gem install bundler`
+* Bundle the gems for the project `$ bundle` from the root directory of this curriculum
+
+Feel free to reach out to the developement team in #support if you need help.
+
+## TL;DR
+
+```bash
+$ rake
+Checking the content of ["courses"]
+File : courses/github-for-developers.yml, Syntax OK
+File : courses/github-for-everyone.yml, Syntax OK
+Done.
+courses/github-for-developers.yml#0: valid.
+courses/github-for-everyone.yml#0: valid.
+Checking the content of ["modules"]
+File : modules/001-introducing-github.yml, Syntax OK
+File : modules/002-exploring-a-repository.yml, Syntax OK
+File : modules/COLL-00_Introducing-github.yml, Syntax OK
+...
+File : modules/PROJ-03_Using-pulse-graphs.yml, Syntax OK
+Done.
+modules/001-introducing-github.yml#0: valid.
+modules/002-exploring-a-repository.yml#0: INVALID
+  - (line 2) [/pre-requisites] '1': not a string.
+  - (line 40) [/screens/2/lab/steps/0/verifications/0/repo-name] key 'repo-name:' is undefined.
+  - (line 48) [/screens/2/lab/steps/1/verifications/0/repo-name] key 'repo-name:' is undefined.
+modules/COLL-00_Introducing-github.yml#0: valid.
+...
+modules/PROJ-01_Managing-issues-pull-requests.yml#0: valid.
+modules/PROJ-02_Using-milestones.yml#0: valid.
+modules/PROJ-03_Using-pulse-graphs.yml#0: valid.
+```
+## Ensuring YAML is correct
+
+The `yaml-lint` tool verifies that files or entire directories are full of YAML files. The following example checks the `courses` folder.
+
+```bash
+$ bundle exec yaml-lint courses modules
+Checking the content of ["courses", "modules"]
+File : courses//github-for-developers.yml, Syntax OK
+File : courses//github-for-everyone.yml, Syntax OK
+File : modules/001-introducing-github.yml, Syntax OK
+...
+Done.
+```
+
+Errors will be displayed in the console so you can track down what files and lines are an issue.
+
+## Checking content against a schema
+
+The `kwalify` tool validates that a YAML file follows a given schema. We currently have schema for a *module* and a *course*. The tool can be run against individual files or entire directories.
+
+```bash
+$ bundle exec kwalify -lf schema_course.yml courses/*
+courses/github-for-developers.yml#0: valid.
+courses/github-for-everyone.yml#0: valid.
+
+$ bundle exec kwalify -lf schema_module.yml modules/COLL-01_Exploring-a-repository.yml
+modules/COLL-01_Exploring-a-repository.yml#0: valid.
+```
+
+Errors will be displayed in the console so you can track down what files and lines are an issue.
 
 # Importing a curriculum
 
