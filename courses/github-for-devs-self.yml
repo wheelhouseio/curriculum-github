@@ -30,7 +30,7 @@ sections:
     modules:
       - DSS-10_command-line-interface
       - DSS-11_cli-config
-      - CONT-CLI-02_Cloning-repository
+      - DSS-12_cloning
       - CONT-CLI-03_Editing-local-files
       - CONT-CLI-04_Two_Stage_Commit
       - CONT-CLI-05_Sync-changes
