@@ -3,7 +3,7 @@ description: If you use GitHub on the command line every day, this two-part clas
 
 sections:
   -
-    title: Introducing git and GitHub
+    title: Introducing Git and GitHub
     description: This section will serve as an introduction to the course.
     modules: 
       - DSS-01_intro-to-course
