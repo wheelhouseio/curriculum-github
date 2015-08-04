@@ -5,12 +5,12 @@ screens:
   - image-slide:
       title: Using Branches
       image: branch-icon.jpg
-      presenter-script:
-        - Every day you will be editing files on your project or adding new files.
-        - You don't want to take risks with the code on your master branch so you need to create a branch.
-        - When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch.
-        - This keeps your the code on your master branch safe while you experiment and fix issues.
-        - Let's learn how you can create a new branch.
+      presenter-script: |
+        Every day you will be editing files on your project or adding new files. You don't want to take risks with the code on your master branch so you need to create a branch.
+        
+        When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch. This keeps your the code on your master branch safe while you experiment and fix issues.
+        
+        Let's learn how you can create a new branch.
   - video-slide:
       title: Creating a Branch
       video: http://youtu.be/xgQmu81G1yY
@@ -28,7 +28,7 @@ screens:
         - do: Click the branch dropdown and reselect the branch
           say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. Now you are ready to create your own branch and start adding some commits."
   - image-slide:  
-      title: Using Issues Recap
+      title: Creating a Branch: Recap
       image: blank.png
       presenter-script: |
         * A branch is an identical copy of the master branch that can be edited separately.
