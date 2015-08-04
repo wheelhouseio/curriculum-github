@@ -18,8 +18,8 @@ sections:
     description: In this section you will learn about the GitHub flow and create your first pull request.
     modules:
       - DSS-04_github-flow
-      - CONT-02_Using-branches
-      - CONT-030_Creating-files-platform
+      - DSS-05_branches
+      - DSS-06_creating-files
       - CONT-035_Creating-pull-requests
       - POLL-01_Pace-poll-01
       - CONT-04_Editing-pull-request-files
