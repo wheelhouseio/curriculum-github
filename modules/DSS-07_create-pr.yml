@@ -38,7 +38,7 @@ screens:
         - do: "Add a `:+1:` emoji"
           say: "Most project teams require someone to sign off on the change before it is merged. We like to use emoji to show our approval. In the previous lab you created a file, next you will create a pull request for your file."
       production-notes:
-    - image-slide:
+  - image-slide:
       title: Using Issues Recap
       image: blank.png
       presenter-script: |
