@@ -22,7 +22,7 @@ sections:
       - DSS-06_creating-files
       - DSS-07_create-pr
       - POLL-01_Pace-poll-01
-      - CONT-04_Editing-pull-request-files
+      - DSS-08_edit-pr
       - CONT-05_Merging-pull-requests
   -
     title: Using GitHub Locally
