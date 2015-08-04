@@ -17,7 +17,7 @@ sections:
     title: Creating Your First Pull Request
     description: In this section you will learn about the GitHub flow and create your first pull request.
     modules:
-      - CONT-01_Understanding-github-flow
+      - DSS-04_github-flow
       - CONT-02_Using-branches
       - CONT-030_Creating-files-platform
       - CONT-035_Creating-pull-requests
