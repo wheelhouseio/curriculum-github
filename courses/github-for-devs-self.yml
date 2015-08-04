@@ -28,7 +28,8 @@ sections:
     title: Using GitHub Locally
     description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
     modules:
-      - CONT-CLI-01_Basic-Configuration
+      - DSS-10_command-line-interface
+      - DSS-11_cli-config
       - CONT-CLI-02_Cloning-repository
       - CONT-CLI-03_Editing-local-files
       - CONT-CLI-04_Two_Stage_Commit
