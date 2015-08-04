@@ -23,7 +23,7 @@ sections:
       - DSS-07_create-pr
       - POLL-01_Pace-poll-01
       - DSS-08_edit-pr
-      - CONT-05_Merging-pull-requests
+      - DSS-09_merge-pr
   -
     title: Using GitHub Locally
     description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
