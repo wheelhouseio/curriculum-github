@@ -29,7 +29,7 @@ screens:
           say: "If you want to see what was changed in a specific commit, you can go to the Commits tab and click on the Commit ID. Go ahead and check your own pull request now to see if you need to make any changes."
       production-notes:
   - image-slide:
-      title: Editing Pull Request Files: Recap
+      title: "Editing Pull Request Files: Recap"
       image: blank.png
       presenter-script: |
         * You will be notified of all comments on your own PRs.
