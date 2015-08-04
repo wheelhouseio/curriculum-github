@@ -2,6 +2,13 @@ title: Understanding the GitHub Flow
 pre-requisites: DSS-03_issues
 learning-objective: Describe the collaborative workflow enabled by GitHub.
 screens:
+  - image-slide:  
+      title: Diving into GitHub
+      image: blank.png
+      presenter-script: |
+        In this section we'll explore GitHub's functionality in depth.
+
+        You'll have the chance to practice all the skills that we teach in your GitHub repository, so make sure not to move on until you're sure you can perform these actions: you'll need them in your day-to-day job.
   - video-slide:
       title: Understanding the GitHub Flow
       video: http://youtu.be/PBI2Rz-ZOxU
