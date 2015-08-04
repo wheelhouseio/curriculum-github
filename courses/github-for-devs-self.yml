@@ -31,9 +31,9 @@ sections:
       - DSS-10_command-line-interface
       - DSS-11_cli-config
       - DSS-12_cloning
-      - CONT-CLI-03_Editing-local-files
-      - CONT-CLI-04_Two_Stage_Commit
-      - CONT-CLI-05_Sync-changes
+      - DSS-13_editing-locally
+      - DSS-14_two-stage-commit
+      - DSS-15_pushing
   -
     title: The Workflow End-to-End
     description: In this section you will review the workflow from start-to-finish and learn a few shortcuts along the way.
