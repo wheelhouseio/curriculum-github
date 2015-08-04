@@ -39,7 +39,7 @@ screens:
         - do: "Click `Issues > Filters`"
           say: Filters allow you to easily search for Issues by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating an issue!
   - image-slide:  
-      title: Using Issues Recap
+      title: Using Issues: Recap
       image: blank.png
       presenter-script: |
         * You can use [markdown](https://help.github.com/articles/github-flavored-markdown/) to format issues.
@@ -50,7 +50,7 @@ screens:
         * Labels can be used to organize issues.
         * Filters allow you to easily search for labels.
   - quiz:
-      title: Using Issues Question 1
+      title: Using Issues: Question 1
       id: DSS-03-quiz-01
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
@@ -67,7 +67,7 @@ screens:
               response: Not quite. Issue 3 is discussing what should be included in a bio.
               correct: false
   - quiz:
-      title: Using Issues Question 2
+      title: Using Issues: Question 2
       id: DSS-03-quiz-02
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
@@ -83,7 +83,7 @@ screens:
               id: DSS-03-qq2-o2
               response: "Not quite. Issue #4 is discussing adding the .gitignore."
   - quiz:
-      title: Using Issues Question 3
+      title: Using Issues: Question 3
       id: DSS-03-quiz-03
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
@@ -104,7 +104,7 @@ screens:
               response: "Not quite. Look right below the title to see who opened issue #1."
               correct: false
   - quiz:
-      title: Using Issues Question 4
+      title: Using Issues: Question 4
       id: DSS-03-quiz-04
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
@@ -125,7 +125,7 @@ screens:
               response: "Not quite. The first comment is the one right below the title section."
               correct: false
   - quiz:
-      title: Using Issues Bonus Question 
+      title: Using Issues: Bonus Question 
       id: DSS-03-quiz-05
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
@@ -142,7 +142,7 @@ screens:
               response: "Not quite. PR #5 is adding the .gitignore file."
               correct: false
   - lab:
-      title: Creating an issue
+      title: Creating an Issue: Lab
       id: DSS-03-lab-01
       presenter-script:
         - Let's practice creating issues now!
