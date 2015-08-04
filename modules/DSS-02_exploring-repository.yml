@@ -26,11 +26,13 @@ screens:
       title: Exploring a Repository
       image: blank.png
       presenter-script: |
-        * Repo holds everything in your project—code, documentation, other important files.
+        * The repository (or "repo") holds everything in your project—code, documentation, other important files.
         * Everything in the repo is tracked by git version control.
         * The `README.md` file is shown at the bottom of the main page of the code view.
         * Issues are used to track bugs and feature requests, and can be assigned to team members.
         * A pull request represents a change that the author would like to make to the repo. PRs are used to resolve issues.
+
+        Take this time to poke around your repository to get oriented, then move on to the next slide.
 additional-labs:
 additional-questions:
 resources:
