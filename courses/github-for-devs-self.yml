@@ -20,7 +20,7 @@ sections:
       - DSS-04_github-flow
       - DSS-05_branches
       - DSS-06_creating-files
-      - CONT-035_Creating-pull-requests
+      - DSS-07_create-pr
       - POLL-01_Pace-poll-01
       - CONT-04_Editing-pull-request-files
       - CONT-05_Merging-pull-requests
