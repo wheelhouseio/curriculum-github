@@ -23,7 +23,7 @@ screens:
           say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues. Go ahead and click around in the class repository now to familiarize yourself with its contents.
       production-notes:
   - image-slide:  
-      title: Exploring a Repository: Recap
+      title: "Exploring a Repository: Recap"
       image: blank.png
       presenter-script: |
         * The repository (or "repo") holds everything in your project—code, documentation, other important files.

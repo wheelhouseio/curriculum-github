@@ -27,7 +27,7 @@ screens:
           say: When the changes contained in the pull request are approved, the feature branch is merged onto the master branch. In the next section, you will learn how to put this GitHub workflow into practice.
       production-notes:
   - image-slide:  
-      title: GitHub Flow: Recap
+      title: "GitHub Flow: Recap"
       image: blank.png
       presenter-script: |
         * Everything on GitHub lives on a branch.

@@ -28,7 +28,7 @@ screens:
         - do: Click the branch dropdown and reselect the branch
           say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. Now you are ready to create your own branch and start adding some commits."
   - image-slide:  
-      title: Creating a Branch: Recap
+      title: "Creating a Branch: Recap"
       image: blank.png
       presenter-script: |
         * A branch is an identical copy of the master branch that can be edited separately.

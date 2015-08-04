@@ -32,7 +32,7 @@ screens:
           say: We are ready to commit our file. On the next page you will complete the steps to add a file of your own.
       production-notes:
   - image-slide:  
-      title: Creating Files on GitHub: Recap
+      title: "Creating Files on GitHub: Recap"
       image: blank.png
       presenter-script: |
         * Click on the `+` button to add a new file.
