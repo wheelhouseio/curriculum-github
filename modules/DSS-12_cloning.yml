@@ -42,73 +42,73 @@ screens:
         * Start a new branch on GitHub to work on.
         * Using the command line, `cd` to the directory that you want to put your local repo in.
         * Copy the clone URL on GitHub.
-        * Type `git clone CLONE_URL`. 
-        * `cd` into the new cloned repo and type `git status`. 
+        * Type `git clone CLONE_URL`.
+        * `cd` into the new cloned repo and type `git status`.
         * `git branch` will show you the available branches. Only `master` appears.
         * `git branch -a` will show all the remote branches.
         * `git checkout BRANCH_NAME` will clone the branch you want onto your local machine, and all edits you make locally with be applied to that branch until you checkout another one.
   - lab:
       title: Cloning a Repository
-      id: CONT-CLI-02-lab-01
+      id: DSS-12-lab-01
       presenter-script:
         - Let's go ahead and clone this repository to your local desktop.
       steps:
         - description: Create a new branch. Name the branch githubID-more-bio, using your githubID.
-          id: CONT-CLI-02-create-branch
+          id: DSS-12-create-branch
           verifications:
             - verification-type: branch-created
-              id: CONT-CLI-02-create-branch-verification
+              id: DSS-12-create-branch-verification
               success-message: "Great job - you created a branch."
               failure-message: "It looks like you didn't create a branch. Want to try again?"
         - description: Clone the repository to your desktop.
-          id: CONT-CLI-02-clone
+          id: DSS-12-clone
         - description: Checkout your branch.
-          id: CONT-CLI-02-checkout
+          id: DSS-12-checkout
   - quiz:
       title: Cloning a Repository
-      id: CONT-CLI-02-quiz-01
+      id: DSS-12-quiz-01
       presenter-script: Clone the repository to your desktop.
       questions:
         - title: Type the Git command you would use to clone the repository located at the following remote address `https://github.com/githubteacher/sample-repo.git`
-          id: CONT-CLI-02-qq1
-          image: CONT-CLI-02-quiz-01.jpg
+          id: DSS-12-qq1
+          image: DSS-12-quiz-01.jpg
           type: open-response
           options:
             - value: /git clone https://github.com/githubteacher/sample-repo.git/
-              id: CONT-CLI-02-qq1-o1
+              id: DSS-12-qq1-o1
               response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
               correct: true
             - value: /git clone/
-              id: CONT-CLI-02-qq1-o2
+              id: DSS-12-qq1-o2
               response: Almost! Don't forget to tell Git where to find the remote repository by adding the URL after the `git clone` command.
               correct: false
             - value: # Null means it matches anything else - please make this the last option
-              id: CONT-CLI-02-qq1-o3
+              id: DSS-12-qq1-o3
               response: Not quite. You need to include both the Git command `git clone` and the URL for the remote repo. In this case, the full command would be `git clone https://github.com/githubteacher/sample-repo.git`
               correct: false
   - quiz:
       title: Checking Out a Branch
-      id: CONT-CLI-02-quiz-02
+      id: DSS-12-quiz-02
       presenter-script: Check out a branch in a cloned repository.
       questions:
         - title: Type the Git command you would use to switch to a branch named `more-bio-changes` that you created on GitHub before cloning the repository.
-          id: CONT-CLI-02-qq2
+          id: DSS-12-qq2
           type: open-response
           options:
             - value: /git checkout more-bio-changes/
-              id: CONT-CLI-02-qq2-o1
+              id: DSS-12-qq2-o1
               response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
               correct: true
             - value: /git checkout remotes/origin/more-bio-changes/
-              id: CONT-CLI-02-qq2-o2
+              id: DSS-12-qq2-o2
               response: Almost! You do not need to include `remotes/origin`. Git will assume you want to select this as the remote tracking branch for your local branch so you can exclude `remotes/origin` from the branch name.
               correct: false
             - value: /git branch more-bio-changes/
-              id: CONT-CLI-02-qq2-o3
+              id: DSS-12-qq2-o3
               response: Not quite. `git branch` is the command you use if you are creating a new branch locally. But this branch has already been created on the remote so you simply need to tell Git you would like to create a local version. Use `git checkout` instead.
               correct: false
             - value: # Null means it matches anything else - please make this the last option
-              id: CONT-CLI-02-qq2-o4
+              id: DSS-12-qq2-o4
               response: Not quite. The correct command is `git checkout more-bio-changes`
               correct: false
 additional-labs:
