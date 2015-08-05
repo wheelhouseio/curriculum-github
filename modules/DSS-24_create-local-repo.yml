@@ -20,7 +20,7 @@ screens:
           say: "Then we will add and commit our file."
       production-notes:
   - image-slide:
-      title: "Cloning a Repository: Recap"
+      title: "Creating a Repository on the Command Line: Recap"
       image: blank.png
       presenter-script: |
         * To create a project from scratch, type `git init <directory_name>`.
