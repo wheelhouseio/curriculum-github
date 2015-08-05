@@ -39,6 +39,20 @@ screens:
         - do: "Start typing `githubstudent`"
           say: "I can search for collaborators and add them by entering the first few letters of their username."
       production-notes:
+  - image-slide:
+      title: "Creating a Repository on GitHub: Recap"
+      image: repository-options.jpg
+      presenter-script: |
+        * `Create new repository` button on your GitHub profile page.
+        * The name of your repository must be unique to your account.
+        * The repo must be public or private.
+        * Public repositories can be viewed, cloned, or fork your project.
+        * Only collaborators who you add can push changes to your repo.
+        * Private repositories can only be viewed, cloned, etc. by collaborators you have added.
+        * You are allowed an unlimited number of public repos on your account, but must have a paid account to have any private repositories.
+        * A `.gitignore` file tells git which types of files it shouldn't bother tracking. GitHub allows you to auto-generate your `.gitignore` file.
+        * You may add an open source liscence to your repository if you'd like to make it open source.
+        * Once you've created your repo, you can add collaborators by searching for their GitHub user name in the `Collaborators` section of the repo.
   - lab:
       title: Cloning the Repository
       id: DSS-16-lab-01
