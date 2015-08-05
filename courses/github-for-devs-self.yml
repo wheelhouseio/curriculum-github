@@ -63,7 +63,7 @@ sections:
       - POLL-03_Pace-poll-03
       - DSS-29_unstaging
       - DSS-30_reset
-      - CONT-CLI-20_Discarding-changes-modified-files
+      - DSS-31_discard-file-changes
       - CONT-CLI-22_Removing-tracked-files
   -
     title: Creating Shortcuts
