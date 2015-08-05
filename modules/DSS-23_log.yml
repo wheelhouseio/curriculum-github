@@ -39,6 +39,7 @@ screens:
         * `git log --stat` tells you which files were included in each commit.
         * `git log --patch` shows the actual changes that were made in each commit as diffs.
         * All of these options are modular, and can be mix and matched with each other as needed.
+        * Typing `q` while the log is open will quit back to the command line.
   - lab:
       title: Viewing Project History
       id: DSS-23-lab-01
