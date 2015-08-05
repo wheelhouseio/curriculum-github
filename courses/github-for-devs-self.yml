@@ -39,7 +39,7 @@ sections:
     description: In this section you will review the workflow from start-to-finish and learn a few shortcuts along the way.
     modules:
       - DSS-16_create-repo
-      - CONT-CLI-07_Creating-local-branches
+      - DSS-17_local-branches
       - CONT-CLI-08_Workflow-review
       - CONT-CLI-09_Pulling-changes
       - POLL-02_Pace-poll-02
