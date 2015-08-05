@@ -41,7 +41,7 @@ sections:
       - DSS-16_create-repo
       - DSS-17_local-branches
       - DSS-18_workflow-review
-      - CONT-CLI-09_Pulling-changes
+      - DSS-19_pulling
       - POLL-02_Pace-poll-02
   -
     title: Working with Local Files
