@@ -64,7 +64,7 @@ sections:
       - DSS-29_unstaging
       - DSS-30_reset
       - DSS-31_discard-file-changes
-      - CONT-CLI-22_Removing-tracked-files
+      - DSS-32_git-rm
   -
     title: Creating Shortcuts
     description: In this section you will learn how to create custom shortcuts for git commands.

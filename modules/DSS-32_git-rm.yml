@@ -1,0 +1,34 @@
+title: Removing Tracked Files
+pre-requisites: DSS-31_discard-file-changes
+learning-objective: Discover how to remove files from tracking.
+screens:
+  - video-slide:
+      title: Removing Tracked Files
+      video: https://youtu.be/-HuinwIDbVw
+      video-script:
+        - do: "Type `ls -lr`"
+          say: "Sometimes we need to remove a file that is already being tracked. We could just delete the file and then stage and commit the change. But let's use a shortcut to delete our conflict.md file."
+        - do: "Type `git rm conflict.md`"
+          say: "We can use the git rm command, followed by the file we would like to delete."
+        - do: "Type `git status`"
+          say: "When we type git status, we can see that the file has already been staged and is ready for us to commit."
+        - do: "Type `git commit -m\"remove conflict file\"`"
+          say: "Now we simply need to commit the change."
+      production-notes:
+  - image-slide:
+      title: "Discarding Changes in Modified Files: Recap"
+      image: blank.png
+      presenter-script: |
+        * Just as `git mv` exists to move or rename a file and instantly add the change to the staging area, `git rm` exists to remove a file.
+        * `git rm <file_name>` will remove the file and `add` the change to the staging area.
+  - lab:
+      title: Removing Tracked Files
+      id: DSS-32-lab-01
+      presenter-script:
+        - Use the steps you just learned to remove a tracked file.
+      steps:
+        - description: "Remove the tracked file `onefile.md`"
+          id: DSS-32-remove
+additional-labs:
+additional-questions:
+resources:
