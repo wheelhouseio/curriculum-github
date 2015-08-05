@@ -58,8 +58,8 @@ sections:
       - DSS-24_create-local-repo
       - DSS-25_merge-conflicts
       - DSS-26_git-mv
-      - CONT-CLI-16_Reverting-commits
-      - CONT-CLI-17_Fixing-bad-commits
+      - DSS-27_revert
+      - DSS-28_commit-amend
       - POLL-03_Pace-poll-03
       - CONT-CLI-18_Unstaging-files
       - CONT-CLI-19_Resetting-history
