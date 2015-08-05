@@ -40,7 +40,7 @@ sections:
     modules:
       - DSS-16_create-repo
       - DSS-17_local-branches
-      - CONT-CLI-08_Workflow-review
+      - DSS-18_workflow-review
       - CONT-CLI-09_Pulling-changes
       - POLL-02_Pace-poll-02
   -
