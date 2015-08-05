@@ -22,6 +22,13 @@ screens:
         - do: Click `Pull Request` view
           say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues. Go ahead and click around in the class repository now to familiarize yourself with its contents.
       production-notes:
+  - image-slide:
+      title: GitHub Repositories
+      image: blank.png
+      presenter-script: |
+        We've created a repo for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be refering to this repository.
+
+        Right now, go to your GitHub page and poke around the new repository. If you want a refersher on the video while doing so, the next slide lists the most important points from it.
   - image-slide:  
       title: "Exploring a Repository: Recap"
       image: blank.png
@@ -32,7 +39,7 @@ screens:
         * Issues are used to track bugs and feature requests, and can be assigned to team members.
         * A pull request represents a change that the author would like to make to the repo. PRs are used to resolve issues.
 
-        Take this time to poke around your repository to get oriented, then move on to the next slide.
+        Once you're confortable viewing your repository, move onto the next slide.
 additional-labs:
 additional-questions:
 resources:
