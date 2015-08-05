@@ -48,7 +48,7 @@ sections:
     description: In this section you will learn how to perform common file operations with git.
     modules:
       - DSS-20_modify-local-files
-      - CONT-CLI-11_Viewing-local-diffs
+      - DSS-21_local-diffs
       - CONT-CLI-12_Merging-changes
       - CONT-CLI-13_Viewing-project-history
   -
