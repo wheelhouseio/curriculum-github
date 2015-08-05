@@ -6,17 +6,22 @@ screens:
       title: Welcome to the Git for Developers Course!
       image: github-icon.jpg
       presenter-script: |
-        This course is designed to walk you through the version control and collaboration features of GitHub and git. You'll be reading text and watching videos about git and GitHub, and we'll be asking you to perform all the actions we show you in your own GitHub repository. You'll have the chance to practice everything you learn.
+        This course is designed to walk you through the version control and collaboration features of GitHub and Git. You'll be reading text and watching videos about git and GitHub, and we'll be asking you to perform all the actions we show you in your own GitHub repository. You'll have the chance to practice everything you learn.
 
         For now, click on the "next" button above to move onto the second slide.
+  - image-slide:
+      title: Answering Questions
+      image: blank.com
+      presenter-script: |
+        This course is interactive! At times (such as on the next two slides) we'll be asking you questions: when we do, please hit the "submit" button below the question before hitting the "next" button above.
+
+        There are also labs where you'll be asked to complete tasks on GitHub. We'll automatically know when you have, so no need to submit anything.
   - poll:
       title: Version Control Poll
       presenter-script: 
         - Please tell us a little about your experience with version control.
       questions: # A poll might have one or more questions
         - title: |
-            We'll be asking you questions about the course material and your previous experience throughout the course. Click the "submit" button below before hitting the "next" button above.
-            
             Have you used a version control system before?
           id: COLL-00-pq1
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
@@ -52,21 +57,23 @@ screens:
       title: What is GitHub?
       image: github-icon.jpg
       presenter-script: |
-        GitHub is a project collaboration platform built on top of a distributed version control system called Git.
+        GitHub is a project collaboration platform built on top of a distributed version control system called Git. GitHub and Git help teams work together on a project easily.
 
-        GitHub and git help teams work together on a project easily.
+        With Git, each person has a local copy of the project to work on. As they make changes locally, they upload them to the central cloud copy, then download the changes that others have made.
 
-        With Git, each person has a local copy of the project, and as they make changes there they upload them to the central cloud copy, then download the changes that others have made.
+        GitHub provides this central copy of the code, as well as a number of features that make collaborating on that copy easier.
   - image-slide:
       title: Key GitHub Features
       image: collaboration-features.jpg
       presenter-script:
-        - In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate including issues for discussing features and bugs and pull requests for discussing and reviewing new features your team is working on.
+        - In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate. These include "issues" for discussing features and bugs with your teammates and "pull requests" for discussing and reviewing new features your team is working on.
   - image-slide:
       title: The GitHub Ecosystem
       image: github-ecosystem.jpg
-      presenter-script:
-        - You can also use all of your favorite tools with GitHub. Indispensable tools like continuous integration and continuous deployment help you and your team build software better, together.
+      presenter-script: |
+        You can also use all of your favorite tools and development processes with GitHub. GitHub doesn't require a new text editor, command lind shell, or bug tracker: your team gets to keep the tools they're comfortable with.
+
+        GitHub can also integrate into your current deployment process, and fully supports continuous integration and continuous deployment help you and your team build software better, together.
 additional-labs:
 additional-questions:
 resources:
