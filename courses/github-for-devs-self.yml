@@ -69,4 +69,4 @@ sections:
     title: Creating Shortcuts
     description: In this section you will learn how to create custom shortcuts for git commands.
     modules:
-      - CONT-CLI-23_Creating-aliases
+      - DSS-33_aliases
