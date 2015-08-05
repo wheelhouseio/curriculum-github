@@ -49,8 +49,8 @@ sections:
     modules:
       - DSS-20_modify-local-files
       - DSS-21_local-diffs
-      - CONT-CLI-12_Merging-changes
-      - CONT-CLI-13_Viewing-project-history
+      - DSS-22_merge-local-branches
+      - DSS-23_log
   -
     title: Fixing Common Issues with Git
     description: In this section you will learn how to manipulate your repository and its history to craft a better story for your project.
