@@ -1,5 +1,5 @@
 title: Creating Local Branches
-pre-requisites: CONT-CLI-06_Creating-repository-github
+pre-requisites: DSS-16_create-repo
 learning-objective: Create a branch locally using the command line.
 screens:
   - video-slide:
@@ -17,14 +17,21 @@ screens:
         - do: "Type `git checkout <branch-name>`"
           say: "Type git checkout with the name of your branch to check out to your new branch."
       production-notes:
+  - image-slide:
+      title: "Creating Branches Locally: Recap"
+      image: blank.png
+      presenter-script: |
+        * `git branch` shows which branch you're on locally, and which other local branches exist.
+        * `git branch NEW_BRANCH_NAME` creates a new local branch. 
+        * You still must check out this new branch to edit it. `git checkout NEW_BRANCH_NAME`
   - lab:
       title: Create a Local Branch
-      id: CONT-CLI-07-lab-01
+      id: DSS-17-lab-01
       presenter-script:
         - Go ahead and create a local branch now!
       steps:
         - description: "Create a local branch using your username as follows: `githubusername-branch`."
-          id: CONT-CLI-07-branch
+          id: DSS-17-branch
 additional-labs:
 additional-questions:
 resources:
