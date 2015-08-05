@@ -1,5 +1,5 @@
 title: Workflow Review
-pre-requisites: CONT-CLI-07_Creating-local-branches
+pre-requisites: DSS-17_local-branches
 learning-objective: Review the GitHub flow using the command line.
 screens:
   - video-slide:
@@ -40,20 +40,20 @@ screens:
         * Once this is finished, you must create a pull request on GitHub, and merge it on GitHub once it's completed.
   - lab:
       title: Workflow Review
-      id: CONT-CLI-08-lab-01
+      id: DSS-18-lab-01
       presenter-script:
         - Now you will have a chance to complete the workflow on your own.
       steps:
         - description: "Create a new file on your branch."
-          id: CONT-CLI-08-create-file
+          id: DSS-18-create-file
         - description: "Add the file to staging and commit it locally."
-          id: CONT-CLI-08-commit
+          id: DSS-18-commit
         - description: "Push your file to the remote."
-          id: CONT-CLI-08-push
+          id: DSS-18-push
         - description: "Create a pull request on GitHub."
-          id: CONT-CLI-08-pull-request
+          id: DSS-18-pull-request
         - description: "Merge your changes into Master."
-          id: CONT-CLI-08-merge
+          id: DSS-18-merge
 additional-labs:
 additional-questions:
 resources:
