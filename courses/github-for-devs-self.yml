@@ -62,7 +62,7 @@ sections:
       - DSS-28_commit-amend
       - POLL-03_Pace-poll-03
       - DSS-29_unstaging
-      - CONT-CLI-19_Resetting-history
+      - DSS-30_reset
       - CONT-CLI-20_Discarding-changes-modified-files
       - CONT-CLI-22_Removing-tracked-files
   -
