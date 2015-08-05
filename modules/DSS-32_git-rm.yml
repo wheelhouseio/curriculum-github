@@ -16,7 +16,7 @@ screens:
           say: "Now we simply need to commit the change."
       production-notes:
   - image-slide:
-      title: "Discarding Changes in Modified Files: Recap"
+      title: "Removing Tracked Files: Recap"
       image: blank.png
       presenter-script: |
         * Just as `git mv` exists to move or rename a file and instantly add the change to the staging area, `git rm` exists to remove a file.
