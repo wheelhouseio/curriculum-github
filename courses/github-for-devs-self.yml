@@ -47,7 +47,7 @@ sections:
     title: Working with Local Files
     description: In this section you will learn how to perform common file operations with git.
     modules:
-      - CONT-CLI-10_Modifying-local-files
+      - DSS-20_modify-local-files
       - CONT-CLI-11_Viewing-local-diffs
       - CONT-CLI-12_Merging-changes
       - CONT-CLI-13_Viewing-project-history
