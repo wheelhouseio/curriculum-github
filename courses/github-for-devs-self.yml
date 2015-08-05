@@ -56,8 +56,8 @@ sections:
     description: In this section you will learn how to manipulate your repository and its history to craft a better story for your project.
     modules:
       - DSS-24_create-local-repo
-      - CONT-CLI-21_Handling-merge-conflicts
-      - CONT-CLI-15_Renaming-moving-files
+      - DSS-25_merge-conflicts
+      - DSS-26_git-mv
       - CONT-CLI-16_Reverting-commits
       - CONT-CLI-17_Fixing-bad-commits
       - POLL-03_Pace-poll-03
