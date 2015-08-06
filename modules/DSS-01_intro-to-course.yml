@@ -15,7 +15,7 @@ screens:
       presenter-script: |
         This course is interactive! At times (such as on the next two slides) we'll be asking you questions: when we do, please hit the "submit" button below the question before hitting the "next" button above.
 
-        There are also labs where you'll be asked to complete tasks on GitHub. We'll automatically know when you have, so no need to submit anything.
+        There are also labs where you'll be asked to complete tasks on GitHub. We'll automatically know when you've completed the tasks, so there's no need to submit anything.
   - poll:
       title: Version Control Poll
       presenter-script: 
