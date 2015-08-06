@@ -3,7 +3,7 @@ pre-requisites:
 learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
 screens:
   - image-slide:
-      title: Welcome to the Git for Developers Course!
+      title: Welcome to the GitHub for Developers Course!
       image: github-icon.jpg
       presenter-script: |
         This course is designed to walk you through the version control and collaboration features of GitHub and Git. You'll be reading text and watching videos about git and GitHub, and we'll be asking you to perform all the actions we show you in your own GitHub repository. You'll have the chance to practice everything you learn.
