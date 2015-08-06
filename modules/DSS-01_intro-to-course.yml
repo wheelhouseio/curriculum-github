@@ -11,7 +11,7 @@ screens:
         For now, click on the "next" button above to move onto the second slide.
   - image-slide:
       title: Answering Questions
-      image: blank.com
+      image: blank.png
       presenter-script: |
         This course is interactive! At times (such as on the next two slides) we'll be asking you questions: when we do, please hit the "submit" button below the question before hitting the "next" button above.
 
