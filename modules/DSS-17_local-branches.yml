@@ -22,8 +22,8 @@ screens:
       image: blank.png
       presenter-script: |
         * `git branch` shows which branch you're on locally, and which other local branches exist.
-        * `git branch NEW_BRANCH_NAME` creates a new local branch. 
-        * You still must check out this new branch to edit it. `git checkout NEW_BRANCH_NAME`
+        * `git branch <new_branchname>` creates a new local branch. 
+        * You still must check out this new branch to edit it. `git checkout <new_branchname>`
   - lab:
       title: Create a Local Branch
       id: DSS-17-lab-01

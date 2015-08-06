@@ -7,8 +7,8 @@ screens:
       image: push-pull.jpg
       presenter-script: |
         Frequently, collaborators will make changes to our files during the Pull Request process. Before we can go on, we will need to update our local copy of the file.
-        
-        We use push to send our changes to the remote, but we use pull to retrieve changes from the remote. When we pull the files from the remote git downloads a copy of the new commits that have been added to the branch since our last pull and then attempts to merge them into our local branch.
+
+        We use push to send our changes to the remote, but we use pull to retrieve changes from the remote. When we pull the files from the remote, Git downloads a copy of the new commits that have been added to the branch since our last pull and then attempts to merge them into our local branch.
   - video-slide:
       title: Pulling Changes from the Remote
       video: https://youtu.be/6w8_Z1nd9_s
@@ -34,8 +34,8 @@ screens:
       presenter-script: |
         * When the remote repository has been changed (such as after a pull request), you need to update your local repository manually.
         * The command `git pull` will make your local working branch up to date with the remote version of that same branch. 
-        * This will not delete local branches that have been deleted on the remote repo. 
-        * To delete local branches that do not have a remote counterpart, use the `git branch --merged` command to list all such local branches, and then `git branch -d BRANCH_NAME` to delete specific local branches.
+        * This will not delete local branches that have been deleted on the remote repo.
+        * To delete local branches that do not have a remote counterpart, use the `git branch --merged` command to list all such local branches, and then `git branch -d <branchname>` to delete specific local branches.
   - lab:
       title: Pulling Changes
       id: DSS-19-lab-01
