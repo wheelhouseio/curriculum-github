@@ -7,11 +7,11 @@ screens:
       image: merge-logo.jpg
       presenter-script: |
         At this point, your pull request should be approved and you are ready to merge it in to the `master` branch. When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
-        
-        Many project teams have established rules about who should merge a pull request. Some say it should be the person who created the pull request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the pull request.
-        
-        There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed. There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
-        
+
+        Many project teams have established rules about who should merge a pull request. Some say it should be the person who created the pull request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the pull request. There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed. 
+
+        There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
+
         Let's take a look at how you can merge the pull request and close the original issue at the same time.
   - video-slide:
       title: Merging Pull Requests

@@ -6,12 +6,12 @@ screens:
       title: Using Issues
       image: issues-icon.jpg
       presenter-script: |
-        Use GitHub issues to record and discuss ideas, enhancements, tasks, and bugs. They make collaboration easier in a variety of ways.
+        Use GitHub issues to record and discuss ideas, enhancements, tasks, and bugs. They make collaboration easier in a variety of ways, such as:
 
-        * Replace email for project discussions, ensuring everyone on the team has the complete story.
-        * Allow you to cross-link to other issues and pull requests.
-        * Create a single, comprehensive record of how and why you made certain decisions.
-        * Allow you to easily pull the right people into a conversation.
+        * Replacing email for project discussions, ensuring everyone on the team has the complete story.
+        * Allowing you to cross-link to other issues and pull requests.
+        * Creating a single, comprehensive record of how and why you made certain decisions.
+        * Allowing you to easily pull the right people into a conversation.
   - video-slide:
       title: Using Issues
       video: https://youtu.be/Zhj46r5D0nQ
@@ -43,8 +43,8 @@ screens:
       image: blank.png
       presenter-script: |
         * You can use [markdown](https://help.github.com/articles/github-flavored-markdown/) to format issues.
-        * You can @mention somebody in order to alert them of the issue.
-        * The Preview tab shows how your comment will be rendered.
+        * You can `@mention` somebody in order to alert them of the issue.
+        * The "Preview" tab shows how your comment will be rendered.
         * Drag and drop pictures into the issue to display them.
         * You can assign an issue to anyone with access to the repo.
         * Labels can be used to organize issues.

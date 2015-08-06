@@ -37,8 +37,8 @@ screens:
       presenter-script: |
         * Click on the `+` button to add a new file.
         * Adding text followed by a `/` will create a new directory with that name.
-        * Add an extension to tell GitHub how to render the text.
-        * Once you're done editing the file, "commit" the changes below. Make sure to include a commit message.       
+        * Add an extension to tell GitHub how to render that file's text.
+        * Once you're done editing the file, "commit" the changes below. Make sure to include a commit message.
   - lab:
       title: Creating a New File
       id: DSS-06-lab-01
