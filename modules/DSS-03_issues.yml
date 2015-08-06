@@ -42,7 +42,7 @@ screens:
       title: "Using Issues: Recap"
       image: blank.png
       presenter-script: |
-        * You can use [markdown](https://help.github.com/articles/github-flavored-markdown/) to format issues.
+        * You can use <a href="https://help.github.com/articles/github-flavored-markdown/" target="_blank">markdown</a> to format issues.
         * You can `@mention` somebody in order to alert them of the issue.
         * The "Preview" tab shows how your comment will be rendered.
         * Drag and drop pictures into the issue to display them.
