@@ -8,14 +8,14 @@ screens:
       presenter-script: |
         So far, all the work we've done has been using GitHub's online graphical user interface. However, if you prefer to work on the command line, you can easily integrate GitHub into your current workflow.
 
-        In this section, we'll teach you how to use git and GitHub effectively through the command line. We assume a working knowledge of the command line interface, so if you're rusty you might want to brush up on using the CLI before forging ahead.
+        In this section, we'll teach you how to use Git and GitHub effectively through the command line. We assume a working knowledge of the command line interface, so if you're rusty you might want to brush up on using the CLI before forging ahead.
   - image-slide:
       title: Git vs. GitHub
       image: blank.png
       presenter-script: |
-        When using the command line, you'll be working with Git. Git is the underlying version control system that GitHub makes use of. Some of the features we've discussed so far, such as pull request and issues, are functionality that GitHub adds. Others, like branching and commits, are git functionality.
+        When using the command line, you'll be working with Git. Git is the underlying version control system that GitHub makes use of. Some of the features we've discussed so far, such as pull request and issues, are functionality that GitHub adds. Others, like branching and commits, are Git functionality.
 
-        You can think of git as a version control tool that you can use locally, and GitHub as a cloud service that makes using that tool with other people on your team much more functional and seamless.
+        You can think of Git as a version control tool that you can use locally, and GitHub as a cloud service that makes using that tool with other people on your team much more functional and seamless.
   - image-slide:
       title: Checking Git Version
       image: git-version.jpg
@@ -24,7 +24,7 @@ screens:
         
         First, let's check the version of Git currently installed on your system. At the very least you should have a version greater than 1.9.5 installed. If you don't, then go to [git-scm.com](http://git-scm.com) to download and install the latest version.
 
-        Once you've verified you have the latest version of git installed, we're ready to on to getting git configured correctly.
+        Once you've verified you have the latest version of Git installed, we're ready to on to getting Git configured correctly.
 additional-labs:
 additional-questions:
 resources:
