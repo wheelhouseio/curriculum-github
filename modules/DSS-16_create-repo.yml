@@ -3,16 +3,21 @@ pre-requisites: DSS-15_pushing
 learning-objective: Describe best practices for creating a new repository and adding collaborators on GitHub.
 screens:
   - image-slide:
+      title: Updating Our Workflow
+      image: blank.png
+      presenter-script: |
+        Now that we've learned how to use Git in the command line, let's update our workflow to include using Git locally.
+  - image-slide:
       title: Options for Creating a Repository
       image: repository-options.jpg
       presenter-script: |
         All of the work we do in Git and GitHub happens inside of a repository. There are two ways to get started working with a new repository. You can:
-        
-        1. Clone the repository from a remote
-        2. Initialize Git in an existing local directory
-        
+
+        1. Clone the repository from a remote.
+        2. Initialize Git in an existing local directory.
+
         Since this class is designed to teach you how to use Git and GitHub effectively, we will focus on how to structure our work to support collaboration.
-        
+
         If I want to collaborate with you on a project then I will start a repository on GitHub. Let's discuss some best practices for GitHub repositories now.
   - video-slide:
       title: Creating a Repository on GitHub
@@ -45,11 +50,10 @@ screens:
       presenter-script: |
         * `Create new repository` button on your GitHub profile page.
         * The name of your repository must be unique to your account.
-        * The repo must be public or private.
-        * Public repositories can be viewed, cloned, or fork your project.
-        * Only collaborators who you add can push changes to your repo.
-        * Private repositories can only be viewed, cloned, etc. by collaborators you have added.
-        * You are allowed an unlimited number of public repos on your account, but must have a paid account to have any private repositories.
+        * Choose whether your repo will be public or private.
+          * Anyone can can view, clone, or fork a public repo, but only collaborate can push changes to it.
+          * Private repositories can only be viewed, cloned, etc. by collaborators you have added.
+          * You are allowed an unlimited number of public repos on your account, but must have a paid account to have any private repositories.
         * A `.gitignore` file tells git which types of files it shouldn't bother tracking. GitHub allows you to auto-generate your `.gitignore` file.
         * You may add an open source liscence to your repository if you'd like to make it open source.
         * Once you've created your repo, you can add collaborators by searching for their GitHub user name in the `Collaborators` section of the repo.
