@@ -26,9 +26,9 @@ screens:
       title: GitHub Repositories
       image: blank.png
       presenter-script: |
-        We've created a repo for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be refering to this repository.
+        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be refering to this repository. There is a link to your repository at the top of this page, just below the "slides" link, to the left of the help email address.
 
-        Right now, go to your GitHub page and poke around the new repository. If you want a refersher on the video while doing so, the next slide lists the most important points from it.
+        Right now, click on the link to your GitHub repo and click around the new repository. If you want a refersher on the video while doing so, the next slide lists the most important points from it.
   - image-slide:  
       title: "Exploring a Repository: Recap"
       image: blank.png
