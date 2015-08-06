@@ -13,22 +13,34 @@ screens:
       presenter-script: |
         When you work locally, your files exist in one of four states. They are either untracked, modified, staged, or committed.
 
-        An untracked file is one that is not currently part of the version controlled directory.
+        An untracked file is one that is not currently part of the version controlled directory—such as any new files. Untracked and modified files exist in your "working directory"
   - image-slide:
       title: The Two Stage Commit
       image: two-stage-commit-c.jpg
-      presenter-script:
-        - To add these files to version control, you will create a collection of files that represent a discrete unit of work. We build this unit in the staging area.
+      presenter-script: |
+        To add these files to version control, you will create a collection of files that represent a discrete unit of work. We build this unit in the staging area.
+
+        To add files to staging, you use the `git add <filename>` command.
+
+        Staging is important because it lets you only stage some of your new or modified files. For instance, if you've added a new variable and fixed a typo, you might want to commit those two changes separately. To do this, you stage and commit each one sepearately.
   - image-slide:
       title: The Two Stage Commit
       image: two-stage-commit-d.jpg
-      presenter-script:
-        - When we are satisfied with the unit of work we have assembled, we will commit everything in the staging area.
+      presenter-script: |
+        When we are satisfied with the unit of work we have assembled, we will commit everything in the staging area.
+
+        To commit files, you used the `git commit` command. Once changes are committed, the changes are added to the history of that branch, so that you can later see those specific changes, and even undo them if need be. You should also include a description of what and why you committed, to make it easier to refer to in the future.
   - image-slide:
       title: The Two Stage Commit
       image: two-stage-commit-e.jpg
-      presenter-script:
-        - In order to make a file part of the version controlled directory we will first do a git add and then we will do a git commit. Let's do it now.
+      presenter-script: |
+        To review:
+
+        In order to make a file part of the version controlled directory we will first do a `git add` of only those files we want to commit together, and then we will do a `git commit` to add those changes to the Git version control history. 
+
+        All of this happens locally, on your computer.
+
+        Let's do it now.
   - video-slide:
       title: The Two Stage Commit
       video: https://youtu.be/_gDABUBrmBA
@@ -66,7 +78,7 @@ screens:
       image: blank.png
       presenter-script: |
         * `git status` lets you see which files have been changed since the last commit.
-        * `git add FILE_NAME` adds that file to the staging area. `git add .` adds all the changed files to staging.
+        * `git add <filename>` adds that file to the staging area. `git add .` adds all the changed files to staging.
         * `git commit` will submit all those file changes under one unit of work. 
         * This also opens your default text editor (as set earlier in this lesson) for you to add a commit message.
         * This commit will happen locally, and only on the checked out branch. If you check out another branch, the changes will no longer show in that file.
