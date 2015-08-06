@@ -29,10 +29,10 @@ screens:
           say: "To delete the branch, simply use the git branch command with the -d option."
       production-notes:
   - image-slide:
-      title: "Creating Branches Locally: Recap"
+      title: "Pulling Changes: Recap"
       image: blank.png
       presenter-script: |
-        * When the remote repository has been changed (such as after a pull request), you need to update your local repository manually.
+        * When the remote repository has been changed (such as after a pull request is merged), you need to update your local repository manually.
         * The command `git pull` will make your local working branch up to date with the remote version of that same branch. 
         * This will not delete local branches that have been deleted on the remote repo.
         * To delete local branches that do not have a remote counterpart, use the `git branch --merged` command to list all such local branches, and then `git branch -d <branchname>` to delete specific local branches.
