@@ -47,11 +47,13 @@ screens:
       presenter-script: |
         * When you have a merge conflict, type `git status` and look for "unmerged paths" to see which files are creating the merge conflict.
         * Open the file in your text editor. You will see some lines that look like the following:
-              <<<<<<<< HEAD
-              Some text here.
-              ========
-              Different text here.
-              >>>>>>>> merge-me
+
+                <<<<<<<< HEAD
+                Some text here.
+                ========
+                Different text here.
+                >>>>>>>> merge-me
+
         * The text above and below the equal signs are what is causing the merge conflict. They appear on the same line but are different text.
         * Decide how you want to resolve the conflict, and once that's completed delete the merge markers. Save and close your text editor.
         * `git status` will show that the files are no longer in conflict, but that you are in the middle of a merge. `git add` the file and then `git commit` it, and the merge will then automatically complete.
