@@ -20,7 +20,7 @@ screens:
       image: blank.png
       presenter-script: |
         * Just as `git mv` exists to move or rename a file and instantly add the change to the staging area, `git rm` exists to remove a file.
-        * `git rm <file_name>` will remove the file and `add` the change to the staging area.
+        * `git rm <filename>` will remove the file and `add` the change to the staging area.
   - lab:
       title: Removing Tracked Files
       id: DSS-32-lab-01

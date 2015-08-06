@@ -33,7 +33,7 @@ screens:
       title: "Renaming and Moving Files: Recap"
       image: blank.png
       presenter-script: |
-        * When moving files, use the command `git mv <filename> <new_file_directory>/<filename>` rather than just the `mv` command. 
+        * When moving files, use the command `git mv <filename> <new_directory>/<filename>` rather than just the `mv` command.
         * `git mv` automatically `add`s the file to the staging area after it is moved, so it can be commited right away.
         * Just as with `mv`, you can use `git mv` to rename a file like so: `git mv <filename> <new_filename>`.
   - lab:

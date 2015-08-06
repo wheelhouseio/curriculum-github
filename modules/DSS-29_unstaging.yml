@@ -19,7 +19,7 @@ screens:
       title: "Unstaging Files: Recap"
       image: blank.png
       presenter-script: |
-        * `git reset HEAD <file_name>` will remove a file from the staging area, putting it back in your working directory.
+        * `git reset HEAD <filename>` will remove a file from the staging area, putting it back in your working directory.
   - lab:
       title: Unstaging files
       id: DSS-29-lab-01

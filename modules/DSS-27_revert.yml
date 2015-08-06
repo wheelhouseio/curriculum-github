@@ -36,8 +36,8 @@ screens:
       image: blank.png
       presenter-script: |
         * When reverting, you revert a specific commit.
-        * Find that commit, and copy the first several characters of the sha-1 hash.
-        * `git revert COMMIT_HASH` will create a new commit that is the exact opposite of the commit you're reverting.
+        * Find that commit, and copy the first several characters of the SHA-1 hash.
+        * `git revert <commit_hash>` will create a new commit that is the exact opposite of the commit you're reverting.
   - lab:
       title: Reverting Your Commit
       id: DSS-27-lab-02
