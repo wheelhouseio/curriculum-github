@@ -8,7 +8,7 @@ screens:
       presenter-script: |
         This course is designed to walk you through best practices on using Git for version control and GitHub for collaboration. You'll be reading text and watching videos about Git and GitHub, and we'll be asking you to perform all the actions we show you in your own GitHub repository. You'll have the chance to practice everything you learn.
 
-        For now, click on the "next" button above to move onto the second slide.
+        For now, click on the "next" button above to move onto the next slide.
   - image-slide:
       title: Answering Questions
       image: blank.png
