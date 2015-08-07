@@ -71,7 +71,7 @@ screens:
       title: The GitHub Ecosystem
       image: github-workflow.jpg
       presenter-script: |
-        You can also use all of your favorite tools and development processes with GitHub. GitHub doesn't require a new text editor, command lind shell, or bug tracker: your team gets to keep the tools they're comfortable with.
+        You can also use all of your favorite tools and development processes with GitHub. GitHub doesn't require a new text editor, command line shell, or bug tracker: your team gets to keep the tools they're comfortable with.
 
         GitHub can also integrate into your current deployment process, and fully supports continuous integration and continuous deployment to help you and your team build software better, together.
 additional-labs:
