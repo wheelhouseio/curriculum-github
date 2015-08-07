@@ -29,7 +29,7 @@ screens:
       presenter-script: |
         * You can remove changes in the working directory using `git checkout`.
         * This is destructive! You will throw away the changes and not be able to get them back.
-        * `git checkout --<filename>` is the syntax. The `--` lets git know you're talking about a file. This will revert the file to the version found in the last commit.
+        * `git checkout --<filename>` is the syntax. The `--` lets Git know you're talking about a file. This will revert the file to the version found in the last commit.
         * This only works for files in the working directory. Files in the staging area or already commited won't be reverted.
   - lab:
       title: Discarding Changes in Modified Files
