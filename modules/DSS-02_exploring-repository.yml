@@ -4,7 +4,7 @@ learning-objective: Locate the key features of a GitHub repository.
 screens:
   - image-slide:
       title: GitHub Repositories
-      image: repository-intro.jpg
+      image: github-repository.jpg
       presenter-script:
         - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. A repository contains all of the project files (including documentation), and stores each file's revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
   - video-slide:
@@ -31,7 +31,7 @@ screens:
         Right now, click on the link to your GitHub repo and click around the new repository. If you want a refersher on the video while doing so, the next slide lists the most important points from it.
   - image-slide:  
       title: "Exploring a Repository: Recap"
-      image: blank.png
+      image: github-repository.jpg
       presenter-script: |
         * The repository (or "repo") holds everything in your project—code, documentation, other important files.
         * Everything in the repo is tracked by git version control.

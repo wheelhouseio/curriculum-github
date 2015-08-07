@@ -4,7 +4,7 @@ learning-objective: Create a branch to separate feature work from the master bra
 screens:
   - image-slide:
       title: Using Branches
-      image: branch-icon.jpg
+      image: github-branches.jpg
       presenter-script: |
         Every day you will be editing files on your project or adding new files. You don't want to take risks with the code on your master branch so you need to create a branch.
         
