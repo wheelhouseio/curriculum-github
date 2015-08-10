@@ -15,7 +15,7 @@ screens:
       presenter-script: |
         When using the command line, you'll be working with Git. Git is the underlying version control system that GitHub makes use of. Some of the features we've discussed so far, such as pull request and issues, are functionality that GitHub adds. Others, like branching and commits, are Git functionality.
 
-        You can think of Git as a version control tool that you can use locally, and GitHub as a cloud service that makes using that tool with other people on your team much more functional and seamless.
+        You can think of Git as a version control tool that you can use locally, and GitHub as a remote service that makes using that tool with other people on your team much more functional and seamless.
   - image-slide:
       title: Checking Git Version
       image: git-version.jpg

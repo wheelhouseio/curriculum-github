@@ -6,7 +6,7 @@ screens:
       title: GitHub Repositories
       image: github-repositories.jpg
       presenter-script:
-        - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. A repository contains all of the project files (including documentation), and stores each file's revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
+        - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. A repository contains all of the project files (including documentation), and stores the history of each file. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
   - video-slide:
       title: Exploring a repository
       video: https://youtu.be/R8OAwrcMlRw

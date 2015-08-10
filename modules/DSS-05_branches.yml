@@ -31,18 +31,18 @@ screens:
       title: "Creating a Branch: Recap"
       image: blank.png
       presenter-script: |
-        * A branch is an identical copy of the master branch that can be edited separately.
+        * A branch is an identical copy of the repo's code that can be edited separately.
         * Branching keeps the code on `master` safe while allowing you to experiment.
         * Create a branch by clicking on the `branch` drop-down and entering your branch name in the text field.
         * Any files you create, edit, or delete will then be applied to that branch.
-        * Be careful, GitHub automatically puts you on `master`, so always make sure you're on the right branch before you start working.
+        * Be careful, GitHub automatically puts you on `master` when you leave the repo and come back, so always make sure you're on the right branch before you start working.
   - lab:
       title: Creating a Branch
       id: DSS-05-lab-01
       presenter-script:
         - Let's practice creating a branch.
       steps:
-        - description: "Create a branch in class repo (linked above) and name it firstname-lastname using your first and last name."
+        - description: "Create a branch in class the repo (linked above) and name it firstname-lastname using your first and last name."
           id: DSS-05-create-branch
           verifications:
             - verification-type: branch-created
