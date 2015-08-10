@@ -21,7 +21,6 @@ sections:
       - DSS-05_branches
       - DSS-06_creating-files
       - DSS-07_create-pr
-      - POLL-01_Pace-poll-01
       - DSS-08_edit-pr
       - DSS-09_merge-pr
   -
@@ -42,7 +41,6 @@ sections:
       - DSS-17_local-branches
       - DSS-18_workflow-review
       - DSS-19_pulling
-      - POLL-02_Pace-poll-02
   -
     title: Working with Local Files
     description: In this section you will learn how to perform common file operations with git.
@@ -60,7 +58,6 @@ sections:
       - DSS-26_git-mv
       - DSS-27_revert
       - DSS-28_commit-amend
-      - POLL-03_Pace-poll-03
       - DSS-29_unstaging
       - DSS-30_reset
       - DSS-31_discard-file-changes
