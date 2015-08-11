@@ -4,7 +4,7 @@ learning-objective: Create a branch to separate feature work from the master bra
 screens:
   - image-slide:
       title: Using Branches
-      image: github-branches.jpg
+      image: github-branches.png
       presenter-script: |
         Every day you will be editing files on your project or adding new files. You don't want to take risks with the code on your master branch so you need to create a branch.
         
@@ -29,7 +29,7 @@ screens:
           say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. Now you are ready to create your own branch and start adding some commits."
   - image-slide:  
       title: "Creating a Branch: Recap"
-      image: blank.png
+      image: github-branches.png
       presenter-script: |
         * A branch is an identical copy of the repo's code that can be edited separately.
         * Branching keeps the code on `master` safe while allowing you to experiment.
