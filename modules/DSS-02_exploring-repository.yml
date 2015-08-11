@@ -31,7 +31,7 @@ screens:
         Right now, click on the link to your GitHub repo and click around the new repository. If you want a refersher on the video while doing so, the next slide lists the most important points from it.
   - image-slide:  
       title: "Exploring a Repository: Recap"
-      image: github-repositories.jpg
+      image: github-repositories.png
       presenter-script: |
         * The repository (or "repo") holds everything in your project—code, documentation, other important files.
         * Everything in the repo is tracked by git version control.
