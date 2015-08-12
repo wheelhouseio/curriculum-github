@@ -36,6 +36,8 @@ screens:
         * When you're done experimenting and want to add the feature into `master`, you create a pull request (PR).
         * PRs don't have to be perfect, but should be ready for other people to look at, comment on, and work on.
         * Once the changes in the PR are approved, the branch is "merged" into `master` and can then be removed.
+
+        To learn more about the GitHub flow, read the information <a href="https://guides.github.com/introduction/flow/" target="_blank">here</a>.
 additional-labs:
 additional-questions:
 resources:

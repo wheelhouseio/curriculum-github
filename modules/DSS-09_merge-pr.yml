@@ -48,6 +48,7 @@ screens:
       presenter-script: |
         * To merge your branch into the master branch, click the `Merge pull request` button in the `Conversation` view.
         * Use the keyword `Fixes` followed by `#` and the issue number to close the issue at the same time as you merge the PR.
+          * A full list of keywords can be found <a href="https://help.github.com/articles/closing-issues-via-commit-messages/" target="_blank">here</a>.
         * Once the PR is successfully merged, you can delete your feature branch as it is no longer needed.
   - lab:
       title: Merging Pull Requests

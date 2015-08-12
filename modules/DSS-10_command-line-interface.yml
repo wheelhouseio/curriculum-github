@@ -9,6 +9,15 @@ screens:
         So far, all the work we've done has been using GitHub's online graphical user interface. However, if you prefer to work on the command line, you can easily integrate GitHub into your current workflow.
 
         In this section, we'll teach you how to use Git and GitHub effectively through the command line. We assume a working knowledge of the command line interface, so if you're rusty you might want to brush up on using the CLI before forging ahead.
+
+        To get to the command line, you should do the following:
+
+        * **Mac**: Type `command-space` to bring up Spotlight search, then search for `Terminal`.
+        * **Linux**: Open up your prefered shell, such as bash or fish.
+        * **Windows**: You can bring up the command line by going to the Start Menu, selecting "Run", and typing in `CMD.exe` and then hitting `enter`. Or downlod the bash emulator below.
+          * In some versions of windows, you might have to download a command line interface. We recommend that you download <a href="https://msysgit.github.io/" target="_blank">Git for Windows from GitHub</a>, as that includes a bash emulator.
+
+        If you've never used the command line before, you might want to <a href="http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything" target="_blank">learn more about it here</a>.
   - image-slide:
       title: Git vs. GitHub
       image: blank.png
@@ -21,8 +30,14 @@ screens:
       image: git-version.jpg
       presenter-script: |
         Git is OS agnostic; the commands are essentially the same whether you are on Mac, Windows or Linux. You can use your favorite application to interact with the command line.
-        
-        First, let's check the version of Git currently installed on your system. At the very least you should have a version greater than 1.9.5 installed. If you don't, then go to [git-scm.com](http://git-scm.com) to download and install the latest version.
+
+        First, let's check the version of Git currently installed on your system by typing `git --version` into the command line. You should have the latest version of Git installed.  
+
+        * **Mac**: 2.5.0
+        * **Linux**: 2.5.0
+        * **Windows**: 1.9.5
+
+        If you don't have the right version, then go to <a href="http://git-scm.com" target="_blank">git-scm.com</a> to download and install the latest version.
 
         Once you've verified you have the latest version of Git installed, we're ready to on to getting Git configured correctly.
 additional-labs:

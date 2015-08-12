@@ -71,75 +71,21 @@ screens:
       id: DSS-03-quiz-02
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
-        - title: What is the Issue number for the discussion on adding the .gitignore
+        - title: "Who opened Issue #1"
           id: DSS-03-qq2
           type: open-response
           options:
-            - value: "/^#?4$/"
-              id: DSS-03-qq2-o1
-              response: "Good job! Issue #4 is discussing adding the .gitignore."
-              correct: true
-            - value: # Null means it matches anything else - please make this the last option
-              id: DSS-03-qq2-o2
-              response: "Not quite. Issue #4 is discussing adding the .gitignore."
-  - quiz:
-      title: "Using Issues: Question 3"
-      id: DSS-03-quiz-03
-      presenter-script: Before we move on, let's make sure we can find important parts of a repository
-      questions:
-        - title: "Who opened Issue #1"
-          id: DSS-03-qq3
-          type: open-response
-          options:
             - value: /githubteacher/i
-              id: DSS-03-qq3-o1
+              id: DSS-03-qq2-o1
               response: "Good job! @githubteacher opened issue #1."
               correct: true
             - value: /hubyeti/i
-              id: DSS-03-qq3-o2
+              id: DSS-03-qq2-o2
               response: "Good job! @hubyeti opened issue #1."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
-              id: DSS-03-qq3-o3
+              id: DSS-03-qq2-o3
               response: "Not quite. Look right below the title to see who opened issue #1."
-              correct: false
-  - quiz:
-      title: "Using Issues: Question 4"
-      id: DSS-03-quiz-04
-      presenter-script: Before we move on, let's make sure we can find important parts of a repository
-      questions:
-        - title: "Who was the first person to comment on Issue #2"
-          id: DSS-03-qq4
-          type: open-response
-          options:
-            - value: /crichID/i
-              id: DSS-03-qq4-o1
-              response: "Good job! @crichID was the first person to comment on issue #2."
-              correct: true
-            - value: /hubyeti/i
-              id: DSS-03-qq4-o2
-              response: "Good job! @hubyeti was the first person to comment on issue #2."
-              correct: true
-            - value: # Null means it matches anything else - please make this the last option
-              id: DSS-03-qq4-o3
-              response: "Not quite. The first comment is the one right below the title section."
-              correct: false
-  - quiz:
-      title: "Using Issues: Bonus Question"
-      id: DSS-03-quiz-05
-      presenter-script: Before we move on, let's make sure we can find important parts of a repository
-      questions:
-        - title: "Bonus Question! What is the number of the Pull Request that is fixing issue #4"
-          id: DSS-03-qq5
-          type: open-response
-          options:
-            - value: "/^#?5$/"
-              id: DSS-03-qq5-o1
-              response: "Good job! PR #5 is adding the .gitignore file."
-              correct: true
-            - value: # Null means it matches anything else - please make this the last option
-              id: DSS-03-qq5-o2
-              response: "Not quite. PR #5 is adding the .gitignore file."
               correct: false
   - lab:
       title: "Creating an Issue: Lab"

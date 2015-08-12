@@ -22,13 +22,6 @@ screens:
         - do: Click `Pull Request` view
           say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues. Go ahead and click around in the class repository now to familiarize yourself with its contents.
       production-notes:
-  - image-slide:
-      title: GitHub Repositories
-      image: github-repositories.png
-      presenter-script: |
-        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be refering to this repository. There is a link to your repository at the top of this page, just below the "slides" link, to the left of the help email address.
-
-        Right now, click on the link to your GitHub repo and click around the new repository. If you want a refersher on the video while doing so, the next slide lists the most important points from it.
   - image-slide:  
       title: "Exploring a Repository: Recap"
       image: github-repositories.png
@@ -38,8 +31,15 @@ screens:
         * The `README.md` file is shown at the bottom of the main page of the code view.
         * Issues are used to track bugs and feature requests, and can be assigned to team members.
         * A pull request represents a change that the author would like to make to the repo. PRs are used to resolve issues.
+  - image-slide:
+      title: GitHub Repositories
+      image: github-repositories.png
+      presenter-script: |
+        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be refering to this repository. 
 
-        Once you're confortable viewing your repository, move onto the next slide.
+        **There is a link to your repo at the top of this page in the navigation bar**. If you check the email associated with your GitHub account, you should find some emails that link you to the repository.
+
+        Right now, click on the link to your GitHub repo and click around the new repository.
 additional-labs:
 additional-questions:
 resources:
