@@ -6,7 +6,7 @@ screens:
       title: Comparing Local File States
       image: blank.png
       presenter-script:
-        - "In the last section, we made several changes to a local file, causing the file to appear in different stages of the commit process. The git diff command allows us to see what has changed in these different versions of our files. Let's explore some of these options now."
+        - "In the last section, we made several changes to a local file, causing the file to appear in different stages of the commit process. The `git diff` command allows us to see what has changed in these different versions of our files. Let's explore some of these options now."
   - video-slide:
       title: Viewing Local Diffs
       video: https://youtu.be/xGodilQg3dQ

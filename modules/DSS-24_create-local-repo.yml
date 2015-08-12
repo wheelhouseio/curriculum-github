@@ -3,7 +3,7 @@ pre-requisites: DSS-23_log
 learning-objective: Create a local repository on the command line.
 screens:
   - image-slide:
-      title: Using Git to Fix Your Mistakes
+      title: Using Git to Fix Mistakes
       image: blank.png
       presenter-script: |
         One of the most powerful features of any VCS is the ability to undo your changes long after you save them.
@@ -13,7 +13,7 @@ screens:
       title: Creating a Repository on the Command Line
       image: blank.png
       presenter-script: |
-        You'll be using Git for this section, so you won't need to interact GitHub. Thus, it's a good chance to learn how to Git on the command line to create a new local repo.
+        You'll only be working locally for this section, so you won't need to interact GitHub. Thus, it's a good chance to learn how to use Git on the command line to create a new local repo.
 
         On the next slide you'll learn how to use `git init` to create a local repository, and then we'll use that repo in the rest of this lesson.
   - video-slide:
@@ -39,7 +39,7 @@ screens:
       presenter-script: |
         * To create a project from scratch, type `git init <directoryname>`.
         * This creates the directory as a subdirectory of the current location, and initializes a repo there.
-        * You will have to create `README.md` and `.gitignore` files manually.
+        * You will have to create your `README.md` file manually.
   - lab:
       title: Creating a Repository on the Command Line
       id: DSS-24-lab-01

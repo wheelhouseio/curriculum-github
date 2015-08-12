@@ -27,7 +27,7 @@ screens:
       presenter-script: |
         * `git branch` to make sure you're on the right branch.
         * `cd` to the proper directory, then open the file with your text editor.
-        * Make changes in that text editor, then save them.
+        * Make the changes, then save them.
   - lab:
       title: Editing Local Files
       id: DSS-13-lab-01

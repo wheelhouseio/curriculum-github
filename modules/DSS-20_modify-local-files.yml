@@ -3,7 +3,7 @@ pre-requisites: DSS-19_pulling
 learning-objective: Experience common commit scenarios.
 screens:
   - image-slide:
-      title: "Modifying Local Files: Recap"
+      title: "Modifying Local Files"
       image: blank.png
       presenter-script: |
         Now that you understand the foundations of Git, and how Git and GitHub work together, we're going to do a deep-dive into using Git while you edit your local files.
@@ -32,9 +32,9 @@ screens:
       title: "Modifying Local Files: Recap"
       image: blank.png
       presenter-script: |
-        * There is only one staging area, so you can create a branch after you've changed a file, and still commit that file to the new branch.
+        * There is only one working and one staging area, so you can create a branch after you've changed or added a file, and still commit that file to the new branch.
         * `git checkout -b "<new_branchname>"` is a quick way to both create a new branch and check it out.
-        * If you edit a file after `git add`ing it, then on a commit only the changes made before the `git add` will actually be commited. You must `git add` it again in order to commit all the changes.
+        * If you edit a file after `git add`ing it, then when you commit only the changes made before the `git add` will actually be commited. You must `git add` it again in order to commit all the changes.
   - lab:
       title: Modifying Local Files
       id: DSS-20-lab-01

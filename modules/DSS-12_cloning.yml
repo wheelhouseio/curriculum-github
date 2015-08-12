@@ -40,20 +40,20 @@ screens:
       image: blank.png
       presenter-script: |
         * Start a new branch on GitHub to work on.
-        * Using the command line, `cd` to the directory that you want to put your local repo in.
         * Copy the clone URL on GitHub.
+        * Using the command line, `cd` to the directory that you want to put your local repo in.
         * Type `git clone <clone_url>`.
         * `cd` into the new cloned repo and type `git status`.
         * `git branch` will show you the available branches. Only `master` appears.
         * `git branch -a` will show all the remote branches.
-        * `git checkout <branch_name>` will clone the branch you want onto your local machine, and all edits you make locally with be applied to that branch until you checkout another one.
+        * `git checkout <branchname>` will create a local branch that matches the remote branch. All edits you make locally with be applied to that branch until you checkout another one.
   - lab:
       title: Cloning a Repository
       id: DSS-12-lab-01
       presenter-script:
         - Let's go ahead and clone this repository to your local desktop.
       steps:
-        - description: Create a new branch. Name the branch githubID-more-bio, using your githubID.
+        - description: Create a new branch. Name the branch `githubID-more-bio`, using your githubID.
           id: DSS-12-create-branch
           verifications:
             - verification-type: branch-created

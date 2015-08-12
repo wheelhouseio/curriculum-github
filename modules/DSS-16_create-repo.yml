@@ -6,7 +6,9 @@ screens:
       title: Updating Our Workflow
       image: blank.png
       presenter-script: |
-        Now that we've learned how to use Git in the command line, let's update our workflow to include using Git locally.
+        So far you've learned the most-used Git commands. 
+
+        In this section, we'll show you how to do certain things locally instead of on GitHub, as well as some shortcuts to make you even faster when using the command line.
   - image-slide:
       title: Options for Creating a Repository
       image: repository-options.jpg
