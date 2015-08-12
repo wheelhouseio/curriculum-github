@@ -47,23 +47,6 @@ screens:
         * `git branch` will show you the available branches. Only `master` appears.
         * `git branch -a` will show all the remote branches.
         * `git checkout <branchname>` will create a local branch that matches the remote branch. All edits you make locally with be applied to that branch until you checkout another one.
-  - lab:
-      title: Cloning a Repository
-      id: DSS-12-lab-01
-      presenter-script:
-        - Let's go ahead and clone this repository to your local desktop.
-      steps:
-        - description: Create a new branch. Name the branch `githubID-more-bio`, using your githubID.
-          id: DSS-12-create-branch
-          verifications:
-            - verification-type: branch-created
-              id: DSS-12-create-branch-verification
-              success-message: "Great job - you created a branch."
-              failure-message: "It looks like you didn't create a branch. Want to try again?"
-        - description: Clone the repository to your desktop.
-          id: DSS-12-clone
-        - description: Checkout your branch.
-          id: DSS-12-checkout
   - quiz:
       title: Cloning a Repository
       id: DSS-12-quiz-01
@@ -111,6 +94,24 @@ screens:
               id: DSS-12-qq2-o4
               response: Not quite. The correct command is `git checkout more-bio-changes`
               correct: false
+  - lab:
+      title: Cloning a Repository
+      id: DSS-12-lab-01
+      presenter-script:
+        - Let's go ahead and clone this repository to your local desktop.
+      steps:
+        - description: Create a new branch. Name the branch `githubID-more-bio`, using your githubID.
+          id: DSS-12-create-branch
+          verifications:
+            - verification-type: branch-created
+              id: DSS-12-create-branch-verification
+              success-message: "Great job - you created a branch."
+              failure-message: "It looks like you didn't create a branch. Want to try again?"
+        - description: Clone the repository to your desktop.
+          id: DSS-12-clone
+        - description: Checkout your branch.
+          id: DSS-12-checkout
+
 additional-labs:
 additional-questions:
 resources:
