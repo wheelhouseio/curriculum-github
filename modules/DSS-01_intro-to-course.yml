@@ -64,7 +64,7 @@ screens:
 
         With Git, each person has a local copy of the project to work on. As they make changes locally, they upload them to GitHub after downloading any changes that others have made.
 
-        GitHub provides access to a central copy of the code, as well features like Pull Requests and Issues that make collaborating easier.
+        GitHub provides access to a central copy of the code, as well as features like Pull Requests and Issues that make collaborating easier.
   - image-slide:
       title: Key GitHub Features
       image: collaboration-features.jpg

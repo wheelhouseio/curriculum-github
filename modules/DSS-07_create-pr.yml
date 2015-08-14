@@ -55,14 +55,14 @@ screens:
       presenter-script:
         - Now that you have added a new file, let's create a pull request.
       steps:
-        - description: "Create a Pull Request, @mentioning the instructor. Assign the Pull Request to yourself."
+        - description: "Create a Pull Request, @mentioning Hubyeti. Assign the Pull Request to yourself."
           id: DSS-07-create-pull-request
           verifications:
             - verification-type: pull-request
               id: DSS-07-create-pull-request-verification
               success-message: "Great job - you created a Pull Request"
               failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
-        - description: "Add a line comment to a pull request in the repository."
+        - description: "Add a line comment to the other pull request in the repository."
           id: DSS-07-comment
           verifications:
             - verification-type: pull-request-review-comment

@@ -35,7 +35,7 @@ screens:
       title: GitHub Repositories
       image: github-repositories.png
       presenter-script: |
-        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be refering to this repository. 
+        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be referring to this repository. 
 
         **There is a link to your repo at the top of this page in the navigation bar**. If you check the email associated with your GitHub account, you should find some emails that link you to the repository.
 

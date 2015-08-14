@@ -65,7 +65,11 @@ screens:
       presenter-script:
         - Now that we have created a repository on GitHub, let's clone the new repository to our desktop.
       steps:
-        - description: "Clone the new repository to your desktop."
+        - description: "Create a new repository on GitHub."
+          id: DSS-16-create-repo
+        - description: "Add a README.md file to the repo."
+          id: DSS-16-add-readme
+        - description: "Clone the new repo to your desktop."
           id: DSS-16-clone
 additional-labs:
 additional-questions:

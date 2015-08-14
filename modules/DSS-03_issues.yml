@@ -54,7 +54,7 @@ screens:
       id: DSS-03-quiz-01
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
-        - title: "What is being discussed in Issue #3"
+        - title: "What is being discussed in Issue #3 of your repo? Remember, there is a link to in the nav bar above."
           id: DSS-03-qq1
           type: open-response
           options:
@@ -71,7 +71,7 @@ screens:
       id: DSS-03-quiz-02
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
-        - title: "Who opened Issue #1"
+        - title: "Who opened Issue #1?"
           id: DSS-03-qq2
           type: open-response
           options:
@@ -99,21 +99,21 @@ screens:
             - verification-type: issue-created
               id: DSS-03-create-issue-verification
               success-message: "Great job - you created an issue."
-              failure-message: "It looks like you didn't create an issue. Want to try again?"
+              failure-message: "It looks like you haven't created an issue yet."
         - description: Assign the issue you just created to yourself # optional for Monday
           id: DSS-03-assign-issue
           verifications:
             - verification-type: issue-assigned-to-self
               id: DSS-03-assign-issue-verification
               success-message: "Great job - you assigned the issue to yourself."
-              failure-message: "It looks like you didn't assign the issue to yourself."
+              failure-message: "It looks like you haven't assigned the issue to yourself yet."
         - description: Apply the label of "bio" to the issue # optional for Monday
           id: DSS-03-label-issue
           verifications:
             - verification-type: issue-labeled
               id: DSS-03-label-issue-verification
-              success-message: "Great job - you applied the 'bio' label to the issue"
-              failure-message: "It looks like you didn't apply the 'bio' label to the issue."
+              success-message: "Great job - you applied the 'bio' label to the issue. Move on to the next slide now."
+              failure-message: "It looks like you haven't applied the 'bio' label to the issue yet."
 additional-labs:
 additional-questions:
 resources:

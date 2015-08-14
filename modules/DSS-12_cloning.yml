@@ -43,6 +43,7 @@ screens:
         * Copy the clone URL on GitHub.
         * Using the command line, `cd` to the directory that you want to put your local repo in.
         * Type `git clone <clone_url>`.
+          * You might be prompted for your password. You should enter your GitHub password at this point.
         * `cd` into the new cloned repo and type `git status`.
         * `git branch` will show you the available branches. Only `master` appears.
         * `git branch -a` will show all the remote branches.
