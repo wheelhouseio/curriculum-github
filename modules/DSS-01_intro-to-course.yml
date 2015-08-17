@@ -72,7 +72,7 @@ screens:
         - In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate. These include Issues for discussing features and bugs with your teammates and Pull Requests for discussing and reviewing new features your team is working on.
   - image-slide:
       title: The GitHub Ecosystem
-      image: github-workflow.jpg
+      image: github-workflow.png
       presenter-script: |
         You can also use all of your favorite tools and development processes with GitHub. GitHub doesn't require a new text editor, command line shell, or bug tracker: your team gets to keep the tools they're comfortable with.
 
