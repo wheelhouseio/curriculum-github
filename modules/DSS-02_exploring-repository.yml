@@ -32,10 +32,10 @@ screens:
         * Issues are used to track bugs and feature requests, and can be assigned to team members.
         * A pull request represents a change that the author would like to make to the repo. PRs are used to resolve issues.
   - image-slide:
-      title: GitHub Repositories
-      image: github-repositories.png
+      title: Your First GitHub Repository
+      image: blank.png
       presenter-script: |
-        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. In the future, when we ask you to complete tasks on GitHub, we'll be referring to this repository. 
+        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. When we ask you to complete tasks on GitHub, we'll be referring to this repository. 
 
         **There is a link to your repo at the top of this page in the navigation bar**. If you check the email associated with your GitHub account, you should find some emails that link you to the repository.
 
