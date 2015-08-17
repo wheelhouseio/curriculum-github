@@ -1,0 +1,46 @@
+title: GitHub for Everyone (Self Serve)
+description: GitHub is not just for developers. Project managers, tech writers, and other people who help build software can use GitHub to work with developers and with each other. Get an introduction to Git and GitHub concepts and learn how to use version control  in your role without touching the command line.
+
+sections:
+  -
+    title: Welcome to the Course
+    description: This section introduces you to GitHub.
+    modules:
+      - ESS-01_intro-to-course
+  -
+    title: Getting Started with Collaboration
+    description: This section introduces you to the collaboration features we will use throughout the class.
+    modules:
+      - DSS-02_exploring-repository
+      - DSS-03_issues
+      - COLL-03_Watching-notifications-stars-explore
+  -
+    title: The Basic GitHub Workflow
+    description: In this section you will learn about the GitHub flow.
+    modules:
+      - DSS-04_github-flow
+      - DSS-05_branches
+      - DSS-06_creating-files
+  -
+    title: Creating Your First Pull Request
+    description: In this section you will create your first pull request.
+    modules:
+      - DSS-07_create-pr
+      - DSS-08_edit-pr
+      - DSS-09_merge-pr
+  -
+    title: Using the GitHub Desktop Application
+    description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
+    modules:
+      - CONT-GHM-01_Basic-Configuration
+      - CONT-GHM-02_Cloning-repository
+      - CONT-GHM-03_Editing-local-files
+      - CONT-GHM-04_Two_Stage_Commit
+      - CONT-GHM-05_Sync-changes
+  -
+    title: Managing Projects on GitHub
+    description: In this section you will learn about the project management features in GitHub.
+    modules:
+      - PROJ-01_Managing-issues-pull-requests
+      - PROJ-02_Using-milestones
+      - PROJ-03_Using-pulse-graphs
