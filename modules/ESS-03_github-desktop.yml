@@ -19,9 +19,13 @@ screens:
       presenter-script:
         - Download and install the GitHub Desktop client.
       steps:
-        - description: "Go to [desktop.github.com](http://desktop.github.com) and download the GitHub Desktop Client."
+        - description: "Go to <a href="http://desktop.github.com" target="_blank">desktop.github.com</a> and download the GitHub Desktop Client."
           id: ESS-03-download
-        - description: "Intall the client: On a Mac, unzip the `GitHub Desktop 210` and drag the app to your Applications Folder. On a PC, run `GitHubSetup.exe` once you've downloaded it."
+        - description: |
+            Intall the client: 
+
+            * On a Mac, unzip the `GitHub Desktop 210` and drag the app to your Applications Folder. 
+            * On a PC, run `GitHubSetup.exe` once you've downloaded it.
           id: ESS-03-install
         - description: "Open the application. Go to the settings or preferences, and make sure you're logged into your GitHub account."
           id: ESS-03-setup
