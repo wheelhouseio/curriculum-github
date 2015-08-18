@@ -5,10 +5,14 @@ screens:
   - image-slide:
       title: Cloning a Repository
       image: clone-diagram.jpg
-      presenter-script:
-        - Let's revisit the steps we just covered, but this time, we will use a local copy of the file and the command line to make the changes requested in the issue.
-        - First, we will need to create a clone of the repository.
-        - When you clone a GitHub repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a DVCS like git - rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
+      presenter-script: |
+        Let's revisit the GitHub flow, but this time using a local copy of the file and the GitHub Desktop app to make the changes requested in the issue.
+
+        First, we will need to create a clone of the repository.
+
+        When you clone a GitHub repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a DVCS like Git—rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
+
+        Because you're using the GitHub Desktop app, you can tell GitHub to create a clone right from the repository web page.
   - video-slide:
       title: Cloning a Repository
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
