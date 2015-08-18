@@ -5,8 +5,12 @@ screens:
   - image-slide:
       title: Editing Local Files
       image: edit-icon.jpg
-      presenter-script:
-        - "Now that you have cloned the repository and checked out your branch, you are ready to make some changes to the local files. You can use your favorite text editor to open and edit files. The only difference is that you will be making your changes on a branch. Let's add more information to the bio we created earlier."
+      presenter-script: |
+        Now that you have cloned the repository and checked out your branch, you are ready to make some changes to the local files.
+
+        You can use your favorite text editor to open and edit files. The only difference is that you will be making your changes on a branch. Let's add more information to the bio we created earlier.
+
+        If you don't have a text editor installed, we suggest using <a href="https://atom.io/" target="_blank">atom</a>. You could also use any other text editor, or your favorite IDE. 
   - video-slide:
       title: Editing Local Files
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
