@@ -19,7 +19,8 @@ screens:
       presenter-script:
         - Download and install the GitHub Desktop client.
       steps:
-        - description: "Go to <a href="http://desktop.github.com" target="_blank">desktop.github.com</a> and download the GitHub Desktop Client."
+        - description: |
+            Go to <a href="http://desktop.github.com" target="_blank">desktop.github.com</a> and download the GitHub Desktop Client.
           id: ESS-03-download
         - description: |
             Intall the client: 
