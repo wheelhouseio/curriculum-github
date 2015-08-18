@@ -13,7 +13,7 @@ sections:
     modules:
       - DSS-02_exploring-repository
       - DSS-03_issues
-      - COLL-03_Watching-notifications-stars-explore
+      - ESS-02_collaboration-features
   -
     title: The Basic GitHub Workflow
     description: In this section you will learn about the GitHub flow.
@@ -32,15 +32,15 @@ sections:
     title: Using the GitHub Desktop Application
     description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
     modules:
-      - CONT-GHM-01_Basic-Configuration
-      - CONT-GHM-02_Cloning-repository
-      - CONT-GHM-03_Editing-local-files
-      - CONT-GHM-04_Two_Stage_Commit
-      - CONT-GHM-05_Sync-changes
+      - ESS-03_github-desktop
+      - ESS-04_cloning
+      - ESS-05_editing-locally
+      - ESS-06_commit
+      - ESS-07_sync
   -
     title: Managing Projects on GitHub
     description: In this section you will learn about the project management features in GitHub.
     modules:
-      - PROJ-01_Managing-issues-pull-requests
-      - PROJ-02_Using-milestones
-      - PROJ-03_Using-pulse-graphs
+      - ESS-08_managing-issues-pull-requests
+      - ESS-09_milestones
+      - ESS-10_pulse-graphs
