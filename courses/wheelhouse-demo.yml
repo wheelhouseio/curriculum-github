@@ -6,4 +6,4 @@ sections:
     title: Getting Started with Collaboration
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
     modules:
-      - DEMO-03_issues
+      - DEMO-02_issues
