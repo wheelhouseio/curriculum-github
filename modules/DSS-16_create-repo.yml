@@ -60,7 +60,7 @@ screens:
         * You may add an open source liscence to your repository if you'd like to make it open source.
         * Once you've created your repo, you can add collaborators by searching for their GitHub user name in the `Collaborators` section of the repo.
   - lab:
-      title: Cloning the Repository
+      title: Create and Clone the Repository
       id: DSS-16-lab-01
       presenter-script:
         - Now that we have created a repository on GitHub, let's clone the new repository to our desktop.

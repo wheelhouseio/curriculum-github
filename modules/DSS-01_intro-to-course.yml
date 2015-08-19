@@ -23,17 +23,17 @@ screens:
       questions: # A poll might have one or more questions
         - title: |
             Have you used a version control system before?
-          id: COLL-00-pq1
+          id: DSS-01-pq1
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
             - value: Yes, Git
-              id: COLL-00-pq1-o1
+              id: DSS-01-pq1-o1
               response: Great! Let's just make sure you're 100% clear about the differences between Git and GitHub.
             - value: Yes, but not Git
-              id: COLL-00-pq1-o2
+              id: DSS-01-pq1-o2
               response: Great! Welcome to Git and GitHub. You might find them a little different from your previous vcs's but we think you're going to like the differences!
             - value: No, not yet
-              id: COLL-00-pq1-o3
+              id: DSS-01-pq1-o3
               response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for keeping track of your changed and collaborating with your team.
   - poll:
       title: GitHub Poll
@@ -41,20 +41,20 @@ screens:
         - Please tell us a little about your experience with GitHub.
       questions: # A poll might have one or more questions
         - title: Have you used GitHub before?
-          id: COLL-00-pq2
+          id: DSS-01-pq2
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
             - value: Yes, through the command line with Git
-              id: COLL-00-pq2-o1
+              id: DSS-01-pq2-o1
               response: Great! Some of this will be review, but you'll learn a lot along the way.
             - value: Yes, but only through the desktop app
-              id: COLL-00-pq2-o2
+              id: DSS-01-pq2-o2
               response: Great! We won't be covering the desktop version in this course, but you'll love learning about the command line tools that GitHub offers.
             - value: Yes, but only the web interface
-              id: COLL-00-pq2-o3
+              id: DSS-01-pq2-o3
               response: Great! You'll love learning about the command line tools that GitHub offers.
             - value: No, not yet
-              id: COLL-00-pq2-o4
+              id: DSS-01-pq2-o4
               response: Welcome to the world of GitHub! It is a great way to manage technology projects and work with your team.
   - image-slide:
       title: What is GitHub?

@@ -14,12 +14,16 @@ sections:
       - DSS-02_exploring-repository
       - DSS-03_issues
   -
-    title: Creating Your First Pull Request
-    description: In this section you will learn about the GitHub flow and create your first pull request.
+    title: The Basic GitHub Workflow
+    description: In this section you will learn about the GitHub flow.
     modules:
       - DSS-04_github-flow
       - DSS-05_branches
       - DSS-06_creating-files
+  -
+    title: Creating Your First Pull Request
+    description: In this section you will create your first pull request.
+    modules:
       - DSS-07_create-pr
       - DSS-08_edit-pr
       - DSS-09_merge-pr
