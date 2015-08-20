@@ -62,7 +62,7 @@ screens:
               id: DSS-12-qq1-o1
               response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
               correct: true
-            - value: /git clone/
+            - value: /git clone\s*$/
               id: DSS-12-qq1-o2
               response: Almost! Don't forget to tell Git where to find the remote repository by adding the URL after the `git clone` command.
               correct: false

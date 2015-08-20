@@ -31,8 +31,7 @@ screens:
       title: "Creating a Branch: Recap"
       image: github-branches.png
       presenter-script: |
-        * A branch is an identical copy of the repo's code that can be edited separately.
-        * Branching keeps the code on `master` safe while allowing you to experiment.
+        * Branching keeps code safe. Branching `master` lets you experiment without changing any of the code on `master`.
         * Create a branch by clicking on the `branch` drop-down and entering your branch name in the text field.
         * Any files you create, edit, or delete will then be applied to that branch.
         * Be careful, GitHub automatically puts you on `master` when you leave the repo and come back, so always make sure you're on the right branch before you start working.
