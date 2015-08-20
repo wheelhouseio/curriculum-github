@@ -48,7 +48,7 @@ screens:
         * Drag and drop pictures into the issue to display them.
         * You can assign an issue to anyone with access to the repo.
         * Labels can be used to organize issues.
-        * Filters allow you to easily search for labels.
+        * Filters allow you to easily search for labels, or by author or assignee.
   - quiz:
       title: "Using Issues: Question 1"
       id: DSS-03-quiz-01
