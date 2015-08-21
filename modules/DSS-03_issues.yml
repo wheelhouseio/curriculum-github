@@ -4,7 +4,7 @@ learning-objective: Collaborate using GitHub Issues to discuss ideas, enhancemen
 screens:
   - image-slide:
       title: Using Issues
-      image: issues-icon.jpg
+      image: issues.png
       presenter-script: |
         Use GitHub issues to record and discuss ideas, enhancements, tasks, and bugs. They make collaboration easier in a variety of ways, such as:
 
