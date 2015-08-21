@@ -4,7 +4,7 @@ learning-objective: Creating a pull request.
 screens:
   - image-slide:
       title: Understanding Pull Requests
-      image: pull-request-icon.jpg
+      image: pull-request.png
       presenter-script:
         - Pull Requests are used to propose changes to the project files. A Pull Request is a proposal to merge your feature branch into the master branch. A Pull Request is considered a "work in progress" until it is merged into the project. Now that you have created a file, you will open a pull request to discuss the file with your team mates.
   - video-slide:
@@ -40,7 +40,7 @@ screens:
       production-notes:
   - image-slide:
       title: "Understaing Pull Requests: Recap"
-      image: blank.png
+      image: pull-request.png
       presenter-script: |
         * Pull Requests (or PRs) are used to add code another branch, in this case `master`.
         * A Pull Request asks that the team merge one branch into another.

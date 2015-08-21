@@ -4,7 +4,7 @@ learning-objective: Merge branches on the command line.
 screens:
   - image-slide:
       title: What Happens When We Merge?
-      image: merge-visual.jpg # Include an image that shows a branch with some commits - then a merge - then show the master branch with those same commits.
+      image: merge.png # Include an image that shows a branch with some commits - then a merge - then show the master branch with those same commits.
       presenter-script: |
         Merging combines the history of two or more branches.
 

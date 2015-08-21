@@ -4,7 +4,7 @@ learning-objective: Merge the changes made on your feature branch into your mast
 screens:
   - image-slide:
       title: Merging Pull Requests
-      image: merge-logo.jpg
+      image: merge.png
       presenter-script: |
         At this point, your pull request should be approved and you are ready to merge it in to the `master` branch. When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
 
@@ -44,7 +44,7 @@ screens:
       production-notes:
   - image-slide:
       title: "Merging Pull Requests: Recap"
-      image: blank.png
+      image: merge.png
       presenter-script: |
         * To merge your branch into the master branch, click the `Merge pull request` button in the `Conversation` view.
         * Use the keyword `Fixes` followed by `#` and the issue number to close the issue at the same time as you merge the PR.
