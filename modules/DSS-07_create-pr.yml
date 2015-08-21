@@ -3,6 +3,11 @@ pre-requisites: DSS-06_creating-files
 learning-objective: Creating a pull request.
 screens:
   - image-slide:
+      title: Pull Requests
+      image: pull-requests.png
+      presenter-script:
+        - In this section we'll go over how to use Pull Requests. Pull Requests, or "PRs", are one of the most important parts of the GitHub Flow. You'll use them frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
+  - image-slide:
       title: Understanding Pull Requests
       image: pull-request.png
       presenter-script:
