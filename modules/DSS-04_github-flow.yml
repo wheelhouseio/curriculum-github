@@ -4,7 +4,7 @@ learning-objective: Describe the collaborative workflow enabled by GitHub.
 screens:
   - image-slide:  
       title: Diving into GitHub
-      image: blank.png
+      image: github-flow.png
       presenter-script: |
         In this section we'll explore GitHub's functionality in depth.
 
@@ -28,7 +28,7 @@ screens:
       production-notes:
   - image-slide:  
       title: "GitHub Flow: Recap"
-      image: blank.png
+      image: github-flow.png
       presenter-script: |
         * Everything on GitHub lives on a branch.
         * The "canonical" version of the code lives on the master branch by convention.
