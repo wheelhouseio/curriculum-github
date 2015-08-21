@@ -4,12 +4,12 @@ learning-objective: Add and commit files on the command line.
 screens:
   - image-slide:
       title: The Two Stage Commit
-      image: two-stage-commit-a.jpg
+      image: two-stage-commit-a.png
       presenter-script:
         - After you have finished making your changes, it is time to commit them. When working from the command line, you will need to be familiar with the idea of the two stage commit.
   - image-slide:
       title: The Two Stage Commit
-      image: two-stage-commit-b.jpg
+      image: two-stage-commit-b.png
       presenter-script: |
         When you work locally, your files exist in one of four states. They are either untracked, modified, staged, or committed.
 
@@ -21,7 +21,7 @@ screens:
 
   - image-slide:
       title: The Two Stage Commit
-      image: two-stage-commit-c.jpg
+      image: two-stage-commit-c.png
       presenter-script: |
         To add these files to version control, you will create a collection of files that represent a discrete unit of work. This way if you want to revert something in the future, it's easier to find and revert only the mistaken changes. 
 
@@ -32,7 +32,7 @@ screens:
         Staging is important because it lets you only stage some of your new or modified files. For instance, if you've added a new variable and fixed a typo, you might want to commit those two changes separately. To do this, you stage and commit each one separately.
   - image-slide:
       title: The Two Stage Commit
-      image: two-stage-commit-d.jpg
+      image: two-stage-commit-d.png
       presenter-script: |
         When we are satisfied with the unit of work we have assembled, we will commit everything in the staging area.
 
@@ -41,11 +41,11 @@ screens:
         Once changes are committed, the changes are added to the history of that branch, so that you can later see those specific changes, and even undo them if need be.
   - image-slide:
       title: The Two Stage Commit
-      image: two-stage-commit-e.jpg
+      image: two-stage-commit-e.png
       presenter-script: |
         To review:
 
-        In order to make a file part of the version controlled directory we will first do a `git add` of only those files we want to commit together, and then we will do a `git commit` to add those changes to the Git version control history. 
+        In order to make a file part of the version controlled directory we will first do a `git add` of only those files we want to commit together, and then we will do a `git commit` to add those changes to the Git version control history. Once the changes are commited, you'll always have a record of them in that state, even after you've changed them again in the working directory.
 
         All of this happens locally, on your computer.
 
