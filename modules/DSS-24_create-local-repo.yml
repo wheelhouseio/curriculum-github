@@ -1,0 +1,59 @@
+title: Creating a Repository on the Command Line
+pre-requisites: DSS-23_log
+learning-objective: Create a local repository on the command line.
+screens:
+  - image-slide:
+      title: Using Git to Fix Mistakes
+      image: blank.png
+      presenter-script: |
+        One of the most powerful features of any VCS is the ability to undo your changes long after you save them.
+
+        Git offers all of the functionality that you'd expect from a full fledged VCS. In this section, we'll walk you through using Git on your computer to undo any changes you've already made with Git.
+  - image-slide:
+      title: Creating a Repository on the Command Line
+      image: blank.png
+      presenter-script: |
+        You'll only be working locally for this section, so you won't need to interact GitHub. Thus, it's a good chance to learn how to use Git on the command line to create a new local repo.
+
+        On the next slide you'll learn how to use `git init` to create a local repository, and then we'll use that repo in the rest of this lesson.
+  - video-slide:
+      title: Creating a Repository on the Command Line
+      video: https://youtu.be/DU_Z_3ux29c
+      video-script:
+        - do: "Type `cd`"
+          say: "Earlier we learned how to create a repository on GitHub and clone it to our local desktop. Sometimes, we want to start a project locally and then push it up to the remote. To do this, we will need to create a local repository. Go ahead and navigate to a location where we can create a new directory."
+        - do: "Type `git init scratch`"
+          say: "We can initialize a repository inside an existing project, or we can start one from scratch. We are going to go ahead and create a scratch project that we can use to learn how to make changes and rewrite history. To do this, we can type git init and the directory name. Git will create a new directory called scratch and initialize git inside this directory."
+        - do: "Type `cd scratch`"
+          say: "After you see a confirmation message, go ahead and cd into scratch."
+        - do: "Type `ls -la`"
+          say: "Let's see what just happened. When we typed git init, git created this new file called .git and saved it in the directory. This is where all of the git internals are located."
+        - do: "Type `echo \"This is my scratch project\" > README.md`"
+          say: "At this point, there is nothing in our repository, so let's create a README file."
+        - do: "Type `git add README.md` and `git commit -m\"add README.md\"`"
+          say: "Then we will add and commit our file."
+      production-notes:
+  - image-slide:
+      title: "Creating a Repository on the Command Line: Recap"
+      image: blank.png
+      presenter-script: |
+        * To create a project from scratch, type `git init <directoryname>`.
+        * This creates the directory as a subdirectory of the current location, and initializes a repo there.
+        * You will have to create your `README.md` file manually.
+  - lab:
+      title: Creating a Repository on the Command Line
+      id: DSS-24-lab-01
+      presenter-script:
+        - It's time to create your own local repository.
+      steps:
+        - description: Initialize a new git repository.
+          id: DSS-24-init
+        - description: Create a README.md file and commit it to the repository.
+          id: DSS-24-commit
+        - description: Create a branch in your new repository.
+          id: DSS-24-branch
+additional-labs:
+additional-questions:
+resources:
+  - title: "Video: GitHub & Git Foundations - Init"
+    url: https://youtu.be/WxMFZncm12s

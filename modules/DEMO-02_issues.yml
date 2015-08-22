@@ -1,0 +1,140 @@
+title: Using Issues
+pre-requisites: DSS-03_Exploring-a-repository
+learning-objective: Collaborate using GitHub Issues to discuss ideas, enhancements, tasks and bugs.
+screens:
+  - image-slide:
+      title: Using Issues
+      image: issues.png
+      presenter-script: |
+        Use GitHub issues to record and discuss ideas, enhancements, tasks, and bugs. They make collaboration easier in a variety of ways, such as:
+
+        * Replacing email for project discussions, ensuring everyone on the team has the complete story.
+        * Allowing you to cross-link to other issues and pull requests.
+        * Creating a single, comprehensive record of how and why you made certain decisions.
+        * Allowing you to easily pull the right people into a conversation.
+  - video-slide:
+      title: Using Issues
+      video: https://youtu.be/Zhj46r5D0nQ
+      video-script:
+        - do: Navigate to the `class repository`
+          say: Let's dive a little deeper into Issues.
+        - do: "Navigate to the issue `Class Goals`"
+          say: Here, I will create an issue titled Class Goals. Let's look at some of the special features in issues that you will use to collaborate with your team.
+        - do: Add an issue comment demonstrating markdown formatting for headers, bullets and checkboxes.
+          say: GitHub uses a syntax called Markdown to help you add basic text formatting to issues.
+        - do: "@mention any co-teachers"
+          say: One of our favorite features is the @mention. When you @mention someone in an issue, they will receive a notification - even if they are not currently subscribed to the issue or watching the repository.
+        - do: Click `Preview`
+          say: You can use the preview tab to see how your comment will be rendered (meaning how GitHub will actually display your Markdown file).
+        - do: Include an issue attachment
+          say: You can also add pictures by simply dragging and dropping them into the comment field, or clicking the file uploader link.
+        - do: Click `Comment`
+          say: Click the green comment button to add your comments to the discussion.
+        - do: Return to the `Issues` view
+          say: As you can imagine, a large project can have hundreds of issues. Let's look at a few ways your project team can organize issues.
+        - do: "`Assign` the issue to the co-teacher"
+          say: First, you can assign issues to anyone with access to the repo. Typically, this will be the person who is currently responsible for the next step in the life of the issue. The issue assignee may change over time.
+        - do: Add a `label` to the issue
+          say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add your own. As a project grows in size, using assignees and labels makes it much easier to find a specific issue.
+        - do: "Click `Issues > Filters`"
+          say: Filters allow you to easily search for Issues by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating an issue!
+  - image-slide:  
+      title: "Using Issues: Recap"
+      image: blank.png
+      presenter-script: |
+        * You can use <a href="https://help.github.com/articles/markdown-basics/" target="_blank">markdown</a> to format issues.
+        * You can `@mention` somebody in order to alert them of the issue.
+        * The "Preview" tab shows how your comment will be rendered.
+        * Drag and drop pictures into the issue to display them.
+        * You can assign an issue to anyone with access to the repo.
+        * Labels can be used to organize issues.
+        * Filters allow you to easily search for labels.
+  - image-slide:
+      title: Your First GitHub Repository
+      image: blank.png
+      presenter-script: |
+        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. When we ask you to complete tasks on GitHub, we'll be referring to this repository. 
+
+        **There is a link to your repo at the top of this page in the navigation bar**. If you check the email associated with your GitHub account, you should find some emails that link you to the repository.
+
+        Right now, click on the link to your GitHub repo and click around the new repository.
+  - quiz:
+      title: "Using Issues: Question 1"
+      id: DSS-03-quiz-01
+      presenter-script: Before we move on, let's make sure we can find important parts of a repository
+      questions:
+        - title: "What is being discussed in Issue #3 of your repo? Remember, there is a link to in the nav bar above."
+          id: DSS-03-qq1
+          type: open-response
+          options:
+            - value: /bio/i
+              id: DSS-03-qq1-o1
+              response: Good job! Issue 3 is discussing what we should include in a bio.
+              correct: true
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSS-03-qq1-o2
+              response: Not quite. Issue 3 is discussing what should be included in a bio.
+              correct: false
+  - quiz:
+      title: "Using Issues: Question 2"
+      id: DSS-03-quiz-02
+      presenter-script: Before we move on, let's make sure we can find important parts of a repository
+      questions:
+        - title: "Who opened Issue #1?"
+          id: DSS-03-qq2
+          type: open-response
+          options:
+            - value: /githubteacher/i
+              id: DSS-03-qq2-o1
+              response: "Good job! @githubteacher opened issue #1."
+              correct: true
+            - value: /hubyeti/i
+              id: DSS-03-qq2-o2
+              response: "Good job! @hubyeti opened issue #1."
+              correct: true
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSS-03-qq2-o3
+              response: "Not quite. Look right below the title to see who opened issue #1."
+              correct: false
+  - lab:
+      title: "Creating an Issue: Lab"
+      id: DSS-03-lab-01
+      presenter-script:
+        - Let's practice creating issues now!
+      steps:
+        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting."
+          id: DSS-03-create-issue
+          verifications:
+            - verification-type: issue-created
+              id: DSS-03-create-issue-verification
+              success-message: "Great job - you created an issue."
+              failure-message: "It looks like you haven't created an issue yet."
+        - description: Assign the issue you just created to yourself # optional for Monday
+          id: DSS-03-assign-issue
+          verifications:
+            - verification-type: issue-assigned-to-self
+              id: DSS-03-assign-issue-verification
+              success-message: "Great job - you assigned the issue to yourself."
+              failure-message: "It looks like you haven't assigned the issue to yourself yet."
+        - description: Apply the label of "bio" to the issue # optional for Monday
+          id: DSS-03-label-issue
+          verifications:
+            - verification-type: issue-labeled
+              id: DSS-03-label-issue-verification
+              success-message: "Great job - you applied the 'bio' label to the issue. Move on to the next slide now."
+              failure-message: "It looks like you haven't applied the 'bio' label to the issue yet."
+additional-labs:
+additional-questions:
+resources:
+  - title: About Issues
+    url: https://help.github.com/articles/about-issues/
+  - title: Creating an Issue
+    url: https://help.github.com/articles/creating-an-issue/
+  - title: Issue attachments
+    url: https://help.github.com/articles/issue-attachments/
+  - title: Assigning Issues to other GitHub users
+    url: https://help.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/
+  - title: Filtering Issues by assignees
+    url: https://help.github.com/articles/filtering-issues-and-pull-requests-by-assignees/
+  - title: Using search to filter Issues
+    url: https://help.github.com/articles/using-search-to-filter-issues-and-pull-requests/

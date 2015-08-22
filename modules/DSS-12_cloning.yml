@@ -1,0 +1,120 @@
+title: Cloning a Repository
+pre-requisites: DSS-11_cli-config
+learning-objective: Create a branch to separate feature work from the master branch.
+screens:
+  - image-slide:
+      title: Cloning a Repository
+      image: clone-diagram.jpg
+      presenter-script: |
+        Part of what makes git such a well-loved VCS is that it easily lets everyone on the team have their own local working repository. It's expected that everyone will work on their own computer, and sync changes they've made with each other only when they need to.
+
+        But first, we have to make a local copy of your repository. To do this, we have to "clone" the repository that you have hosted on GitHub.
+        
+        When you clone a GitHub repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a distributed VCS like git—rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
+  - video-slide:
+      title: Cloning a Repository
+      video: https://youtu.be/PADLsDJK7Jk
+      video-script:
+        - do: Navigate to the `class repository`
+          say: "To create a clone of a GitHub repository, you will navigate to the Code view."
+        - do: Create a new branch named `<githubID>-more-bio`
+          say: Let's start by creating a new branch. Starting your branches on GitHub is a good best practice to adopt. It lets others know you are working on a specific branch and prevents merge conflicts later in the process.
+        - do: Copy the `clone URL`
+          say: "Now, since we want to work locally let's copy the clone URL to our clipboard."
+        - do: Open the CLI
+          say: And go back to our terminal window. CD into the directory where you would like to copy the repository. This can be anywhere in your local file system.
+        - do: Type `git clone <URL>`
+          say: Now you will type `git clone` and then paste in the URL. The repository will be cloned into a new directory in this location.
+        - do: Type `cd <dir>`
+          say: CD into the repository you just created.
+        - do: Type `git status`
+          say: "`git status` is a command you will use often to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch master, everything is up to date with origin/master and our working directory is clean. "
+        - do: Type `git branch`
+          say: If you type git branch you will see a list of local branches. Notice that the branch you created before you cloned the repository doesn't show up here.
+        - do: Type `git branch --all` or `git branch -a`
+          say: "If you want to see all of the branches, including the read-only copies of your remote branches, you can add the `--all` option or just `-a`"
+        - do: Type `git checkout <branch-name>`
+          say: "To checkout the branch you created online, type git checkout and the name of your branch. You do not need to type `remotes/origin` in front of the branch - only the branch name. You will notice a message that says your branch was set up to track the same remote branch from origin."
+  - image-slide:
+      title: "Cloning a Repository: Recap"
+      image: blank.png
+      presenter-script: |
+        * Start a new branch on GitHub to work on.
+        * Copy the clone URL on GitHub.
+        * Using the command line, `cd` to the directory that you want to put your local repo in.
+        * Type `git clone <clone_url>`.
+          * You might be prompted for your password. You should enter your GitHub password at this point.
+        * `cd` into the new cloned repo and type `git status`.
+        * `git branch` will show you the available branches. Only `master` appears.
+        * `git branch -a` will show all the remote branches.
+        * `git checkout <branchname>` will create a local branch that matches the remote branch. All edits you make locally with be applied to that branch until you checkout another one.
+  - quiz:
+      title: Cloning a Repository
+      id: DSS-12-quiz-01
+      presenter-script: Clone the repository to your desktop.
+      questions:
+        - title: Type the Git command you would use to clone the repository located at the following remote address `https://github.com/githubteacher/sample-repo.git`
+          id: DSS-12-qq1
+          image: DSS-12-quiz-01.jpg
+          type: open-response
+          options:
+            - value: /git clone https://github.com/githubteacher/sample-repo.git/
+              id: DSS-12-qq1-o1
+              response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
+              correct: true
+            - value: /git clone\s*$/
+              id: DSS-12-qq1-o2
+              response: Almost! Don't forget to tell Git where to find the remote repository by adding the URL after the `git clone` command.
+              correct: false
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSS-12-qq1-o3
+              response: Not quite. You need to include both the Git command `git clone` and the URL for the remote repo. In this case, the full command would be `git clone https://github.com/githubteacher/sample-repo.git`
+              correct: false
+  - quiz:
+      title: Checking Out a Branch
+      id: DSS-12-quiz-02
+      presenter-script: Check out a branch in a cloned repository.
+      questions:
+        - title: Type the Git command you would use to switch to a branch named `more-bio-changes` that you created on GitHub before cloning the repository.
+          id: DSS-12-qq2
+          type: open-response
+          options:
+            - value: /git checkout more-bio-changes/
+              id: DSS-12-qq2-o1
+              response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
+              correct: true
+            - value: /git checkout remotes/origin/more-bio-changes/
+              id: DSS-12-qq2-o2
+              response: Almost! You do not need to include `remotes/origin`. Git will assume you want to select this as the remote tracking branch for your local branch so you can exclude `remotes/origin` from the branch name.
+              correct: false
+            - value: /git branch more-bio-changes/
+              id: DSS-12-qq2-o3
+              response: Not quite. `git branch` is the command you use if you are creating a new branch locally. But this branch has already been created on the remote so you simply need to tell Git you would like to create a local version. Use `git checkout` instead.
+              correct: false
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSS-12-qq2-o4
+              response: Not quite. The correct command is `git checkout more-bio-changes`
+              correct: false
+  - lab:
+      title: Cloning a Repository
+      id: DSS-12-lab-01
+      presenter-script:
+        - Let's go ahead and clone this repository to your local desktop.
+      steps:
+        - description: Create a new branch. Name the branch `githubID-more-bio`, using your githubID.
+          id: DSS-12-create-branch
+          verifications:
+            - verification-type: branch-created
+              id: DSS-12-create-branch-verification
+              success-message: "Great job - you created a branch."
+              failure-message: "It looks like you didn't create a branch. Want to try again?"
+        - description: Clone the repository to your desktop.
+          id: DSS-12-clone
+        - description: Checkout your branch.
+          id: DSS-12-checkout
+
+additional-labs:
+additional-questions:
+resources:
+  - title: Cloning a Repository
+    url: https://help.github.com/articles/cloning-a-repository/

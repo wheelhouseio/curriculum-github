@@ -1,0 +1,107 @@
+title: The Two Stage Commit
+pre-requisites: DSS-13_editing-locally
+learning-objective: Add and commit files on the command line.
+screens:
+  - image-slide:
+      title: The Two Stage Commit
+      image: two-stage-commit-a.png
+      presenter-script:
+        - After you have finished making your changes, it is time to commit them. When working from the command line, you will need to be familiar with the idea of the two stage commit.
+  - image-slide:
+      title: The Two Stage Commit
+      image: two-stage-commit-b.png
+      presenter-script: |
+        When you work locally, your files exist in one of four states. They are either untracked, modified, staged, or committed.
+
+        An untracked file is one that is not currently part of the version controlled directory—such as any new files or files whose names have been changed.
+
+        Modified files are any files that you have edited and saved since the last time you committed.
+
+        Untracked and modified files exist in your **working directory**.
+
+  - image-slide:
+      title: The Two Stage Commit
+      image: two-stage-commit-c.png
+      presenter-script: |
+        To add these files to version control, you will create a collection of files that represent a discrete unit of work. This way if you want to revert something in the future, it's easier to find and revert only the mistaken changes. 
+
+        We build this unit of work in the **staging area**.
+
+        To add files to staging, you use the `git add <filename>` command.
+
+        Staging is important because it lets you only stage some of your new or modified files. For instance, if you've added a new variable and fixed a typo, you might want to commit those two changes separately. To do this, you stage and commit each one separately.
+  - image-slide:
+      title: The Two Stage Commit
+      image: two-stage-commit-d.png
+      presenter-script: |
+        When we are satisfied with the unit of work we have assembled, we will commit everything in the staging area.
+
+        To commit files, use the `git commit` command.
+
+        Once changes are committed, the changes are added to the history of that branch, so that you can later see those specific changes, and even undo them if need be.
+  - image-slide:
+      title: The Two Stage Commit
+      image: two-stage-commit-e.png
+      presenter-script: |
+        To review:
+
+        In order to make a file part of the version controlled directory we will first do a `git add` of only those files we want to commit together, and then we will do a `git commit` to add those changes to the Git version control history. Once the changes are commited, you'll always have a record of them in that state, even after you've changed them again in the working directory.
+
+        All of this happens locally, on your computer.
+
+        Let's do it now.
+  - video-slide:
+      title: The Two Stage Commit
+      video: https://youtu.be/_gDABUBrmBA
+      video-script:
+        - do: Type `git status`
+          say: Remember that Git status allows us to see the status of the files on our branch at any given time.
+        - do: View status output
+          say: When you have saved the changes to your file, you will see that your file is listed under the heading Changes not staged for commit and the file says it has been modified.
+        - do: Type `git add <file-name.md>`
+          say: The first command we will use is git add and the name of the file.
+        - do: Type `git status`
+          say: Now, type git status again to see what has changed.
+        - do: View status output
+          say: Notice that your file is listed under the heading Changes to be commited. This tells us that the file is in the staging area.
+        - do: Type `git commit`
+          say: Next you will type git commit. This tells git to collect all of the files in the staging area and commit them to version control as a single unit of work. Git will open your default text editor where you can enter the commit message.
+        - do: Type the commit message
+          say: "Simply type the commit message in the text editor. Any line without a # will be included in the commit message."
+        - do: Click `Save > Quit`
+          say: When you are happy with your commit message, simply save it and close your text editor.
+        - do: Show git output message for commit
+          say: Git provides a visual confirmation when the commit is complete.
+        - do: Type `git checkout master`
+          say: Let's take a look at what we have just done. First, let's checkout the master branch.
+        - do: Type `atom <file-name.md>`
+          say: "When you open your file with the master branch selected, you will notice that the changes you just made to the file are not included. "
+        - do: Open the CLI
+          say: Now go back to your terminal window
+        - do: Type `git checkout <your branch>`
+          say: And check out your branch again.
+        - do: Type `atom <file-name.md>`
+          say: "Now when you open the file, the changes appear again because git is showing you the version of the file that exists on your branch."
+  - image-slide:
+      title: "The Two Stage Commit: Recap"
+      image: blank.png
+      presenter-script: |
+        * `git status` lets you see which files have been changed since the last commit.
+        * `git add <filename>` adds that file to the staging area. 
+        * `git add .` adds all the changed _and untracked_ files to staging.
+        * `git commit` will submit all those file changes under one unit of work. 
+        * This also opens your default text editor (as set earlier in this lesson) for you to add a commit message.
+        * This commit will happen locally, and only on the checked out branch. If you check out another branch, the changes will no longer show in that file.
+  - lab:
+      title: Committing Your Changes
+      id: DSS-14-lab-01
+      presenter-script:
+        - Let's use the two-stage commit to stage and commit our changes.
+      steps:
+        - description: Add your file to staging.
+          id: DSS-14-add
+        - description: Commit your changes.
+          id: DSS-14-commit
+additional-labs:
+additional-questions:
+resources:

@@ -1,0 +1,48 @@
+title: Basic Configuration on GitHub Desktop
+pre-requisites: CONT-05_Merging-pull-requests
+learning-objective: Successfully configure the GitHub desktop app to be able to work effectively with GitHub remotes.
+screens:
+  - image-slide:
+      title: Using GitHub Locally
+      image: blank.png
+      presenter-script: |
+        GitHub.com is great when you want to work on a central copy of the code, but for making big changes it's better to do the work locally, on your own computer. Git, the version control system that GitHub is built on, makes it easy to work on local files then push them up to your central GitHub repository. However, Git is a command line tool, and takes a lot of time to learn.
+
+        Happily, GitHub provides a graphical user interface for Git, called GitHub Desktop. This tool lets you manage your repositories locally, and push changes up to the central GitHub repository only when you choose to. You can use whatever local tools you want to edit files. 
+
+        One thing to note is that GitHub Desktop only works on Mac and PCs. If you use Linux or another desktop operating system, you'll have to learn how to use Git on the command line.
+
+        Let's download and install GitHub Desktop now. The next page will walk you through the steps to do this—make sure to complete them all before moving on.
+  - lab:
+      title: Download and Install GitHub Desktop
+      id: ESS-03-lab-01
+      presenter-script:
+        - Download and install the GitHub Desktop client.
+      steps:
+        - description: |
+            Go to <a href="http://desktop.github.com" target="_blank">desktop.github.com</a> and download the GitHub Desktop Client.
+          id: ESS-03-download
+        - description: |
+            Intall the client: 
+
+            * On a Mac, unzip the `GitHub Desktop 210` and drag the app to your Applications Folder. 
+            * On a PC, run `GitHubSetup.exe` once you've downloaded it.
+          id: ESS-03-install
+        - description: "Open the application. Go to the settings or preferences, and make sure you're logged into your GitHub account."
+          id: ESS-03-setup
+        - description: "When you opened the app, it should have prompted you to complete a short tutorial: do this now."
+          id: ESS-03-tutorial
+#  - video-slide:
+#      title: Configuring GitHub Desktop
+#      video: https://www.youtube.com/watch?v=r5C6yXNaSGo
+#      video-script:
+#        - do: "Navigate to `mac.github.com`"
+#          say: "Before we can get started, you will need to ensure you have GitHub for Mac downloaded and installed on your computer."
+#        - do: "Click `GitHub > Preferences`"
+#          say: "The app will walk you through the set-up steps during the installation. Just in case, let make sure we have the app configured properly."
+#        - do: "Click `Advanced`"
+#          say: "Ensure your username and email address match the values set in your GitHub account. This allows the app to share information seamlessly with GitHub."
+#      production-notes:
+additional-labs:
+additional-questions:
+resources:

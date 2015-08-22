@@ -1,0 +1,37 @@
+title: Creating Aliases
+pre-requisites: DSS-32_git-rm
+learning-objective: Discover how to create shortcuts for commonly used git commands.
+screens:
+  - video-slide:
+      title: Creating Command Shortcuts
+      video: https://youtu.be/p9Cipt1aXSQ
+      video-script:
+        - do: "Type `git log --oneline --graph --decorate --all`"
+          say: "By now you are probably getting tired of typing some of these long commands in git. Well here is some good news. You can configure shortcuts by using aliases."
+        - do: "Type `git config --global alias.lol \"log --oneline --graph --decorate --all\"`"
+          say: "For example, if I want to create an aliases for the log command. I type git config --global, then I type alias. and then the keyboard shortcut I would like to use for this command. I am going to use lol. Then, I will type the command it should run - without git at the beginning."
+        - do: "Type `git lol`"
+          say: "Now I can simply type git and the shortcut to see my log."
+        - do: "Type `git config --global alias.co \"checkout -b\"`"
+          say: "You can create aliases for any command."
+      production-notes:
+  - image-slide:
+      title: "Creating Command Shortcuts: Recap"
+      image: blank.png
+      presenter-script: |
+        * You can create alieses in git that let you call on the short alias instead of writing out a full long command.
+        * You do this by setting a global alias using `git config`.
+        * `git config --global alias.lol "log --oneline --graph --decorate --all"` would let you type `git lol` instead of the entire log command with all its options.
+        * `git config --global alias.co "commit -m"` would let you write `git co "Commit Message"` to quickly commit with a message attached. 
+  - lab:
+      title: Creating Aliases
+      id: DSS-33-lab-01
+      presenter-script: Now is a great time to create a few aliases of your own.
+      steps:
+        - description: Create an alias for pushing a new branch upstream.
+          id: DSS-33-alias-push
+        - description: Create an alias for the status command.
+          id: DSS-33-alias-status
+additional-labs:
+additional-questions:
+resources:
