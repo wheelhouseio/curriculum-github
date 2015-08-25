@@ -45,7 +45,7 @@ screens:
         * You can use <a href="https://help.github.com/articles/markdown-basics/" target="_blank">markdown</a> to format issues.
         * You can `@mention` somebody in order to alert them of the issue.
         * The "Preview" tab shows how your comment will be rendered.
-        * Drag and drop pictures into the issue to display them.
+        * Add screenshots or pictures to the issue by simply dragging and dropping them into the comment field.
         * You can assign an issue to anyone with access to the repo.
         * Labels can be used to organize issues.
         * Filters allow you to easily search for labels, or by author or assignee.
