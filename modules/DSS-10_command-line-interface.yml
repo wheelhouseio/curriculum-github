@@ -39,7 +39,7 @@ screens:
 
         If you don't have the right version, or if you get an error saying Git isn't installed, then go to <a href="http://git-scm.com" target="_blank">git-scm.com</a> to download and install the latest version.
 
-        Once you've verified you have the latest version of Git installed, we're ready to on to getting Git configured correctly.
+        Once you've verified you have the latest version of Git installed, you're ready to move on to getting Git configured correctly.
 additional-labs:
 additional-questions:
 resources:
