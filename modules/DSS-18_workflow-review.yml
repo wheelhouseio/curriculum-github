@@ -35,9 +35,9 @@ screens:
       title: "Workflow Review: Recap"
       image: blank.png
       presenter-script: |
-        * `git add .` adds _all_ modiffied or new files to be commited, so you don't have to write out each file.
+        * `git add .` adds _all_ modified or new files to be committed, so you don't have to write out each file.
         * You can write your commit message along with your commit command using the syntax: `git commit -m "<commit_message>"`.
-        * Once this is finished, you must create a pull request on GitHub, and merge it on GitHub once it's completed. There is no way to create a pull request from the command line.
+        * Once this is finished, you must create a pull request on GitHub, and merge it on GitHub once it's completed.
   - lab:
       title: Workflow Review
       id: DSS-18-lab-01
