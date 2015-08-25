@@ -44,15 +44,15 @@ screens:
           id: DSS-01-pq2
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: Yes, through the command line with Git
+            - value: Yes, I prefer to use the command line with Git
               id: DSS-01-pq2-o1
               response: Great! Some of this will be review, but you'll learn a lot along the way.
-            - value: Yes, but only through the desktop app
+            - value: Yes, I prefer to use the desktop app
               id: DSS-01-pq2-o2
-              response: Great! We won't be covering the desktop version in this course, but you'll love learning about the command line tools that GitHub offers.
-            - value: Yes, but only the web interface
+              response: Great! We won't be covering the desktop application in this course, but you'll love learning about the command line tools that GitHub offers.
+            - value: Yes, I prefer to use the web interface
               id: DSS-01-pq2-o3
-              response: Great! You'll love learning about the command line tools that GitHub offers.
+              response: Great! You'll love learning about the local operations and command line tools that Git and GitHub offer.
             - value: No, not yet
               id: DSS-01-pq2-o4
               response: Welcome to the world of GitHub! It is a great way to manage technology projects and work with your team.
