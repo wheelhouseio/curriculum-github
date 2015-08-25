@@ -2,7 +2,7 @@ title: Editing Pull Request Files
 pre-requisites: DSS-07_create-pr
 learning-objective: Edit a file that is currently part of a pull request.
 screens:
-    - video-slide:
+  - video-slide:
       title: Editing Pull Request Files
       video: http://youtu.be/F0IvcyTwDt4
       video-script:
