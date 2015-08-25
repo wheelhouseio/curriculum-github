@@ -28,11 +28,15 @@ sections:
       - DSS-08_edit-pr
       - DSS-09_merge-pr
   -
-    title: Using GitHub Locally
-    description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
+    title: Setting up Git
+    description: In this section you will learn how to configure Git on your local machine for the best experience.
     modules:
       - DSS-10_command-line-interface
       - DSS-11_cli-config
+  -
+    title: Using GitHub Locally
+    description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
+    modules:
       - DSS-12_cloning
       - DSS-13_editing-locally
       - DSS-14_two-stage-commit
