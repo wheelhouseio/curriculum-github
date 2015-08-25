@@ -101,16 +101,16 @@ screens:
       presenter-script:
         - Let's go ahead and clone this repository to your local desktop.
       steps:
-        - description: Create a new branch. Name the branch `githubID-more-bio`, using your githubID.
+        - description: Create a new branch on GitHub. Name the branch `githubID-more-bio`, using your githubID.
           id: DSS-12-create-branch
           verifications:
             - verification-type: branch-created
               id: DSS-12-create-branch-verification
               success-message: "Great job - you created a branch."
               failure-message: "It looks like you didn't create a branch. Want to try again?"
-        - description: Clone the repository to your desktop.
+        - description: Clone the repository to your desktop using the Command Line.
           id: DSS-12-clone
-        - description: Checkout your branch.
+        - description: Checkout a local copy of the branch you created on GitHub.
           id: DSS-12-checkout
 
 additional-labs:
