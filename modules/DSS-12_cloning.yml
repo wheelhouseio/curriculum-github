@@ -101,7 +101,7 @@ screens:
       presenter-script:
         - Let's go ahead and clone this repository to your local desktop.
       steps:
-        - description: Create a new branch on GitHub. Name the branch `githubID-more-bio`, using your githubID.
+        - description: Create a new branch on GitHub. Name the branch `githubID-more-bio`, using your GitHub ID.
           id: DSS-12-create-branch
           verifications:
             - verification-type: branch-created
