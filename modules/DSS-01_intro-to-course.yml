@@ -8,7 +8,7 @@ screens:
       presenter-script: |
         This course will teach you how to use Git and GitHub for version control and collaboration. Learning both requires practice, so this will be a hands-on course. Each of the exercises will be done in your own GitHub repository.
 
-        For now, click on the "next" button above to move onto the next slide.
+        Click the "next" button above to get started.
   - image-slide:
       title: Answering Questions
       image: blank.png
