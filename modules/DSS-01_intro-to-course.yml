@@ -6,9 +6,9 @@ screens:
       title: Welcome to the GitHub for Developers Course!
       image: github-icon.jpg
       presenter-script: |
-        This course is designed to walk you through best practices on using Git for version control and GitHub for collaboration. You'll be reading text and watching videos about Git and GitHub, and we'll be asking you to perform all the actions we show you in your own GitHub repository. You'll have the chance to practice everything you learn.
+        This course will teach you how to use Git and GitHub for version control and collaboration. Learning both requires practice, so this will be a hands-on course. Each of the exercises will be done in your own GitHub repository.
 
-        For now, click on the "next" button above to move onto the next slide.
+        Click the "next" button above to get started.
   - image-slide:
       title: Answering Questions
       image: blank.png
@@ -18,7 +18,7 @@ screens:
         There are also labs where you'll be asked to complete tasks on GitHub. We'll automatically know when you've completed the tasks, so there's no need to submit anything.
   - poll:
       title: Version Control Poll
-      presenter-script: 
+      presenter-script:
         - Please tell us a little about your experience with version control.
       questions: # A poll might have one or more questions
         - title: |
@@ -37,7 +37,7 @@ screens:
               response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for keeping track of your changed and collaborating with your team.
   - poll:
       title: GitHub Poll
-      presenter-script: 
+      presenter-script:
         - Please tell us a little about your experience with GitHub.
       questions: # A poll might have one or more questions
         - title: Have you used GitHub before?
@@ -69,12 +69,12 @@ screens:
       title: Key GitHub Features
       image: collaboration-features.jpg
       presenter-script:
-        - In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate. These include Issues for discussing features and bugs with your teammates and Pull Requests for discussing and reviewing new features your team is working on.
+        - In addition to being a place to host and share your Git projects, GitHub provides features, like Pull Requests and Issues, that make collaborating easier. Issues are general place for discussions about the project, from high-level planning to bug tracking. Pull Requests let you discuss and review specific changes to the project files themselves.
   - image-slide:
       title: The GitHub Ecosystem
       image: github-ecosystem.png
       presenter-script: |
-        You can also use all of your favorite tools and development processes with GitHub. GitHub doesn't require a new text editor, command line shell, or bug tracker: your team gets to keep the tools they're comfortable with.
+        You can also use all of your favorite tools with GitHub. You don't need to use a new text editor or bug tracker: your team gets to keep the tools they're comfortable with.
 
         GitHub can also integrate into your current deployment process, and fully supports continuous integration and continuous deployment to help you and your team build software better, together.
 
