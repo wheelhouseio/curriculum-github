@@ -6,7 +6,7 @@ screens:
       title: Welcome to the GitHub for Developers Course!
       image: github-icon.jpg
       presenter-script: |
-        This course will teach you how to use Git and GitHub for version control and collaboration. You'll be reading text and watching videos about Git and GitHub, and we'll be asking you to perform all the actions we show you in your own GitHub repository. You'll have the chance to practice everything you learn.
+        This course will teach you how to use Git and GitHub for version control and collaboration. Learning both requires practice, so this will be a hands-on course. Each of the exercises will be done in your own GitHub repository.
 
         For now, click on the "next" button above to move onto the next slide.
   - image-slide:
@@ -18,7 +18,7 @@ screens:
         There are also labs where you'll be asked to complete tasks on GitHub. We'll automatically know when you've completed the tasks, so there's no need to submit anything.
   - poll:
       title: Version Control Poll
-      presenter-script: 
+      presenter-script:
         - Please tell us a little about your experience with version control.
       questions: # A poll might have one or more questions
         - title: |
@@ -37,7 +37,7 @@ screens:
               response: Welcome to the world of version control! It takes a bit of getting used to but you'll soon find out just how powerful a version control system can be for keeping track of your changed and collaborating with your team.
   - poll:
       title: GitHub Poll
-      presenter-script: 
+      presenter-script:
         - Please tell us a little about your experience with GitHub.
       questions: # A poll might have one or more questions
         - title: Have you used GitHub before?
