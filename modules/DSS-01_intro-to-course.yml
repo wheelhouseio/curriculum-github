@@ -69,7 +69,7 @@ screens:
       title: Key GitHub Features
       image: collaboration-features.jpg
       presenter-script:
-        - In addition to being a place to host and share your Git projects, GitHub provides a number of features to help your team collaborate. These include Issues for discussing features and bugs with your teammates and Pull Requests for discussing and reviewing new features your team is working on.
+        - In addition to being a place to host and share your Git projects, GitHub provides features, like Pull Requests and Issues, that make collaborating easier. Issues are general place for discussions about the project, from high-level planning to bug tracking. Pull Requests let you discuss and review specific changes to the project files themselves.
   - image-slide:
       title: The GitHub Ecosystem
       image: github-ecosystem.png
