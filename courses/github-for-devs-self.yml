@@ -14,6 +14,7 @@ sections:
     modules:
       - DSS-02_exploring-repository
       - DSS-03_issues
+      - DSS-END-02_getting-started.yml
   -
     title: The Basic GitHub Workflow
     description: In this section you will learn about the GitHub flow.
@@ -21,6 +22,7 @@ sections:
       - DSS-04_github-flow
       - DSS-05_branches
       - DSS-06_creating-files
+      - DSS-END-03_basic-workflow.yml
   -
     title: Creating Your First Pull Request
     description: In this section you will create your first pull request.
@@ -28,12 +30,14 @@ sections:
       - DSS-07_create-pr
       - DSS-08_edit-pr
       - DSS-09_merge-pr
+      - DSS-END-04_creating-first-pull.yml
   -
     title: Setting up Git
     description: In this section you will learn how to configure Git on your local machine for the best experience.
     modules:
       - DSS-10_command-line-interface
       - DSS-11_cli-config
+      - DSS-END-05_setting-up-git.yml
   -
     title: Using GitHub Locally
     description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
@@ -42,6 +46,7 @@ sections:
       - DSS-13_editing-locally
       - DSS-14_two-stage-commit
       - DSS-15_pushing
+      - DSS-END-06_using-github-locally.yml
   -
     title: The Workflow End-to-End
     description: In this section you will review the workflow from start-to-finish and learn a few shortcuts along the way.
@@ -50,6 +55,7 @@ sections:
       - DSS-17_local-branches
       - DSS-18_workflow-review
       - DSS-19_pulling
+      - DSS-END-07_workflow-end-to-end.yml
   -
     title: Working with Local Files
     description: In this section you will learn how to perform common file operations with git.
@@ -58,6 +64,7 @@ sections:
       - DSS-21_local-diffs
       - DSS-22_merge-local-branches
       - DSS-23_log
+      - DSS-END-08_working-local-files.yml
   -
     title: Fixing Common Issues with Git
     description: In this section you will learn how to manipulate your repository and its history to craft a better story for your project.
@@ -71,8 +78,10 @@ sections:
       - DSS-30_reset
       - DSS-31_discard-file-changes
       - DSS-32_git-rm
+      - DSS-END-09_fixing-common-issues-with-git.yml
   -
     title: Creating Shortcuts
     description: In this section you will learn how to create custom shortcuts for git commands.
     modules:
       - DSS-33_aliases
+      - DSS-END-10_creating-shortcuts.yml
