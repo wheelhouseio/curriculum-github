@@ -6,10 +6,13 @@ screens:
       title: You have completed Introducing Git and GitHub!
       image: blank.jpg
       presenter-script: |
-        - ![Checked Box](checked-box.svg) Section 1: Introducing Git and GitHub
-        - ![Unchecked Box](unchecked-box.svg) Section 2: Getting Started with Collaboration
-        - &#9744 Section 3: The Basic GitHub Workflow
-        - &#9745 Section 4: Creating Your First Pull Request
+        <ul>
+          <i class="fa fa-check-square-o"></i> Section 1: Introducing Git and GitHub
+          <i class="fa fa-square-o"></i> Section 2: Getting Started with Collaboration
+        </ul>
+
+        - <i class="fa fa-check-square-o"></i> Section 3: The Basic GitHub Workflow
+        - <i class="fa fa-check-square-o"></i> Section 4: Creating Your First Pull Request
         - ![Unchecked Box](unchecked-box.svg) Section 5: Setting up Git
         - ![Unchecked Box](unchecked-box.svg) Section 6: Using GitHub Locally
         - ![Unchecked Box](unchecked-box.svg) Section 7: The Workflow End-to-End
