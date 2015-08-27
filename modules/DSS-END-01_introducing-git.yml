@@ -6,16 +6,15 @@ screens:
       title: You have completed Introducing Git and GitHub!
       image: blank.jpg
       presenter-script: |
-        <ul>
-          <i class="fa fa-check-square-o"></i> Section 1: Introducing Git and GitHub
-          <i class="fa fa-square-o"></i> Section 2: Getting Started with Collaboration
+        <ul class="fa-ul">
+          <li><i class="fa fa-check-square-o"></i> Section 1: Introducing Git and GitHub</li>
+          <li><i class="fa fa-square-o"></i> Section 2: Getting Started with Collaboration</li>
+          <li><i class="fa fa-square-o"></i> Section 3: The Basic GitHub Workflow</li>
+          <li><i class="fa fa-square-o"></i> Section 4: Creating Your First Pull Request</li>
+          <li><i class="fa fa-square-o"></i> Section 5: Setting up Git</li>
+          <li><i class="fa fa-square-o"></i> Section 6: Using GitHub Locally</li>
+          <li><i class="fa fa-square-o"></i> Section 7: The Workflow End-to-End</li>
+          <li><i class="fa fa-square-o"></i> Section 8: Working with Local Files</li>
+          <li><i class="fa fa-square-o"></i> Section 9: Fixing Common Issues with Git</li>
+          <li><i class="fa fa-square-o"></i> Section 10: Creating Shortcuts</li>
         </ul>
-
-        - <i class="fa fa-check-square-o"></i> Section 3: The Basic GitHub Workflow
-        - <i class="fa fa-check-square-o"></i> Section 4: Creating Your First Pull Request
-        - ![Unchecked Box](unchecked-box.svg) Section 5: Setting up Git
-        - ![Unchecked Box](unchecked-box.svg) Section 6: Using GitHub Locally
-        - ![Unchecked Box](unchecked-box.svg) Section 7: The Workflow End-to-End
-        - ![Unchecked Box](unchecked-box.svg) Section 8: Working with Local Files
-        - ![Unchecked Box](unchecked-box.svg) Section 9: Fixing Common Issues with Git
-        - ![Unchecked Box](unchecked-box.svg) Section 10: Creating Shortcuts
