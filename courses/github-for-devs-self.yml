@@ -5,8 +5,9 @@ sections:
   -
     title: Introducing Git and GitHub
     description: This section will serve as an introduction to the course.
-    modules: 
+    modules:
       - DSS-01_intro-to-course
+      - DSS-END-01_introducing-git
   -
     title: Getting Started with Collaboration
     description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
