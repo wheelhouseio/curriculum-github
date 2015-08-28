@@ -31,7 +31,7 @@ screens:
       presenter-script: |
         * `git pull` updates the local directory to include all the changes made to the remote directory, even those done by other people.
         * `git log` provides a list of all of the commits on the current branch, with the most recent commit first.
-        * `Up` and `down` arrows navigate, `enter` cycles through log entries, and `q enter` quits log viewing screen.
+        * `Up` and `down` arrows navigate, `enter` cycles through log entries, and `q` quits log viewing screen.
         * `git log --oneline` shows a smaller version of the log.
         * `git log --oneline --graph` shows a graph of the changes along with the one-line log.
         * `git log --oneline --graph --decorate` includes information about the branches and the head.
