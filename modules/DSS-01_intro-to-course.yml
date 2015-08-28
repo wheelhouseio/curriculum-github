@@ -62,7 +62,7 @@ screens:
       presenter-script: |
         GitHub is a website that allows your team to collaborate more effectively. It is built on top of Git—a distributed version control system. GitHub and Git help teams to collaborate more effectively on projects.
 
-        With Git, each person has a local copy of the project to work on. As they make changes locally, they upload them to GitHub after downloading any changes that others have made.
+        With Git, each person has a local copy of the project to work on. As they make changes locally, they can upload them to GitHub and download any changes that others have made.
 
         GitHub provides access to a central copy of the code, as well as features like Pull Requests and Issues that make collaborating easier.
   - image-slide:

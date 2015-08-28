@@ -27,9 +27,9 @@ screens:
       title: "Editing Pull Request Files: Recap"
       image: blank.png
       presenter-script: |
-        * You will be notified of all comments on your own PRs, unless you've ignored that PR or the whole repository.
+        * You will be notified of all comments on your own PRs, unless you've unsubscribed from that PR or ignored the whole repository.
         * You can make changes to files directly in the `Files changed` view.
-        * These changes, once committed, will be included in the PR.        
+        * These changes, once committed, will be included in the PR.
   - lab:
       title: Editing Pull Request Files
       id: DSS-08-lab-01
