@@ -6,7 +6,7 @@ screens:
       title: You have completed Fixing Issues with Git!
       image: blank.jpg
       presenter-script: |
-        <ul class="fa-ul">
+        <ul>
           <li><i class="fa fa-check-square-o"></i> Section 1: Introducing Git and GitHub</li>
           <li><i class="fa fa-check-square-o"></i> Section 2: Getting Started with Collaboration</li>
           <li><i class="fa fa-check-square-o"></i> Section 3: The Basic GitHub Workflow</li>
