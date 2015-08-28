@@ -1,0 +1,16 @@
+title: Managing Projects on GitHub Complete
+pre-requisites:
+learning-objective:
+screens:
+  - image-slide:
+      title: You have completed Managing Projects on GitHub!
+      image: blank.jpg
+      presenter-script: |
+        <ul>
+          <li><i class="fa fa-check-square-o"></i> Section 1: Welcome to the Course</li>
+          <li><i class="fa fa-check-square-o"></i> Section 2: Getting Started with Collaboration</li>
+          <li><i class="fa fa-check-square-o"></i> Section 3: The Basic GitHub Workflow</li>
+          <li><i class="fa fa-check-square-o"></i> Section 4: Creating Your First Pull Request</li>
+          <li><i class="fa fa-check-square-o"></i> Section 5: Using the GitHub Desktop Application</li>
+          <li><i class="fa fa-check-square-o"></i> Section 6: Managing Projects on GitHub</li>
+        </ul>

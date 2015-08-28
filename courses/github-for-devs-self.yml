@@ -30,7 +30,7 @@ sections:
       - DSS-07_create-pr
       - DSS-08_edit-pr
       - DSS-09_merge-pr
-      - DSS-END-04_creating-first-pull
+      - DSS-END-04_creating-first-pr
   -
     title: Setting up Git
     description: In this section you will learn how to configure Git on your local machine for the best experience.
