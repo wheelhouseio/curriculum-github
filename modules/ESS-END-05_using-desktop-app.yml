@@ -6,7 +6,7 @@ screens:
       title: You have completed Using the GitHub Desktop Application!
       image: blank.jpg
       presenter-script: |
-        <ul>
+        <ul class="fa-ul">
           <li><i class="fa fa-check-square-o"></i> Section 1: Welcome to the Course</li>
           <li><i class="fa fa-check-square-o"></i> Section 2: Getting Started with Collaboration</li>
           <li><i class="fa fa-check-square-o"></i> Section 3: The Basic GitHub Workflow</li>
