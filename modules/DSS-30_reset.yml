@@ -6,7 +6,7 @@ screens:
       title: Git Reset
       image: reset-visual.jpg
       presenter-script: |
-        Sometimes we are working on a branch and we decide things aren't going quite like we had planned. We want to get some, or even all, of our files to look like what they were at a differnt point in history. We can do that with `git reset`.
+        Sometimes we are working on a branch and we decide things aren't going quite like we had planned. We want to reset some, or even all, of our files to look like what they were at a differnt point in history. We can do that with `git reset`.
 
         Remember that there are three different snapshots of our project at any given time. The first is the most recent commit. The second is the staging area (also called the index). The third is the working directory (i.e. whatever you currently have saved on disk). The `git reset` command has three modes, and they allow us to change some or all of these three snapshots.
 
@@ -22,9 +22,7 @@ screens:
 
         * With the `--mixed` option, Git makes `<my-branch>` *and* the staging area look like the `<other-commit>` snapshot. This is the default mode: if you don't include a mode flag, Git will assume you want `--mixed`. `--mixed` is useful if you want to keep all of your changes in the working directory, but change whether and how you commit those changes.
 
-        * `--hard` is the destructive version. When you use the `--hard` option, git will make both the working directory and the index look like the new location of `HEAD`. In other words, it will discard all of the changes made between the old and new `HEAD` location, to include anything in your working directory.
-
-        `--mixed` and `--soft` are both safe operations since they will not overwrite the contents of your working directory. `--hard` is destructive, so be careful when using it as you will not be able to undo it.
+        * `--hard` is the most drastic option. With this, Git will now make all 3 snapshots -- <my-branch>, the staging area, *and* your working directory -- look like they did at `<other-commit>`. This can be dangerous! We've assumed so far that our working directory is clean. If it is not, and you have uncommited changes, `git reset --hard` will *delete all of those changes*. Even with a clean working directory, use `--hard` only if you're sure you want to completely undo earlier changes.
 
         Let's take a look at each of these options in action.
   - video-slide:
