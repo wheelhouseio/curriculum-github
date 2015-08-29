@@ -16,7 +16,7 @@ screens:
       title: Git Reset Modes
       image: reset-modes.jpg
       presenter-script: |
-        There three modes for git reset are: `--soft`, `--mixed`, and `--hard`.
+        There three modes for git reset are: `--soft`, `--mixed`, and `--hard`. For these examples, assume that we have a "clean" working directory, i.e. there are no uncommited changes.
 
         * When you use the `--soft` option, git moves the `HEAD` but then it stops. The changes you made in the commits between the two points are placed in the staging area, but your working files and the index are left untouched. This is a good command to use when you have made a large number of small commits and you would like to regroup them into a single commit.
 
