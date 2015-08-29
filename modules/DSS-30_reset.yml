@@ -10,14 +10,13 @@ screens:
 
         Before we can learn how to use this command, we need to understand what a branch technically is. A branch is a pointer, or reference, to the latest commit in a line of work. Different branches refer to different lines of work, i.e. sequences of commits. As we add new commits on a branch, the branch "moves forward," so that it always points to the most recent commit.
 
-        The `git reset` command changes what the branch sees as the most recent commit.
+        We also want to remember that there are three different snapshots of our project at any given time. The first is the most recent commit. The second is the staging area (also called the index). The third is the working directory (i.e. whatever you currently have saved on disk). The `git reset` command has three modes, and they allow us to change some or all of these three snapshots.
 
-        The question we need to answer before we perform a reset is, "What do we want to do with the commits between the current commit and the commit we are resetting to?"
   - image-slide:
       title: Git Reset Modes
       image: reset-modes.jpg
       presenter-script: |
-        There are three modes for git reset: `--soft`, `--mixed`, and `--hard`.
+        There three modes for git reset are: `--soft`, `--mixed`, and `--hard`.
 
         * When you use the `--soft` option, git moves the `HEAD` but then it stops. The changes you made in the commits between the two points are placed in the staging area, but your working files and the index are left untouched. This is a good command to use when you have made a large number of small commits and you would like to regroup them into a single commit.
 
