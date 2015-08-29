@@ -8,9 +8,9 @@ screens:
       presenter-script: |
         Sometimes we are working on a branch and we decide things aren't going quite like we had planned. We want to get some, or even all, of our files to look like what they were at a differnt point in history. We can do that with `git reset`.
 
-        Before we can learn how to use this command, we need to understand what a branch technically is. A branch is a pointer, or reference, to the latest commit in a line of work. Different branches refer to different lines of work, i.e. sequences of commits. As we add new commits on a branch, the branch "moves forward," so that it always points to the most recent commit.
+        Remember that there are three different snapshots of our project at any given time. The first is the most recent commit. The second is the staging area (also called the index). The third is the working directory (i.e. whatever you currently have saved on disk). The `git reset` command has three modes, and they allow us to change some or all of these three snapshots.
 
-        We also want to remember that there are three different snapshots of our project at any given time. The first is the most recent commit. The second is the staging area (also called the index). The third is the working directory (i.e. whatever you currently have saved on disk). The `git reset` command has three modes, and they allow us to change some or all of these three snapshots.
+        Before we can learn how to use this command, we need to understand what a branch technically is. A branch is a pointer, or reference, to the latest commit in a line of work. Different branches refer to different lines of work, i.e. sequences of commits. As we add new commits on a branch, the branch "moves forward," so that it always points to the most recent commit.
 
   - image-slide:
       title: Git Reset Modes
