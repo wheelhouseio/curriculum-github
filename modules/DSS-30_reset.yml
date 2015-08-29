@@ -8,7 +8,9 @@ screens:
       presenter-script: |
         Sometimes we are working on a branch and we decide things aren't going quite like we had planned. We want to go to another point in history. We can do that with git reset.
 
-        A branch is a pointer to the latest commit in a line of work. The `git reset` command changes what the branch sees as the most recent commit.
+        Before we can learn how to use this command, we need to understand what a branch technically is. A branch is a pointer, or reference, to the latest commit in a line of work. Different branches refer to different lines of work, i.e. sequences of commits. As we add new commits on a branch, the branch "moves forward," so that it always points to the most recent commit.
+
+        The `git reset` command changes what the branch sees as the most recent commit.
 
         The question we need to answer before we perform a reset is, "What do we want to do with the commits between the current commit and the commit we are resetting to?"
   - image-slide:
