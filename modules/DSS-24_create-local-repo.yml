@@ -13,7 +13,7 @@ screens:
       title: Creating a Repository on the Command Line
       image: blank.png
       presenter-script: |
-        You'll only be working locally for this section, so you won't need to interact GitHub. Thus, it's a good chance to learn how to use Git on the command line to create a new local repo.
+        You'll only be working locally for this section, so you won't need to interact with GitHub. Thus, it's a good chance to learn how to use Git on the command line to create a new local repo.
 
         On the next slide you'll learn how to use `git init` to create a local repository, and then we'll use that repo in the rest of this lesson.
   - video-slide:
