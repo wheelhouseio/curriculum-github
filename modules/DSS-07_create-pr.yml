@@ -47,7 +47,7 @@ screens:
       title: "Understaing Pull Requests: Recap"
       image: pull-request.png
       presenter-script: |
-        * Pull Requests (or PRs) are used to add code another branch, in this case `master`.
+        * Pull Requests (or PRs) are used to add code to another branch, in this case `master`.
         * A Pull Request asks that the team merge one branch into another.
         * The "base" is the branch you want to merge into (often `master`), the "compare" is the branch you're merging, in this case the feature branch.
         * Make sure to leave a comment to tell people what changes you made and why.
