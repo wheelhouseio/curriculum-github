@@ -33,7 +33,7 @@
 * Branching keeps the code on `master` safe while allowing you to experiment.
 * Create a branch by clicking on the `branch` drop-down and entering your branch name in the text field.
 * Any files you create, edit, or delete will then be applied to that branch.
-* Be careful, GitHub automatically puts you on `master`, so always make sure you're on the right branch before you start working.
+* Be careful; GitHub automatically puts you on `master`, so always make sure you're on the right branch before you start working.
 
 2.5: Creating Files on GitHub
 
@@ -109,7 +109,7 @@
 * Private repositories can only be viewed, cloned, etc. by collaborators you have added.
 * You are allowed an unlimited number of public repos on your account, but must have a paid account to have any private repositories.
 * A `.gitignore` file tells git which types of files it shouldn't bother tracking. GitHub allows you to auto-generate your `.gitignore` file.
-* You may add an open source liscence to your repository if you'd like to make it open source.
+* You may add an open source license to your repository if you'd like to make it open source.
 * Once you've created your repo, you can add collaborators by searching for their GitHub user name in the `Collaborators` section of the repo.
 
 4.4: Creating Branches Locally
@@ -121,7 +121,7 @@
 4.6: Workflow Review
 
 * This is a review of the workflow video from earlier.
-* `git add .` adds _all_ modiffied or new files to be commited, so you don't have to write out each file.
+* `git add .` adds _all_ modified or new files to be committed, so you don't have to write out each file.
 * You can write your commit message along with your commit command using the syntax: `git commit -m "COMMIT_MESSAGE"`.
 * Once this is finished, you must create a pull request on GitHub, and merge it on GitHub once it's completed.
 
