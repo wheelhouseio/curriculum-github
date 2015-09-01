@@ -11,11 +11,11 @@ screens:
       title: Your First GitHub Repository
       image: blank.png
       presenter-script: |
-        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. When we ask you to complete tasks on GitHub, we'll be referring to this repository. 
+        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. When we ask you to complete tasks on GitHub, we'll be referring to this repository.
 
         **There is a link to your repo at the top of this page in the navigation bar**. If you check the email associated with your GitHub account, you should find some emails that link you to the repository.
   - video-slide:
-      title: Exploring a repository
+      title: Exploring a Repository
       video: https://youtu.be/R8OAwrcMlRw
       video-script:
         - do: Navigate to the first sample repository
@@ -29,7 +29,7 @@ screens:
         - do: Click `Pull Request` view
           say: A Pull Request represents a change, such as adding, modifying, or deleting files, which the author would like to make to the repository. Pull Requests are used to resolve Issues. Go ahead and click around in the class repository now to familiarize yourself with its contents.
       production-notes:
-  - image-slide:  
+  - image-slide:
       title: "Exploring a Repository: Recap"
       image: github-repositories.png
       presenter-script: |
