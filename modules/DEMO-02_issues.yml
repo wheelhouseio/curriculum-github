@@ -38,7 +38,7 @@ screens:
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add your own. As a project grows in size, using assignees and labels makes it much easier to find a specific issue.
         - do: "Click `Issues > Filters`"
           say: Filters allow you to easily search for Issues by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating an issue!
-  - image-slide:  
+  - image-slide:
       title: "Using Issues: Recap"
       image: blank.png
       presenter-script: |
@@ -53,7 +53,7 @@ screens:
       title: Your First GitHub Repository
       image: blank.png
       presenter-script: |
-        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. When we ask you to complete tasks on GitHub, we'll be referring to this repository. 
+        We've created a repository for you on GitHub. You'll use this to explore how GitHub works. When we ask you to complete tasks on GitHub, we'll be referring to this repository.
 
         **There is a link to your repo at the top of this page in the navigation bar**. If you check the email associated with your GitHub account, you should find some emails that link you to the repository.
 
@@ -63,7 +63,7 @@ screens:
       id: DSS-03-quiz-01
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
-        - title: "What is being discussed in Issue #3 of your repo? Remember, there is a link to in the nav bar above."
+        - title: "What is being discussed in Issue #3 of your repo? Remember, there is a link to the repository in the nav bar above."
           id: DSS-03-qq1
           type: open-response
           options:
