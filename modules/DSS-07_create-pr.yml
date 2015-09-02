@@ -44,7 +44,7 @@ screens:
           say: "Most project teams require someone to sign off on the change before it is merged. We like to use emoji to show our approval. In the previous lab you created a file, next you will create a pull request for your file."
       production-notes:
   - image-slide:
-      title: "Understaing Pull Requests: Recap"
+      title: "Understanding Pull Requests: Recap"
       image: pull-request.png
       presenter-script: |
         * Pull Requests (or PRs) are used to add code to another branch, in this case `master`.
