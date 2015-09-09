@@ -6,7 +6,7 @@ screens:
       title: Using the Command Line
       image: blank.png
       presenter-script: |
-        So far, all the work we've done has been using GitHub's online graphical user interface. However, if you prefer to work on the command line, you can easily integrate GitHub into your current workflow.
+        So far, all the work we've done has been using GitHub's web interface. However, if you prefer to work on the command line, you can easily integrate GitHub into your current workflow.
 
         In this section, we'll teach you how to use Git and GitHub effectively through the command line. We assume a working knowledge of the command line interface, so if you're rusty you might want to brush up on using the CLI before forging ahead.
 
@@ -31,7 +31,7 @@ screens:
       presenter-script: |
         Git is OS agnostic; the commands are essentially the same whether you are on Mac, Windows or Linux. You can use your favorite application to interact with the command line.
 
-        First, let's check the version of Git currently installed on your system by typing `git --version` into the command line. You should have the latest version of Git installed.  
+        First, let's check the version of Git currently installed on your system by typing `git --version` into the command line. You should have the latest version of Git installed.
 
         * **Mac**: 2.5.0
         * **Linux**: 2.5.0
@@ -39,7 +39,7 @@ screens:
 
         If you don't have the right version, or if you get an error saying Git isn't installed, then go to <a href="http://git-scm.com" target="_blank">git-scm.com</a> to download and install the latest version.
 
-        Once you've verified you have the latest version of Git installed, we're ready to on to getting Git configured correctly.
+        Once you've verified you have the latest version of Git installed, you're ready to move on to getting Git configured correctly.
 additional-labs:
 additional-questions:
 resources:

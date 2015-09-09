@@ -7,6 +7,7 @@ sections:
     description: This section introduces you to GitHub.
     modules:
       - ESS-01_intro-to-course
+      - ESS-END-01_welcome
   -
     title: Getting Started with Collaboration
     description: This section introduces you to the collaboration features we will use throughout the class.
@@ -14,6 +15,7 @@ sections:
       - DSS-02_exploring-repository
       - DSS-03_issues
       - ESS-02_collaboration-features
+      - ESS-END-02_getting-started
   -
     title: The Basic GitHub Workflow
     description: In this section you will learn about the GitHub flow.
@@ -21,6 +23,7 @@ sections:
       - DSS-04_github-flow
       - DSS-05_branches
       - DSS-06_creating-files
+      - ESS-END-03_basic-github-flow
   -
     title: Creating Your First Pull Request
     description: In this section you will create your first pull request.
@@ -28,6 +31,7 @@ sections:
       - DSS-07_create-pr
       - DSS-08_edit-pr
       - DSS-09_merge-pr
+      - ESS-END-04_creating-first-pr
   -
     title: Using the GitHub Desktop Application
     description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
@@ -37,6 +41,7 @@ sections:
       - ESS-05_editing-locally
       - ESS-06_commit
       - ESS-07_sync
+      - ESS-END-05_using-desktop-app
   -
     title: Managing Projects on GitHub
     description: In this section you will learn about the project management features in GitHub.
@@ -44,3 +49,4 @@ sections:
       - ESS-08_managing-issues-pull-requests
       - ESS-09_milestones
       - ESS-10_pulse-graphs
+      - ESS-END-06_managing-projects

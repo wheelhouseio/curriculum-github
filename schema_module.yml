@@ -57,9 +57,7 @@ mapping:
                 required: true
               "presenter-script":
                 required: true
-                type: seq
-                sequence:
-                  - type: str
+                type: any
         # video schema
           video-slide:
             type: map

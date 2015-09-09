@@ -20,7 +20,7 @@ screens:
           say: Let's dive a little deeper into Issues.
         - do: "Navigate to the issue `Class Goals`"
           say: Here, I will create an issue titled Class Goals. Let's look at some of the special features in issues that you will use to collaborate with your team.
-        - do: Add an issue comment demonstrating markdown formatting for headers, bullets and checkboxes.
+        - do: Add an issue comment demonstrating Markdown formatting for headers, bullets and checkboxes.
           say: GitHub uses a syntax called Markdown to help you add basic text formatting to issues.
         - do: "@mention any co-teachers"
           say: One of our favorite features is the @mention. When you @mention someone in an issue, they will receive a notification - even if they are not currently subscribed to the issue or watching the repository.
@@ -38,14 +38,14 @@ screens:
           say: You can also use labels to help you organize issues. GitHub comes with a number of built-in labels, but you can always delete those or add your own. As a project grows in size, using assignees and labels makes it much easier to find a specific issue.
         - do: "Click `Issues > Filters`"
           say: Filters allow you to easily search for Issues by creator, labels, assignees and more. We will continue to explore these features throughout the course. For now, let's practice creating an issue!
-  - image-slide:  
+  - image-slide:
       title: "Using Issues: Recap"
       image: blank.png
       presenter-script: |
-        * You can use <a href="https://help.github.com/articles/markdown-basics/" target="_blank">markdown</a> to format issues.
+        * You can use <a href="https://help.github.com/articles/markdown-basics/" target="_blank">Markdown</a> to format issues.
         * You can `@mention` somebody in order to alert them of the issue.
         * The "Preview" tab shows how your comment will be rendered.
-        * Drag and drop pictures into the issue to display them.
+        * Add screenshots or pictures to the issue by simply dragging and dropping them into the comment field.
         * You can assign an issue to anyone with access to the repo.
         * Labels can be used to organize issues.
         * Filters allow you to easily search for labels, or by author or assignee.
@@ -54,7 +54,7 @@ screens:
       id: DSS-03-quiz-01
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
-        - title: "What is being discussed in Issue #3 of your repo? Remember, there is a link to in the nav bar above."
+        - title: "What is being discussed in Issue #3 of your repo? Remember, there is a link to the repository in the nav bar above."
           id: DSS-03-qq1
           type: open-response
           options:

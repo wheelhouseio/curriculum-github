@@ -34,7 +34,7 @@ screens:
         * Branching keeps code safe. Branching `master` lets you experiment without changing any of the code on `master`.
         * Create a branch by clicking on the `branch` drop-down and entering your branch name in the text field.
         * Any files you create, edit, or delete will then be applied to that branch.
-        * Be careful, GitHub automatically puts you on `master` when you leave the repo and come back, so always make sure you're on the right branch before you start working.
+        * Be careful; GitHub automatically puts you on `master` when you leave the repo and come back, so always make sure you're on the right branch before you start working.
   - lab:
       title: Creating a Branch
       id: DSS-05-lab-01

@@ -53,11 +53,11 @@ screens:
         * `Create new repository` button on your GitHub profile page.
         * The name of your repository must be unique to your account.
         * Choose whether your repo will be public or private.
-          * Anyone can can view, clone, or fork a public repo, but only collaborate can push changes to it.
+          * Anyone can can view, clone, or fork a public repo, but only collaborators can push changes to it.
           * Private repositories can only be viewed, cloned, etc. by collaborators you have added.
           * You are allowed an unlimited number of public repos on your account, but must have a paid account to have any private repositories.
         * A `.gitignore` file tells git which types of files it shouldn't bother tracking. GitHub allows you to auto-generate your `.gitignore` file.
-        * You may add an open source liscence to your repository if you'd like to make it open source.
+        * You should add an open source license to your repository if you'd like to make it open source.
         * Once you've created your repo, you can add collaborators by searching for their GitHub user name in the `Collaborators` section of the repo.
   - lab:
       title: Create and Clone the Repository
