@@ -2,6 +2,11 @@ title: Using Pulse and Graphs
 pre-requisites: ESS-09_milestones
 learning-objective: Learn how to use Pulse and Graphs to track team productivity and project status.
 screens:
+  - image-slide:
+      title: "Using Pulse and Graphs"
+      image: blank.png
+      presenter-script: |
+        Pulse is a high-level overview of your entire project. Pulse will show you who has been actively committing and what has changed in a project's default branch. Pulse is also a great way to see new and merged pull requests, open and closed issues, and unresolved discussions.
   - video-slide:
       title: Using Pulse and Graphs
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
@@ -25,6 +30,18 @@ screens:
         - do: "Click `Network`"
           say: "And you can use the network graph for a visualization of the open branches and the work that has been completed on each in relation to master."
       production-notes:
+  - image-slide:
+      title: "Using Pulse and Graphs: Recap"
+      image: blank.png
+      presenter-script: |
+        * Use Pulse as a dashboard for your project, to see the work that has been done and what's yet to be completed.
+        * Use the Period drop-down to change the amount of time you are reviewing.
+        * Use the Overview section to see an overview of the Issues, PRs, and contributors on the project.
+        * As you scroll down the page you will find more detailed information about Issues, PRs, and open conversations.
+        * Graphs give you detailed information about your project at a glance.
+          * Contributions shows you who has contributed what and how much to the project.
+          * Punch Card lets you see when work happens in your repo.
+          * The Network grapah is a visualization of the open branches and what work is getting done on each.
 additional-labs:
 additional-questions:
 resources:

@@ -2,6 +2,11 @@ title: Using Milestones
 pre-requisites: ESS-08_managing-issues-pull-requests
 learning-objective: Learn how to organize your projects with milestones.
 screens:
+  - image-slide:
+      title: "Using Milestones"
+      image: blank.png
+      presenter-script: |
+        Milestones allow you to group Issues and Pull Requests for larger projects. A Milestone should correspond to a project, feature, or time persiod. They differ from Labels in that Labels can be more general-purpose in their descriptions and any Issue can have multiple Labels.
   - video-slide:
       title: Using Milestones
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
@@ -25,6 +30,16 @@ screens:
         - do: "Click the milestone title"
           say: "And drill down into the specific issues and pull requests that are included."
       production-notes:
+      production-notes:
+  - image-slide:
+      title: "Using Milestones: Recap"
+      image: blank.png
+      presenter-script: |
+        * Milestones allow you to group Issues and Pull Requests for larger projects.
+        * To create a new Milestone, click on the `new milestone` button, give it a title and description, enter a due date, and then click `create milestone`.
+        * Add Issues and PRs by selecting them and mass-adding them to the Milestone.
+        * Use the Milestone view to see progress made in that Milestone, as well as to drill down into the specific Issues and PRs.
+        * You can learn more about how to use Milestones for project management <a href="https://guides.github.com/features/issues/#filtering" target="blank">here</a>.
 additional-labs:
 additional-questions:
 resources:

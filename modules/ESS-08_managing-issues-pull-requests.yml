@@ -2,6 +2,13 @@ title: Managing Issues and Pull Requests
 pre-requisites: CONT-05_Merging-pull-requests
 learning-objective: Learn ways to maximize team effectiveness with Issues and Pull Requests.
 screens:
+  - image-slide:
+      title: "Managing Issues and Pull Requests: Recap"
+      image: blank.png
+      presenter-script: |
+        While GitHub is not full-fledged project management software, it offers functionality that makes managing the GitHub portions of your project easy and useful.
+
+        In this section, we'll go over how these tools work, as well as suggest some best practices that any team can implement to become more effective at using GitHub.
   - video-slide:
       title: Managing Issues and Pull Requests
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo
@@ -23,6 +30,16 @@ screens:
         - do: "Click `Labels` tab"
           say: "You can manage your project labels, including the name and color, using the labels tab. You will notice that this tab also provides a helpful way to see how many issues and pull requests currently have that label applied. In the next section, we will take a look at another tool for managing your team: Milestones."
       production-notes:
+  - image-slide:
+      title: "Managing Issues and Pull Requests: Recap"
+      image: blank.png
+      presenter-script: |
+        * Managing the creation of and discussion in Issues and PRs is an important part of managing a GitHub project.
+        * All Issues and PRs should be assigned to a specific person on the team who is in charge of seeing it through to completion.
+          * You can easily find unassigned items by clicking on `Assigned to Nobody`.
+          * You can assign multiple items quickly by selecting all the relevant tasks then using the drop down to select the assignee.
+        * Sorting by least recently updated and oldest lets you keep and eye on Issues and PRs that might not be making progress.
+        * Labels also help keep things organized. Make sure you manage your labels well, and that each Issue gets assigned one at creation.
 additional-labs:
 additional-questions:
 resources:
