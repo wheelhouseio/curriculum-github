@@ -4,7 +4,7 @@ learning-objective: Discover steps you can take when you need to rewrite history
 screens:
   - image-slide:
       title: Git Reset
-      image: reset-visual.jpg
+      image: reset-visual.png
       presenter-script: |
         Sometimes we are working on a branch and we decide things aren't going quite like we had planned. We want to reset some, or even all, of our files to look like what they were at a different point in history. We can do that with `git reset`.
 
@@ -14,7 +14,7 @@ screens:
 
   - image-slide:
       title: Git Reset Modes
-      image: reset-modes.jpg
+      image: reset-modes.png
       presenter-script: |
         The three modes for git reset are: `--soft`, `--mixed`, and `--hard`. For these examples, assume that we have a "clean" working directory, i.e. there are no uncommited changes.
 
@@ -72,7 +72,7 @@ screens:
       production-notes:
   - image-slide:
       title: "Git Reset Options: Recap"
-      image: reset-modes.jpg
+      image: reset-modes.png
       presenter-script: |
         * `git revert` reverts a specific commit. `git reset` resets git _to_ a specific commit.
         * `git reset --soft <to_commit>` resets git to a specific commit, and puts the commits you're resetting into the staging area where they can be easily re-committed.
