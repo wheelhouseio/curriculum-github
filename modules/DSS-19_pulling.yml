@@ -4,7 +4,7 @@ learning-objective: Pulling changes from the remote into your local repository.
 screens:
   - image-slide:
       title: Pulling Changes from the Remote
-      image: push-pull.jpg
+      image: push-pull.png
       presenter-script: |
         Frequently, collaborators will make changes to our files during the Pull Request process. Before we can go on, we will need to update our local copy of the file.
 

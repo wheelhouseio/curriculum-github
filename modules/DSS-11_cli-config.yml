@@ -4,7 +4,7 @@ learning-objective: Configure the CLI to work effectively with Git.
 screens:
   - image-slide:
       title: Git Configuration Levels
-      image: config-levels.jpg
+      image: config-levels.png
       presenter-script: |
         The first thing you should do when you get started using Git is to set your configuration options.
 

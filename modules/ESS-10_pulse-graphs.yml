@@ -4,7 +4,7 @@ learning-objective: Learn how to use Pulse and Graphs to track team productivity
 screens:
   - image-slide:
       title: "Using Pulse and Graphs"
-      image: blank.png
+      image: pulse.png
       presenter-script: |
         Pulse is a high-level overview of your entire project. Pulse will show you who has been actively committing and what has changed in a project's default branch. Pulse is also a great way to see new and merged pull requests, open and closed issues, and unresolved discussions.
   - video-slide:

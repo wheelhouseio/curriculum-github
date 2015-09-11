@@ -20,7 +20,7 @@ screens:
         If you've never used the command line before, you might want to <a href="http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything" target="_blank">learn more about it here</a>.
   - image-slide:
       title: Git vs. GitHub
-      image: blank.png
+      image: git-v-github.png
       presenter-script: |
         When using the command line, you'll be working with Git. Git is the underlying version control system that GitHub makes use of. Some of the features we've discussed so far, such as pull request and issues, are functionality that GitHub adds. Others, like branching and commits, are Git functionality.
 

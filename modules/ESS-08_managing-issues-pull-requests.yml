@@ -4,11 +4,13 @@ learning-objective: Learn ways to maximize team effectiveness with Issues and Pu
 screens:
   - image-slide:
       title: "Managing Issues and Pull Requests: Recap"
-      image: blank.png
+      image: issues-prs.png
       presenter-script: |
         While GitHub is not full-fledged project management software, it offers functionality that makes managing the GitHub portions of your project easy and useful.
 
         In this section, we'll go over how these tools work, as well as suggest some best practices that any team can implement to become more effective at using GitHub.
+
+        Let's start with some best practices for managing Issues and Pull Request, inclusing using Milestones.
   - video-slide:
       title: Managing Issues and Pull Requests
       video: https://www.youtube.com/watch?v=r5C6yXNaSGo

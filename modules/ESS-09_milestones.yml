@@ -4,7 +4,7 @@ learning-objective: Learn how to organize your projects with milestones.
 screens:
   - image-slide:
       title: "Using Milestones"
-      image: blank.png
+      image: issues-prs.png
       presenter-script: |
         Milestones allow you to group Issues and Pull Requests for larger projects. A Milestone should correspond to a project, feature, or time persiod. They differ from Labels in that Labels can be more general-purpose in their descriptions and any Issue can have multiple Labels.
   - video-slide:

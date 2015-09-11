@@ -4,7 +4,7 @@ learning-objective: Create a branch to separate feature work from the master bra
 screens:
   - image-slide:
       title: Cloning a Repository
-      image: clone-diagram.jpg
+      image: clone-diagram.png
       presenter-script: |
         Part of what makes git such a well-loved VCS is that it easily lets everyone on the team have their own local working repository. It's expected that everyone will work on their own computer, and sync changes they've made with each other only when they need to.
 

@@ -4,7 +4,7 @@ learning-objective: Create a branch to separate feature work from the master bra
 screens:
   - image-slide:
       title: Pushing Changes
-      image: blank.png
+      image: push.png
       presenter-script: |
         Now that you've committed files locally, it's time to make sure that your remote repository also reflects those changes. So we'll `push` the files and version history up to GitHub.
   - video-slide:
@@ -25,7 +25,7 @@ screens:
           say: "Now you can create a pull request using the same process you learned earlier."
   - image-slide:
       title: "Pushing Changes: Recap"
-      image: blank.png
+      image: push.png
       presenter-script: |
         * Check `git status`: the working directory needs to be clean. If it's not, make sure there isn't anything that you meant to commit!
         * Do `git push`: assuming you set the default push behavior to simple, this will push your changes to the same branch on the remote system.
