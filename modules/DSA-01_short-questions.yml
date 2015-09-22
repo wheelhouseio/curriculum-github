@@ -208,23 +208,23 @@ screens:
           id: DSA-01-qq12
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: `git branch`
+            - value: "`git branch`"
               id: DSA-01-qq12-01
               response: Sorry, the correct answer is "`git branch --all`".
               correct: false
-            - value: `git branch -d`
+            - value: "`git branch -d`"
               id: DSA-01-qq12-02
               response: Sorry, the correct answer is "`git branch --all`".
               correct: false
-            - value: `git branch --all`
+            - value: "`git branch --all`"
               id: DSA-01-qq12-03
               response: Correct!
-              correct: `git branch -u`
+              correct: "`git branch -u`"
             - value: ANSWER
               id: DSA-01-qq12-04
               response: Sorry, the correct answer is "`git branch --all`".
               correct: false
-            - value: `git checkout -b <branch-name>`
+            - value: "`git checkout -b <branch-name>`"
               id: DSA-01-qq12-05
               response: Sorry, the correct answer is "`git branch --all`".
               correct: false
@@ -238,19 +238,19 @@ screens:
           id: DSA-01-qq13
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: `git branch <branch-name>`
+            - value: "`git branch <branch-name>`"
               id: DSA-01-qq13-01
               response: Sorry, the correct answer is "`git checkout <branch-name>`".
               correct: false
-            - value: `git checkout <branch-name>`
+            - value: "`git checkout <branch-name>`"
               id: DSA-01-qq13-02
               response: Correct!
               correct: true
-            - value: `git mv3<branch-name>`
+            - value: "`git mv3<branch-name>`"
               id: DSA-01-qq14-03
               response: Sorry, the correct answer is "`git checkout <branch-name>`".
               correct: false
-            - value: `git checkout -b <branch-name>`
+            - value: "`git checkout -b <branch-name>`"
               id: DSA-01-qq13-04
               response: Sorry, the correct answer is "`git checkout <branch-name>`".
               correct: false
@@ -312,15 +312,15 @@ screens:
           id: DSA-01-qq16
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: `git commit`
+            - value: "`git commit`"
               id: DSA-01-qq16-01
               response: Sorry, the correct answer is "`git push -u <remote-name> <branch-name>`".
               correct: false
-            - value: `git push <remote-name> <branch-name>`
+            - value: "`git push <remote-name> <branch-name>`"
               id: DSA-01-qq16-02
               response: Sorry, the correct answer is "`git push -u <remote-name> <branch-name>`".
               correct: false
-            - value: `git push -u <remote-name> <branch-name>`
+            - value: "`git push -u <remote-name> <branch-name>`"
               id: DSA-01-qq16-03
               response: Correct!
               correct: true
@@ -334,19 +334,19 @@ screens:
           id: DSA-01-qq17
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: `--graph`
+            - value: "`--graph`"
               id: DSA-01-qq17-01
               response: Sorry, the correct answer is "`--all`".
               correct: false
-            - value: `--branches`
+            - value: "`--branches`"
               id: DSA-01-qq17-02
               response: Sorry, the correct answer is "`--all`".
               correct: false
-            - value: `--all`
+            - value: "`--all`"
               id: DSA-01-qq17-03
               response: Correct!
               correct: true
-            - value: `--stat`
+            - value: "`--stat`"
               id: DSA-01-qq17-04
               response: Sorry, the correct answer is "`--all`".
               correct: false
@@ -484,19 +484,19 @@ screens:
           id: DSA-01-qq24
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: `-a`
+            - value: "`-a`"
               id: DSA-01-qq24-01
               response: Sorry, the correct answer is "`-m`"
               correct: false
-            - value: `--amend`
+            - value: "`--amend`"
               id: DSA-01-qq24-02
               response: Sorry, the correct answer is "`-m`"
               correct: false
-            - value: `-m`
+            - value: "`-m`"
               id: DSA-01-qq24-03
               response: Correct!
               correct: true
-            - value: `--list`
+            - value: "`--list`"
               id: DSA-01-qq24-04
               response: Sorry, the correct answer is "`-m`"
               correct: false
@@ -588,15 +588,15 @@ screens:
           id: DSA-01-qq28
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: `git log`
+            - value: "`git log`"
               id: DSA-01-qq28-01
               response: Sorry, the correct answer is "`git diff`".
               correct: false
-            - value: `git stat`
+            - value: "`git stat`"
               id: DSA-01-qq28-02
               response: Sorry, the correct answer is "`git diff`".
               correct: false
-            - value: `git diff`
+            - value: "`git diff`"
               id: DSA-01-qq28-03
               response: Correct!
               correct: true
