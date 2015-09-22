@@ -1,0 +1,611 @@
+title: Introducing GitHub
+pre-requisites:
+learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
+screens:
+  - quiz:
+      title: Question 1
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following is **NOT** a feature of a distributed version control system?
+          id: DSA-01-qq01
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Every user has a full copy of the repository—including its history.
+              id: DSA-01-qq01-01
+              response: Sorry, the correct answer is "Files are checked out and locked to prevent others from making changes."
+              correct: false
+            - value: Working locally does not require access to the network or internet.
+              id: DSA-01-qq01-02
+              response: Sorry, the correct answer is "Files are checked out and locked to prevent others from making changes."
+              correct: false
+            - value: Several team members can work on the project simultaneously.
+              id: DSA-01-qq01-03
+              response: Sorry, the correct answer is "Files are checked out and locked to prevent others from making changes."
+              correct: false
+            - value: Files are checked out and locked to prevent others from making changes.
+              id: DSA-01-qq01-04
+              response: Correct!
+              correct: true
+  - quiz:
+      title: Question 2
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which file should you add to your repository to introduce collaborators to your project? (HINT: GitHub automatically renders this file at the bottom of the code view.)
+          id: DSA-01-qq02
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: README.md
+              id: DSA-01-qq02-01
+              response: Correct!
+              correct: true
+            - value: CONTRIBUTING.md
+              id: DSA-01-qq02-02
+              response: Sorry, the correct answer is "README.md".
+              correct: false
+            - value: .gitignore
+              id: DSA-01-qq02-03
+              response: Sorry, the correct answer is "README.md".
+              correct: false
+            - value: index.html
+              id: DSA-01-qq02-04
+              response: Sorry, the correct answer is "README.md".
+              correct: false
+  - quiz:
+      title: Question 6
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            When should you create an issue in a GitHub repo?
+          id: DSA-01-qq06
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: To propose a new feature.
+              id: DSA-01-qq06-01
+              rresponse: Sorry, the correct answer is "Both for new features and bug reports."
+              correct: false
+            - value: To document a bug.
+              id: DSA-01-qq06-02
+              response: Sorry, the correct answer is "Both for new features and bug reports."
+              correct: false
+            - value: Both for new features and bug reports.
+              id: DSA-01-qq06-03
+              response: Correct!
+              correct: true
+  - quiz:
+      title: Question 7
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            A Pull Request *always* has a 1:1 relationship with:
+          id: DSA-01-qq08
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: An issue.
+              id: DSA-01-qq07-01
+              response: Sorry, the correct answer is "A branch."
+              correct: false
+            - value: A branch.
+              id: DSA-01-qq07-02
+              response: Correct!
+              correct: true
+            - value: A commit.
+              id: DSA-01-qq07-03
+              response: Sorry, the correct answer is "A branch."
+              correct: false
+  - quiz:
+      title: Question 8
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Why should you always create a new feature branch before starting work on a new feature?
+          id: DSA-01-qq09
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Because you must create a branch in order to create a pull request.
+              id: DSA-01-qq08-01
+              response: Sorry, while this is correct, the more correct answer is "All of the above."
+              correct: false
+            - value: So that if you make a mistake it doesn't break master.
+              id: DSA-01-qq08-02
+              response: Sorry, while this is correct, the more correct answer is "All of the above."
+              correct: false
+            - value: So that you can easily create and (if necessary) throw away experimental code.
+              id: DSA-01-qq08-03
+              response: Sorry, while this is correct, the more correct answer is "All of the above."
+              correct: false
+            - value: All of the above.
+              id: DSA-01-qq08-04
+              response: Correct!
+              correct: true
+  - quiz:
+      title: Question 9
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Why is it important that feature branches are short-lived?
+          id: DSA-01-qq09
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: To reduce the need to continuously update the feature branch from master.
+              id: DSA-01-qq09-01
+              response: Correct!
+              correct: true
+            - value: To ensure everyone finishes their work for a given sprint.
+              id: DSA-01-qq09-02
+              response: Sorry, the correct answer is "To reduce the need to continuously update the feature branch from master."
+              correct: false
+            - value: To eliminate the possibility of merge conflicts.
+              id: DSA-01-qq09-03
+              response: Sorry, the correct answer is "To reduce the need to continuously update the feature branch from master."
+              correct: false
+            - value: It is no longer needed once the feature branch has been pushed to GitHub.
+              id: DSA-01-qq09-04
+              response: Sorry, the correct answer is "To reduce the need to continuously update the feature branch from master."
+              correct: false
+  - quiz:
+      title: Question 10
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following operations does **NOT** need to be performed locally?
+          id: DSA-01-qq10
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Combining multiple files into a single commit.
+              id: DSA-01-qq10-01
+              response: Sorry, the correct answer is "Collaborating with team members on project features."
+              correct: false
+            - value: Collaborating with team members on project features.
+              id: DSA-01-qq10-02
+              response: Correct!
+              correct: true
+            - value: Adding images to project files.
+              id: DSA-01-qq10-03
+              response: Sorry, the correct answer is "Collaborating with team members on project features."
+              correct: false
+            - value: Resolving merge conflicts.
+              id: DSA-01-qq10-04
+              response: Sorry, the correct answer is "Collaborating with team members on project features."
+              correct: false
+  - quiz:
+      title: Question 11
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What is the command you would run to make a local copy of a repository at `https://github.com/githubteacher/new-repo.git`?
+          id: DSA-01-qq11
+          type: open-response # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: /git\s+clone\s+https://github.com/githubteacher/new-repo.git/
+              id: DSA-01-qq11-01
+              response: Correct!
+              correct: true
+            - value: /git\s+clone\s*$/
+              id: DSA-01-qq11-02
+              response: Almost! Don't forget to tell Git where to find the remote repository by adding the URL after the `git clone` command.
+              correct: false
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSA-01-qq11-03
+              response: Not quite. You need to include both the Git command `git clone` and the URL for the remote repo. In this case, the full command would be `git clone https://github.com/githubteacher/new-repo.git`.
+              correct: false
+  - quiz:
+      title: Question 12
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following commands can you use to view the remote tracking branches that have been copied to your local computer?
+          id: DSA-01-qq12
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: `git branch`
+              id: DSA-01-qq12-01
+              response: Sorry, the correct answer is "`git branch --all`".
+              correct: false
+            - value: `git branch -d`
+              id: DSA-01-qq12-02
+              response: Sorry, the correct answer is "`git branch --all`".
+              correct: false
+            - value: `git branch --all`
+              id: DSA-01-qq12-03
+              response: Correct!
+              correct: `git branch -u`
+            - value: ANSWER
+              id: DSA-01-qq12-04
+              response: Sorry, the correct answer is "`git branch --all`".
+              correct: false
+            - value: `git checkout -b <branch-name>`
+              id: DSA-01-qq12-05
+              response: Sorry, the correct answer is "`git branch --all`".
+              correct: false
+  - quiz:
+      title: Question 13
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            If you want to move to a branch that already exists, what command should you use?
+          id: DSA-01-qq13
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: `git branch <branch-name>`
+              id: DSA-01-qq13-01
+              response: Sorry, the correct answer is "`git checkout <branch-name>`".
+              correct: false
+            - value: `git checkout <branch-name>`
+              id: DSA-01-qq13-02
+              response: Correct!
+              correct: true
+            - value: `git mv3<branch-name>`
+              id: DSA-01-qq14-03
+              response: Sorry, the correct answer is "`git checkout <branch-name>`".
+              correct: false
+            - value: `git checkout -b <branch-name>`
+              id: DSA-01-qq13-04
+              response: Sorry, the correct answer is "`git checkout <branch-name>`".
+              correct: false
+  - quiz:
+      title: Question 14
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            The `git status` command shows you:
+          id: DSA-01-qq14
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: The status of the connection to the remote.
+              id: DSA-01-qq14-01
+              response: Sorry, the correct answer is "All changes to the local directory that have not yet been committed."
+              correct: false
+            - value: The real-time status of the remote repository in relation to your local copy.
+              id: DSA-01-qq14-02
+              response: Sorry, the correct answer is "All changes to the local directory that have not yet been committed."
+              correct: false
+            - value: All changes to the local directory that have not yet been committed.
+              id: DSA-01-qq14-03
+              response: Correct!
+              correct: true
+            - value: A list of the commits that have been made on the current branch.
+              id: DSA-01-qq14-04
+              response: Sorry, the correct answer is "All changes to the local directory that have not yet been committed."
+              correct: false
+  - quiz:
+      title: Question 15
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            If you create a new file, "test.md" within a git repo and then run `git add test.*` the test.md file will be:
+          id: DSA-01-qq15
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: In the working directory, but unstaged.
+              id: DSA-01-qq15-01
+              response: Sorry, the correct answer is "Staged, ready to be committed"
+              correct: false
+            - value: Staged, ready to be committed
+              id: DSA-01-qq15-02
+              response: Correct!
+              correct: true
+            - value: Committed into history.
+              id: DSA-01-qq15-03
+              response: Sorry, the correct answer is "Staged, ready to be committed"
+              correct: false
+  - quiz:
+      title: Question 16
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            If you want to push changes from a new local branch to your remote server and create a remote tracking branch, which of the following commands should you run?
+          id: DSA-01-qq16
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: `git commit`
+              id: DSA-01-qq16-01
+              response: Sorry, the correct answer is "`git push -u <remote-name> <branch-name>`".
+              correct: false
+            - value: `git push <remote-name> <branch-name>`
+              id: DSA-01-qq16-02
+              response: Sorry, the correct answer is "`git push -u <remote-name> <branch-name>`".
+              correct: false
+            - value: `git push -u <remote-name> <branch-name>`
+              id: DSA-01-qq16-03
+              response: Correct!
+              correct: true
+  - quiz:
+      title: Question 17
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What option do you add to a `git log` command to see commits irrespective of which branches they are on?
+          id: DSA-01-qq17
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: `--graph`
+              id: DSA-01-qq17-01
+              response: Sorry, the correct answer is "`--all`".
+              correct: false
+            - value: `--branches`
+              id: DSA-01-qq17-02
+              response: Sorry, the correct answer is "`--all`".
+              correct: false
+            - value: `--all`
+              id: DSA-01-qq17-03
+              response: Correct!
+              correct: true
+            - value: `--stat`
+              id: DSA-01-qq17-04
+              response: Sorry, the correct answer is "`--all`".
+              correct: false
+  - quiz:
+      title: Question 18
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following lists the steps of the GitHub workflow in the correct order?
+          id: DSA-01-qq18
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Issue, Branch, Pull Request, Commit, Discussion, Merge.
+              id: DSA-01-qq18-01
+              response: Sorry, the correct answer is "Issue, Branch, Commit, Pull Request, Discussion, Merge."
+              correct: false
+            - value: Branch, Issue, Commit, Pull Request, Merge, Discussion.
+              id: DSA-01-qq18-02
+              response: Sorry, the correct answer is "Issue, Branch, Commit, Pull Request, Discussion, Merge."
+              correct: false
+            - value: Issue, Branch, Commit, Pull Request, Discussion, Merge.
+              id: DSA-01-qq18-03
+              response: Correct!
+              correct: true
+            - value: Issue, Commit, Branch, Pull Request, Discussion, Merge.
+              id: DSA-01-qq18-04
+              response: Sorry, the correct answer is "Issue, Branch, Commit, Pull Request, Discussion, Merge."
+              correct: false
+  - quiz:
+      title: Question 19
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+             (True/False) The primary branch in your repository (the one where the deployable code lives) must be called master.
+          id: DSA-01-qq19
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: True
+              id: DSA-01-qq19-01
+              response: Sorry, the correct answer is "False".
+              correct: false
+            - value: False
+              id: DSA-01-qq19-02
+              response: Correct!
+              correct: true
+  - quiz:
+      title: Question 20
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What is the command you would run to create a branch called `new-branch` and checkout to that branch at the same time?
+          id: DSA-01-qq20
+          type: open-response # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: /git\s+checkout\s+-b-\s+new-branch\s*/
+              id: DSA-01-qq20-01
+              response: Correct!
+              correct: true
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSA-01-qq20-02
+              response: Sorry, the correct answer is "`git checkout -b new-branch`".
+              correct: false
+  - quiz:
+      title: Question 21
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following best describes the importance of adding the `--global` option to the git config command?
+          id: DSA-01-qq21
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: This will apply the configuration to all users on the machine.
+              id: DSA-01-qq21-01
+              response: Sorry, the correct answer is "This will apply the configuration to all repositories owned by the logged in user."
+              correct: false
+            - value: This will apply the configuration to all repositories owned by the logged in user.
+              id: DSA-01-qq21-02
+              response: Correct!
+              correct: true
+            - value: This will apply the configuration to the current repository
+              id: DSA-01-qq21-03
+              response: Sorry, the correct answer is "This will apply the configuration to all repositories owned by the logged in user."
+              correct: false
+            - value: None of the above
+              id: DSA-01-qq21-04
+              response: Sorry, the correct answer is "This will apply the configuration to all repositories owned by the logged in user."
+              correct: false
+  - quiz:
+      title: Question 22
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What is the command you would run to move a single file named `index.html` into the staging area when other files have also been modified since the last commit?
+          id: DSA-01-qq22
+          type: open-response # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: /git\s+add\s+index.html\s*/
+              id: DSA-01-qq22-01
+              response: Correct!
+              correct: true
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSA-01-qq22-02
+              response: Sorry, the correct answer is "`git add index.html`".
+              correct: false
+  - quiz:
+      title: Question 23
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What is the command you would run to take a snapshot of the files in the staging area and add them to the history of the project?
+          id: DSA-01-qq23
+          type: open-response # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: /git\s+commit\s*/
+              id: DSA-01-qq23-01
+              response: Correct!
+              correct: true
+            - value: # Null means it matches anything else - please make this the last option
+              id: DSA-01-qq23-02
+              response: Sorry, the correct answer is "`git commit`".
+              correct: false
+  - quiz:
+      title: Question 24
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which option can you add to `git commit` to enter your commit message as part of the command?
+          id: DSA-01-qq24
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: `-a`
+              id: DSA-01-qq24-01
+              response: Sorry, the correct answer is "`-m`"
+              correct: false
+            - value: `--amend`
+              id: DSA-01-qq24-02
+              response: Sorry, the correct answer is "`-m`"
+              correct: false
+            - value: `-m`
+              id: DSA-01-qq24-03
+              response: Correct!
+              correct: true
+            - value: `--list`
+              id: DSA-01-qq24-04
+              response: Sorry, the correct answer is "`-m`"
+              correct: false
+  - quiz:
+      title: Question 25
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following best describes what happens when you type the command `git pull`?
+          id: DSA-01-qq25
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Git fetches read-only copies of changes from the remote and then merges them into the associated local branches.
+              id: DSA-01-qq25-01
+              response: Correct!
+              correct: true
+            - value: Git performs a fetch and then stops.
+              id: DSA-01-qq25-02
+              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges them into the associated local branches."
+              correct: false
+            - value: Git retrieves copies of the pull requests from the remote repository.
+              id: DSA-01-qq25-03
+              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges them into the associated local branches."
+              correct: false
+            - value: Git fetches the changes from the remote and then rebases your local changes onto the remote copy.
+              id: DSA-01-qq25-04
+              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges them into the associated local branches."
+              correct: false
+  - quiz:
+      title: Question 26
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following GitHub features are used to promote collaboration and communication across your project team?
+          id: DSA-01-qq26
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Individual and team @-mentons.
+              id: DSA-01-qq26-01
+              response: Sorry, while this answer promotes collaboration and communication, so do the others so the more correct answer is "All of the above."
+              correct: false
+            - value: Issue and Pull Request cross-links (using `#<issue-number>`).
+              id: DSA-01-qq26-02
+              response: Sorry, while this answer promotes collaboration and communication, so do the others so the more correct answer is "All of the above."
+              correct: false
+            - value: Emoji.
+              id: DSA-01-qq26-04
+              response: Sorry, while this answer promotes collaboration and communication, so do the others so the more correct answer is "All of the above."
+              correct: false
+            - value: All of the above.
+              id: DSA-01-qq26-03
+              response: Correct!
+              correct: true
+  - quiz:
+      title: Question 27
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following best describes what happens when you merge a branch into master on GitHub?
+          id: DSA-01-qq27
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Git squashes the commits on your branch and moves the changes to the master branch as a single commit.
+              id: DSA-01-qq27-01
+              response: Sorry, the correct answer is "Git moves the commits from your branch onto the master branch in the order they were created."
+              correct: false
+            - value: Git moves the commits from your branch onto the master branch in the order they were created.
+              id: DSA-01-qq27-02
+              response: Correct!
+              correct: true
+            - value: Git replays the commits from your branch onto the end of the master branch.
+              id: DSA-01-qq27-03
+              response: Sorry, the correct answer is "Git moves the commits from your branch onto the master branch in the order they were created."
+              correct: false
+            - value: Git moves only the commits that do not create a merge conflict and rejects the others.
+              id: DSA-01-qq27-04
+              response: Sorry, the correct answer is "Git moves the commits from your branch onto the master branch in the order they were created."
+              correct: false
+  - quiz:
+      title: Question 28
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            Which of the following commands can be used to compare the changes between the working directory, the staging area, and your project history?
+          id: DSA-01-qq28
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: `git log`
+              id: DSA-01-qq28-01
+              response: Sorry, the correct answer is "`git diff`".
+              correct: false
+            - value: `git stat`
+              id: DSA-01-qq28-02
+              response: Sorry, the correct answer is "`git diff`".
+              correct: false
+            - value: `git diff`
+              id: DSA-01-qq28-03
+              response: Correct!
+              correct: true
+additional-labs:
+additional-questions:
+resources:
+  - title: "Video: Intro to GitHub - GitHub & Git Foundations"
+    url: https://youtu.be/vDv5K5PbvO8
+  - title: "Video: GitHub & Git Foundations - Introduction"
+    url: https://youtu.be/FyfwLX4HAxM
+  - title: GitHub Integrations
+    url: https://github.com/integrations
