@@ -2,11 +2,40 @@ title: GitHub for Developers Skills Assessment
 pre-requisites:
 learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
 screens:
-  - image-slide:
-      title: GitHub for Developers Skills Assessment
-      image: blank.png
-      presenter-script: |
-        HOLDING SLIDE TO BE UPDATED LATER
+  - lab:
+      title: GitHub Flow Using the Command Line
+      id: DSA-03-lab-01
+      presenter-script:
+        - "Add a bio to the project, as per Issue #3."
+      steps:
+        - description: Clone the repo to your local system using the `git clone` command.
+          id: DSA-03-clone
+        - description: Create a new local branch called "adding-bio".
+          id: DSA-03-branch
+        - description: Create a file called `<your-name>.md` on that branch. Add a short bio to the file.
+          id: DSA-03-bio
+        - description: Modify the README.md to include the words "I added my bio" at the bottom.
+          id: DSA-03-README
+        - description: Create a single commit with both those changes.
+          id: DSA-03-commit
+        - description: Push the commit to the remote server.
+          id: DSA-03-branch
+        - description: Create a pull request for the "adding-bio" branch @ mentioning `@wheelhouse-bot`. 
+          id: DSA-03-PR
+          verifications:
+            - verification-type: pull-request
+              id: DSA-03-PR-verification
+              success-message: You've created a pull request.  
+              failure-message: You haven't created a pull request yet.
+        - description: Merge the pull request (we'll do it without a :+1: just this once).
+          id: DSA-03-pr-merge
+          verifications:
+            - verification-type: pull-request-merged
+              id: DSA-03-pr-merge-verification
+              success-message: You merged the PR!
+              failure-message: You haven't merged the PR yet.
+        - description: Delete the remote and local brtanches. 
+          id: DSA-03-delete-branches
 additional-labs:
 additional-questions:
 resources:
