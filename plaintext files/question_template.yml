@@ -1,0 +1,42 @@
+  - quiz:
+      title: Question X
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            QUESTION
+          id: DSA-01-qqX
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: ANSWER
+              id: DSA-01-qqX-01
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false
+            - value: ANSWER
+              id: DSA-01-qqX-02
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false
+            - value: ANSWER
+              id: DSA-01-qqX-03
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false
+            - value: ANSWER
+              id: DSA-01-qqX-04
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false
+            - value: ANSWER
+              id: DSA-01-qqX-05
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false
+            - value: ANSWER
+              id: DSA-01-qqX-06
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false
+            - value: ANSWER
+              id: DSA-01-qqX-07
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false
+            - value: ANSWER
+              id: DSA-01-qqX-08
+              response: Sorry, the correct answer is "ANSWER"
+              correct: false

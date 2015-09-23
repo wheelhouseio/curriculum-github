@@ -1,0 +1,36 @@
+title: GitHub for Developers Skills Assessment
+pre-requisites:
+learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
+screens:
+  - image-slide:
+      title: GitHub for Developers Skills Assessment
+      image: blank.png
+      presenter-script: |
+        Now you're ready for your first project. Follow the steps on the next page.
+
+        We'll let you know if you successfully completed the step, although beware that the app doesn't check the specific details. We'll do that later with humans. So make sure to be detail-oriented when you complete the projects.
+  - lab:
+      title: GitHub Flow Using the Online Interface
+      id: DSA-02-lab-01
+      presenter-script:
+        - Using only the web interface, add `DS_Store` to the list of files ignored by the project.
+      steps:
+        - description: "Using the Web Interface, check out the `add-gitignore` branch."
+          id: DSA-02-checkout-branch
+        - description: "In the `.gitignore` file, add a new line with the text `DS_Store` under the line containing `.log`. Then commit the change."
+          id: DSA-02-new-content
+          verifications:
+            - verification-type: file-modified
+              id: DSA-02-new-content-verification
+              success-message: "Great job - you successfully updated the file."
+              failure-message: "It looks like you haven't updated the file yet."
+        - description: "Make sure the change shows up under Pull Request #1. If it does, make a comment in the PR about the update."
+          id: DSA-02-pr-comment
+          verifications:
+            - verification-type: pull-request-review-comment
+              id: DSA-02-pr-commment-verification
+              success-message: "Your comment has been registered."
+              failure-message: "It looks like you haven't commented on the PR yet."
+additional-labs:
+additional-questions:
+resources:

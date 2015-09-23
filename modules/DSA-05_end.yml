@@ -1,0 +1,14 @@
+title: GitHub for Developers Skills Assessment
+pre-requisites:
+learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
+screens:
+  - image-slide:
+      title: Congrats!
+      image: blank.png
+      presenter-script: |
+        Great job on completing the assessment! 
+
+        We'll be grading the assessment and sending you feedback shortly.
+additional-labs:
+additional-questions:
+resources:
