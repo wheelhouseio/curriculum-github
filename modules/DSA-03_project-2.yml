@@ -20,7 +20,7 @@ screens:
           id: DSA-03-commit
         - description: Push the branch to the remote server.
           id: DSA-03-branch
-        - description: Create a pull request for the "adding-bio" branch @ mentioning `@wheelhouse-bot`. 
+        - description: Create a pull request for the "adding-bio" branch @ mentioning `@HubYeti`. 
           id: DSA-03-PR
           verifications:
             - verification-type: pull-request

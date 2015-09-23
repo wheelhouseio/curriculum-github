@@ -16,7 +16,7 @@ screens:
           id: DSA-04-commit
         - description: Push the changes to GitHub.
           id: DSA-04-push
-        - description: Create a Pull Request and comment on it, asking @wheelhouse-bot for feedback. 
+        - description: Create a Pull Request and comment on it, asking @HubYeti for feedback.
           id: DSA-04-PR
           verifications:
             - verification-type: pull-request
