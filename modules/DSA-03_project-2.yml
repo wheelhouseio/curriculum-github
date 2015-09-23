@@ -27,7 +27,7 @@ screens:
               id: DSA-03-PR-verification
               success-message: You've created a pull request.  
               failure-message: You haven't created a pull request yet.
-        - description: Merge the pull request (we'll do it without a :+1: just this once).
+        - description: "Merge the pull request (we'll do it without a :+1: just this once)."
           id: DSA-03-pr-merge
           verifications:
             - verification-type: pull-request-merged
