@@ -9,7 +9,6 @@ file-modified
 
 pull-request
 pull-request-review-comment
-
 pull-request-merged
 
 
@@ -21,6 +20,10 @@ pull-request-merged
       presenter-script:
         - DESCRIPTION OF LAB
       steps:
+        - description: STEP3
+          id: DSA-XX-a
+        - description: STEP4
+          id: DSA-XX-b
         - description: STEP1
           id: DSA-XX-y
           verifications:
@@ -35,7 +38,3 @@ pull-request-merged
               id: DSA-XX-z-verification
               success-message: SUCCESS
               failure-message: FAILURE
-        - description: STEP3
-          id: DSA-XX-a
-        - description: STEP4
-          id: DSA-XX-b
