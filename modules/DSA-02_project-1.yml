@@ -3,12 +3,14 @@ pre-requisites:
 learning-objective: Use the features of GitHub to collaborate effectively with your team.
 screens:
   - image-slide:
-      title: GitHub for Developers Skills Assessment
+      title: GitHub Skills Assessment
       image: blank.png
       presenter-script: |
-        Now you're ready for your first project. Follow the steps on the next page.
+        Now you're ready to do real-world projects. 
 
-        We'll let you know if you successfully completed the step, although beware that the app doesn't check the specific details. We'll do that later with humans. So make sure to be detail-oriented when you complete the projects.
+        Follow the steps on the next page.
+
+        We'll let you know if you successfully completed the step, although beware that the app doesn't check the specific details. We'll do that later with humans.
   - lab:
       title: GitHub Flow Using the Online Interface
       id: DSA-02-lab-01

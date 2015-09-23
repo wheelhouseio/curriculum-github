@@ -56,7 +56,7 @@ screens:
               correct: false
   - quiz:
       title: Question 3
-      image: code-icon.png
+      image: problem-3.png
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -83,7 +83,7 @@ screens:
               correct: false
   - quiz:
       title: Question 4
-      image: issues-icon.jpg
+      image: problem-4.png
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -110,7 +110,7 @@ screens:
               correct: false
   - quiz:
       title: Question 5
-      image: pull-request-icon.jpg
+      image: problem-5.png
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -485,7 +485,7 @@ screens:
           id: DSA-01-qq20
           type: open-response # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: /git\s+checkout\s+-b-\s+new-branch\s*/
+            - value: /git\s+checkout\s+-b\s+new-branch\s*/
               id: DSA-01-qq20-01
               response: Correct!
               correct: true
