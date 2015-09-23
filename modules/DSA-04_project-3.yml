@@ -8,6 +8,8 @@ screens:
       presenter-script:
         - "Adding ie.js and ie.css as per Issue #2."
       steps:
+        - description: Update your local copy of the repository from the remote.
+          id: DSA-04-pull
         - description: Create a local branch called "fix-ie".
           id: DSA-04-local-branch
         - description: Make a single commit with two blank files, "ie.js" and "ie.css".

@@ -18,7 +18,7 @@ screens:
           id: DSA-03-README
         - description: Create a single commit with both those changes.
           id: DSA-03-commit
-        - description: Push the commit to the remote server.
+        - description: Push the branch to the remote server.
           id: DSA-03-branch
         - description: Create a pull request for the "adding-bio" branch @ mentioning `@wheelhouse-bot`. 
           id: DSA-03-PR
@@ -34,7 +34,7 @@ screens:
               id: DSA-03-pr-merge-verification
               success-message: You merged the PR!
               failure-message: You haven't merged the PR yet.
-        - description: Delete the remote and local brtanches. 
+        - description: Delete the remote and local branches. 
           id: DSA-03-delete-branches
 additional-labs:
 additional-questions:
