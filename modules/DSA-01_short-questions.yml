@@ -1,4 +1,4 @@
-title: Introducing GitHub
+title: GitHub for Developers Knowledge Assessment
 pre-requisites:
 learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
 screens:
@@ -53,6 +53,87 @@ screens:
             - value: index.html
               id: DSA-01-qq02-04
               response: Sorry, the correct answer is "README.md".
+              correct: false
+  - quiz:
+      title: Question 3
+      image: code-icon.png
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What does the above image denote in a GitHub repo?
+          id: DSA-01-qq03
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Code view
+              id: DSA-01-qq03-01
+              response: Correct!
+              correct: true
+            - value: Pull Requests
+              id: DSA-01-qq03-02
+              response: Sorry, the correct answer is "Code view"
+              correct: false
+            - value: Issues
+              id: DSA-01-qq03-03
+              response: Sorry, the correct answer is "Code view"
+              correct: false
+            - value: Wiki
+              id: DSA-01-qq03-04
+              response: Sorry, the correct answer is "Code view"
+              correct: false
+  - quiz:
+      title: Question 4
+      image: issues-icon.jpg
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What does the above image denote in a GitHub repo?
+          id: DSA-01-qq04
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Code view
+              id: DSA-01-qq04-01
+              response: Sorry, the correct answer is "Issues"
+              correct: false
+            - value: Pull Requests
+              id: DSA-01-qq04-02
+              response: Sorry, the correct answer is "Issues"
+              correct: false
+            - value: Issues
+              id: DSA-01-qq04-03
+              response: Correct!
+              correct: true
+            - value: Wiki
+              id: DSA-01-qq04-04
+              response: Sorry, the correct answer is "Issues"
+              correct: false
+  - quiz:
+      title: Question 5
+      image: pull-request-icon.jpg
+      presenter-script:
+        - Please answer the question to the best of your ability.
+      questions: # A quiz might have one or more questions
+        - title: |
+            What does the above image denote in a GitHub repo?
+          id: DSA-01-qq05
+          type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
+          options:
+            - value: Code view
+              id: DSA-01-qq05-01
+              response: Sorry, the correct answer is "Pull Requests"
+              correct: false
+            - value: Pull Requests
+              id: DSA-01-qq05-02
+              response: Correct!
+              correct: true
+            - value: Issues
+              id: DSA-01-qq05-03
+              response: Sorry, the correct answer is "Pull Requests"
+              correct: false
+            - value: Wiki
+              id: DSA-01-qq05-04
+              response: Sorry, the correct answer is "Pull Requests"
               correct: false
   - quiz:
       title: Question 6
@@ -219,8 +300,8 @@ screens:
             - value: "`git branch --all`"
               id: DSA-01-qq12-03
               response: Correct!
-              correct: "`git branch -u`"
-            - value: ANSWER
+              correct: true
+            - value: "`git branch -u`"
               id: DSA-01-qq12-04
               response: Sorry, the correct answer is "`git branch --all`".
               correct: false
@@ -246,7 +327,7 @@ screens:
               id: DSA-01-qq13-02
               response: Correct!
               correct: true
-            - value: "`git mv3<branch-name>`"
+            - value: "`git mv <branch-name>`"
               id: DSA-01-qq14-03
               response: Sorry, the correct answer is "`git checkout <branch-name>`".
               correct: false
@@ -382,15 +463,15 @@ screens:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
         - title: |
-             (True/False) The primary branch in your repository (the one where the deployable code lives) must be called master.
+             The primary branch in your repository (the one where the deployable code lives) must be called master.
           id: DSA-01-qq19
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: True
+            - value: "True"
               id: DSA-01-qq19-01
               response: Sorry, the correct answer is "False".
               correct: false
-            - value: False
+            - value: "False"
               id: DSA-01-qq19-02
               response: Correct!
               correct: true
@@ -603,9 +684,3 @@ screens:
 additional-labs:
 additional-questions:
 resources:
-  - title: "Video: Intro to GitHub - GitHub & Git Foundations"
-    url: https://youtu.be/vDv5K5PbvO8
-  - title: "Video: GitHub & Git Foundations - Introduction"
-    url: https://youtu.be/FyfwLX4HAxM
-  - title: GitHub Integrations
-    url: https://github.com/integrations
