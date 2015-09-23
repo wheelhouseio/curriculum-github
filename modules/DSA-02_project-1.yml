@@ -6,11 +6,11 @@ screens:
       title: GitHub Skills Assessment
       image: blank.png
       presenter-script: |
-        Now you're ready to do real-world projects. 
+        Now you're ready to do real-world projects to prove you can do the things you know.
 
-        Follow the steps on the next page.
+        At the top of this page, under the navigation dots, is a link called "Repository". Open that now. That's the GitHub Repo that you'll be doing all the projects on.
 
-        We'll let you know if you successfully completed the step, although beware that the app doesn't check the specific details. We'll do that later with humans.
+        Follow the steps on the next three pages to do the three projects. We'll let you know if you successfully completed the step, although beware that the app doesn't check the specific details. We'll do that later with humans.
   - lab:
       title: GitHub Flow Using the Online Interface
       id: DSA-02-lab-01

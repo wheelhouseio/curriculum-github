@@ -6,9 +6,9 @@ screens:
       title: Congrats!
       image: blank.png
       presenter-script: |
-        Great job on completing the assessment! 
+        Great job on completing the assessment!
 
-        We'll be grading the assessment and sending you feedback shortly.
+        We'll be grading the assessment and sending you feedback via email shortly.
 additional-labs:
 additional-questions:
 resources:
