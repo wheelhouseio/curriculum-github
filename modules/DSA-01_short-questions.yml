@@ -191,15 +191,15 @@ screens:
           options:
             - value: Because you must create a branch in order to create a pull request.
               id: DSA-01-qq08-01
-              response: Sorry, while this is correct, the more correct answer is "All of the above."
+              response: Actually, all of the responses are correct. You must create a branch to create a pull request and branches allow you to safely experiment without breaking master. You can also safely remove your changes if you abandon the experiment.
               correct: false
             - value: So that if you make a mistake it doesn't break master.
               id: DSA-01-qq08-02
-              response: Sorry, while this is correct, the more correct answer is "All of the above."
+              response: Actually, all of the responses are correct. You must create a branch to create a pull request and branches allow you to safely experiment without breaking master. You can also safely remove your changes if you abandon the experiment.
               correct: false
             - value: So that you can easily create and (if necessary) throw away experimental code.
               id: DSA-01-qq08-03
-              response: Sorry, while this is correct, the more correct answer is "All of the above."
+              response: Actually, all of the responses are correct. You must create a branch to create a pull request and branches allow you to safely experiment without breaking master. You can also safely remove your changes if you abandon the experiment.
               correct: false
             - value: All of the above.
               id: DSA-01-qq08-04
@@ -617,17 +617,17 @@ screens:
           id: DSA-01-qq26
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: Individual and team @-mentons.
+            - value: Individual and team @ mentons.
               id: DSA-01-qq26-01
-              response: Sorry, while this answer promotes collaboration and communication, so do the others so the more correct answer is "All of the above."
+              response: Actually, all of the responses are correct. You will use @ mentions, cross-links and emoji to collaborate and communicate effectively with your team.
               correct: false
             - value: Issue and Pull Request cross-links (using `#<issue-number>`).
               id: DSA-01-qq26-02
-              response: Sorry, while this answer promotes collaboration and communication, so do the others so the more correct answer is "All of the above."
+              response: Actually, all of the responses are correct. You will use @ mentions, cross-links and emoji to collaborate and communicate effectively with your team.
               correct: false
             - value: Emoji.
               id: DSA-01-qq26-04
-              response: Sorry, while this answer promotes collaboration and communication, so do the others so the more correct answer is "All of the above."
+              response: Actually, all of the responses are correct. You will use @ mentions, cross-links and emoji to collaborate and communicate effectively with your team.
               correct: false
             - value: All of the above.
               id: DSA-01-qq26-03
