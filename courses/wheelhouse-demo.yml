@@ -1,9 +1,0 @@
-title: Wheelhouse Demo
-description: A demonstration of the features that Wheelhouse currently offers.
-
-sections:
-  -
-    title: Getting Started with Collaboration
-    description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
-    modules:
-      - DEMO-02_issues
