@@ -19,7 +19,7 @@ screens:
         - description: Create a single commit with both those changes.
           id: DSA-03-commit
         - description: Push the branch to the remote server.
-          id: DSA-03-branch
+          id: DSA-03-push
         - description: Create a pull request for the "adding-bio" branch @ mentioning `@HubYeti`. 
           id: DSA-03-PR
           verifications:

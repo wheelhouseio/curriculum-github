@@ -29,7 +29,7 @@ screens:
         - description: "Make sure the change shows up under Pull Request #5. If it does, make a comment in the PR about the update."
           id: DSA-02-pr-comment
           verifications:
-            - verification-type: pull-request-review-comment
+            - verification-type: issue-comment-created
               id: DSA-02-pr-commment-verification
               success-message: "Your comment has been registered."
               failure-message: "It looks like you haven't commented on the PR yet."
