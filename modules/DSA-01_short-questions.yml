@@ -505,19 +505,19 @@ screens:
           options:
             - value: This will apply the configuration to all users on the machine.
               id: DSA-01-qq21-01
-              response: Sorry, the correct answer is "This will apply the configuration to all repositories owned by the logged in user."
+              response: Sorry, the correct answer is "This will apply the configuration to any changes made locally by this user on this computer."
               correct: false
-            - value: This will apply the configuration to all repositories owned by the logged in user.
+            - value: This will apply the configuration to any changes made locally by this user on this computer.
               id: DSA-01-qq21-02
               response: Correct!
               correct: true
             - value: This will apply the configuration to the current repository
               id: DSA-01-qq21-03
-              response: Sorry, the correct answer is "This will apply the configuration to all repositories owned by the logged in user."
+              response: Sorry, the correct answer is "This will apply the configuration to any changes made locally by this user on this computer."
               correct: false
             - value: None of the other answers are correct.
               id: DSA-01-qq21-04
-              response: Sorry, the correct answer is "This will apply the configuration to all repositories owned by the logged in user."
+              response: Sorry, the correct answer is "This will apply the configuration to any changes made locally by this user on this computer."
               correct: false
   - quiz:
       title: Question 22
@@ -587,7 +587,7 @@ screens:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
         - title: |
-            Which of the following best describes what happens when you type the command `git pull`?
+            Which of the following best describes the default behavior when you type the command `git pull`?
           id: DSA-01-qq25
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
@@ -643,21 +643,21 @@ screens:
           id: DSA-01-qq27
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: Git squashes the commits on your branch and moves the changes to the master branch as a single commit.
-              id: DSA-01-qq27-01
-              response: Sorry, the correct answer is "Git moves the commits from your branch onto the master branch in the order they were created."
-              correct: false
             - value: Git moves the commits from your branch onto the master branch in the order they were created.
+              id: DSA-01-qq27-01
+              response: Sorry, the correct answer is "Git creates a single merge commit on the master branch which contains the sum of the contents of all of the commits on your feature branch."
+              correct: false
+            - value: Git creates a single merge commit on the master branch which contains the sum of the contents of all of the commits on your feature branch.
               id: DSA-01-qq27-02
               response: Correct!
               correct: true
             - value: Git replays the commits from your branch onto the end of the master branch.
               id: DSA-01-qq27-03
-              response: Sorry, the correct answer is "Git moves the commits from your branch onto the master branch in the order they were created."
+              response: Sorry, the correct answer is "Git creates a single merge commit on the master branch which contains the sum of the contents of all of the commits on your feature branch."
               correct: false
             - value: Git moves only the commits that do not create a merge conflict and rejects the others.
               id: DSA-01-qq27-04
-              response: Sorry, the correct answer is "Git moves the commits from your branch onto the master branch in the order they were created."
+              response: Sorry, the correct answer is "Git creates a single merge commit on the master branch which contains the sum of the contents of all of the commits on your feature branch."
               correct: false
   - quiz:
       title: Question 28
