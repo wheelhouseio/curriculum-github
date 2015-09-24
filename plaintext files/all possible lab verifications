@@ -13,7 +13,6 @@ pull-request-merged
 
 
 
-
   - lab:
       title: TITLE
       id: DSA-XX-lab-01
@@ -38,3 +37,9 @@ pull-request-merged
               id: DSA-XX-z-verification
               success-message: SUCCESS
               failure-message: FAILURE
+
+
+More info: 
+
+https://github.com/wheelhouseio/certify/blob/master/app/models/verification.rb
+https://developer.github.com/webhooks/#events

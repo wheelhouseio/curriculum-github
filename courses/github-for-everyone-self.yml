@@ -1,0 +1,34 @@
+title: GitHub for Everyone (Self Serve)
+description: GitHub is not just for developers. Project managers, tech writers, and other people who help build software can use GitHub to work with developers and with each other. Get an introduction to Git and GitHub concepts and learn how to use version control  in your role without touching the command line.
+
+sections:
+  -
+    title: Welcome to the Course
+    description: This section introduces you to GitHub.
+    modules:
+      - ESS-01_intro-to-course
+      - ESS-END-01_welcome
+  -
+    title: Getting Started with Collaboration
+    description: This section introduces you to the collaboration features we will use throughout the class.
+    modules:
+      - DSS-02_exploring-repository
+      - DSS-03_issues
+      - ESS-02_collaboration-features
+      - ESS-END-02_getting-started
+  -
+    title: The Basic GitHub Workflow
+    description: In this section you will learn about the GitHub flow.
+    modules:
+      - DSS-04_github-flow
+      - DSS-05_branches
+      - DSS-06_creating-files
+      - ESS-END-03_basic-github-flow
+  -
+    title: Creating Your First Pull Request
+    description: In this section you will create your first pull request.
+    modules:
+      - DSS-07_create-pr
+      - DSS-08_edit-pr
+      - DSS-09_merge-pr
+      - ESS-END-04_creating-first-pr
