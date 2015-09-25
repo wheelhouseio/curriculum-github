@@ -50,6 +50,8 @@ screens:
           id: DSS-24-init
         - description: Create a README.md file and commit it to the repository.
           id: DSS-24-commit
+        - description: Create and commit a file called badname.md. You will use this later.
+          id: DSS-24-file-create
         - description: Create a branch in your new repository.
           id: DSS-24-branch
 additional-labs:

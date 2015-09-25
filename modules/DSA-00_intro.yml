@@ -1,0 +1,16 @@
+title: GitHub Skills Assessment
+pre-requisites:
+learning-objective: Describe the features of GitHub and how it is used to collaborate effectively with your team.
+screens:
+  - image-slide:
+      title: GitHub Skills Assessment
+      image: blank.png
+      presenter-script: |
+        This assessment will be used to get a sense for how much you learned from the GitHub class.
+
+        Go through the following slides, answering each question to the best of your ability. You won't be able to re-submit your answers once you've hit submit, even if you didn't input an answer, so make sure you're submitting the right thing when you do!
+
+        Once you've answered all the knowledge questions, you'll be asked to do some work on a GitHub repo that we provide for you. The slides will let you know whether you've done the right steps or not, but we will also provide you with feedback from a real human in a few days.
+additional-labs:
+additional-questions:
+resources:

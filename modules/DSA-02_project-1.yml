@@ -1,0 +1,38 @@
+title: GitHub for Developers Skills Assessment Project 1
+pre-requisites:
+learning-objective: Use the features of GitHub to collaborate effectively with your team.
+screens:
+  - image-slide:
+      title: GitHub Skills Assessment
+      image: blank.png
+      presenter-script: |
+        Now you're ready to do real-world projects to prove you can do the things you know.
+
+        At the top of this page, under the navigation dots, is a link called "Repository". Open that now. That's the GitHub Repo that you'll be doing all the projects on.
+
+        Follow the steps on the next three pages to do the three projects. We'll let you know if you successfully completed the step, although beware that the app doesn't check the specific details. We'll do that later with humans.
+  - lab:
+      title: GitHub Flow Using the Online Interface
+      id: DSA-02-lab-01
+      presenter-script:
+        - Using only the web interface, add `DS_Store` to the list of files ignored by the project.
+      steps:
+        - description: "Using the Web Interface, check out the `add-gitignore` branch."
+          id: DSA-02-checkout-branch
+        - description: "In the `.gitignore` file, add a new line with the text `DS_Store` under the line containing `.log`. Then commit the change."
+          id: DSA-02-new-content
+          verifications:
+            - verification-type: file-modified
+              id: DSA-02-new-content-verification
+              success-message: "Great job - you successfully updated the file."
+              failure-message: "It looks like you haven't updated the file yet."
+        - description: "Make sure the change shows up under Pull Request #5. If it does, make a comment in the PR about the update."
+          id: DSA-02-pr-comment
+          verifications:
+            - verification-type: issue-comment-created
+              id: DSA-02-pr-commment-verification
+              success-message: "Your comment has been registered."
+              failure-message: "It looks like you haven't commented on the PR yet."
+additional-labs:
+additional-questions:
+resources:

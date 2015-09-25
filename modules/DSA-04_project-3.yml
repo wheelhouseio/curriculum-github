@@ -1,0 +1,28 @@
+title: GitHub for Developers Skills Assessment Project 3
+pre-requisites:
+learning-objective: Use the features of GitHub to collaborate effectively with your team.
+screens:
+  - lab:
+      title: GitHub Flow Using the Command Line
+      id: DSA-04-lab-01
+      presenter-script:
+        - "Adding ie.js and ie.css as per Issue #2."
+      steps:
+        - description: Update your local copy of the repository from the remote.
+          id: DSA-04-pull
+        - description: Create a local branch called "fix-ie".
+          id: DSA-04-local-branch
+        - description: Make a single commit with two blank files, "ie.js" and "ie.css".
+          id: DSA-04-commit
+        - description: Push the changes to GitHub.
+          id: DSA-04-push
+        - description: Create a Pull Request and comment on it, asking @HubYeti for feedback.
+          id: DSA-04-PR
+          verifications:
+            - verification-type: pull-request
+              id: DSA-04-PR-verification
+              success-message: You've created the PR, but make sure to remember to leave a comment on it as well.
+              failure-message: You haven't created a PR yet.
+additional-labs:
+additional-questions:
+resources:

@@ -37,6 +37,7 @@ screens:
       presenter-script: |
         * `git add .` adds _all_ modified or new files to be committed, so you don't have to write out each file.
         * You can write your commit message along with your commit command using the syntax: `git commit -m "<commit_message>"`.
+        * You should then push your changes up to GitHub. `git push -u origin <branch_name>` will push your local branch changes to a branch with the same name on GitHub, as well as set a setting such that in the future, `git push` alone will complete the same command.
         * Once this is finished, you must create a pull request on GitHub, and merge it on GitHub once it's completed.
   - lab:
       title: Workflow Review

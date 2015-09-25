@@ -1,0 +1,18 @@
+title: GitHub for Developers Skills Assessment
+description: This Assessment will test your knowledge and ability to use Git and GitHub for software development projects.
+
+sections:
+  -
+    title: Core Git and GitHub Knowledge Assessment
+    description: These questions will test your knowledge of Git and GitHub.
+    modules:
+      - DSA-00_intro
+      - DSA-01_short-questions
+  -
+    title: Git and GitHub Project Assessment
+    description: These projects wil test your ability to use Git and GitHub in a real-world context. 
+    modules:
+      - DSA-02_project-1
+      - DSA-03_project-2
+      - DSA-04_project-3
+      - DSA-05_end

@@ -1,0 +1,45 @@
+issue-created
+issue-assigned-to-self
+issue-labeled
+
+branch-created
+
+file-created
+file-modified
+
+pull-request
+pull-request-review-comment
+pull-request-merged
+
+
+
+  - lab:
+      title: TITLE
+      id: DSA-XX-lab-01
+      presenter-script:
+        - DESCRIPTION OF LAB
+      steps:
+        - description: STEP3
+          id: DSA-XX-a
+        - description: STEP4
+          id: DSA-XX-b
+        - description: STEP1
+          id: DSA-XX-y
+          verifications:
+            - verification-type: VERIFY
+              id: DSA-XX-y-verification
+              success-message: SUCCESS
+              failure-message: FAILURE
+        - description: STEP2
+          id: DSA-XX-z
+          verifications:
+            - verification-type: pull-request-review-comment
+              id: DSA-XX-z-verification
+              success-message: SUCCESS
+              failure-message: FAILURE
+
+
+More info: 
+
+https://github.com/wheelhouseio/certify/blob/master/app/models/verification.rb
+https://developer.github.com/webhooks/#events
