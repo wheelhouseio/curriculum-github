@@ -5,13 +5,10 @@ screens:
   - image-slide:
       title: Pull Requests
       image: pull-requests.png
-      presenter-script:
-        - In this section we'll go over how to use Pull Requests. Pull Requests, or "PRs", are one of the most important parts of the GitHub Flow. You'll use them frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
-  - image-slide:
-      title: Understanding Pull Requests
-      image: pull-request.png
-      presenter-script:
-        - Pull Requests are used to propose changes to the project files. A Pull Request is a proposal to merge your feature branch into the master branch. A Pull Request is considered a "work in progress" until it is merged into the project. Now that you have created a file, you will open a pull request to discuss the file with your team mates.
+      presenter-script: |
+        In this section we'll go over how to use Pull Requests. Pull Requests, or "PRs", are one of the most important parts of the GitHub Flow.
+
+        A PR is a request to merge one branch into another. They're used to discuss the changes made in the branch, and to continue to make changes until the branch is complete and the team agrees it can be merged. You'll use PRs frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
   - video-slide:
       title: Creating a Pull Request on GitHub
       video: http://youtu.be/kJr-PIfLDl4

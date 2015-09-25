@@ -48,7 +48,7 @@ screens:
         * Add screenshots or pictures to the issue by simply dragging and dropping them into the comment field.
         * You can assign an issue to anyone with access to the repo.
         * Labels can be used to organize issues.
-        * Filters allow you to easily search for labels, or by author or assignee.
+        * You can filter issues by label, author or assignee.
   - quiz:
       title: "Using Issues: Question 1"
       id: DSS-03-quiz-01

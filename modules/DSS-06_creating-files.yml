@@ -31,14 +31,12 @@ screens:
         - do: Click `commit new file`
           say: We are ready to commit our file. On the next page you will complete the steps to add a file of your own.
       production-notes:
-  - image-slide:  
+  - image-slide:
       title: "Creating Files on GitHub: Recap"
       image: blank.png
       presenter-script: |
-        * Click on the `+` button to add a new file.
-        * Adding text followed by a `/` will create a new directory with that name.
-        * Add an extension to tell GitHub how to render that file's text.
-        * Once you're done editing the file, "commit" the changes below.
+        * You can create a new file directly in the web interface.
+        * Once you're done editing the file, "commit" the changes.
         * Make sure to include a commit message, and that you've chosen to commit to the branch you've already created.
   - lab:
       title: Creating a New File

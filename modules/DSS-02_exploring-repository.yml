@@ -6,7 +6,7 @@ screens:
       title: GitHub Repositories
       image: github-repositories.png
       presenter-script:
-        - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. A repository contains all of the project files (including documentation), and stores the history of each file. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
+        - A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others. A repository contains all of the project files, and stores the history of each file. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
   - image-slide:
       title: Your First GitHub Repository
       image: blank.png
@@ -34,7 +34,7 @@ screens:
       image: github-repositories.png
       presenter-script: |
         * The repository (or "repo") holds everything in your project—code, documentation, other important files.
-        * Everything in the repo is tracked by git version control.
+        * Everything in the Code View of the repo is tracked by git version control.
         * The `README.md` file is shown at the bottom of the main page of the code view.
         * Issues are used to track bugs and feature requests, and can be assigned to team members.
         * A pull request represents a change that the author would like to make to the repo. PRs are used to resolve issues.
