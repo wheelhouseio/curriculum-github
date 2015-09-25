@@ -6,7 +6,7 @@ screens:
       title: Pulling Changes from the Remote
       image: push-pull.png
       presenter-script: |
-        Frequently, collaborators will make changes to our files during the Pull Request process. Before we can go on, we will need to update our local copy of the file.
+        Before we can go on, we will need to update our local copy of the file.
 
         We use push to send our changes to the remote, but we use pull to retrieve changes from the remote. When we pull the files from the remote, Git downloads a copy of the new commits that have been added to the branch since our last pull and then attempts to merge them into our local branch.
   - video-slide:

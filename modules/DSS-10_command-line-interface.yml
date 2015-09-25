@@ -14,8 +14,7 @@ screens:
 
         * **Mac**: Type `command-space` to bring up Spotlight search, then search for `Terminal`.
         * **Linux**: Open up your prefered shell, such as bash or fish.
-        * **Windows**: You can bring up the command line by going to the Start Menu, selecting "Run", and typing in `CMD.exe` and then hitting `enter`. Or downlod the bash emulator below.
-          * In some versions of windows, you might have to download a command line interface. We recommend that you download <a href="https://msysgit.github.io/" target="_blank">Git for Windows from GitHub</a>, as that includes a bash emulator.
+        * **Windows**: We recommend that you download <a href="https://msysgit.github.io/" target="_blank">Git for Windows from GitHub</a>, as it includes a bash emulator. Without it, the Windows CLI will look a lot different from the Mac / Linux CLI.
 
         If you've never used the command line before, you might want to <a href="http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything" target="_blank">learn more about it here</a>.
   - image-slide:
@@ -27,7 +26,7 @@ screens:
         You can think of Git as a version control tool that you can use locally, and GitHub as a remote service that makes using that tool with other people on your team much more functional and seamless.
   - image-slide:
       title: Checking Git Version
-      image: git-version.jpg
+      image: blank.png
       presenter-script: |
         Git is OS agnostic; the commands are essentially the same whether you are on Mac, Windows or Linux. You can use your favorite application to interact with the command line.
 
