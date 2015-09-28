@@ -88,7 +88,7 @@ screens:
       id: DSS-03-lab-01
       presenter-script:
         - Let's practice creating issues now!
-      description: |
+      introduction: |
         Follow the steps below in your GitHub class repository (available from the "Repository" link above). We'll let you know when you completed each action correctly. The names and contents of the actions are just suggestions, but we'll refer to them in future labs so even though we don't validate the details, we do suggest you use the same naming schemes that we do.
       steps:
         - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting. This way the information is there for whoever ends up fixing the issue (spoiler alert, in this case that's going to be you)."
@@ -105,7 +105,7 @@ screens:
               id: DSS-03-assign-issue-verification
               success-message: "Great job - you assigned the issue to yourself."
               failure-message: "It looks like you haven't assigned the issue to yourself yet."
-        - description: Apply the label of "bio" to the issue. 
+        - description: Apply the label of "bio" to the issue.
           id: DSS-03-label-issue
           verifications:
             - verification-type: issue-labeled
