@@ -9,8 +9,8 @@ screens:
         <ul class="fa-ul">
           <li><i class="fa fa-check-square-o"></i> Section 1: Introducing Git and GitHub</li>
           <li><i class="fa fa-check-square-o"></i> Section 2: Getting Started with Collaboration</li>
-          <li><i class="fa fa-check-square-o"></i> Section 3: The Basic GitHub Workflow</li>
-          <li><i class="fa fa-check-square-o"></i> Section 4: Creating Your First Pull Request</li>
+          <li><i class="fa fa-check-square-o"></i> Section 3: The GitHub Flow pt. 1: Branching and Committing</li>
+          <li><i class="fa fa-check-square-o"></i> Section 4: The GitHub Flow pt. 2: Pull Requests</li>
           <li><i class="fa fa-check-square-o"></i> Section 5: Setting up Git</li>
           <li><i class="fa fa-square-o"></i> Section 6: Using GitHub Locally</li>
           <li><i class="fa fa-square-o"></i> Section 7: The Workflow End-to-End</li>

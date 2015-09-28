@@ -49,7 +49,7 @@ screens:
           id: DSS-20-edit-02
         - description: "Save the changes."
           id: DSS-20-save
-        - description: "Run git status."
+        - description: "Run `git status`."
           id: DSS-20-status
 additional-labs:
 additional-questions:

@@ -16,7 +16,7 @@ sections:
       - DSS-03_issues
       - DSS-END-02_getting-started
   -
-    title: The GitHub Flow pt. 1: Branching and Committing
+    title: "The GitHub Flow pt. 1: Branching and Committing"
     description: In this section you will learn about the GitHub flow.
     modules:
       - DSS-04_github-flow
@@ -24,7 +24,7 @@ sections:
       - DSS-06_creating-files
       - DSS-END-03_basic-workflow
   -
-    title: The GitHub Flow pt. 2: Pull Requests
+    title: "The GitHub Flow pt. 2: Pull Requests"
     description: In this section you will create your first pull request.
     modules:
       - DSS-07_create-pr

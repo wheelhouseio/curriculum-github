@@ -64,7 +64,7 @@ screens:
               id: DSS-07-create-pull-request-verification
               success-message: "Great job - you created a Pull Request"
               failure-message: "It looks like you haven't created a Pull Request. Want to try again?"
-        - description: "Add a line comment to the other pull request in the repository."
+        - description: "Go to the \"Files changed\" tab and add a line comment to the Pull Request mentioning that you should add your favorite color."
           id: DSS-07-comment
           verifications:
             - verification-type: pull-request-review-comment

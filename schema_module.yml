@@ -82,6 +82,8 @@ mapping:
                 required: true
               "title":
                 required: true
+              "introduction":
+                required: false
               "presenter-script":
                 required: true
                 type: any

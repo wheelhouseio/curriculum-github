@@ -88,27 +88,29 @@ screens:
       id: DSS-03-lab-01
       presenter-script:
         - Let's practice creating issues now!
+      introduction: |
+        Follow the steps below in your GitHub class repository (available from the "Repository" link above). We'll let you know when you completed each action correctly. The names and contents of the actions are just suggestions, but we'll refer to them in future labs so even though we don't validate the details, we do suggest you use the same naming schemes that we do.
       steps:
-        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting."
+        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting. This way the information is there for whoever ends up fixing the issue (spoiler alert, in this case that's going to be you)."
           id: DSS-03-create-issue
           verifications:
             - verification-type: issue-created
               id: DSS-03-create-issue-verification
               success-message: "Great job - you created an issue."
               failure-message: "It looks like you haven't created an issue yet."
-        - description: Assign the issue you just created to yourself # optional for Monday
+        - description: Assign the issue you just created to yourself
           id: DSS-03-assign-issue
           verifications:
             - verification-type: issue-assigned-to-self
               id: DSS-03-assign-issue-verification
               success-message: "Great job - you assigned the issue to yourself."
               failure-message: "It looks like you haven't assigned the issue to yourself yet."
-        - description: Apply the label of "bio" to the issue # optional for Monday
+        - description: Apply the label of "bio" to the issue.
           id: DSS-03-label-issue
           verifications:
             - verification-type: issue-labeled
               id: DSS-03-label-issue-verification
-              success-message: "Great job - you applied the 'bio' label to the issue. Move on to the next slide now."
+              success-message: "Great job - you applied a label to the issue. If it was the \"bio\" label, then on to the next slide now."
               failure-message: "It looks like you haven't applied the 'bio' label to the issue yet."
 additional-labs:
 additional-questions:
