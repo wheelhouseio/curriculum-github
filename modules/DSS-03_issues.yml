@@ -110,7 +110,7 @@ screens:
           verifications:
             - verification-type: issue-labeled
               id: DSS-03-label-issue-verification
-              success-message: "Great job - you applied a label to the issue. If it was the "bio" label, then on to the next slide now."
+              success-message: "Great job - you applied a label to the issue. If it was the \"bio\" label, then on to the next slide now."
               failure-message: "It looks like you haven't applied the 'bio' label to the issue yet."
 additional-labs:
 additional-questions:
