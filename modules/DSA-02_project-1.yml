@@ -26,10 +26,10 @@ screens:
               id: DSA-02-new-content-verification
               success-message: "Great job - you successfully updated the file."
               failure-message: "It looks like you haven't updated the file yet."
-        - description: "Make sure the change shows up under Pull Request #5. If it does, make a comment in the PR about the update."
+        - description: "Create a Pull Request to merge the `add-gitignore` branch into `master`."
           id: DSA-02-pr-comment
           verifications:
-            - verification-type: issue-comment-created
+            - verification-type: pull-request
               id: DSA-02-pr-commment-verification
               success-message: "Your comment has been registered."
               failure-message: "It looks like you haven't commented on the PR yet."
