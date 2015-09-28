@@ -6,10 +6,12 @@ screens:
       title: Using Branches
       image: github-branches.png
       presenter-script: |
-        Every day you will be editing files on your project or adding new files. You don't want to take risks with the code on your master branch so you need to create a branch.
-        
+        Branching is an essential part of using Git and GitHub. While other Version Control Systems can make branching really painful, in Git it's easy and necessary.
+
         When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch. This keeps your the code on your master branch safe while you experiment and fix issues.
-        
+
+        Branches are used for creating new features, experimenting with new code, doing bug fixes, or really changing code in any way that you might want someone else to review.
+
         Let's learn how you can create a new branch.
   - video-slide:
       title: Creating a Branch
@@ -27,11 +29,10 @@ screens:
           say: "However, a word of caution. When you leave the repository and come back, notice that GitHub automatically assumes you want to see the items on the master branch."
         - do: Click the branch dropdown and reselect the branch
           say: "If you want to continue working on your branch, you will need to reselect it using the branch dropdown. Now you are ready to create your own branch and start adding some commits."
-  - image-slide:  
+  - image-slide:
       title: "Creating a Branch: Recap"
       image: github-branches.png
       presenter-script: |
-        * Branching keeps code safe. Branching `master` lets you experiment without changing any of the code on `master`.
         * Create a branch by clicking on the `branch` drop-down and entering your branch name in the text field.
         * Any files you create, edit, or delete will then be applied to that branch.
         * Be careful; GitHub automatically puts you on `master` when you leave the repo and come back, so always make sure you're on the right branch before you start working.
