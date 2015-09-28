@@ -43,7 +43,7 @@ screens:
       presenter-script:
         - Go ahead and practice renaming files on your own.
       steps:
-        - description: Rename the badname.md file to goodname.md.
+        - description: Rename the badname.md file you created earlier to goodname.md.
           id: DSS-26-rename
         - description: When you are finished, commit your file changes.
           id: DSS-26-commit

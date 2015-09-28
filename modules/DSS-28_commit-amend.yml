@@ -8,10 +8,12 @@ screens:
       presenter-script:
         - Next we will learn how to change a commit. Complete these steps to prepare your files for this exercise.
       steps:
-        - description: Create a file called `onefile.md`. Do not commit the file.
+        - description: Create a file called `onefile.md`. Stage this file.
           id: DSS-28-01-onefile
-        - description: Create a file called `twofile.md`. Do not commit the file.
+        - description: Create a file called `twofile.md`. Stage this file.
           id: DSS-28-01-twofile
+        - description: Commit the two files.
+          id: DSS-28-01-commit
   - video-slide:
       title: Fixing Bad Commits
       video: https://youtu.be/lDbp6c44Pn4

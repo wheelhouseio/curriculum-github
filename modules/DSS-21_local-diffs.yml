@@ -35,7 +35,7 @@ screens:
       presenter-script:
         - Take some time to explore the git diff options.
       steps:
-        - description: Make various changes to your file and use the `git diff` commands to see how they appear.
+        - description: Use the `git diff` commands to see how the file changes you made in the last lab appear.
           id: DSS-21-diff
         - description: When you are finished, `commit` your file changes.
           id: DSS-21-commit

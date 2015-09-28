@@ -44,7 +44,7 @@ screens:
       presenter-script:
         - Let's respond to the issue you created earlier by creating a file on your branch. Don't forget that you can create the docs folder when you specify the path for the file.
       steps:
-        - description: "Add a new bio file to the docs folder. Name the file firstname-lastname.md using your first and last name."
+        - description: "Add a new bio file to the docs folder. Name the file firstname-lastname.md using your first and last name. Add the information from the Issue you created earlier to the file."
           id: DSS-06-create-file
           verifications:
             - verification-type: file-created
