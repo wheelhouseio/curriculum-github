@@ -243,19 +243,19 @@ screens:
           options:
             - value: Combining multiple files into a single commit.
               id: DSA-01-qq10-01
-              response: Sorry, the correct answer is "Collaborating with team members on project features."
+              response: Sorry, the correct answer is "Commenting on a Pull Request."
               correct: false
-            - value: Collaborating with team members on project features.
+            - value: Commenting on a Pull Request.
               id: DSA-01-qq10-02
               response: Correct!
               correct: true
             - value: Adding images to project files.
               id: DSA-01-qq10-03
-              response: Sorry, the correct answer is "Collaborating with team members on project features."
+              response: Sorry, the correct answer is "Commenting on a Pull Request."
               correct: false
             - value: Resolving merge conflicts.
               id: DSA-01-qq10-04
-              response: Sorry, the correct answer is "Collaborating with team members on project features."
+              response: Sorry, the correct answer is "Commenting on a Pull Request."
               correct: false
   - quiz:
       title: Question 11
@@ -367,7 +367,7 @@ screens:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
         - title: |
-            If you create a new file, "test.md" within a git repo and then run `git add test.*` the test.md file will be:
+            If you create a new file, "CONTRIBUTING.md" within a git repo and then run `git add CONTRIBUTING.*` the CONTRIBUTING.md file will be:
           id: DSA-01-qq15
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
@@ -481,17 +481,17 @@ screens:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
         - title: |
-            What is the command you would run to create a branch called `new-branch` and checkout to that branch at the same time?
+            What is the command you would run to create a branch called `update-readme` and checkout to that branch at the same time?
           id: DSA-01-qq20
           type: open-response # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: /git\s+checkout\s+-b\s+new-branch\s*/
+            - value: /git\s+checkout\s+-b\s+update-readme\s*/
               id: DSA-01-qq20-01
               response: Correct!
               correct: true
             - value: # Null means it matches anything else - please make this the last option
               id: DSA-01-qq20-02
-              response: Sorry, the correct answer is "`git checkout -b new-branch`".
+              response: Sorry, the correct answer is "`git checkout -b update-readme`".
               correct: false
   - quiz:
       title: Question 21
@@ -591,21 +591,21 @@ screens:
           id: DSA-01-qq25
           type: single-select # Question type - multiple-select, single-select, free-text-single-entry or free-text-multiple-entry
           options:
-            - value: Git fetches read-only copies of changes from the remote and then merges them into the associated local branches.
+            - value: Git fetches read-only copies of changes from the remote and then merges changes from the remote into the current branch.
               id: DSA-01-qq25-01
               response: Correct!
               correct: true
             - value: Git performs a fetch and then stops.
               id: DSA-01-qq25-02
-              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges them into the associated local branches."
+              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges changes from the remote into the current branch."
               correct: false
             - value: Git retrieves copies of the pull requests from the remote repository.
               id: DSA-01-qq25-03
-              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges them into the associated local branches."
+              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges changes from the remote into the current branch."
               correct: false
             - value: Git fetches the changes from the remote and then rebases your local changes onto the remote copy.
               id: DSA-01-qq25-04
-              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges them into the associated local branches."
+              response: Sorry, the correct answer is "Git fetches read-only copies of changes from the remote and then merges changes from the remote into the current branch."
               correct: false
   - quiz:
       title: Question 26
