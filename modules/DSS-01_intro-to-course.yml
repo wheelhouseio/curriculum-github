@@ -25,7 +25,7 @@ screens:
         - In addition to being a place to host and share your Git projects, GitHub provides features, like Pull Requests and Issues, that make collaborating easier. Issues are general place for discussions about the project, from high-level planning to bug tracking. Pull Requests let you discuss and review specific changes to the project files themselves.
   - image-slide:
       title: The GitHub Ecosystem
-      image: github-ecosystem.png
+      image: blank.png
       presenter-script: |
         You can also use all of your favorite tools with GitHub. You don't need to use a new text editor or bug tracker: your team gets to keep the tools they're comfortable with.
 
