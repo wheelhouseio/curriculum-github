@@ -26,7 +26,7 @@ screens:
       presenter-script:
         - Now it is your turn to practice unstaging a file.
       steps:
-        - description: Make changes to the file called threefile.md.
+        - description: Make changes to the file called `threefile.md`.
           id: DSS-29-edit
         - description: Add the file to the staging area.
           id: DSS-29-stage

@@ -11,16 +11,17 @@
 5. Add a new bio file to the docs folder. Name the file firstname-lastname.md using your first and last name. Add the information from the Issue you created earlier to the file.
   verification-type: file-created
 
-6. Create a Pull Request, @mentioning Hubyeti. Assign the Pull Request to yourself.
+6. "Create a Pull Request to merge your firstname-lastname branch into master, @mentioning Hubyeti. Assign the Pull Request to yourself."
   verification-type: pull-request
 7. Go to the "Files changed" tab and add a line comment to the Pull Request mentioning that you should add your favorite color.
   verification-type: pull-request-review-comment
 
-8. Go back to your pull request and add your favorite color to the bio file. Commit the changes directly to your branch.
+8. "Go back to your branch and add your favorite color to your bio file. Commit the changes directly to your branch. Then go look at your PR for that branch."
   verification-type: file-modified
 
 9. Merge the pull request you created, closing your original issue with the merge commit. Don't forget, GitHub looks for the keywords: 'Fixes', 'Closes', or 'Resolves'.
   verification-type: pull-request-merged
+1.  "Now go back to your master branch. You should see a `docs` folder with your bio in it."
 
 10. Create a new branch on GitHub. Name the branch `githubID-more-bio`, using your GitHub ID.
   verification-type: branch-created

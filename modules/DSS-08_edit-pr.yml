@@ -36,7 +36,7 @@ screens:
       presenter-script:
         - Let's make some changes to the files in our pull request.
       steps:
-        - description: "Go back to your pull request and add your favorite color to the bio file. Commit the changes directly to your branch."
+        - description: "Go back to your branch and add your favorite color to your bio file. Commit the changes directly to your branch. Then go look at your PR for that branch."
           id: DSS-08-edit-file
           verifications:
             - verification-type: file-modified

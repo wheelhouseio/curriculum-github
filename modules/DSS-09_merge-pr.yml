@@ -8,7 +8,7 @@ screens:
       presenter-script: |
         At this point, your pull request should be approved and you are ready to merge it in to the `master` branch. When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
 
-        Many project teams have established rules about who should merge a pull request. Some say it should be the person who created the pull request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the pull request. There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed. 
+        Many project teams have established rules about who should merge a pull request. Some say it should be the person who created the pull request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the pull request. There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed.
 
         There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
 
@@ -54,7 +54,7 @@ screens:
       title: Merging Pull Requests
       id: DSS-09-lab-01
       presenter-script:
-        - Let's finish the workflow by merging our changes into master.
+        - Let's finish the workflow by merging our changes into `master`.
       steps:
         - description: "Merge the pull request you created, closing your original issue with the merge commit. Don't forget, GitHub looks for the keywords: 'Fixes', 'Closes', or 'Resolves'."
           id: DSS-09-merge
@@ -63,6 +63,8 @@ screens:
               id: DSS-09-merge-verification
               success-message: "Great job - you have merged your branch."
               failure-message: "It looks like you haven't merged your branch. Want to try again?"
+        - description: "Now go back to your `master` branch. You should see a `docs` folder with your bio in it."
+          id: DSS-09-looksee
 additional-labs:
 additional-questions:
 resources:

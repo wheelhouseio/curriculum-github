@@ -57,7 +57,7 @@ screens:
       presenter-script:
         - Now that you have added a new file, let's create a pull request.
       steps:
-        - description: "Create a Pull Request, @mentioning Hubyeti. Assign the Pull Request to yourself."
+        - description: "Create a Pull Request to merge your `firstname-lastname` branch into `master`, @mentioning Hubyeti. Assign the Pull Request to yourself."
           id: DSS-07-create-pull-request
           verifications:
             - verification-type: pull-request

@@ -91,7 +91,7 @@ screens:
       introduction: |
         Follow the steps below in your GitHub class repository (available from the "Repository" link above). We'll let you know when you completed each action correctly. The names and contents of the actions are just suggestions, but we'll refer to them in future labs so even though we don't validate the details, we do suggest you use the same naming schemes that we do.
       steps:
-        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting. This way the information is there for whoever ends up fixing the issue (spoiler alert, in this case that's going to be you)."
+        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, the information about your from Issue #3, a request to add your bio, and some markdown formatting to make it all look pretty. This way the information is there for whoever ends up fixing the issue (spoiler alert, in this case that's going to be you)."
           id: DSS-03-create-issue
           verifications:
             - verification-type: issue-created

@@ -44,7 +44,7 @@ screens:
       presenter-script:
         - Now it is your turn to practice the steps we discussed.
       steps:
-        - description: Revert the last commit you made on goodname.md.
+        - description: Revert the last commit you made on `goodname.md`.
           id: DSS-27-02-revert
 additional-labs:
 additional-questions:
