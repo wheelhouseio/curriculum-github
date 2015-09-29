@@ -31,8 +31,8 @@ screens:
           verifications:
             - verification-type: pull-request
               id: DSA-02-pr-commment-verification
-              success-message: "Your comment has been registered."
-              failure-message: "It looks like you haven't commented on the PR yet."
+              success-message: "You have created a PR."
+              failure-message: "It looks like you haven't created the PR yet."
 additional-labs:
 additional-questions:
 resources:
