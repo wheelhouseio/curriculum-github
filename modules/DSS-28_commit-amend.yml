@@ -44,7 +44,7 @@ screens:
       presenter-script:
         - Now it is your turn to practice the steps we discussed.
       steps:
-        - description: Create a new file called threefile.md.
+        - description: Create a new file called `threefile.md`.
           id: DSS-28-02-threefile
         - description: Add `threefile.md` to your previous commit.
           id: DSS-28-02-amend

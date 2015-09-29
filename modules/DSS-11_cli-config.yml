@@ -22,7 +22,7 @@ screens:
       title: Configuring User Name and Email
       image: config-username-email.jpg
       presenter-script: |
-        Go ahead and follow along as we set up our basic configurations. Git uses the config settings for your user name and email address to generate a unique fingerprint for each of the commits you create, so let's set our user name and email address first. 
+        Go ahead and follow along as we set up our basic configurations. Git uses the config settings for your user name and email address to generate a unique fingerprint for each of the commits you create, so let's set our user name and email address first.
 
         Type `git config --global user.name "<your_full_name>"` and type `git config --global user.email "<your_email>"`.
 
@@ -35,7 +35,7 @@ screens:
 
         Typing `git config --global core.editor "atom --wait"` will tell Git to use the open source atom text editor.
 
-        If you would like to use a different editor you can look for instructions <a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank">here</a>.
+        If you don't have atom and would like to use it, you can find it at <a href="https://atom.io/" target="_blank">atom.io</a>. If you would like to use a different editor you can look for instructions <a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank">here</a>.
   - image-slide:
       title: Configuring Autocrlf to Handle Whitespace
       image: config-autocrlf.jpg
@@ -44,7 +44,7 @@ screens:
 
         Type `git config --global core.autocrlf`.
 
-        * If you are on a **Windows** machine, you will want to set this option to `true`. 
+        * If you are on a **Windows** machine, you will want to set this option to `true`.
         * If you are on a **Mac** or **Linux** machine, you will set it to `input`.
 
         And for those wondering, `autocrlf` stands for "auto carriage return line feed".
@@ -54,7 +54,7 @@ screens:
       presenter-script: |
         One final configuration option we will want to set is our default value for push.
 
-        When you push changes from your local computer to the remote you can choose whether you want Git to automatically push all of the local branches to their matching branches on the remote or whether you only want the currently checked out branch to be pushed. 
+        When you push changes from your local computer to the remote you can choose whether you want Git to automatically push all of the local branches to their matching branches on the remote or whether you only want the currently checked out branch to be pushed.
 
         The config setting we use to set this option is `push.default`. We can set the default to `matching` if we want to push all branches automatically. OR, we can set it to `simple` if we only want to push the branch we are on.
 
