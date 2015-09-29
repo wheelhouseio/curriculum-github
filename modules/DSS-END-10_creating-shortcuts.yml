@@ -3,8 +3,8 @@ pre-requisites:
 learning-objective:
 screens:
   - image-slide:
-      title: You have completed Creating Shortcuts!
-      image: blank.jpg
+      title: You have completed the GitHub Course!
+      image: completion.png
       presenter-script: |
         <ul class="fa-ul">
           <li><i class="fa fa-check-square-o"></i> Section 1: Introducing Git and GitHub</li>
