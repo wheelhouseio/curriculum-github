@@ -17,7 +17,7 @@ sections:
       - ESS-02_collaboration-features
       - ESS-END-02_getting-started
   -
-    title: The Basic GitHub Workflow
+    title: "The GitHub Workflow: Branching and Committing"
     description: In this section you will learn about the GitHub flow.
     modules:
       - DSS-04_github-flow
@@ -25,7 +25,7 @@ sections:
       - DSS-06_creating-files
       - ESS-END-03_basic-github-flow
   -
-    title: Creating Your First Pull Request
+    title: "The GitHub Workflow: Pull Requests"
     description: In this section you will create your first pull request.
     modules:
       - DSS-07_create-pr
