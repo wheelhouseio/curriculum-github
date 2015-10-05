@@ -1,9 +1,9 @@
-title: Creating First Pull Complete
+title: "The GitHub Workflow: Pull Requests Complete"
 pre-requisites:
 learning-objective:
 screens:
   - image-slide:
-      title: You have completed The GitHub Workflow: Pull Requests!
+      title: "You have completed The GitHub Workflow: Pull Requests!"
       image: blank.jpg
       presenter-script: |
         <ul class="fa-ul">
