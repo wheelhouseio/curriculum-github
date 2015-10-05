@@ -1,9 +1,9 @@
-title: Basic GitHub Workflow Complete
+title: "The GitHub Workflow: Branching and Committing Complete"
 pre-requisites:
 learning-objective:
 screens:
   - image-slide:
-      title: You have completed The GitHub Workflow: Branching and Committing!
+      title: "You have completed The GitHub Workflow: Branching and Committing!"
       image: blank.jpg
       presenter-script: |
         <ul class="fa-ul">
