@@ -29,6 +29,10 @@ task :validate do
   end
 end
 
+task :test do
+  ruby "spec.rb"
+end
+
   namespace :courses do
     desc "Run yaml-lint on courses directory"
     task :linter do
