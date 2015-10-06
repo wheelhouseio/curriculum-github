@@ -20,12 +20,12 @@ screens:
           id: DSA-03-commit
         - description: Push the branch to the remote server.
           id: DSA-03-push
-        - description: Create a pull request for the "adding-bio" branch @ mentioning `@HubYeti`. 
+        - description: Create a pull request for the "adding-bio" branch @ mentioning `@HubYeti`.
           id: DSA-03-PR
           verifications:
             - verification-type: pull-request
               id: DSA-03-PR-verification
-              success-message: You've created a pull request.  
+              success-message: You've created a pull request.
               failure-message: You haven't created a pull request yet.
         - description: "Merge the pull request (we'll do it without a :+1: just this once)."
           id: DSA-03-pr-merge
@@ -34,7 +34,7 @@ screens:
               id: DSA-03-pr-merge-verification
               success-message: You merged the PR!
               failure-message: You haven't merged the PR yet.
-        - description: Delete the remote and local branches. 
+        - description: Delete the remote and local branches.
           id: DSA-03-delete-branches
 additional-labs:
 additional-questions:

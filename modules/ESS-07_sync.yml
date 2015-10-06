@@ -29,7 +29,7 @@ screens:
             - verification-type: pull-request
               id: CONT-GHM-05-pull-request-verification
               success-message: "Great job - you created a pull request"
-              failure-messages: "It looks like you haven't created a pull request. Want to try again?"
+              failure-message: "It looks like you haven't created a pull request. Want to try again?"
 additional-labs:
 additional-questions:
 resources:

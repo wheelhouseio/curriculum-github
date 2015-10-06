@@ -30,7 +30,6 @@ screens:
         - do: "Click the milestone title"
           say: "And drill down into the specific issues and pull requests that are included."
       production-notes:
-      production-notes:
   - image-slide:
       title: "Using Milestones: Recap"
       image: blank.png

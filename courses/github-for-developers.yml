@@ -21,7 +21,7 @@ sections:
       - CONT-04_Editing-pull-request-files
       - CONT-05_Merging-pull-requests
   -
-    title: Using GitHub Locally
+    title: Using Git Locally
     description: In this section you will learn how to clone the repository to your desktop and work locally to make changes.
     modules:
       - CONT-CLI-01_Basic-Configuration
