@@ -4,3 +4,4 @@ ruby "2.2.2"
 
 gem "kwalify"
 gem "yaml-lint"
+gem "minitest"
