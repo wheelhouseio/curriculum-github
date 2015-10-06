@@ -55,6 +55,7 @@ screens:
             - value: # Null means it matches anything else - please make this the last option
               id: COLL-01-qq2-o2
               response: "Not quite. Issue #4 is discussing adding the .gitignore."
+              correct: false
   - quiz:
       title: Exploring a Repository
       id: COLL-01-quiz-03

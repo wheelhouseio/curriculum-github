@@ -4,6 +4,7 @@ learning-objective: Describe the features of GitHub and how it is used to collab
 screens:
   - quiz:
       title: Question 1
+      id: DSA-01-quiz-01
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -30,6 +31,7 @@ screens:
               correct: true
   - quiz:
       title: Question 2
+      id: DSA-01-quiz-02
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -56,6 +58,7 @@ screens:
               correct: false
   - quiz:
       title: Question 3
+      id: DSA-01-quiz-03
       image: question-3.png
       presenter-script:
         - Please answer the question to the best of your ability.
@@ -83,6 +86,7 @@ screens:
               correct: false
   - quiz:
       title: Question 4
+      id: DSA-01-quiz-04
       image: problem-4.png
       presenter-script:
         - Please answer the question to the best of your ability.
@@ -110,6 +114,7 @@ screens:
               correct: false
   - quiz:
       title: Question 5
+      id: DSA-01-quiz-05
       image: problem-5.png
       presenter-script:
         - Please answer the question to the best of your ability.
@@ -137,6 +142,7 @@ screens:
               correct: false
   - quiz:
       title: Question 6
+      id: DSA-01-quiz-06
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -147,7 +153,7 @@ screens:
           options:
             - value: To propose a new feature.
               id: DSA-01-qq06-01
-              rresponse: Sorry, the correct answer is "Both for new features and bug reports."
+              response: Sorry, the correct answer is "Both for new features and bug reports."
               correct: false
             - value: To document a bug.
               id: DSA-01-qq06-02
@@ -159,6 +165,7 @@ screens:
               correct: true
   - quiz:
       title: Question 7
+      id: DSA-01-quiz-07
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -181,6 +188,7 @@ screens:
               correct: false
   - quiz:
       title: Question 8
+      id: DSA-01-quiz-08
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -207,6 +215,7 @@ screens:
               correct: true
   - quiz:
       title: Question 9
+      id: DSA-01-quiz-09
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -233,6 +242,7 @@ screens:
               correct: false
   - quiz:
       title: Question 10
+      id: DSA-01-quiz-10
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -259,6 +269,7 @@ screens:
               correct: false
   - quiz:
       title: Question 11
+      id: DSA-01-quiz-11
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -281,6 +292,7 @@ screens:
               correct: false
   - quiz:
       title: Question 12
+      id: DSA-01-quiz-12
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -311,6 +323,7 @@ screens:
               correct: false
   - quiz:
       title: Question 13
+      id: DSA-01-quiz-13
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -337,6 +350,7 @@ screens:
               correct: false
   - quiz:
       title: Question 14
+      id: DSA-01-quiz-14
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -363,6 +377,7 @@ screens:
               correct: false
   - quiz:
       title: Question 15
+      id: DSA-01-quiz-15
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -385,6 +400,7 @@ screens:
               correct: false
   - quiz:
       title: Question 16
+      id: DSA-01-quiz-16
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -407,6 +423,7 @@ screens:
               correct: true
   - quiz:
       title: Question 17
+      id: DSA-01-quiz-17
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -433,6 +450,7 @@ screens:
               correct: false
   - quiz:
       title: Question 18
+      id: DSA-01-quiz-18
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -459,6 +477,7 @@ screens:
               correct: false
   - quiz:
       title: Question 19
+      id: DSA-01-quiz-19
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -477,6 +496,7 @@ screens:
               correct: true
   - quiz:
       title: Question 20
+      id: DSA-01-quiz-20
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -495,6 +515,7 @@ screens:
               correct: false
   - quiz:
       title: Question 21
+      id: DSA-01-quiz-21
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -521,6 +542,7 @@ screens:
               correct: false
   - quiz:
       title: Question 22
+      id: DSA-01-quiz-22
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -539,6 +561,7 @@ screens:
               correct: false
   - quiz:
       title: Question 23
+      id: DSA-01-quiz-23
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -557,6 +580,7 @@ screens:
               correct: false
   - quiz:
       title: Question 24
+      id: DSA-01-quiz-24
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -583,6 +607,7 @@ screens:
               correct: false
   - quiz:
       title: Question 25
+      id: DSA-01-quiz-25
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -609,6 +634,7 @@ screens:
               correct: false
   - quiz:
       title: Question 26
+      id: DSA-01-quiz-26
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -635,6 +661,7 @@ screens:
               correct: true
   - quiz:
       title: Question 27
+      id: DSA-01-quiz-27
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
@@ -661,6 +688,7 @@ screens:
               correct: false
   - quiz:
       title: Question 28
+      id: DSA-01-quiz-28
       presenter-script:
         - Please answer the question to the best of your ability.
       questions: # A quiz might have one or more questions
