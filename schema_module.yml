@@ -39,6 +39,8 @@ mapping:
                 required: true
               "title":
                 required: true
+              "image":
+                required: false
               "presenter-script":
                 required: true
                 type: any
@@ -46,7 +48,30 @@ mapping:
                 required: true
                 type: seq
                 sequence:
-                  - type: any
+                  - type: map
+                    mapping:
+                      "id":
+                        required: true
+                      "title":
+                        required: true
+                      "type":
+                        required: true
+                        enum: [multiple-select, single-select, free-text-single-entry, free-text-multiple-entry, open-response]
+                      "options":
+                        required: false
+                        type: seq
+                        sequence:
+                          - type: map
+                            mapping:
+                              "value":
+                                required: false
+                              "id":
+                                required: true
+                              "response":
+                                required: true
+                              "correct":
+                                required: true
+                                type: bool
         # image schema
           image-slide:
             type: map
@@ -111,6 +136,8 @@ mapping:
                                 required: true
                               failure-message:
                                 required: true
+                              repo-name:
+                                required: false
   "additional-labs":
   "additional-questions":
   "resources":
