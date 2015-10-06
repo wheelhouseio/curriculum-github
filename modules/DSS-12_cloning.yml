@@ -9,7 +9,7 @@ screens:
         Part of what makes git such a well-loved VCS is that it easily lets everyone on the team have their own local working repository. It's expected that everyone will work on their own computer, and sync changes they've made with each other only when they need to.
 
         But first, we have to make a local copy of your repository. To do this, we have to "clone" the repository that you have hosted on GitHub.
-        
+
         When you clone a GitHub repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a distributed VCS like git—rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
   - video-slide:
       title: Cloning a Repository
@@ -55,7 +55,6 @@ screens:
       questions:
         - title: Type the Git command you would use to clone the repository located at the following remote address `https://github.com/githubteacher/sample-repo.git`
           id: DSS-12-qq1
-          image: DSS-12-quiz-01.jpg
           type: open-response
           options:
             - value: /git clone https://github.com/githubteacher/sample-repo.git/
