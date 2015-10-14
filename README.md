@@ -16,6 +16,8 @@ Feel free to reach out to the developement team in #support if you need help.
 
 ## TL;DR
 
+Run `rake` to run both the linter and schema-validator. 
+
 ```bash
 $ rake
 Checking the content of ["courses"]
@@ -93,3 +95,20 @@ To create a new course, just add a new YAML file to the /courses directory. The 
 The contents of each module is contained within a single yml file. Each module has a file name that starts with a number so that the modules display in the approximate order they'd often be encountered in, followed by a hyphen delimited name that should give a sense of the content of the module but that is not used for display purposes.
 
 The YAML file contains the title and description of the module. It then contains a description of the n-screens that comprise the module. Each screen is specified fully within the module YAML file and includes screen type (slide, video, poll, quiz, etc.), the contents to display to students and the presenter script. The module also contains a resources section for links and resources to show as part of the course (but not on the individual module screens) and "additional-labs" and "additional-questions" sections to be used for demonstrating mastery in end of section quizzes, end of class quizzes and final certifications.
+
+## Setting up CI for a fork
+
+This repo has Circle CI running the linter and schema-validation for any branch and PR. If you would like this for your fork, during setup have the `rake test` task run during the testing phase.
+
+## Contributing
+
+We recommend using a fork based GitHub Flow process to contribute content to the curriculum repo.
+
+- `Fork` this repo
+- Set up CI for the fork
+- Create a branch
+- Make changes
+- When working locally, run `rake` to verify it passes linter and schema-validator
+- Commit changes to branch
+- Import branch on the `wheelhouse-curriculumn` instance to verify changes were valid
+- Create a PR with the working changes
