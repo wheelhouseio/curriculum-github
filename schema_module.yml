@@ -138,6 +138,17 @@ mapping:
                                 required: true
                               repo-name:
                                 required: false
+        # remote-slide schema
+          remote-slide:
+            type: map
+            mapping:
+              "title":
+                required: true
+              "url":
+                required: true
+              "presenter-script":
+                required: true
+                type: any
   "additional-labs":
   "additional-questions":
   "resources":

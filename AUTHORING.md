@@ -38,6 +38,14 @@ screens:
 	  		- description: "Markdown *enabled*"
 ```
 
+### Remote Slides
+```
+screens:
+	- remote-slide:
+		url: "Markdown *enabled* for the retrieved content"
+		presenter-script: "Markdown *enabled*"
+```
+
 ### Quiz/Polls/Answers
 ```
 screens:
