@@ -8,7 +8,7 @@ screens:
       presenter-script: |
         Branching is an essential part of using Git and GitHub. While other Version Control Systems can make branching really painful, in Git it's easy and necessary.
 
-        When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch. This keeps your the code on your master branch safe while you experiment and fix issues.
+        When you create a branch, you are essentially creating an identical copy of the project at that point in time that is completely separate from the master branch. This keeps your code on your master branch safe while you experiment and fix issues.
 
         Branches are used for creating new features, experimenting with new code, doing bug fixes, or really changing code in any way that you might want someone else to review.
 
