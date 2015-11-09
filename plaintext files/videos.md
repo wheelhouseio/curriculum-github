@@ -215,7 +215,7 @@
 * `git reset --soft <commit_to>` resets git to a specific commit, and puts the commits you're resetting into the staging area.
 * `git reset --mixed <commit_to>` resets git to a specific commit, and puts the commits you're resetting into the working directory.
 * `git reset --hard <commit_to>` resets git to a specific commit, and deletes the commits you're resetting. 
-* Just like with `git revert` you can use the commit ID, or you can use the syntax `HEAD~<mumber>`. The number you put will be the number of sets backwards from the current HEAD that git will move the new HEAD to.
+* Just like with `git revert` you can use the commit ID, or you can use the syntax `HEAD~<number>`. The number you put will be the number of sets backwards from the current HEAD that git will move the new HEAD to.
 * You can always used `git log` to see all your previous history to know where to reset to.
 
 6.22: Discarding Changes in Modified Files
