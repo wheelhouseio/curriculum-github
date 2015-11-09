@@ -22,7 +22,7 @@ screens:
       title: Key GitHub Features
       image: github-repositories.png
       presenter-script:
-        - In addition to being a place to host and share your Git projects, GitHub provides features, like Pull Requests and Issues, that make collaborating easier. Issues are general place for discussions about the project, from high-level planning to bug tracking. Pull Requests let you discuss and review specific changes to the project files themselves.
+        - In addition to being a place to host and share your Git projects, GitHub provides features, like Pull Requests and Issues, that make collaborating easier. Issues are general places for discussions about the project, from high-level planning to bug tracking. Pull Requests let you discuss and review specific changes to the project files themselves.
   - image-slide:
       title: The GitHub Ecosystem
       image: blank.png
