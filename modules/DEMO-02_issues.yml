@@ -1,5 +1,5 @@
 title: Using Issues
-pre-requisites: DSS-03_Exploring-a-repository
+pre-requisites: DSS-02_Exploring-a-repository
 learning-objective: Collaborate using GitHub Issues to discuss ideas, enhancements, tasks and bugs.
 screens:
   - image-slide:
@@ -60,67 +60,67 @@ screens:
         Right now, click on the link to your GitHub repo and click around the new repository.
   - quiz:
       title: "Using Issues: Question 1"
-      id: DSS-03-quiz-01
+      id: DEMO-02-quiz-01
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
         - title: "What is being discussed in Issue #3 of your repo? Remember, there is a link to the repository in the nav bar above."
-          id: DSS-03-qq1
+          id: DEMO-02-qq1
           type: open-response
           options:
             - value: /bio/i
-              id: DSS-03-qq1-o1
+              id: DEMO-02-qq1-o1
               response: Good job! Issue 3 is discussing what we should include in a bio.
               correct: true
             - value: # Null means it matches anything else - please make this the last option
-              id: DSS-03-qq1-o2
+              id: DEMO-02-qq1-o2
               response: Not quite. Issue 3 is discussing what should be included in a bio.
               correct: false
   - quiz:
       title: "Using Issues: Question 2"
-      id: DSS-03-quiz-02
+      id: DEMO-02-quiz-02
       presenter-script: Before we move on, let's make sure we can find important parts of a repository
       questions:
         - title: "Who opened Issue #1?"
-          id: DSS-03-qq2
+          id: DEMO-02-qq2
           type: open-response
           options:
             - value: /githubteacher/i
-              id: DSS-03-qq2-o1
+              id: DEMO-02-qq2-o1
               response: "Good job! @githubteacher opened issue #1."
               correct: true
             - value: /hubyeti/i
-              id: DSS-03-qq2-o2
+              id: DEMO-02-qq2-o2
               response: "Good job! @hubyeti opened issue #1."
               correct: true
             - value: # Null means it matches anything else - please make this the last option
-              id: DSS-03-qq2-o3
+              id: DEMO-02-qq2-o3
               response: "Not quite. Look right below the title to see who opened issue #1."
               correct: false
   - lab:
       title: "Creating an Issue: Lab"
-      id: DSS-03-lab-01
+      id: DEMO-02-lab-01
       presenter-script:
         - Let's practice creating issues now!
       steps:
         - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, a request to add your bio, and some markdown formatting."
-          id: DSS-03-create-issue
+          id: DEMO-02-create-issue
           verifications:
             - verification-type: issue-created
-              id: DSS-03-create-issue-verification
+              id: DEMO-02-create-issue-verification
               success-message: "Great job - you created an issue."
               failure-message: "It looks like you haven't created an issue yet."
         - description: Assign the issue you just created to yourself # optional for Monday
-          id: DSS-03-assign-issue
+          id: DEMO-02-assign-issue
           verifications:
             - verification-type: issue-assigned-to-self
-              id: DSS-03-assign-issue-verification
+              id: DEMO-02-assign-issue-verification
               success-message: "Great job - you assigned the issue to yourself."
               failure-message: "It looks like you haven't assigned the issue to yourself yet."
         - description: Apply the label of "bio" to the issue # optional for Monday
-          id: DSS-03-label-issue
+          id: DEMO-02-label-issue
           verifications:
             - verification-type: issue-labeled
-              id: DSS-03-label-issue-verification
+              id: DEMO-02-label-issue-verification
               success-message: "Great job - you applied the 'bio' label to the issue. Move on to the next slide now."
               failure-message: "It looks like you haven't applied the 'bio' label to the issue yet."
 additional-labs:
