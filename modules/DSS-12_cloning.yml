@@ -47,7 +47,7 @@ screens:
         * `cd` into the new cloned repo and type `git status`.
         * `git branch` will show you the available branches. Only `master` appears.
         * `git branch -a` will show all the remote branches.
-        * `git checkout <branchname>` will create a local branch that matches the remote branch. All edits you make locally with be applied to that branch until you checkout another one.
+        * `git checkout <branchname>` will create a local branch that matches the remote branch. All edits you make locally will be applied to that branch until you checkout another one.
   - quiz:
       title: Cloning a Repository
       id: DSS-12-quiz-01
