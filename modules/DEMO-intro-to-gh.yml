@@ -13,6 +13,7 @@ screens:
         Underneath GitHub is some software called Git. Git is a Version Control System (VCS) that lets you track changes in your files that you make over time and revert to old versions of those files if you ever need to. Git also makes it easy to let multiple people work on the same file at the same time.
 
         GitHub inherits and extends Git's collaboration functionality by including certain productivity and communication tools. 
+
         * Issues can track bugs or discuss new features. 
         * Pull Requests let you discuss large chunks of changes and easily merge that code into the main codebase. 
         * The Pulse and Graphs let you see how the project is progressing and who is doing what work. 
@@ -27,6 +28,7 @@ screens:
         ![The GitHub Workflow](https://raw.githubusercontent.com/1point618/curriculum-github/master/images/github-flow.png)
 
         The GitHub Workflow is pretty simple. 
+        
         1. When building something new in the project, this work should be done on a branch, not in the main code base. 
         2. Once work is ready to be shown to others, you should submit a Pull Request to the main branch. 
         3. Your teammates should look through your work and give you feedback on the PR, and you should take action on that feedback. 

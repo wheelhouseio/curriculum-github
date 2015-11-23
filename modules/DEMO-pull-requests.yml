@@ -25,6 +25,7 @@ screens:
         Teams are more intelligent than individuals, so Pull Requests are all about allowing your team to work as smart as possible. A PR lets a team discuss specific code as well as best practices, how to fix bugs, and better ways to implement features.
 
         To do this, there are different types of comments that you can use.
+        
         * **In-line comments** are made directly on a line of code from the "Files Changed" view. These conversations act as "threads" within the PR, letting you have specific discussions about the implementation details in your code.
         * **PR comments** are made to the PR itself. These comments are more general and can discuss high-level architecture or the fate of the PR. 
 
@@ -32,7 +33,8 @@ screens:
 
         In addition, you can use <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji</a> to communicate on GitHub through symbols and to add some levity to your conversations.
 
-        Finally, GitHub allows you to create certain kinds of links easily. 
+        Finally, GitHub allows you to create certain kinds of links easily.
+
         * If you put a `#` before a number, it will like to the PR or Issue that is associated with that number. So `#1` will link to the first Issue or PR in your repo. 
         * If you put a `@` before someone's user name, GitHub will link to their account, as well as notify them that they've been mentioned. <a href="https://github.com/blog/821" target="_blank">@mentions</a> are a great way to tag people into conversations and ask for their feedback.
 
