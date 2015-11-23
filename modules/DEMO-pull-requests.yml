@@ -7,53 +7,14 @@ screens:
       id: DEMO-branching
       presenter-script:
       introduction: |
-        ## Branches
+        ## Submitting a Pull Request
 
-        In GitHub, a branch is a working copy of your project. Everything in your project lives on a branch.
+        ## Commenting on a Pull Request
 
-        By convention, the default branch is called `master`. You should never do work directly on the `master` branch, but instead create another branch and then merge that branch back into `master` once your work is done and reviewed by other people. This way the code in `master` is always working, production-ready code. 
-
-        When you create a branch from another, you make a perfect copy of that first branch with a new name. From that point on edits made to one branch _will not_ show up on the other until you merge the branches back together.
-
-        Here is a video walk-through of how to create a branch on GitHub:
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xgQmu81G1yY" frameborder="0" allowfullscreen></iframe>
-
-
-        ### Using Branches Effectively
-
-        When you're working on a project, you're going to have a bunch of different features or ideas in progress at any given time—some of which are ready to go, and others which are not. Branching exists to help you manage this workflow.
-
-        ![Branches](https://raw.githubusercontent.com/1point618/curriculum-github/master/images/github-branches.png)
-
-        Any time you want to start a new chunk of work, you should create a new branch for that work. Most commonly, we talk about "feature branches" and "bugfix branches". Technically, there is nothing different about these kinds of branches, it's just a social convention for why you're using them. 
-
-        All the work done on one branch should be towards a singular goal. You don't want each person to have a branch with whatever they're working on, or branches that try to both fix bugs and build new features. You want clean, single-purpose branches that can easily and cleanly be merged later.
-
-
-        ##Commiting
-
-        Committing is how you save work on GitHub. Commits are made to specific branches and represent a collection of work. When using GitHub to create and edit files a commit will only have one file save, but when editing files locally you can group a number of files into a single commmit.
-
-        In addition to the work saved, commits have a commit message associated with them. This is a brief description of the work they contained. If you ever need to revert a commit in the future, you'll be happy to have this information!
-
-        Here's a short video on creating, editing, and commiting files on GitHub:
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/47M6Is7pIB8" frameborder="0" allowfullscreen></iframe>
-
+        ## Merging your Work
 
         ## Try it Out
-
-        In this and the next article, we're going to be walking you through the GitHub Workflow. You're going to start by creating a branch to do the rest of the work on.
-
-        On the left side of the nav bar above, there is a link called `Repository`. If you click on it, you'll be brought to a GitHub repo that we created for you. From there, you can follow the instructions below. We'll validate certain steps as you go so you know you're doing it right.
-      steps:
-        - description: "Click on the `Repository` link."
-          id: DEMO-branches-repo
-        - description: "Look around. This is the Code Veiw, where all your code in the repo is stored."
-          id: DEMO-branches-look
-        - description: "In the upper right, click on the button that says `branch: master`. This is where you can create new branches, or switch from the branch you're on to another branch."
-          id: DEMO-branches-branch-button        
+      steps:    
         - description: "Create a branch called `create-bio`."
           id: DEMO-branches-create-branch
           verifications:

@@ -61,7 +61,14 @@ screens:
               id: DEMO-branches-create-branch-verification
               success-message: "Great job - you created a branch."
               failure-message: "It looks like you haven't created a branch yet."
-        - description: "On the `create-bio` branch, create a new file called `my-bio.md` in a new folder called `bios`. Add some information about yourself, or make something up."
+        - description: |
+            On the `create-bio` branch, create a new file called `new-file.md`. Include the following text:
+            
+            ```
+            This is a new file.
+            * It is formatted using markdown.
+            * That's why it has the `.md` file extension.
+            ```
           id: DEMO-branches-create-branch
           verifications:
             - verification-type: file-created
