@@ -9,9 +9,47 @@ screens:
       introduction: |
         ## Submitting a Pull Request
 
-        ## Commenting on a Pull Request
+        A PR is a request to merge one branch into another. They're used to discuss the changes made in the branch, and to continue to make changes until the branch is complete and the team agrees it can be merged. You'll use PRs frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
+
+        ![PR](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/pull-request.png)
+
+        You should submit a PR for your branch once you want other people to give you feedback on it. This might mean you think you're ready to merge, or it might be well before if you want to get more people on your team involved in the development process.
+
+        This video will show you how to submit a PR from your branch.
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJr-PIfLDl4" frameborder="0" allowfullscreen></iframe>
+
+
+        ## Getting feedback on a Pull Request
+
+        Teams are more intelligent than individuals, so Pull Requests are all about allowing your team to work as smart as possible. A PR lets a team discuss specific code as well as best practices, how to fix bugs, and better ways to implement features.
+
+        To do this, there are different types of comments that you can use.
+        * **In-line comments** are made directly on a line of code from the "Files Changed" view. These conversations act as "threads" within the PR, letting you have specific discussions about the implementation details in your code.
+        * **PR comments** are made to the PR itself. These comments are more general and can discuss high-level architecture or the fate of the PR. 
+
+        Comments on GitHub can be styled using <a href="https://help.github.com/articles/markdown-basics/" target="_blank">Markdown</a>. Markdown lets you include formatting such as bullets, italicization, and links and images.
+
+        In addition, you can use <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji</a> to communicate on GitHub through symbols and to add some levity to your conversations.
+
+        Finally, GitHub allows you to create certain kinds of links easily. 
+        * If you put a `#` before a number, it will like to the PR or Issue that is associated with that number. So `#1` will link to the first Issue or PR in your repo. 
+        * If you put a `@` before someone's user name, GitHub will link to their account, as well as notify them that they've been mentioned. <a href="https://github.com/blog/821" target="_blank">@mentions</a> are a great way to tag people into conversations and ask for their feedback.
+
 
         ## Merging your Work
+
+        At this point, your Pull Request should be approved and you are ready to merge it in to the `master` branch. When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
+
+        Many project teams have established rules about who should merge a Pull Request. Some say it should be the person who created the Pull Request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the Pull Request. There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed.
+
+        There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
+
+        When you're ready to merge the PR, you just need to click on the "merge" button and then confirm the merge.
+
+        Once that's done, we recommend that you delete the branch associated with that PR. All your history is still saved and on `master`, so you don't need the branch and it will clutter up your project. Any new features or bugfixes should go on a new branch anyway.
+
+        ![Merge](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/merge.png)
 
         ## Try it Out
       steps:    
