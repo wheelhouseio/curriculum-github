@@ -91,7 +91,7 @@ screens:
               id: DEMO-pr-merge-pr-verification
               success-message: "Great job - you committed the change."
               failure-message: "It looks like you haven't created a branch yet."
-        - description: "Delete the now unneded branch."
+        - description: "Delete the now unneeded branch."
           id: DEMO-pr-delete-branch
           verifications:
             - verification-type: branch-deleted
