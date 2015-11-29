@@ -4,7 +4,7 @@ learning-objective:
 screens:
   - lab:
       title: Doing Work on GitHub
-      id: DEMO-branching
+      id: DEMO-pr
       presenter-script:
       introduction: |
         ## Submitting a Pull Request
@@ -25,7 +25,7 @@ screens:
         Teams are more intelligent than individuals, so Pull Requests are all about allowing your team to work as smart as possible. A PR lets a team discuss specific code as well as best practices, how to fix bugs, and better ways to implement features.
 
         To do this, there are different types of comments that you can use.
-        
+
         * **In-line comments** are made directly on a line of code from the "Files Changed" view. These conversations act as "threads" within the PR, letting you have specific discussions about the implementation details in your code.
         * **PR comments** are made to the PR itself. These comments are more general and can discuss high-level architecture or the fate of the PR. 
 
@@ -43,6 +43,8 @@ screens:
 
         At this point, your Pull Request should be approved and you are ready to merge it in to the `master` branch. When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
 
+        ![Merge](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/merge.png)  
+
         Many project teams have established rules about who should merge a Pull Request. Some say it should be the person who created the Pull Request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the Pull Request. There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed.
 
         There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
@@ -51,22 +53,49 @@ screens:
 
         Once that's done, we recommend that you delete the branch associated with that PR. All your history is still saved and on `master`, so you don't need the branch and it will clutter up your project. Any new features or bugfixes should go on a new branch anyway.
 
-        ![Merge](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/merge.png)
 
         ## Try it Out
       steps:    
-        - description: "Create a branch called `create-bio`."
-          id: DEMO-branches-create-branch
+        - description: "Create a PR to merge your branch into `master`."    
+          id: DEMO-pr-create-pr
           verifications:
-            - verification-type: branch-created
-              id: DEMO-branches-create-branch-verification
-              success-message: "Great job - you created a branch."
+            - verification-type: pull-request
+              id: DEMO-pr-create-pr-verification
+              success-message: "Great job - you committed the change."
               failure-message: "It looks like you haven't created a branch yet."
-        - description: "On the `create-bio` branch, create a new file called `my-bio.md` in a new folder called `bios`. Add some information about yourself, or make something up."
-          id: DEMO-branches-create-branch
+        - description: "Make a line comment on one of the files in the PR \"files changed\" view."
+          id: DEMO-pr-pr-line-comment
           verifications:
-            - verification-type: file-created
-              id: DEMO-branches-create-branch-verification
+            - verification-type: pull-request-review-comment
+              id: DEMO-pr-pr-line-comment-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't created a branch yet."
+        - description: "Edit the file and commit the change to the new branch."
+          id: DEMO-pr-edit-pr
+          verifications:
+            - verification-type: file-modified
+              id: DEMO-pr-edit-pr-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't created a branch yet."
+        - description: "Comment on the conversation page of the PR that it's ready to go."
+          id: DEMO-pr-pr-comment
+          verifications:
+            - verification-type: issue-comment-created
+              id: DEMO-pr-pr-comment-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't created a branch yet."
+        - description: "Merge the Pull Request."
+          id: DEMO-pr-merge-pr
+          verifications:
+            - verification-type: pull-request-merged
+              id: DEMO-pr-merge-pr-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't created a branch yet."
+        - description: "Delete the now unneded branch."
+          id: DEMO-pr-delete-branch
+          verifications:
+            - verification-type: branch-deleted
+              id: DEMO-pr-delete-branch-verification
               success-message: "Great job - you committed the change."
               failure-message: "It looks like you haven't created a branch yet."
 additional-labs:
