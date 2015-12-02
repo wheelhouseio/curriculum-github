@@ -17,7 +17,7 @@ screens:
 
         This video will show you how to submit a PR from your branch.
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJr-PIfLDl4" frameborder="0" allowfullscreen></iframe>
+        <div class='container' data-video-url='https://youtu.be/kJr-PIfLDl4'></div>
 
 
         ## Getting feedback on a Pull Request

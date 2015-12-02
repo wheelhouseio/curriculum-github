@@ -71,6 +71,12 @@ The Lab Introduction and Image Presenter Script are both appropriate for creatin
 
 Codeblocks are not currently rendered correctly.
 
+To embed videos, use the following code (replacing the youtube video reference code):
+
+```
+<div class='container' data-video-url='https://youtu.be/R8OAwrcMlRw'></div>
+```
+
 ---
 
 ## Webhook payloads we process

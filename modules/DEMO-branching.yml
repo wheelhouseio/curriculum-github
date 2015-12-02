@@ -17,7 +17,7 @@ screens:
 
         Here is a video walk-through of how to create a branch on GitHub:
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xgQmu81G1yY" frameborder="0" allowfullscreen></iframe>
+        <div class='container' data-video-url='https://youtu.be/xgQmu81G1yY'></div>
 
 
         ### Using Branches Effectively
@@ -39,7 +39,7 @@ screens:
 
         Here's a short video on creating, editing, and commiting files on GitHub:
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/47M6Is7pIB8" frameborder="0" allowfullscreen></iframe>
+        <div class='container' data-video-url='https://youtu.be/47M6Is7pIB8'></div>
 
 
         ## Try it Out

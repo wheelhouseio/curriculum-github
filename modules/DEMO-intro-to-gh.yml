@@ -34,7 +34,7 @@ screens:
         3. Your teammates should look through your work and give you feedback on the PR, and you should take action on that feedback. 
         4. Once everyone is agreed that the work is completed, you should merge the work into the main branch and delete the branch you were working on.
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PBI2Rz-ZOxU" frameborder="0" allowfullscreen></iframe>
+        <div class='container' data-video-url='https://youtu.be/PBI2Rz-ZOxU'></div>
 
         In the next few pages, we'll be learning more about each step in this process and actually practicing it directly on GitHub. Scroll to the top and click on the "next" button to continue.
 additional-labs:
