@@ -74,7 +74,7 @@ screens:
             - verification-type: file-created
               id: DEMO-branches-create-branch-verification
               success-message: "Great job - you committed the change."
-              failure-message: "It looks like you haven't created a branch yet."
+              failure-message: "It looks like you haven't committed the change yet."
 additional-labs:
 additional-questions:
 resources:

@@ -61,43 +61,43 @@ screens:
           verifications:
             - verification-type: pull-request
               id: DEMO-pr-create-pr-verification
-              success-message: "Great job - you committed the change."
-              failure-message: "It looks like you haven't created a branch yet."
+              success-message: "Great job - you created the PR."
+              failure-message: "It looks like you haven't created the PR yet."
         - description: "Make a line comment on one of the files in the PR \"files changed\" view."
           id: DEMO-pr-pr-line-comment
           verifications:
             - verification-type: pull-request-review-comment
               id: DEMO-pr-pr-line-comment-verification
-              success-message: "Great job - you committed the change."
-              failure-message: "It looks like you haven't created a branch yet."
+              success-message: "Great job - you made a line comment."
+              failure-message: "It looks like you haven't made a line comment yet."
         - description: "Edit the file and commit the change to the new branch."
           id: DEMO-pr-edit-pr
           verifications:
             - verification-type: file-modified
               id: DEMO-pr-edit-pr-verification
               success-message: "Great job - you committed the change."
-              failure-message: "It looks like you haven't created a branch yet."
+              failure-message: "It looks like you haven't committed a change yet."
         - description: "Comment on the conversation page of the PR that it's ready to go."
           id: DEMO-pr-pr-comment
           verifications:
             - verification-type: issue-comment-created
               id: DEMO-pr-pr-comment-verification
-              success-message: "Great job - you committed the change."
-              failure-message: "It looks like you haven't created a branch yet."
+              success-message: "Great job - you commented on the PR."
+              failure-message: "It looks like you haven't commented on the PR yet."
         - description: "Merge the Pull Request."
           id: DEMO-pr-merge-pr
           verifications:
             - verification-type: pull-request-merged
               id: DEMO-pr-merge-pr-verification
-              success-message: "Great job - you committed the change."
-              failure-message: "It looks like you haven't created a branch yet."
+              success-message: "Great job - you merged the PR."
+              failure-message: "It looks like you haven't merged the PR yet."
         - description: "Delete the now unneeded branch."
           id: DEMO-pr-delete-branch
           verifications:
             - verification-type: branch-deleted
               id: DEMO-pr-delete-branch-verification
-              success-message: "Great job - you committed the change."
-              failure-message: "It looks like you haven't created a branch yet."
+              success-message: "Great job - you deleted the branch."
+              failure-message: "It looks like you haven't deleted the branch yet."
 additional-labs:
 additional-questions:
 resources:
