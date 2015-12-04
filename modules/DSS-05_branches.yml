@@ -42,7 +42,7 @@ screens:
       presenter-script:
         - Let's practice creating a branch.
       steps:
-        - description: "Create a branch in your repo (linked above) and name it firstname-lastname using your first and last name."
+        - description: "Create a branch in your repo (linked above) and name it `username-branch` using your GitHub user name."
           id: DSS-05-create-branch
           verifications:
             - verification-type: branch-created
