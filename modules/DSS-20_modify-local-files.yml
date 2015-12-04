@@ -41,6 +41,8 @@ screens:
       presenter-script:
         - Go ahead and set up your files for the next activity.
       steps:
+        - description: "Create a new branch called \"local-files\" using the command `git checkout -b local-files`. All work in this section should be done on this branch."
+          id: DSS-20-branch
         - description: "Open your file and make a few changes."
           id: DSS-20-edit-01
         - description: "Save the changes and add them to the staging area. **Do not commit the changes yet.**"
