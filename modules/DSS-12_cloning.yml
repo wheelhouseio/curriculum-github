@@ -57,7 +57,7 @@ screens:
           id: DSS-12-qq1
           type: open-response
           options:
-            - value: /git clone https://github.com/githubteacher/sample-repo.git/
+            - value: /git clone https://github.com/githubteacher/sample-repo.git\s*$/
               id: DSS-12-qq1-o1
               response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
               correct: true
