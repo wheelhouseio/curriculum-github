@@ -57,11 +57,15 @@ screens:
           id: DSS-12-qq1
           type: open-response
           options:
-            - value: /git clone https://github.com/githubteacher/sample-repo.git\s*$/
+            - value: /git\s+clone\s+https://github.com/githubteacher/sample-repo.git\s*$/
               id: DSS-12-qq1-o1
               response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
               correct: true
-            - value: /git clone\s*$/
+            - value: /git\s+clone\s+git@github.com:githubteacher/sample-repo.git\s*$/
+              id: DSS-12-qq1-o1
+              response: Good job! You included the appropriate git command and the URL. However, we'd recommend you use HTTPS, not SSH, when it's available. You are ready to work locally.
+              correct: true
+            - value: /git\s+clone\s*$/
               id: DSS-12-qq1-o2
               response: Almost! Don't forget to tell Git where to find the remote repository by adding the URL after the `git clone` command.
               correct: false
@@ -78,15 +82,15 @@ screens:
           id: DSS-12-qq2
           type: open-response
           options:
-            - value: /git checkout more-bio-changes/
+            - value: /git\s+checkout\s+more-bio-changes\s+$/
               id: DSS-12-qq2-o1
               response: Good job! You included the appropriate git command and the URL. You are ready to work locally.
               correct: true
-            - value: /git checkout remotes/origin/more-bio-changes/
+            - value: /git\s+checkout\s+remotes/origin/more-bio-changes\s+$/
               id: DSS-12-qq2-o2
               response: Almost! You do not need to include `remotes/origin`. Git will assume you want to select this as the remote tracking branch for your local branch so you can exclude `remotes/origin` from the branch name.
               correct: false
-            - value: /git branch more-bio-changes/
+            - value: /git\s+branch\s+more-bio-changes\s+$/
               id: DSS-12-qq2-o3
               response: Not quite. `git branch` is the command you use if you are creating a new branch locally. But this branch has already been created on the remote so you simply need to tell Git you would like to create a local version. Use `git checkout` instead.
               correct: false
