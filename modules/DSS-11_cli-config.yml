@@ -63,7 +63,7 @@ screens:
       title: Viewing Configuration Settings
       image: config-list.jpg
       presenter-script:
-        - "Now that we have made some changes to your configuration options, let's take another look at `git config --list`. You may notice duplicate settings if the same variable is set in multiple levels (such as `--global` and `--local`). The lowest value on the list takes precedence."
+        - "Now that we have made some changes to your configuration options, let's take another look at `git config --list`. You may notice duplicate settings if the same variable is set in multiple levels (such as `--global` and `--local`). The file is read in order, so values lower down in the file will take precedence to the rules above."
 additional-labs:
 additional-questions:
 resources:
