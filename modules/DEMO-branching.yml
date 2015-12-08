@@ -13,7 +13,7 @@ screens:
 
         By convention, the default branch is called `master`. You should never do work directly on the `master` branch, but instead create another branch and then merge that branch back into `master` once your work is done and reviewed by other people. This way the code in `master` is always working, production-ready code. 
 
-        When you create a branch from another, you make a perfect copy of that first branch with a new name. From that point on edits made to one branch _will not_ show up on the other until you merge the branches back together.
+        When you create a branch from another one, you make a perfect copy of that first branch with a new name. From that point on edits made to one branch _will not_ show up on the other until you merge the branches back together.
 
         Here is a video walk-through of how to create a branch on GitHub:
 
@@ -26,16 +26,16 @@ screens:
 
         ![Branches](https://raw.githubusercontent.com/1point618/curriculum-github/master/images/github-branches.png)
 
-        Any time you want to start a new chunk of work, you should create a new branch for that work. Most commonly, we talk about "feature branches" and "bugfix branches". Technically, there is nothing different about these kinds of branches, it's just a social convention for why you're using them. 
+        Any time you want to start a new chunk of work, you should create a new branch for that work. 
 
-        All the work done on one branch should be towards a singular goal. You don't want each person to have a branch with whatever they're working on, or branches that try to both fix bugs and build new features. You want clean, single-purpose branches that can easily and cleanly be merged later.
+        All the work done on one branch should be towards a singular goal. You don't want each person to have a branch with whatever they're working on, or branches that try to both fix bugs and build new features. You want to create short-lived, single-purpose branches that can easily be merged later.
 
 
         ##Commiting
 
-        Committing is how you save work on GitHub. Commits are made to specific branches and represent a collection of work. When using GitHub to create and edit files a commit will only have one file save, but when editing files locally you can group a number of files into a single commmit.
+        Committing is how you save a set of changes on GitHub (and in Git). Commits are made to specific branches and represent changes to one or more files. When using GitHub to create and edit files a commit will only include changes to a single file, but when editing files locally you can group changes to a number of files into a single commmit.
 
-        In addition to the work saved, commits have a commit message associated with them. This is a brief description of the work they contained. If you ever need to revert a commit in the future, you'll be happy to have this information!
+        Commits also have a commit message associated with them. This is a brief description of the work they contained that makes it easier to keep track of what you and the rest of the team are working on. 
 
         Here's a short video on creating, editing, and commiting files on GitHub:
 

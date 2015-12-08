@@ -9,11 +9,11 @@ screens:
       introduction: |
         ## You did it!
 
-        You completed the entire GitHub Workflow. Using GitHub is as easy as following those steps in the future.
+        Congratulations - you completed the entire GitHub Workflow! Using GitHub is as easy as following those steps in the future.
 
         If you'd like to review the steps you took, we're recommend looking at GitHub's <a href="https://guides.github.com/introduction/flow/" target="_blank">official guide on the GitHub Workflow</a>. Click on the image to learn about different parts of the flow.
 
-        Below is some review information. In addition, there is another set of validations below, so that if you want to test out the GitHub Workflow on your repository you can do that here again.
+        Below is some information for review purposes. In addition, there is another set of validations below, so that if you want to test out the GitHub Workflow on your repository you can do that here again.
 
 
         # Branches
@@ -77,7 +77,7 @@ screens:
               id: DEMO-outro-merge-pr-verification
               success-message: "Great job - you merged the PR."
               failure-message: "It looks like you haven't merged the PR yet."
-        - description: "Create a new file on that branch."
+        - description: "Delete the branch."
           id: DEMO-outro-delete-branch
           verifications:
             - verification-type: branch-deleted

@@ -9,7 +9,7 @@ screens:
       introduction: |
         ## Submitting a Pull Request
 
-        A PR is a request to merge one branch into another. They're used to discuss the changes made in the branch, and to continue to make changes until the branch is complete and the team agrees it can be merged. You'll use PRs frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
+        Formally, a Pull Request (PR) is a request to merge one branch into another. But more than that, a PR is used to have a discussion about the changes made in the branch. The PR also keeps track of the changes made on the branch until it's complete and the team agrees it can be merged. You'll use PRs frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
 
         ![PR](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/pull-request.png)
 
@@ -22,9 +22,7 @@ screens:
 
         ## Getting feedback on a Pull Request
 
-        Teams are more intelligent than individuals, so Pull Requests are all about allowing your team to work as smart as possible. A PR lets a team discuss specific code as well as best practices, how to fix bugs, and better ways to implement features.
-
-        To do this, there are different types of comments that you can use.
+        Pull Requests are designed to ensure your team gets to provide feedback quickly and easily on your changes. To do this, there are different types of comments that you can create.
 
         * **In-line comments** are made directly on a line of code from the "Files Changed" view. These conversations act as "threads" within the PR, letting you have specific discussions about the implementation details in your code.
         * **PR comments** are made to the PR itself. These comments are more general and can discuss high-level architecture or the fate of the PR. 
