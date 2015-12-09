@@ -1,0 +1,89 @@
+title: Outro
+pre-requisites: 
+learning-objective: 
+screens:
+  - lab:
+      title: Congradulations!
+      id: DEMO-outro
+      presenter-script:
+      introduction: |
+        ## You did it!
+
+        Congratulations - you completed the entire GitHub Workflow! Using GitHub is as easy as following those steps in the future.
+
+        If you'd like to review the steps you took, we're recommend looking at GitHub's <a href="https://guides.github.com/introduction/flow/" target="_blank">official guide on the GitHub Workflow</a>. Click on the image to learn about different parts of the flow.
+
+        Below is some information for review purposes. In addition, there is another set of validations below, so that if you want to test out the GitHub Workflow on your repository you can do that here again.
+
+
+        # Branches
+
+        Branching is an essential part of the way that we work on GitHub. Rather than having everyone write code to the same place, we create branches for each piece of work, commit code there, then merge them into the main branch once they're done.
+
+        Branches should have descriptive names so that you know what work is getting done on which branch. By convention, the main branch is usually called `master` on GitHub projects. When you see people talking about master, they're just talking about a specific branch. 
+
+
+        # Commits
+
+        A commit is a saved chunk of work. You can only save one file per a commit when using the GitHub Web Interface, but a commit may have multiple or even partial files when using other Git interfaces. 
+
+        When saving a commit, you should include a commit message. This is a description of the work that you did so that if others want to look at it, they can more easily figure out what changed.
+
+
+        # Pull Requests
+
+        A Pull Request is how you communicate about wanting to merge a branch into the main branch. Once you've made the commits you need to a branch, you create a Pull Request (or PR as most people call it) to compare it to the master branch. By convention, you should wait for at least one other person to give you a thumbs up and permission to merge it. Then you should merge it yourself so that if anything isn't working right, you're there to fix it. 
+
+        Pull Requests allow comments just like Issues do. You can also associate a PR with a specific Issue to make it easy to jump back and forth between the two. Often a PR is created in response to a specific Issue. 
+
+        Pull Requests also allow you to look at all the commits that are a part of that PR, and to make comments inline on the files that were changed. This is a great way to offer specific feedback on the new code, or to ask questions about the implementation. There is no ambiguity about what you're asking about or recommending.
+
+        Finally, you can continue to make commits to the branch that is associated with the PR while it is open, and it will update that PR. Because of this, sometimes teams will open PRs very early in the development process, so that they can communicate with each other while they work on the branch. Others will wait until they think the code is finished, so the PR is about making sure there are no bugs left to squash. Either way is a valid way of working.
+
+        For a tutorial on how to create and use PRs to their full effect, <a href="https://help.github.com/articles/using-pull-requests/" target="_blank">go here</a>.
+      steps:    
+        - description: "Create a branch for your changes."
+          id: DEMO-outro-create-branch
+          verifications:
+            - verification-type: branch-created
+              id: DEMO-outro-create-branch-verification
+              success-message: "Great job - you created a branch."
+              failure-message: "It looks like you haven't created a branch yet."
+        - description: "Create a new file on that branch."
+          id: DEMO-outro-create-file
+          verifications:
+            - verification-type: file-created
+              id: DEMO-outro-create-file-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't committed a change yet."
+        - description: "Create a PR to merge your branch into `master`."    
+          id: DEMO-outro-create-pr
+          verifications:
+            - verification-type: pull-request
+              id: DEMO-outro-create-pr-verification
+              success-message: "Great job - you created the PR."
+              failure-message: "It looks like you haven't created a PR yet."
+        - description: "Comment on the PR."
+          id: DEMO-outro-pr-comment
+          verifications:
+            - verification-type: issue-comment-created
+              id: DEMO-outro-pr-comment-verification
+              success-message: "Great job - you commented on the PR."
+              failure-message: "It looks like you haven't commented on the PR yet."
+        - description: "Merge the Pull Request."
+          id: DEMO-outro-merge-pr
+          verifications:
+            - verification-type: pull-request-merged
+              id: DEMO-outro-merge-pr-verification
+              success-message: "Great job - you merged the PR."
+              failure-message: "It looks like you haven't merged the PR yet."
+        - description: "Delete the branch."
+          id: DEMO-outro-delete-branch
+          verifications:
+            - verification-type: branch-deleted
+              id: DEMO-outro-delete-branch-verification
+              success-message: "Great job - you deleted the branch."
+              failure-message: "It looks like you haven't deleted the branch yet."
+additional-labs:
+additional-questions:
+resources:

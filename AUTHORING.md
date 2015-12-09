@@ -71,6 +71,12 @@ The Lab Introduction and Image Presenter Script are both appropriate for creatin
 
 Codeblocks are not currently rendered correctly.
 
+To embed videos, use the following code (replacing the youtube video reference code):
+
+```
+<div class='container' data-video-url='https://youtu.be/R8OAwrcMlRw'></div>
+```
+
 ---
 
 ## Webhook payloads we process
@@ -80,18 +86,18 @@ https://developer.github.com/webhooks/#events
 ### create
 We support *branches* for the CreateEvent
 
-`verification-type: branch-created`
+* `verification-type: branch-created`
 
 ### delete
 We support *branches* and *tags* for the DeleteEvent
 
-`verification-type: branch-deleted`
-`verification-type: tag-deleted`
+* `verification-type: branch-deleted`
+* `verification-type: tag-deleted`
 
 ### fork
 We support the ForkEvent
 
-`verification-type: fork-exists`
+* `verification-type: fork-exists`
 
 ### issues
 We support four different payloads for IssuesEvent.
@@ -103,9 +109,11 @@ We support four different payloads for IssuesEvent.
 
 We can also verify that an issue was specifically assigned to the user
 
-`verification-type: issue-assigned-to-self`
+* `verification-type: issue-assigned-to-self`
 
-while the `issue-assigned` allows *any* assignment of the issue.
+Or was asigned to anyone else
+
+* `issue-assigned`
 
 ### issue_comment
 
@@ -125,16 +133,20 @@ We support four of the payloads for the PullRequestEvent.
 
 We can also verify that an pull_request was specifically assigned to the user
 
-`verification-type: pull-request-assigned-to-self`
+* `verification-type: pull-request-assigned-to-self`
 
-while the `pull-request-assigned` allows *any* assignment of the pull-request.
+Or was assigned to anyone else:
+
+* `pull-request-assigned`
+
+
 
 
 ### pull\_request_comment
 
-We support the PulRequestReviewCommentEvent.
+We support the PullRequestReviewCommentEvent.
 
-`verification-type: pull-request-review-comment`
+* `verification-type: pull-request-review-comment`
 
 ### push
 
@@ -142,5 +154,5 @@ We support the PushEvent.
 
 The push event looks for one or more files to be either created or modified as part of the push event.
 
-`verification-type: file-created`
-`verification-type: file-modified`
+* `verification-type: file-created`
+* `verification-type: file-modified`

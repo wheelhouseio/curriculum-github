@@ -1,0 +1,103 @@
+title: Branches
+pre-requisites: 
+learning-objective: 
+screens:
+  - lab:
+      title: Doing Work on GitHub
+      id: DEMO-pr
+      presenter-script:
+      introduction: |
+        ## Submitting a Pull Request
+
+        Formally, a Pull Request (PR) is a request to merge one branch into another. But more than that, a PR is used to have a discussion about the changes made in the branch. The PR also keeps track of the changes made on the branch until it's complete and the team agrees it can be merged. You'll use PRs frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
+
+        ![PR](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/pull-request.png)
+
+        You should submit a PR for your branch once you want other people to give you feedback on it. This might mean you think you're ready to merge, or it might be well before if you want to get more people on your team involved in the development process.
+
+        This video will show you how to submit a PR from your branch.
+
+        <div class='container' data-video-url='https://youtu.be/kJr-PIfLDl4'></div>
+
+
+        ## Getting feedback on a Pull Request
+
+        Pull Requests are designed to ensure your team gets to provide feedback quickly and easily on your changes. To do this, there are different types of comments that you can create.
+
+        * **In-line comments** are made directly on a line of code from the "Files Changed" view. These conversations act as "threads" within the PR, letting you have specific discussions about the implementation details in your code.
+        * **PR comments** are made to the PR itself. These comments are more general and can discuss high-level architecture or the fate of the PR. 
+
+        Comments on GitHub can be styled using <a href="https://help.github.com/articles/markdown-basics/" target="_blank">Markdown</a>. Markdown lets you include formatting such as bullets, italicization, and links and images.
+
+        In addition, you can use <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji</a> to communicate on GitHub through symbols and to add some levity to your conversations.
+
+        Finally, GitHub allows you to create certain kinds of links easily.
+
+        * If you put a `#` before a number, it will like to the PR or Issue that is associated with that number. So `#1` will link to the first Issue or PR in your repo. 
+        * If you put a `@` before someone's user name, GitHub will link to their account, as well as notify them that they've been mentioned. <a href="https://github.com/blog/821" target="_blank">@mentions</a> are a great way to tag people into conversations and ask for their feedback.
+
+
+        ## Merging your Work
+
+        At this point, your Pull Request should be approved and you are ready to merge it in to the `master` branch. When you merge your branch, you are taking the content and history from your feature branch and adding it to the content and history of the `master` branch.
+
+        ![Merge](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/merge.png)  
+
+        Many project teams have established rules about who should merge a Pull Request. Some say it should be the person who created the Pull Request since they will be the ones to deal with any issues resulting from the merge. Others say it should be a single person within the project team to ensure consistency. Still others say it can be anyone other than the person who created the Pull Request. There are also third party Continuous Integration (CI) tools you can integrate with GitHub to test the build before the merge is completed.
+
+        There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
+
+        When you're ready to merge the PR, you just need to click on the "merge" button and then confirm the merge.
+
+        Once that's done, we recommend that you delete the branch associated with that PR. All your history is still saved and on `master`, so you don't need the branch and it will clutter up your project. Any new features or bugfixes should go on a new branch anyway.
+
+
+        ## Try it Out
+      steps:    
+        - description: "Create a PR to merge your branch into `master`."    
+          id: DEMO-pr-create-pr
+          verifications:
+            - verification-type: pull-request
+              id: DEMO-pr-create-pr-verification
+              success-message: "Great job - you created the PR."
+              failure-message: "It looks like you haven't created the PR yet."
+        - description: "Make a line comment on one of the files in the PR \"files changed\" view."
+          id: DEMO-pr-pr-line-comment
+          verifications:
+            - verification-type: pull-request-review-comment
+              id: DEMO-pr-pr-line-comment-verification
+              success-message: "Great job - you made a line comment."
+              failure-message: "It looks like you haven't made a line comment yet."
+        - description: "Edit the file and commit the change to the new branch."
+          id: DEMO-pr-edit-pr
+          verifications:
+            - verification-type: file-modified
+              id: DEMO-pr-edit-pr-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't committed a change yet."
+        - description: "Comment on the conversation page of the PR that it's ready to go."
+          id: DEMO-pr-pr-comment
+          verifications:
+            - verification-type: issue-comment-created
+              id: DEMO-pr-pr-comment-verification
+              success-message: "Great job - you commented on the PR."
+              failure-message: "It looks like you haven't commented on the PR yet."
+        - description: "Merge the Pull Request."
+          id: DEMO-pr-merge-pr
+          verifications:
+            - verification-type: pull-request-merged
+              id: DEMO-pr-merge-pr-verification
+              success-message: "Great job - you merged the PR."
+              failure-message: "It looks like you haven't merged the PR yet."
+        - description: "Delete the now unneeded branch."
+          id: DEMO-pr-delete-branch
+          verifications:
+            - verification-type: branch-deleted
+              id: DEMO-pr-delete-branch-verification
+              success-message: "Great job - you deleted the branch."
+              failure-message: "It looks like you haven't deleted the branch yet."
+        - description: "Go back to the code view, and make sure you're on the master branch. Your file should now be listed along with all the others!"
+          id: DEMO-pr-check-work
+additional-labs:
+additional-questions:
+resources:
