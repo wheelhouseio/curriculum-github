@@ -96,6 +96,8 @@ screens:
               id: DEMO-pr-delete-branch-verification
               success-message: "Great job - you deleted the branch."
               failure-message: "It looks like you haven't deleted the branch yet."
+        - description: "Go back to the code view, and make sure you're on the master branch. Your file should now be listed along with all the others!"
+          id: DEMO-pr-check-work
 additional-labs:
 additional-questions:
 resources:
