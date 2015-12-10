@@ -11,31 +11,29 @@ screens:
 
         In GitHub, a branch is a working copy of your project. Everything in your project lives on a branch.
 
-        By convention, the default branch is called `master`. You should never do work directly on the `master` branch, but instead create another branch and then merge that branch back into `master` once your work is done and reviewed by other people. This way the code in `master` is always working, production-ready code. 
+        By convention, the default branch is a repository is called `master`. Master is typically the deployed, production copy of your code. When you are ready to make changes or add a new feature to your project, you will create a new branch to avoid introducing bugs in your production code. At the end of the GitHub workflow, this branch will be merged back into `master`.
 
-        When you create a branch from another one, you make a perfect copy of that first branch with a new name. From that point on edits made to one branch _will not_ show up on the other until you merge the branches back together.
-
-        Here is a video walk-through of how to create a branch on GitHub:
-
-        <div class='container' data-video-url='https://youtu.be/xgQmu81G1yY'></div>
-
+        When you create a branch, you are creating a full copy of the parent branch and giving it a new, unique name. From that point on edits made to one branch _will not_ show up on the parent until you merge the branches back together.
 
         ### Using Branches Effectively
 
-        When you're working on a project, you're going to have a bunch of different features or ideas in progress at any given time—some of which are ready to go, and others which are not. Branching exists to help you manage this workflow.
+        It is common to have a bunch of different features or ideas in progress at any given time—some of which are ready to go, and others which are not. Branching exists to help you manage this workflow.
 
         ![Branches](https://raw.githubusercontent.com/1point618/curriculum-github/master/images/github-branches.png)
 
         Any time you want to start a new chunk of work, you should create a new branch for that work. 
 
-        All the work done on one branch should be towards a singular goal. You don't want each person to have a branch with whatever they're working on, or branches that try to both fix bugs and build new features. You want to create short-lived, single-purpose branches that can easily be merged later.
+        Each branch you create should exist to introduce a single feature or fix a single bug. You want to create short-lived, single-purpose branches that can easily be merged (or reverted) later.
+        
+        Here is a video walk-through of how to create a branch on GitHub:
 
+        <div class='container' data-video-url='https://youtu.be/xgQmu81G1yY'></div>
 
         ##Commiting
 
-        Committing is how you save a set of changes on GitHub (and in Git). Commits are made to specific branches and represent changes to one or more files. When using GitHub to create and edit files a commit will only include changes to a single file, but when editing files locally you can group changes to a number of files into a single commmit.
+        Committing is how you take a snapshot of your project at a specific point in time. Commits are added to the current branch and can include changes to one or more files.
 
-        Commits also have a commit message associated with them. This is a brief description of the work they contained that makes it easier to keep track of what you and the rest of the team are working on. 
+        Commits always have a brief message associated with them. The commit message is a description of the changes introduced in this snapshot. Think of it as the story of your project, 50 characters at a time. 
 
         Here's a short video on creating, editing, and commiting files on GitHub:
 
@@ -44,7 +42,7 @@ screens:
 
         ## Try it Out
 
-        In this and the next article, we're going to be walking you through the GitHub Workflow. You're going to start by creating a branch to do the rest of the work on.
+        Now it is your turn to walk through the GitHub Workflow. Start by creating a branch and adding a new file to your repository.
 
         On the left side of the nav bar above, there is a link called `Repository`. If you click on it, you'll be brought to a GitHub repo that we created for you. From there, you can follow the instructions below. We'll validate certain steps as you go so you know you're doing it right.
       steps:
@@ -52,7 +50,7 @@ screens:
           id: DEMO-branches-repo
         - description: "Look around. This is the Code Veiw, where all your code in the repo is stored."
           id: DEMO-branches-look
-        - description: "In the upper right, click on the button that says `branch: master`. This is where you can create new branches, or switch from the branch you're on to another branch."
+        - description: "In the upper left, click on the drop down next to `Branch: master`. This is where you can create new branches, or switch to another branch."
           id: DEMO-branches-branch-button        
         - description: "Create a branch called `create-bio`."
           id: DEMO-branches-create-branch
@@ -62,7 +60,7 @@ screens:
               success-message: "Great job - you created a branch."
               failure-message: "It looks like you haven't created a branch yet."
         - description: |
-            On the `create-bio` branch, create a new file called `new-file.md`. Include the following text:
+            On the `create-bio` branch, create a file called `new-file.md`. Include the following text:
             
             ```
             This is a new file.
@@ -75,6 +73,9 @@ screens:
               id: DEMO-branches-create-branch-verification
               success-message: "Great job - you committed the change."
               failure-message: "It looks like you haven't committed the change yet."
+        - description: |
+            Add a commit message and commit the file directly to your branch.
+           
 additional-labs:
 additional-questions:
 resources:
