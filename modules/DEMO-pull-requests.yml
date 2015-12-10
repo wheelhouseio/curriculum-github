@@ -1,41 +1,39 @@
-title: Branches
+title: Pull Requests
 pre-requisites: 
 learning-objective: 
 screens:
   - lab:
-      title: Doing Work on GitHub
+      title: Collaborating on GitHub
       id: DEMO-pr
       presenter-script:
       introduction: |
         ## Submitting a Pull Request
 
-        Formally, a Pull Request (PR) is a request to merge one branch into another. But more than that, a PR is used to have a discussion about the changes made in the branch. The PR also keeps track of the changes made on the branch until it's complete and the team agrees it can be merged. You'll use PRs frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
+        Formally, a Pull Request (PR) is a request to merge one branch into another. More than that, a PR is used to have a discussion about the changes made in the branch. The PR also keeps track of the changes made on the branch until it's complete and the team agrees it can be merged. You'll use PRs frequently when working with your team, as they're the primary way to bring code on the master branch up to date with your feature branch once it's ready for production.
 
         ![PR](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/pull-request.png)
 
-        You should submit a PR for your branch once you want other people to give you feedback on it. This might mean you think you're ready to merge, or it might be well before if you want to get more people on your team involved in the development process.
+        You should create a PR early in the process of developing your new feature. This will allow you to get more members of your team involved in the development process.
 
-        This video will show you how to submit a PR from your branch.
+        This video will show you how to create a Pull Request for your branch.
 
         <div class='container' data-video-url='https://youtu.be/kJr-PIfLDl4'></div>
 
-
         ## Getting feedback on a Pull Request
 
-        Pull Requests are designed to ensure your team gets to provide feedback quickly and easily on your changes. To do this, there are different types of comments that you can create.
+        Pull Requests are designed to make it easy for your team to provide feedback on your changes. There are two different types of comments you can create.
 
-        * **In-line comments** are made directly on a line of code from the "Files Changed" view. These conversations act as "threads" within the PR, letting you have specific discussions about the implementation details in your code.
-        * **PR comments** are made to the PR itself. These comments are more general and can discuss high-level architecture or the fate of the PR. 
+        * **In-line comments** are made in "Files Changed" view on a specific line of code. In line comments allow you to have specific discussions about the implementation details in your code.
+        * **General comments** are made in the "Conversation" view. These comments should be used to discuss high-level architecture or the fate of the PR. 
 
-        Comments on GitHub can be styled using <a href="https://help.github.com/articles/markdown-basics/" target="_blank">Markdown</a>. Markdown lets you include formatting such as bullets, italicization, and links and images.
+        Comments on GitHub can be styled using <a href="https://help.github.com/articles/markdown-basics/" target="_blank">Markdown</a>. Markdown lets you include formatting such as bullets, italicization, links and images.
 
-        In addition, you can use <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji</a> to communicate on GitHub through symbols and to add some levity to your conversations.
+        In addition, you can use <a href="http://www.emoji-cheat-sheet.com/" target="_blank">Emoji</a> to communicate emotion. We find these are helpful for teams of all sizes to understand the intent behind a message.
 
-        Finally, GitHub allows you to create certain kinds of links easily.
+        Finally, GitHub allows you to create several types of links within comment fields:
 
-        * If you put a `#` before a number, it will like to the PR or Issue that is associated with that number. So `#1` will link to the first Issue or PR in your repo. 
-        * If you put a `@` before someone's user name, GitHub will link to their account, as well as notify them that they've been mentioned. <a href="https://github.com/blog/821" target="_blank">@mentions</a> are a great way to tag people into conversations and ask for their feedback.
-
+        * If you put a `#` before a number, it will link to the PR or Issue that is associated with that number. So `#1` will link to the first Issue or PR in your repo. You can also type a few characters in the description for a fuzzy search.
+        * If you put a `@` before someone's user name, GitHub will link to their account and send them a notification. <a href="https://github.com/blog/821" target="_blank">@mentions</a> are a great way to tag people into conversations and ask for their feedback.
 
         ## Merging your Work
 
@@ -47,9 +45,9 @@ screens:
 
         There are pros and cons to each approach and we will not attempt to prescribe a solution here, but these are good conversations to have within your project team.
 
-        When you're ready to merge the PR, you just need to click on the "merge" button and then confirm the merge.
+        When you're ready to merge the PR, you will simply click the "merge" button, enter a merge message, and then confirm the merge.
 
-        Once that's done, we recommend that you delete the branch associated with that PR. All your history is still saved and on `master`, so you don't need the branch and it will clutter up your project. Any new features or bugfixes should go on a new branch anyway.
+        Once your PR is merged, GitHub recommends that you delete the branch associated with that PR. All your history is now saved on `master`, so you no longer need the branch. Any new features or bugfixes should be made on a new branch.
 
 
         ## Try it Out
