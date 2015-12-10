@@ -1,0 +1,12 @@
+title: GitHub Workflow Demo
+description: Demonstrating the features that Wheelhouse currently offers by teaching the GitHub Workflow.
+
+sections:
+  -
+    title: The Basic GitHub Workflow
+    description: This section introduces you to GitHub and the collaboration features we will use throughout the class.
+    modules:
+      - DEMO-intro-to-gh
+      - DEMO-branching
+      - DEMO-pull-requests
+      - DEMO-outro

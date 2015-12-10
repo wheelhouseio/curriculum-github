@@ -1,0 +1,45 @@
+title: Branches
+pre-requisites: 
+learning-objective: 
+screens:
+  - lab:
+      title: "Doing Work on GitHub: Lab"
+      id: DEMO-branching-lab
+      presenter-script:
+      introduction: |
+        Now it is your turn to walk through the GitHub Workflow. Start by creating a branch and adding a new file to your repository.
+
+        On the left side of the nav bar above, there is a link called `Repository`. If you click on it, you'll be brought to a GitHub repo that we created for you. From there, you can follow the instructions below. We'll validate certain steps as you go so you know you're doing it right.
+      steps:
+        - description: "Click on the `Repository` link."
+          id: DEMO-branches-repo
+        - description: "Look around. This is the Code Veiw, where all your code in the repo is stored."
+          id: DEMO-branches-look
+        - description: "In the upper left, click on the drop down next to `Branch: master`. This is where you can create new branches, or switch to another branch."
+          id: DEMO-branches-branch-button        
+        - description: "Create a branch called `create-bio`."
+          id: DEMO-branches-create-branch
+          verifications:
+            - verification-type: branch-created
+              id: DEMO-branches-create-branch-verification
+              success-message: "Great job - you created a branch."
+              failure-message: "It looks like you haven't created a branch yet."
+        - description: |
+            On the `create-bio` branch, create a file called `new-file.md`. Include the following text:
+            
+            ```
+            This is a new file.
+            * It is formatted using markdown.
+            * That's why it has the `.md` file extension.
+            ```
+          id: DEMO-branches-create-branch
+          verifications:
+            - verification-type: file-created
+              id: DEMO-branches-create-branch-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't committed the change yet."
+        - description: |
+            Add a commit message and commit the file directly to your branch.
+additional-labs:
+additional-questions:
+resources:
