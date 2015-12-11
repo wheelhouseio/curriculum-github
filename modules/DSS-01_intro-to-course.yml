@@ -16,13 +16,20 @@ screens:
         GitHub is a website that allows your team to collaborate more effectively. It is built on top of Git—a distributed version control system. GitHub and Git help teams to collaborate more effectively on projects.
 
         With Git, each person has a local copy of the project to work on. As they make changes locally, they can upload them to GitHub and download any changes that others have made.
-
-        GitHub provides access to a central copy of the code, as well as features like Pull Requests and Issues that make collaborating easier.
   - image-slide:
       title: Key GitHub Features
       image: github-repositories.png
-      presenter-script:
-        - In addition to being a place to host and share your Git projects, GitHub provides features, like Pull Requests and Issues, that make collaborating easier. Issues are general places for discussions about the project, from high-level planning to bug tracking. Pull Requests let you discuss and review specific changes to the project files themselves.
+      presenter-script: |
+        In addition to being a place to host and share your Git projects, GitHub provides features that make collaborating easier.
+
+        * The **Code View** lets you see your project directory and code, as well as its history.
+        * **Issues** are general places for discussions about the project, from high-level planning to bug tracking. 
+        * **Pull Requests** let you discuss and review specific changes to the project files themselves.
+        * The **Pulse** gives you a high-level overview of how the project is proceding.
+        * You can use the **Wiki** to add documentation to your project, although most people just use markdown files in the repository.
+        * **Graphs** tell you who has been contributing what, when, to your project.
+
+        In this course we'll heavily focus on the first three features, but once you're done feel free to experiment with the others!
   - image-slide:
       title: The GitHub Ecosystem
       image: blank.png
