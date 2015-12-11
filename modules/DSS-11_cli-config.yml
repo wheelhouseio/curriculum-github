@@ -33,9 +33,11 @@ screens:
       presenter-script: |
         Next, we will add a default text editor. This is the text editor Git will use when you need to edit things like commit messages or handle merge conflicts.
 
-        Typing `git config --global core.editor "atom --wait"` will tell Git to use the open source atom text editor.
+        We recommend using GitHub's own open source text editor, "atom". If you don't have atom and would like to use it, you can find it at <a href="https://atom.io/" target="_blank">atom.io</a>.
 
-        If you don't have atom and would like to use it, you can find it at <a href="https://atom.io/" target="_blank">atom.io</a>. If you would like to use a different editor you can look for instructions <a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank">here</a>.
+        Typing `git config --global core.editor "atom --wait"` will tell Git to use the open source atom text editor once atom is installed.
+
+        If you have a hard time getting Atom set up or would like to use a different editor such as vim, you can look for instructions <a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank">here</a>. Then when you see us reference `atom` in commands later on in the course, just use whichever text editor you decided upon.
   - image-slide:
       title: Configuring Autocrlf to Handle Whitespace
       image: config-autocrlf.jpg
