@@ -110,7 +110,7 @@ screens:
             - verification-type: branch-created
               id: DSS-12-create-branch-verification
               success-message: "Great job - you created a branch."
-              failure-message: "It looks like you didn't create a branch. Want to try again?"
+              failure-message: "It looks like you didn't create a branch on GitHub yet."
         - description: Clone the repository to your desktop using the Command Line.
           id: DSS-12-clone
         - description: Checkout a local copy of the branch you created on GitHub.

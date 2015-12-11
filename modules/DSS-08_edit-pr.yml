@@ -42,7 +42,7 @@ screens:
             - verification-type: file-modified
               id: DSS-08-edit-file-verification
               success-message: "Great job - you edited a file on a pull request"
-              failure-message: "It looks like you haven't edited a file on your pull request. Want to try again?"
+              failure-message: "It looks like you haven't edited a file on your pull request on GitHub yet."
 additional-labs:
 additional-questions:
 resources:
