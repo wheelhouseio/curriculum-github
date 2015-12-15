@@ -1,5 +1,6 @@
 title: GitHub Workflow
 description: Demonstrating the features that Wheelhouse currently offers by teaching the GitHub Workflow.
+configurator_class: RepositoryConfigurator
 
 sections:
   -

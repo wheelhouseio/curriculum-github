@@ -1,6 +1,11 @@
 # Content Authoring FAQ
 This is a brief, non-comprehensive, likely out-of-date document
 
+## Configurator Class
+The app uses the course-level `configurator_class` attribute to determine which, if any, configuration script IN THE CERTIFY APP to use during enrollment.
+
+This *HAS* to match a real class name in the `certify` repo or nothing will happen during the student enrollment process for this course
+
 ## Common Problems/Fixes
 
 ### IDs must be unique

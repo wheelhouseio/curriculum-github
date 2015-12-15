@@ -1,5 +1,6 @@
 title: GitHub for Developers Skills Assessment
 description: This Assessment will test your knowledge and ability to use Git and GitHub for software development projects.
+configurator_class: RepositoryConfigurator
 
 sections:
   -
