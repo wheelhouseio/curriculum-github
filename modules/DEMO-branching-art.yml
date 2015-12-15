@@ -1,0 +1,47 @@
+title: Branching
+pre-requisites: 
+learning-objective: 
+screens:
+  - lab:
+      title: Doing Work on GitHub
+      id: DEMO-branching-art
+      presenter-script:
+      introduction: |
+        ## Branches
+
+        In GitHub, a branch is a working copy of your project. Everything in your project lives on a branch.
+
+        By convention, the default branch is a repository is called `master`. Master is typically the deployed, production copy of your code. When you are ready to make changes or add a new feature to your project, you will create a new branch to avoid introducing bugs in your production code. At the end of the GitHub workflow, this branch will be merged back into `master`.
+
+        When you create a branch, you are creating a full copy of the parent branch and giving it a new, unique name. From that point on edits made to one branch _will not_ show up on the parent until you merge the branches back together.
+
+        ### Using Branches Effectively
+
+        It is common to have a bunch of different features or ideas in progress at any given time—some of which are ready to go, and others which are not. Branching exists to help you manage this workflow.
+
+        ![Branches](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/github-branches.png)
+
+        Any time you want to start a new chunk of work, you should create a new branch for that work.
+
+        Each branch you create should exist to introduce a single feature or fix a single bug. You want to create short-lived, single-purpose branches that can easily be merged (or reverted) later.
+
+        Here is a video walk-through of how to create a branch on GitHub:
+
+        <div class='container' data-video-url='https://youtu.be/xgQmu81G1yY'></div>
+
+        ##Commiting
+
+        Committing is how you take a snapshot of your project at a specific point in time. Commits are added to the current branch and can include changes to one or more files.
+
+        Commits always have a brief message associated with them. The commit message is a description of the changes introduced in this snapshot. Think of it as the story of your project, 50 characters at a time. 
+
+        Here's a short video on creating, editing, and commiting files on GitHub:
+
+        <div class='container' data-video-url='https://youtu.be/47M6Is7pIB8'></div>
+
+        ## Try it Out
+
+        Move on to the next page to try this on GitHub!
+additional-labs:
+additional-questions:
+resources:

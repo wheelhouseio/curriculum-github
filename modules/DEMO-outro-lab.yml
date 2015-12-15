@@ -1,0 +1,58 @@
+title: Outro
+pre-requisites: 
+learning-objective: 
+screens:
+  - lab:
+      title: More practice!
+      id: DEMO-outro-lab
+      presenter-script:
+      introduction: |
+        Try out everything you learned by going through the workflow again below.
+
+        If you want to dive deeper into Git and GitHub, you can purchase our <a href="https://learn.wheelhouse.io/" target="_blank">official <strong>GitHub for Developers</strong> course</a>.
+      steps:    
+        - description: "Create a branch for your changes."
+          id: DEMO-outro-lab-create-branch
+          verifications:
+            - verification-type: branch-created
+              id: DEMO-outro-lab-create-branch-verification
+              success-message: "Great job - you created a branch."
+              failure-message: "It looks like you haven't created a branch yet."
+        - description: "Create a new file on your branch and commit your changes."
+          id: DEMO-outro-lab-create-file
+          verifications:
+            - verification-type: file-created
+              id: DEMO-outro-lab-create-file-verification
+              success-message: "Great job - you committed the change."
+              failure-message: "It looks like you haven't committed a change yet."
+        - description: "Create a PR to merge your branch into `master`."    
+          id: DEMO-outro-lab-create-pr
+          verifications:
+            - verification-type: pull-request
+              id: DEMO-outro-lab-create-pr-verification
+              success-message: "Great job - you created the PR."
+              failure-message: "It looks like you haven't created a PR yet."
+        - description: "Comment on the PR."
+          id: DEMO-outro-lab-pr-comment
+          verifications:
+            - verification-type: issue-comment-created
+              id: DEMO-outro-lab-pr-comment-verification
+              success-message: "Great job - you commented on the PR."
+              failure-message: "It looks like you haven't commented on the PR yet."
+        - description: "Merge the Pull Request."
+          id: DEMO-outro-lab-merge-pr
+          verifications:
+            - verification-type: pull-request-merged
+              id: DEMO-outro-lab-merge-pr-verification
+              success-message: "Great job - you merged the PR."
+              failure-message: "It looks like you haven't merged the PR yet."
+        - description: "Delete the branch."
+          id: DEMO-outro-lab-delete-branch
+          verifications:
+            - verification-type: branch-deleted
+              id: DEMO-outro-lab-delete-branch-verification
+              success-message: "Great job - you deleted the branch."
+              failure-message: "It looks like you haven't deleted the branch yet."
+additional-labs:
+additional-questions:
+resources:
