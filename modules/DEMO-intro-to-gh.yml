@@ -2,10 +2,11 @@ title: Introduction to GitHub
 pre-requisites: 
 learning-objective: Learn about GitHub and The GitHub Workflow
 screens:
-  - image-slide:
-      title: "Using GitHub"
-      image: blank.png
-      presenter-script: |
+  - lab:
+      title: Using GitHub
+      id: DEMO-intro-art
+      presenter-script:
+      introduction: |
         ## What is GitHub?
 
         GitHub is a place to collaborate on projects online. It's built specificially with software projects in mind, but will work for any project where most of what you're collaborating on are plain text files.
@@ -25,7 +26,7 @@ screens:
 
         The GitHub Workflow is as much about creating a culture of collaboration as it is about using technology. Creating a collaborative culture is very important, because that's the human side of how work will actually get done.
 
-        ![The GitHub Workflow](https://raw.githubusercontent.com/1point618/curriculum-github/master/images/github-flow.png)
+        ![The GitHub Workflow](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/github-flow.png)
 
         The GitHub Workflow is pretty simple.    
         

@@ -4,7 +4,7 @@ learning-objective:
 screens:
   - lab:
       title: Collaborating on GitHub
-      id: DEMO-pr
+      id: DEMO-pr-art
       presenter-script:
       introduction: |
         ## Submitting a Pull Request
