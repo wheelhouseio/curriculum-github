@@ -44,7 +44,7 @@ screens:
       presenter-script:
         - Let's practice merging your changes locally on the command line.
       steps:
-        - description: Merge your local branch into master.
+        - description: Merge your `local-files` branch into `master`.
           id: DSS-22-merge
         - description: Push your changes to the remote.
           id: DSS-22-push

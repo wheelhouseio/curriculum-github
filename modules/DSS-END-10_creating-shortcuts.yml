@@ -3,9 +3,20 @@ pre-requisites:
 learning-objective: End of Section
 screens:
   - image-slide:
+      title: Almost done.
+      image: blank.png
+      presenter-script: |
+        Great job so far. We hope this course has helped you better understand how to use Git and GitHub in your day-to-day work. 
+
+        Please let us know how we are doing by completing <a href="http://www.surveygizmo.com/s3/2431207/1df6cf7b809c" target="_blank">this survey</a>.
+
+        The on the next slide you can print out your certificate of completion!
+  - image-slide:
       title: You have completed the GitHub Course!
       image: completion.png
       presenter-script: |
+        Print this page to get your certificate of completion.
+
         <ul class="fa-ul">
           <li><i class="fa fa-check-square-o"></i> Section 1: Introducing Git and GitHub</li>
           <li><i class="fa fa-check-square-o"></i> Section 2: Getting Started with Collaboration</li>

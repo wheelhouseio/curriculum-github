@@ -30,8 +30,10 @@ screens:
       presenter-script:
         - Go ahead and create a local branch now!
       steps:
-        - description: "Create a local branch using your username as follows: `githubusername-branch`."
+        - description: "Create a local branch named `githubusername-branch`."
           id: DSS-17-branch
+        - description: "Check out the branch you just created."
+          id: DSS-17-checkout
 additional-labs:
 additional-questions:
 resources:

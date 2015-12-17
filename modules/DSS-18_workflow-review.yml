@@ -55,6 +55,10 @@ screens:
           id: DSS-18-pull-request
         - description: "Merge your changes into Master."
           id: DSS-18-merge
+        - description: "Delete the branch on GitHub."
+          id: DSS-18-delete-gh
+        - description: "Delete the branch locally."
+          id: DSS-18-delete-local
 additional-labs:
 additional-questions:
 resources:

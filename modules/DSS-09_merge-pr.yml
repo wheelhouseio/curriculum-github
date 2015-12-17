@@ -62,7 +62,7 @@ screens:
             - verification-type: pull-request-merged
               id: DSS-09-merge-verification
               success-message: "Great job - you have merged your branch."
-              failure-message: "It looks like you haven't merged your branch. Want to try again?"
+              failure-message: "It looks like you haven't merged your branch on GitHub yet."
         - description: "Now go back to your `master` branch. You should see a `docs` folder with your bio in it."
           id: DSS-09-looksee
 additional-labs:

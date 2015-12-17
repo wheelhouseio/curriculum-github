@@ -44,13 +44,13 @@ screens:
       presenter-script:
         - Let's respond to the issue you created earlier by creating a file on your branch. Don't forget that you can create the docs folder when you specify the path for the file.
       steps:
-        - description: "Add a new bio file to the docs folder. Name the file firstname-lastname.md using your first and last name. Add the information from the Issue you created earlier to the file."
+        - description: "Add a new bio file to the docs folder. Name the file `username.md` using your GitHub user name. Add the information from the Issue you created earlier to the file."
           id: DSS-06-create-file
           verifications:
             - verification-type: file-created
               id: DSS-06-create-file-verification
               success-message: "Great job - you created a new file"
-              failure-message: "It looks like you haven't created a file. Want to try again?"
+              failure-message: "It looks like you haven't created a file on GitHub yet."
 additional-labs:
 additional-questions:
 resources:

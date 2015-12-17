@@ -5,8 +5,10 @@ screens:
   - lab:
       title: Creating a Merge Conflict
       id: DSS-25-lab-01
-      presenter-script:
-        - "Merge conflicts occur when we are merging branches and two pieces of conflicting information try to occupy the same space at the same time. Let's set up a merge conflict scenario so we can learn how to fix it."
+      presenter-script: |
+        Merge conflicts occur when we are merging branches, and one line in a file is different in the two branches. When we try to merge these files, Git doesn't know which line we want in our final file, and so gives us a merge conflict error.
+
+        Let's set up a merge conflict scenario so we can learn how to fix it.
       steps:
         - description: "Create and checkout a branch called `merge-me`."
           id: DSS-25-01-branch
@@ -56,7 +58,7 @@ screens:
 
         * The text above and below the equal signs are what is causing the merge conflict. They appear on the same line but are different text.
         * Decide how you want to resolve the conflict, and once that's completed delete the merge markers. Save and close your text editor.
-        * `git status` will show that the files are no longer in conflict, but that you are in the middle of a merge. `git add` the file and then `git commit` it, and the merge will then automatically complete.
+        * Once you `git add` the file, `git status` should show that the files are no longer in conflict, but that you are in the middle of a merge. Once you commit it, and the merge will then automatically complete.
   - lab:
       title: Handling a Merge Conflict
       id: DSS-25-lab-02

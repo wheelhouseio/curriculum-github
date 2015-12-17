@@ -58,7 +58,7 @@ screens:
           id: DSS-03-qq1
           type: open-response
           options:
-            - value: /bio/i
+            - value: /bio(s|graph(y|ies))?/i
               id: DSS-03-qq1-o1
               response: Good job! Issue 3 is discussing what we should include in a bio.
               correct: true
@@ -75,7 +75,7 @@ screens:
           id: DSS-03-qq2
           type: open-response
           options:
-            - value: /hubyeti/i
+            - value: /\W?hubyeti/i
               id: DSS-03-qq2-o2
               response: "Good job! @hubyeti opened issue #1."
               correct: true
@@ -91,7 +91,7 @@ screens:
       introduction: |
         Follow the steps below in your GitHub class repository (available from the "Repository" link above). We'll let you know when you completed each action correctly. The names and contents of the actions are just suggestions, but we'll refer to them in future labs so even though we don't validate the details, we do suggest you use the same naming schemes that we do.
       steps:
-        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, the information about you from Issue #3, a request to add your bio, and some markdown formatting to make it all look pretty. This way the information is there for whoever ends up fixing the issue (spoiler alert, in this case that's going to be you)."
+        - description: "Create an Issue to add your bio to the repo. The issue should contain each of the following: your name, the information about you from Issue #3, a request to add your bio, and some markdown formatting to make it all look pretty. This way the information is there for whoever ends up fixing the issue (spoiler alert, in this case that's going to be you). If you'd prefer not to make your bio information public, you should feel free to make this up."
           id: DSS-03-create-issue
           verifications:
             - verification-type: issue-created
