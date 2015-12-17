@@ -65,4 +65,4 @@ end
     task check: [:linter, :schema]
   end
 
-task default: ["courses:check", "modules:check"]
+task default: ["test"]
