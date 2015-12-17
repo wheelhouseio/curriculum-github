@@ -6,6 +6,9 @@ mapping:
   "description":
     type: str
     required: yes
+  "configurator_class":
+    type: str
+    required: no
   "sections":
     type: seq
     sequence:
