@@ -13,7 +13,7 @@ screens:
       steps:
         - description: "Click on the `Repository` link."
           id: DEMO-branching-lab-repo
-        - description: "Look around. This is the Code Veiw, where all your code in the repo is stored."
+        - description: "Look around. This is the Code View, where all your code in the repo is stored."
           id: DEMO-branching-lab-look
         - description: "In the upper left, click on the drop down next to `Branch: master`. This is where you can create new branching, or switch to another branch."
           id: DEMO-branching-lab-branch-button        
